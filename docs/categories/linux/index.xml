@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on en&#39;s blog</title>
+    <link>https://blog.superen.xyz/categories/linux.html</link>
+    <description>Recent content in linux on en&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 16 Apr 2021 11:05:44 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux密钥登录其他linux系统显示权限不足</title>
+      <link>https://blog.superen.xyz/post/2021/04/16/ubuntu-%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95%E5%85%B6%E4%BB%96linux%E7%B3%BB%E7%BB%9F%E6%98%BE%E7%A4%BA%E6%9D%83%E9%99%90%E4%B8%8D%E8%B6%B3.html</link>
+      <pubDate>Fri, 16 Apr 2021 11:05:44 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/04/16/ubuntu-%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95%E5%85%B6%E4%BB%96linux%E7%B3%BB%E7%BB%9F%E6%98%BE%E7%A4%BA%E6%9D%83%E9%99%90%E4%B8%8D%E8%B6%B3.html</guid>
+      <description>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0750 for &amp;#39;n1&amp;#39; are too open. It is required that</description>
+    </item>
+    
+    <item>
+      <title>dnf命令使用代理</title>
+      <link>https://blog.superen.xyz/post/2021/03/24/dnf%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86.html</link>
+      <pubDate>Wed, 24 Mar 2021 13:13:07 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/03/24/dnf%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86.html</guid>
+      <description>entos 8 配置DNF代理方法 centos 8 默认使用dnf</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu解除热键绑定</title>
+      <link>https://blog.superen.xyz/post/2021/03/04/ubuntu%E8%A7%A3%E9%99%A4%E7%83%AD%E9%94%AE%E7%BB%91%E5%AE%9A.html</link>
+      <pubDate>Thu, 04 Mar 2021 18:55:10 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/03/04/ubuntu%E8%A7%A3%E9%99%A4%E7%83%AD%E9%94%AE%E7%BB%91%E5%AE%9A.html</guid>
+      <description>ubuntu使用idea的时候习惯使用c</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu命令方式安装中文语言包</title>
+      <link>https://blog.superen.xyz/post/2021/03/04/ubuntu%E5%91%BD%E4%BB%A4%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80%E5%8C%85.html</link>
+      <pubDate>Thu, 04 Mar 2021 09:29:03 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/03/04/ubuntu%E5%91%BD%E4%BB%A4%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80%E5%8C%85.html</guid>
+      <description>安装之前执行 echo $LANG 查看语言环境 中文语言包:</description>
+    </item>
+    
+  </channel>
+</rss>

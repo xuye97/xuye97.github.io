@@ -6,7 +6,8 @@ RMDIR /S /Q  docs
 del /S /F /Q public
 RMDIR /S /Q  public
 hugo
-ren publoc docs
+ren public docs
+copy CNAME docs
 git add .
 git commit -m %a%
 git push

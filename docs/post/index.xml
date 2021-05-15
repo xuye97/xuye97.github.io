@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on en&#39;s blog</title>
+    <link>https://blog.superen.xyz/post.html</link>
+    <description>Recent content in Posts on en&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 14 May 2021 09:10:27 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Postgresql开启慢查询日志</title>
+      <link>https://blog.superen.xyz/post/2021/05/14/postgresql%E5%BC%80%E5%90%AF%E6%85%A2%E6%9F%A5%E8%AF%A2%E6%97%A5%E5%BF%97.html</link>
+      <pubDate>Fri, 14 May 2021 09:10:27 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/05/14/postgresql%E5%BC%80%E5%90%AF%E6%85%A2%E6%9F%A5%E8%AF%A2%E6%97%A5%E5%BF%97.html</guid>
+      <description>修改系统设置（二选一） 修改配置文件（po</description>
+    </item>
+    
+    <item>
+      <title>Git撤回push到远程的代码</title>
+      <link>https://blog.superen.xyz/post/2021/05/07/git%E6%92%A4%E5%9B%9Epush%E5%88%B0%E8%BF%9C%E7%A8%8B%E7%9A%84%E4%BB%A3%E7%A0%81.html</link>
+      <pubDate>Fri, 07 May 2021 10:13:15 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/05/07/git%E6%92%A4%E5%9B%9Epush%E5%88%B0%E8%BF%9C%E7%A8%8B%E7%9A%84%E4%BB%A3%E7%A0%81.html</guid>
+      <description>撤回错误上传的代码 查看提交记录 $ git log commit 3cb10f20846181a579b2d75e6aaa7afbd9416a4b</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu安装Typora</title>
+      <link>https://blog.superen.xyz/post/2021/04/22/ubuntu%E5%AE%89%E8%A3%85typora.html</link>
+      <pubDate>Thu, 22 Apr 2021 17:30:00 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/04/22/ubuntu%E5%AE%89%E8%A3%85typora.html</guid>
+      <description>官网地址：https://www.typ</description>
+    </item>
+    
+    <item>
+      <title>使用acme申请证书</title>
+      <link>https://blog.superen.xyz/post/2021/04/22/%E4%BD%BF%E7%94%A8acme%E7%94%B3%E8%AF%B7%E8%AF%81%E4%B9%A6.html</link>
+      <pubDate>Thu, 22 Apr 2021 16:44:36 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/04/22/%E4%BD%BF%E7%94%A8acme%E7%94%B3%E8%AF%B7%E8%AF%81%E4%B9%A6.html</guid>
+      <description>DNS 验证申请证书 获取 Cloudflare API 令牌 在域名管理首页</description>
+    </item>
+    
+    <item>
+      <title>linux密钥登录其他linux系统显示权限不足</title>
+      <link>https://blog.superen.xyz/post/2021/04/16/ubuntu-%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95%E5%85%B6%E4%BB%96linux%E7%B3%BB%E7%BB%9F%E6%98%BE%E7%A4%BA%E6%9D%83%E9%99%90%E4%B8%8D%E8%B6%B3.html</link>
+      <pubDate>Fri, 16 Apr 2021 11:05:44 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/04/16/ubuntu-%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95%E5%85%B6%E4%BB%96linux%E7%B3%BB%E7%BB%9F%E6%98%BE%E7%A4%BA%E6%9D%83%E9%99%90%E4%B8%8D%E8%B6%B3.html</guid>
+      <description>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0750 for &amp;#39;n1&amp;#39; are too open. It is required that</description>
+    </item>
+    
+    <item>
+      <title>MX Master3 在ubuntu20.04 修改DPI</title>
+      <link>https://blog.superen.xyz/post/2021/04/19/mx-master3-%E5%9C%A8ubuntu20.04-%E4%BF%AE%E6%94%B9dpi.html</link>
+      <pubDate>Fri, 09 Apr 2021 16:05:44 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/04/19/mx-master3-%E5%9C%A8ubuntu20.04-%E4%BF%AE%E6%94%B9dpi.html</guid>
+      <description>使用 Solaar 直接去Ubuntu Software 搜索安装</description>
+    </item>
+    
+    <item>
+      <title>笔记本启用或禁用自带键盘</title>
+      <link>https://blog.superen.xyz/post/2021/04/09/%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%90%AF%E7%94%A8%E6%88%96%E7%A6%81%E7%94%A8%E8%87%AA%E5%B8%A6%E9%94%AE%E7%9B%98.html</link>
+      <pubDate>Fri, 09 Apr 2021 16:05:44 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/04/09/%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%90%AF%E7%94%A8%E6%88%96%E7%A6%81%E7%94%A8%E8%87%AA%E5%B8%A6%E9%94%AE%E7%9B%98.html</guid>
+      <description>管理员权限 关闭自带键盘 sc config i8042prt start= disabled 开启自带</description>
+    </item>
+    
+    <item>
+      <title>postgres时间戳日期转换</title>
+      <link>https://blog.superen.xyz/post/2021/04/07/psql%E6%97%B6%E9%97%B4%E6%88%B3%E6%97%A5%E6%9C%9F%E8%BD%AC%E6%8D%A2.html</link>
+      <pubDate>Wed, 07 Apr 2021 12:16:19 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/04/07/psql%E6%97%B6%E9%97%B4%E6%88%B3%E6%97%A5%E6%9C%9F%E8%BD%AC%E6%8D%A2.html</guid>
+      <description># 获取当前时间戳 SELECT EXTRACT(epoch FROM NOW()); # 日期转时间戳 SELECT</description>
+    </item>
+    
+    <item>
+      <title>dnf命令使用代理</title>
+      <link>https://blog.superen.xyz/post/2021/03/24/dnf%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86.html</link>
+      <pubDate>Wed, 24 Mar 2021 13:13:07 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/03/24/dnf%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86.html</guid>
+      <description>entos 8 配置DNF代理方法 centos 8 默认使用dnf</description>
+    </item>
+    
+    <item>
+      <title>打开Goland提示网络错误</title>
+      <link>https://blog.superen.xyz/post/2021/03/09/%E6%89%93%E5%BC%80goland%E6%8F%90%E7%A4%BA%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</link>
+      <pubDate>Tue, 09 Mar 2021 09:26:49 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/03/09/%E6%89%93%E5%BC%80goland%E6%8F%90%E7%A4%BA%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</guid>
+      <description>打开Goland提示一下错误 Internal error. Please report to http://jb.gg/ide/critical-startup-errors</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu解除热键绑定</title>
+      <link>https://blog.superen.xyz/post/2021/03/04/ubuntu%E8%A7%A3%E9%99%A4%E7%83%AD%E9%94%AE%E7%BB%91%E5%AE%9A.html</link>
+      <pubDate>Thu, 04 Mar 2021 18:55:10 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/03/04/ubuntu%E8%A7%A3%E9%99%A4%E7%83%AD%E9%94%AE%E7%BB%91%E5%AE%9A.html</guid>
+      <description>ubuntu使用idea的时候习惯使用c</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu命令方式安装中文语言包</title>
+      <link>https://blog.superen.xyz/post/2021/03/04/ubuntu%E5%91%BD%E4%BB%A4%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80%E5%8C%85.html</link>
+      <pubDate>Thu, 04 Mar 2021 09:29:03 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/03/04/ubuntu%E5%91%BD%E4%BB%A4%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80%E5%8C%85.html</guid>
+      <description>安装之前执行 echo $LANG 查看语言环境 中文语言包:</description>
+    </item>
+    
+    <item>
+      <title>N1刷入Armbian</title>
+      <link>https://blog.superen.xyz/post/2021/01/04/n1%E5%88%B7%E5%85%A5armbian.html</link>
+      <pubDate>Mon, 04 Jan 2021 19:04:33 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/01/04/n1%E5%88%B7%E5%85%A5armbian.html</guid>
+      <description>假设N1已经设置优盘启动 一、准备 电脑 优盘</description>
+    </item>
+    
+    <item>
+      <title>N1救砖</title>
+      <link>https://blog.superen.xyz/post/2021/01/04/n1%E6%95%91%E7%A0%96.html</link>
+      <pubDate>Mon, 04 Jan 2021 18:58:24 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/01/04/n1%E6%95%91%E7%A0%96.html</guid>
+      <description>盒子无法开机刷机 一、准备 电脑（win系统</description>
+    </item>
+    
+    <item>
+      <title>SSH遇到“WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!”</title>
+      <link>https://blog.superen.xyz/post/2020/03/02/ssh%E9%81%87%E5%88%B0warning-remote-host-identification-has-changed.html</link>
+      <pubDate>Mon, 04 Jan 2021 18:58:24 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2020/03/02/ssh%E9%81%87%E5%88%B0warning-remote-host-identification-has-changed.html</guid>
+      <description>服务器重装系统以后再次通过ssh连接会提</description>
+    </item>
+    
+  </channel>
+</rss>
