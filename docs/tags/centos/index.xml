@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>centos on en&#39;s blog</title>
+    <link>https://blog.superen.xyz/tags/centos.html</link>
+    <description>Recent content in centos on en&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 24 Mar 2021 13:13:07 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dnf命令使用代理</title>
+      <link>https://blog.superen.xyz/post/2021/03/24/dnf%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86.html</link>
+      <pubDate>Wed, 24 Mar 2021 13:13:07 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/03/24/dnf%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86.html</guid>
+      <description>entos 8 配置DNF代理方法 centos 8 默认使用dnf</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+baseURL = "https://blog.superen.xyz/"
+languageCode = "zh-CN"
+title = "en's blog"
+
+theme = "maupassant"
+
+summaryLength = 20
+uglyurls = true
+
+[author]
+name = "enenen"
+
+
+[params]
+localSearch = true
+fancybox = true
+busuanzi = true
+relativeURLs = false
+
+[taxonomies]
+tag = "tags"
+category = "categories"
