@@ -5,6 +5,7 @@ draft: false
 tags: ["证书","acme"]
 isCJKLanguage: true
 categories: ["默认分类"]
+toc: true
 ---
 
 ## DNS 验证申请证书
@@ -57,23 +58,19 @@ chmod -R 755 证书存放路径
 
 ## Web  验证申请证书
 
-**这种方式，需要开放 80 端口，并保持不被占用的状态，这种方式不支持泛域名。**
+**这种方式，需要开放 80 端口，并保持不被占用的状态，并且这种方式不支持泛域名。**
 
-### 首先安装 socat
+
 
 ````shell
+# 首先安装 socat
 yum install socat -y
-```
 
-### 配置DNS解析将域名解析到服务器上
-
-### 安装 ACME 并申请证书
-
-```shell
+# 配置DNS解析将域名解析到服务器上
+# 安装 ACME 并申请证书
 curl https://get.acme.sh | sh
 ~/.acme.sh/acme.sh  --issue -d 域名 --standalone
 mkdir 证书安装路径
 ~/.acme.sh/acme.sh --installcert -d 域名 --key-file 证书安装路径/private.key --fullchain-file 证书安装路径/cert.crt
 ~/.acme.sh/acme.sh --upgrade --auto-upgrade #自动更新
 chmod -R 755 证书安装路径
-```

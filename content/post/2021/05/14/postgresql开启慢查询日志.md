@@ -5,6 +5,7 @@ draft: false
 tags: ["postgres","慢日志"]
 isCJKLanguage: true
 categories: ["postgres"]
+toc: true
 ---
 
 ## 修改系统设置（二选一）
