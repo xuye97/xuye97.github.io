@@ -11,7 +11,7 @@ categories: ["postgres"]
 
 ### 修改配置文件（**postgresql.conf**）
 
-```conf
+```shell
 logging_collector = on
 log_destination = 'stderr'
 log_directory = 'log'
