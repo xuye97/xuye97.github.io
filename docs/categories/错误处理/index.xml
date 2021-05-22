@@ -6,7 +6,16 @@
     <description>Recent content in 错误处理 on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 09 Mar 2021 09:26:49 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 May 2021 20:31:03 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fatal error: alsa/asoundlib.h: No such file or directory</title>
+      <link>https://blog.superen.xyz/post/2021/05/22/alsa_asoundlib_h_no_such_file_or_directory.html</link>
+      <pubDate>Sat, 22 May 2021 20:31:03 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/05/22/alsa_asoundlib_h_no_such_file_or_directory.html</guid>
+      <description>最近想写一个在家里linux系统播放歌曲</description>
+    </item>
+    
     <item>
       <title>打开Goland提示网络错误</title>
       <link>https://blog.superen.xyz/post/2021/03/09/%E6%89%93%E5%BC%80goland%E6%8F%90%E7%A4%BA%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</link>

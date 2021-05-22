@@ -6,7 +6,16 @@
     <description>Recent content in Posts on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 20 May 2021 16:11:14 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 May 2021 20:31:03 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fatal error: alsa/asoundlib.h: No such file or directory</title>
+      <link>https://blog.superen.xyz/post/2021/05/22/alsa_asoundlib_h_no_such_file_or_directory.html</link>
+      <pubDate>Sat, 22 May 2021 20:31:03 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/05/22/alsa_asoundlib_h_no_such_file_or_directory.html</guid>
+      <description>最近想写一个在家里linux系统播放歌曲</description>
+    </item>
+    
     <item>
       <title>获取公网ip的url地址</title>
       <link>https://blog.superen.xyz/post/2021/05/20/%E8%8E%B7%E5%8F%96%E5%85%AC%E7%BD%91ip%E7%9A%84url%E5%9C%B0%E5%9D%80.html</link>
