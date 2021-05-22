@@ -7,7 +7,7 @@ isCJKLanguage: true
 categories: ["错误处理","golang"]
 ---
 
-> 最近想写一个在家里linux系统播放歌曲的小东西,在测试测试后出现了一下错误:
+> 最近想写一个在家里装了armbian的N1上播放歌曲的小东西,在测试测试后出现了一下错误:
 
 ```shell
 root@n1:~/music# go run main.go
