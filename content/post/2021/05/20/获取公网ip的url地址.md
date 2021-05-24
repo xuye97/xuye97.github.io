@@ -14,7 +14,6 @@ curl ip.42.pl/raw
 curl api.ip.sb/ip
 curl ip.3322.net
 curl ip.qaros.com
-curl ip.cip.cc
 curl ident.me
 curl api.ipify.org
 curl dhcp.cn
