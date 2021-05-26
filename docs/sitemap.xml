@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.superen.xyz/categories.html</loc>
-    <lastmod>2021-05-24T17:12:28+08:00</lastmod>
+    <lastmod>2021-05-26T14:53:36+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.superen.xyz/categories/centos.html</loc>
+    <lastmod>2021-05-26T14:53:36+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.superen.xyz/tags/centos8.html</loc>
+    <lastmod>2021-05-26T14:53:36+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.superen.xyz/post/2021/05/26/centos8%E5%AE%89%E8%A3%85docker.html</loc>
+    <lastmod>2021-05-26T14:53:36+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.superen.xyz/tags/docker.html</loc>
+    <lastmod>2021-05-26T14:53:36+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.superen.xyz/categories/docker.html</loc>
+    <lastmod>2021-05-26T14:53:36+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/</loc>
-    <lastmod>2021-05-24T17:12:28+08:00</lastmod>
+    <lastmod>2021-05-26T14:53:36+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.superen.xyz/post.html</loc>
+    <lastmod>2021-05-26T14:53:36+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.superen.xyz/tags.html</loc>
+    <lastmod>2021-05-26T14:53:36+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/tags/gcc.html</loc>
     <lastmod>2021-05-24T17:12:28+08:00</lastmod>
@@ -18,12 +39,6 @@
     <lastmod>2021-05-24T17:12:28+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/categories/golang.html</loc>
-    <lastmod>2021-05-24T17:12:28+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.superen.xyz/post.html</loc>
-    <lastmod>2021-05-24T17:12:28+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.superen.xyz/tags.html</loc>
     <lastmod>2021-05-24T17:12:28+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</loc>
@@ -123,9 +138,6 @@
     <lastmod>2021-04-07T12:16:19+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/tags/centos.html</loc>
-    <lastmod>2021-03-24T13:13:07+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.superen.xyz/categories/centos.html</loc>
     <lastmod>2021-03-24T13:13:07+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/tags/dnf.html</loc>
