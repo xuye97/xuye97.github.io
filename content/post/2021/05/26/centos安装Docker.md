@@ -1,11 +1,13 @@
 ---
-title: "Centos7 Centos8安装Docker"
+title: "Centos安装Docker"
 date: 2021-05-26T14:53:36+08:00
 draft: false
 tags: ["centos8","docker"]
 isCJKLanguage: true
 categories: ["centos","docker"]
 ---
+
+> Centos7，Centos8都适用
 
 **1、更新系统**
 
@@ -36,7 +38,7 @@ sudo yum-config-manager --enable docker-ce-test
 
 **5、安装最新的Docker和Containerd**
 
-```
+```shell
 sudo yum install https://download.docker.com/linux/fedora/30/x86_64/stable/Packages/containerd.io-1.2.6-3.3.fc30.x86_64.rpm
 sudo yum install docker-ce docker-ce-cli
 ```

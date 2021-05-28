@@ -9,8 +9,8 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
     
 
-    <title>Centos7 Centos8安装Docker | en&#39;s blog</title>
-    <meta property="og:title" content="Centos7 Centos8安装Docker - en&#39;s blog">
+    <title>Centos安装Docker | en&#39;s blog</title>
+    <meta property="og:title" content="Centos安装Docker - en&#39;s blog">
     <meta property="og:type" content="article">
         
     <meta property="article:published_time" content='2021-05-26T14:53:36&#43;08:00'>
@@ -19,7 +19,7 @@
     <meta property="article:modified_time" content='2021-05-26T14:53:36&#43;08:00'>
         
     <meta name="Keywords" content="">
-    <meta name="description" content="Centos7 Centos8安装Docker">
+    <meta name="description" content="Centos安装Docker">
         
     <meta name="author" content="enenen">
     <meta property="og:url" content="https://blog.superen.xyz/post/2021/05/26/centos%E5%AE%89%E8%A3%85docker.html">
@@ -72,7 +72,7 @@
     
     <article class="post">
         <header>
-            <h1 class="post-title">Centos7 Centos8安装Docker</h1>
+            <h1 class="post-title">Centos安装Docker</h1>
         </header>
         <date class="post-meta meta-date">
             2021年5月26日
@@ -95,7 +95,10 @@
         
         
         <div class="post-content">
-            <p><strong>1、更新系统</strong></p>
+            <blockquote>
+<p>Centos7，Centos8都适用</p>
+</blockquote>
+<p><strong>1、更新系统</strong></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo yum update -y <span style="color:#f92672">&amp;&amp;</span> yum upgrade -y
 </code></pre></div><p><strong>2、安装yum-utils</strong></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo yum install -y yum-utils
@@ -107,9 +110,9 @@
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo yum-config-manager --enable docker-ce-nightly
 sudo yum-config-manager --enable docker-ce-test
 </code></pre></div><p><strong>5、安装最新的Docker和Containerd</strong></p>
-<pre><code>sudo yum install https://download.docker.com/linux/fedora/30/x86_64/stable/Packages/containerd.io-1.2.6-3.3.fc30.x86_64.rpm
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo yum install https://download.docker.com/linux/fedora/30/x86_64/stable/Packages/containerd.io-1.2.6-3.3.fc30.x86_64.rpm
 sudo yum install docker-ce docker-ce-cli
-</code></pre><p><strong>6、启动Docker</strong></p>
+</code></pre></div><p><strong>6、启动Docker</strong></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo systemctl start docker
 </code></pre></div><p><strong>7、配置Docker开机自启动</strong></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo systemctl enable docker
@@ -211,7 +214,7 @@ sudo yum install docker-ce docker-ce-cli
 <ul class="widget-list">
     
     <li>
-        <a href="https://blog.superen.xyz/post/2021/05/26/centos%E5%AE%89%E8%A3%85docker.html" title="Centos7 Centos8安装Docker">Centos7 Centos8安装Docker</a>
+        <a href="https://blog.superen.xyz/post/2021/05/26/centos%E5%AE%89%E8%A3%85docker.html" title="Centos安装Docker">Centos安装Docker</a>
     </li>
     
     <li>
