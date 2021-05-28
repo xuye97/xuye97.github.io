@@ -8,12 +8,12 @@
     <language>zh-CN</language>
     <lastBuildDate>Wed, 26 May 2021 14:53:36 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/centos/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Centos8安装Docker</title>
-      <link>https://blog.superen.xyz/post/2021/05/26/centos8%E5%AE%89%E8%A3%85docker.html</link>
+      <title>Centos7 Centos8安装Docker</title>
+      <link>https://blog.superen.xyz/post/2021/05/26/centos%E5%AE%89%E8%A3%85docker.html</link>
       <pubDate>Wed, 26 May 2021 14:53:36 +0800</pubDate>
       
-      <guid>https://blog.superen.xyz/post/2021/05/26/centos8%E5%AE%89%E8%A3%85docker.html</guid>
-      <description>1、安装yum-utils sudo yum install -y yum-utils 2、</description>
+      <guid>https://blog.superen.xyz/post/2021/05/26/centos%E5%AE%89%E8%A3%85docker.html</guid>
+      <description>1、更新系统 sudo yum update -y &amp;amp;&amp;amp; yum upgrade -y 2、安装yu</description>
     </item>
     
     <item>

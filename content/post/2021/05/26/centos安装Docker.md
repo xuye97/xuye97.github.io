@@ -1,5 +1,5 @@
 ---
-title: "Centos8安装Docker"
+title: "Centos7 Centos8安装Docker"
 date: 2021-05-26T14:53:36+08:00
 draft: false
 tags: ["centos8","docker"]
@@ -7,42 +7,48 @@ isCJKLanguage: true
 categories: ["centos","docker"]
 ---
 
-**1、安装yum-utils**
+**1、更新系统**
 
+```shell
+sudo yum update -y && yum upgrade -y
 ```
+
+**2、安装yum-utils**
+
+```shell
 sudo yum install -y yum-utils
 ```
 
-**2、添加源**
+**3、添加源**
 
-```
+```shell
 sudo yum-config-manager \
     --add-repo \
     https://download.docker.com/linux/centos/docker-ce.repo
 ```
 
-**3、Enable the nightly or test repositories**
+**4、Enable the nightly or test repositories**
 
-```
+```shell
 sudo yum-config-manager --enable docker-ce-nightly
 sudo yum-config-manager --enable docker-ce-test
 ```
 
-**4、安装最新的Docker和Containerd**
+**5、安装最新的Docker和Containerd**
 
 ```
 sudo yum install https://download.docker.com/linux/fedora/30/x86_64/stable/Packages/containerd.io-1.2.6-3.3.fc30.x86_64.rpm
 sudo yum install docker-ce docker-ce-cli
 ```
 
-**5、启动Docker**
+**6、启动Docker**
 
-```
+```shell
 sudo systemctl start docker
 ```
 
-**6、配置Docker开机自启动**
+**7、配置Docker开机自启动**
 
-```
+```shell
 sudo systemctl enable docker
 ```
