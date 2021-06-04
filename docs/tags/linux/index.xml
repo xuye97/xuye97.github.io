@@ -6,7 +6,16 @@
     <description>Recent content in linux on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 04 Jan 2021 18:58:24 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jun 2021 14:29:53 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker容器启动报WARNING: IPv4 forwarding is disabled. Networking will not work</title>
+      <link>https://blog.superen.xyz/post/2021/06/04/docker%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8%E6%8A%A5warning_ipv4_forwarding_is_disabled_networking_will_not_work.html</link>
+      <pubDate>Fri, 04 Jun 2021 14:29:53 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/06/04/docker%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8%E6%8A%A5warning_ipv4_forwarding_is_disabled_networking_will_not_work.html</guid>
+      <description>解决办法 vi /etc/sysctl.conf 修改数据 net.ipv4.ip_forward = 1 重启网络 查看是</description>
+    </item>
+    
     <item>
       <title>N1救砖</title>
       <link>https://blog.superen.xyz/post/2021/01/04/n1%E6%95%91%E7%A0%96.html</link>

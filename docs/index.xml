@@ -6,7 +6,16 @@
     <description>Recent content on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 04 Jun 2021 14:09:37 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jun 2021 14:29:53 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker容器启动报WARNING: IPv4 forwarding is disabled. Networking will not work</title>
+      <link>https://blog.superen.xyz/post/2021/06/04/docker%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8%E6%8A%A5warning_ipv4_forwarding_is_disabled_networking_will_not_work.html</link>
+      <pubDate>Fri, 04 Jun 2021 14:29:53 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/06/04/docker%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8%E6%8A%A5warning_ipv4_forwarding_is_disabled_networking_will_not_work.html</guid>
+      <description>解决办法 vi /etc/sysctl.conf 修改数据 net.ipv4.ip_forward = 1 重启网络 查看是</description>
+    </item>
+    
     <item>
       <title>Centos设置静态网络地址</title>
       <link>https://blog.superen.xyz/post/2021/06/04/centos%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80.html</link>
