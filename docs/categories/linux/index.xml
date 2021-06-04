@@ -6,7 +6,16 @@
     <description>Recent content in linux on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 16 Apr 2021 11:05:44 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jun 2021 14:09:37 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Centos设置静态网络地址</title>
+      <link>https://blog.superen.xyz/post/2021/06/04/centos%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80.html</link>
+      <pubDate>Fri, 04 Jun 2021 14:09:37 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/06/04/centos%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80.html</guid>
+      <description>修改文件：/etc/sysconfig/</description>
+    </item>
+    
     <item>
       <title>linux密钥登录其他linux系统显示权限不足</title>
       <link>https://blog.superen.xyz/post/2021/04/16/ubuntu-%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95%E5%85%B6%E4%BB%96linux%E7%B3%BB%E7%BB%9F%E6%98%BE%E7%A4%BA%E6%9D%83%E9%99%90%E4%B8%8D%E8%B6%B3.html</link>

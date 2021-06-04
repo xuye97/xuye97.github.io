@@ -6,7 +6,25 @@
     <description>Recent content in Tags on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 04 Jun 2021 10:10:14 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jun 2021 14:09:37 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>centos</title>
+      <link>https://blog.superen.xyz/tags/centos.html</link>
+      <pubDate>Fri, 04 Jun 2021 14:09:37 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/tags/centos.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>静态地址</title>
+      <link>https://blog.superen.xyz/tags/%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80.html</link>
+      <pubDate>Fri, 04 Jun 2021 14:09:37 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/tags/%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>n1</title>
       <link>https://blog.superen.xyz/tags/n1.html</link>
@@ -184,15 +202,6 @@
       <pubDate>Wed, 07 Apr 2021 12:16:19 +0800</pubDate>
       
       <guid>https://blog.superen.xyz/tags/%E6%97%B6%E9%97%B4.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>centos</title>
-      <link>https://blog.superen.xyz/tags/centos.html</link>
-      <pubDate>Wed, 24 Mar 2021 13:13:07 +0800</pubDate>
-      
-      <guid>https://blog.superen.xyz/tags/centos.html</guid>
       <description></description>
     </item>
     
