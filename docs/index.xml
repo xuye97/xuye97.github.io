@@ -6,7 +6,16 @@
     <description>Recent content on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 04 Jun 2021 14:29:53 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jun 2021 10:49:44 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Postgres根据时区获取时间</title>
+      <link>https://blog.superen.xyz/post/2021/06/09/postgres%E6%A0%B9%E6%8D%AE%E6%97%B6%E5%8C%BA%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4.html</link>
+      <pubDate>Wed, 09 Jun 2021 10:49:44 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/06/09/postgres%E6%A0%B9%E6%8D%AE%E6%97%B6%E5%8C%BA%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4.html</guid>
+      <description>postgres获取指定时区的时间 SELECT to_char(now()::timestamp at</description>
+    </item>
+    
     <item>
       <title>Docker容器启动报WARNING: IPv4 forwarding is disabled. Networking will not work</title>
       <link>https://blog.superen.xyz/post/2021/06/04/docker%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8%E6%8A%A5warning_ipv4_forwarding_is_disabled_networking_will_not_work.html</link>
