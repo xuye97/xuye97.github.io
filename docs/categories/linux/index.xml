@@ -6,7 +6,16 @@
     <description>Recent content in linux on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 04 Jun 2021 14:29:53 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jun 2021 16:43:18 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Centos安装python3</title>
+      <link>https://blog.superen.xyz/post/2021/06/11/centos%E5%AE%89%E8%A3%85python3.html</link>
+      <pubDate>Fri, 11 Jun 2021 16:43:18 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/06/11/centos%E5%AE%89%E8%A3%85python3.html</guid>
+      <description>yum install -y update &amp;amp;&amp;amp; yum install -y upgrade yum install gcc gcc-c++ yum -y install gcc automake autoconf libtool</description>
+    </item>
+    
     <item>
       <title>Docker容器启动报WARNING: IPv4 forwarding is disabled. Networking will not work</title>
       <link>https://blog.superen.xyz/post/2021/06/04/docker%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8%E6%8A%A5warning_ipv4_forwarding_is_disabled_networking_will_not_work.html</link>

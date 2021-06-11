@@ -6,7 +6,16 @@
     <description>Recent content in Posts on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 09 Jun 2021 10:49:44 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jun 2021 16:43:18 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Centos安装python3</title>
+      <link>https://blog.superen.xyz/post/2021/06/11/centos%E5%AE%89%E8%A3%85python3.html</link>
+      <pubDate>Fri, 11 Jun 2021 16:43:18 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/06/11/centos%E5%AE%89%E8%A3%85python3.html</guid>
+      <description>yum install -y update &amp;amp;&amp;amp; yum install -y upgrade yum install gcc gcc-c++ yum -y install gcc automake autoconf libtool</description>
+    </item>
+    
     <item>
       <title>Postgres根据时区获取时间</title>
       <link>https://blog.superen.xyz/post/2021/06/09/postgres%E6%A0%B9%E6%8D%AE%E6%97%B6%E5%8C%BA%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4.html</link>
