@@ -10,9 +10,9 @@ $("#rocket").click(function() {
     });
     return false;
 });
-var oHead = document.getElementsByTagName("HEAD").item(0);
-var oScript = document.createElement("script");
-oScript.type = "text/javascript";
-oScript.src = "https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.js";
-oScript.charset="utf-8";
-oHead.appendChild(oScript);
+// var oHead = document.getElementsByTagName("HEAD").item(0);
+// var oScript = document.createElement("script");
+// oScript.type = "text/javascript";
+// oScript.src = "https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.js";
+// oScript.charset="utf-8";
+// oHead.appendChild(oScript);
