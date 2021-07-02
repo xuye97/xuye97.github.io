@@ -6,7 +6,25 @@
     <description>Recent content in Tags on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 19 Jun 2021 15:01:36 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 09:01:26 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dsm</title>
+      <link>https://blog.superen.xyz/tags/dsm.html</link>
+      <pubDate>Fri, 02 Jul 2021 09:01:26 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/tags/dsm.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>群晖</title>
+      <link>https://blog.superen.xyz/tags/%E7%BE%A4%E6%99%96.html</link>
+      <pubDate>Fri, 02 Jul 2021 09:01:26 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/tags/%E7%BE%A4%E6%99%96.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>golang</title>
       <link>https://blog.superen.xyz/tags/golang.html</link>
