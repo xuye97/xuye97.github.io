@@ -8,6 +8,7 @@ RMDIR /S /Q  public
 hugo
 ren public docs
 copy CNAME docs
+git pull
 git add .
 git commit -m %a%
 git push

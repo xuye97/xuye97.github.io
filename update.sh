@@ -6,6 +6,7 @@ rm -rf public
 hugo
 mv public docs
 cp CNAME docs/
+git pull
 git add .
 git commit -m $up
 git push
