@@ -6,7 +6,34 @@
     <description>Recent content in Categories on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 02 Jul 2021 09:01:26 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jul 2021 15:05:57 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>postgres</title>
+      <link>https://blog.superen.xyz/categories/postgres.html</link>
+      <pubDate>Wed, 07 Jul 2021 15:05:57 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/categories/postgres.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dsm</title>
+      <link>https://blog.superen.xyz/categories/dsm.html</link>
+      <pubDate>Fri, 02 Jul 2021 19:09:15 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/categories/dsm.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://blog.superen.xyz/categories/linux.html</link>
+      <pubDate>Fri, 02 Jul 2021 19:09:15 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/categories/linux.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>群晖</title>
       <link>https://blog.superen.xyz/categories/%E7%BE%A4%E6%99%96.html</link>
@@ -40,24 +67,6 @@
       <pubDate>Fri, 11 Jun 2021 16:43:18 +0800</pubDate>
       
       <guid>https://blog.superen.xyz/categories/centos.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://blog.superen.xyz/categories/linux.html</link>
-      <pubDate>Fri, 11 Jun 2021 16:43:18 +0800</pubDate>
-      
-      <guid>https://blog.superen.xyz/categories/linux.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>postgres</title>
-      <link>https://blog.superen.xyz/categories/postgres.html</link>
-      <pubDate>Wed, 09 Jun 2021 10:49:44 +0800</pubDate>
-      
-      <guid>https://blog.superen.xyz/categories/postgres.html</guid>
       <description></description>
     </item>
     
