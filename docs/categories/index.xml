@@ -6,7 +6,16 @@
     <description>Recent content in Categories on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 07 Jul 2021 15:05:57 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jul 2021 15:02:41 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ubuntu</title>
+      <link>https://blog.superen.xyz/categories/ubuntu.html</link>
+      <pubDate>Mon, 12 Jul 2021 15:02:41 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/categories/ubuntu.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>postgres</title>
       <link>https://blog.superen.xyz/categories/postgres.html</link>
@@ -103,15 +112,6 @@
       <pubDate>Fri, 07 May 2021 10:13:15 +0800</pubDate>
       
       <guid>https://blog.superen.xyz/categories/git.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ubuntu</title>
-      <link>https://blog.superen.xyz/categories/ubuntu.html</link>
-      <pubDate>Thu, 22 Apr 2021 17:30:00 +0800</pubDate>
-      
-      <guid>https://blog.superen.xyz/categories/ubuntu.html</guid>
       <description></description>
     </item>
     
