@@ -6,7 +6,43 @@
     <description>Recent content in Tags on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 12 Jul 2021 15:02:41 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jul 2021 14:49:18 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fcitx</title>
+      <link>https://blog.superen.xyz/tags/fcitx.html</link>
+      <pubDate>Tue, 13 Jul 2021 14:49:18 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/tags/fcitx.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://blog.superen.xyz/tags/linux.html</link>
+      <pubDate>Tue, 13 Jul 2021 14:49:18 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/tags/linux.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://blog.superen.xyz/tags/ubuntu.html</link>
+      <pubDate>Tue, 13 Jul 2021 14:49:18 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/tags/ubuntu.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>搜狗输入法</title>
+      <link>https://blog.superen.xyz/tags/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html</link>
+      <pubDate>Tue, 13 Jul 2021 14:49:18 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/tags/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>goland</title>
       <link>https://blog.superen.xyz/tags/goland.html</link>
@@ -26,24 +62,6 @@
     </item>
     
     <item>
-      <title>ubuntu</title>
-      <link>https://blog.superen.xyz/tags/ubuntu.html</link>
-      <pubDate>Mon, 12 Jul 2021 15:02:41 +0800</pubDate>
-      
-      <guid>https://blog.superen.xyz/tags/ubuntu.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>搜狗输入法</title>
-      <link>https://blog.superen.xyz/tags/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html</link>
-      <pubDate>Mon, 12 Jul 2021 15:02:41 +0800</pubDate>
-      
-      <guid>https://blog.superen.xyz/tags/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>postgres</title>
       <link>https://blog.superen.xyz/tags/postgres.html</link>
       <pubDate>Wed, 07 Jul 2021 15:05:57 +0800</pubDate>
@@ -58,15 +76,6 @@
       <pubDate>Fri, 02 Jul 2021 19:09:15 +0800</pubDate>
       
       <guid>https://blog.superen.xyz/tags/dsm.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://blog.superen.xyz/tags/linux.html</link>
-      <pubDate>Fri, 02 Jul 2021 19:09:15 +0800</pubDate>
-      
-      <guid>https://blog.superen.xyz/tags/linux.html</guid>
       <description></description>
     </item>
     

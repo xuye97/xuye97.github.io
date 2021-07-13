@@ -6,11 +6,20 @@
     <description>Recent content in Categories on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 12 Jul 2021 15:02:41 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jul 2021 14:49:18 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux</title>
+      <link>https://blog.superen.xyz/categories/linux.html</link>
+      <pubDate>Tue, 13 Jul 2021 14:49:18 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/categories/linux.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ubuntu</title>
       <link>https://blog.superen.xyz/categories/ubuntu.html</link>
-      <pubDate>Mon, 12 Jul 2021 15:02:41 +0800</pubDate>
+      <pubDate>Tue, 13 Jul 2021 14:49:18 +0800</pubDate>
       
       <guid>https://blog.superen.xyz/categories/ubuntu.html</guid>
       <description></description>
@@ -31,15 +40,6 @@
       <pubDate>Fri, 02 Jul 2021 19:09:15 +0800</pubDate>
       
       <guid>https://blog.superen.xyz/categories/dsm.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://blog.superen.xyz/categories/linux.html</link>
-      <pubDate>Fri, 02 Jul 2021 19:09:15 +0800</pubDate>
-      
-      <guid>https://blog.superen.xyz/categories/linux.html</guid>
       <description></description>
     </item>
     

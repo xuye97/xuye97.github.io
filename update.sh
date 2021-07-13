@@ -1,13 +1,12 @@
 #!/bin/bash
-echo "更新原因: "
+echo "更新原因："
 read up
-rm -rf docs
-rm -rf public
+git pull
+rm -rf docs public
 hugo
 mv public docs
 cp CNAME docs/
-git pull
 git add .
 git commit -m $up
 git push
-echo "success"
+echo "successs"
