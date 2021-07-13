@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "更新原因："
 read up
+git checkout main
 git pull
 rm -rf docs public
 hugo
