@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
+	<meta name="generator" content="Hugo 0.85.0" />
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,24 +10,17 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
     
 
-    <title>N1刷入Armbian | en&#39;s blog</title>
-    <meta property="og:title" content="N1刷入Armbian - en&#39;s blog">
-    <meta property="og:type" content="article">
-        
-    <meta property="article:published_time" content='2021-07-02T19:09:15&#43;08:00'>
-        
-        
-    <meta property="article:modified_time" content='2021-07-02T19:09:15&#43;08:00'>
-        
+    <title>en&#39;s blog | 只有魔法才能打败魔法</title>
+    <meta property="og:title" content="en&#39;s blog | 只有魔法才能打败魔法">
+    <meta property="og:type" content="website">
     <meta name="Keywords" content="">
-    <meta name="description" content="N1刷入Armbian">
-        
-    <meta name="author" content="enenen">
-    <meta property="og:url" content="https://blog.superen.xyz/post/2020/07/02/%E7%BE%A4%E6%99%96dsm-video-station-%E5%88%AE%E5%89%8A%E5%99%A8%E8%AE%BE%E7%BD%AE.html">
+    <meta name="description" content="">
+    <meta property="og:url" content="https://blog.superen.xyz/">
     <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
     <link rel="stylesheet" href='/css/style.css'>
+    <link rel="alternate" type="application/rss+xml" href="https://blog.superen.xyz/index.xml" title="en's blog" />
     <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
@@ -46,9 +40,11 @@
         <div class="col-group">
             <div class="site-name ">
                 
-                    <a id="logo" href="https://blog.superen.xyz/">
-                        en&#39;s blog
-                    </a>
+                    <h1>
+                        <a id="logo" href="https://blog.superen.xyz/">
+                            en&#39;s blog
+                        </a>
+                    </h1>
                 
                 <p class="description">只有魔法才能打败魔法</p>
             </div>
@@ -72,113 +68,61 @@
     
     <article class="post">
         <header>
-            <h1 class="post-title">N1刷入Armbian</h1>
+            <h1 class="post-title">
+                <a href="https://blog.superen.xyz/post/2020/03/02/ssh%E9%81%87%E5%88%B0warning-remote-host-identification-has-changed.html" title="SSH遇到“WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!”">SSH遇到“WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!”</a>
+            </h1>
         </header>
         <date class="post-meta meta-date">
-            2021年7月2日
+            2021年1月4日
         </date>
         
         <div class="post-meta">
             <span>|</span>
             
-            <span class="meta-category"><a href='/categories/dsm'>dsm</a></span>
-            
-            <span class="meta-category"><a href='/categories/linux'>linux</a></span>
+            <span class="meta-category"><a href='/categories/ssh'>ssh</a></span>
             
         </div>
-        
-        
-        <div class="post-meta">
-            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
-                    阅读</span></span>
-        </div>
-        
         
         <div class="post-content">
-            <h2 id="一the-movie-database-账号注册与-api-接口获取">一、The Movie Database 账号注册与 API 接口获取</h2>
-<ol>
-<li>
-<p>网站 <a href="https://www.themoviedb.org">https://www.themoviedb.org</a> 注册一个账号</p>
-</li>
-<li>
-<p>注册完后点击   头像 -&gt; 账户设置 -&gt; API -&gt; click here</p>
-</li>
-<li>
-<p>创建页面选择 Developer（开发者） 接受协议</p>
-</li>
-<li>
-<p>填写信息，可能会报错 ：“Application summary please elaborate on how you plan to use our API” 直接把错误信息填进简介就行</p>
-</li>
-<li>
-<p>提交完后，复制 API密钥（v3 auth）下面的密钥复制到video station保存</p>
-</li>
-</ol>
-<h2 id="二将the-movie-database的ip加入到群晖的host">二、将The Movie Database的IP加入到群晖的host</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">13.226.238.76 api.themoviedb.org
-13.224.161.90 api.themoviedb.org
-13.35.7.102 api.themoviedb.org
-13.225.103.26 api.themoviedb.org
-13.226.191.85 api.themoviedb.org
-13.225.103.110 api.themoviedb.org
-52.85.79.89 api.themoviedb.org
-13.225.41.40 api.themoviedb.org
-13.226.251.88 api.themoviedb.org
-13.225.89.239 api.thetvdb.com
-13.249.175.212 api.thetvdb.com
-13.35.161.120 api.thetvdb.com
-</code></pre></div>
+            服务器重装系统以后再次通过ssh连接会提……
         </div>
-
-        
-
-
-        
-
-<div class="post-archive">
-    <h2>See Also</h2>
-    <ul class="listing">
-        
-        <li><a href="/post/2021/07/02/%E7%BE%A4%E6%99%96%E7%99%BB%E5%BD%95%E6%97%B6%E6%8F%90%E7%A4%BA%E6%8A%B1%E6%AD%89%E6%82%A8%E6%89%80%E6%8C%87%E5%AE%9A%E7%9A%84%E9%A1%B5%E9%9D%A2%E4%B8%8D%E5%AD%98%E5%9C%A8.html">群晖登录时提示“抱歉，您所指定的页面不存在”</a></li>
-        
-        <li><a href="/post/2021/06/04/docker%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8%E6%8A%A5warning_ipv4_forwarding_is_disabled_networking_will_not_work.html">Docker容器启动报WARNING: IPv4 forwarding is disabled. Networking will not work</a></li>
-        
-        <li><a href="/post/2021/01/04/n1%E6%95%91%E7%A0%96.html">N1救砖</a></li>
-        
-    </ul>
-</div>
-
-
-        <div class="post-meta meta-tags">
-            
-            <ul class="clearfix">
-                
-                <li><a href='/tags/dsm'>dsm</a></li>
-                
-                <li><a href='/tags/tmd'>tmd</a></li>
-                
-                <li><a href='/tags/%E5%88%AE%E5%89%8A%E5%99%A8'>刮削器</a></li>
-                
-                <li><a href='/tags/linux'>linux</a></li>
-                
-            </ul>
-            
-        </div>
+        <p class="readmore"><a href="https://blog.superen.xyz/post/2020/03/02/ssh%E9%81%87%E5%88%B0warning-remote-host-identification-has-changed.html">阅读全文</a></p>
     </article>
     
     
 
+
+
+<ol class="page-navigator">
     
+    <li class="prev">
+        <a href="https://blog.superen.xyz/page/3.html">上一页</a>
+    </li>
     
-    <div class="post bg-white">
-      <script src="https://utteranc.es/client.js"
-            repo= "xuyien97/xuyien97.github.io"
-            issue-term="pathname"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-      </script>
-    </div>
+
     
+    <li >
+        <a href="https://blog.superen.xyz/">1</a>
+    </li>
+    
+    <li >
+        <a href="https://blog.superen.xyz/page/2.html">2</a>
+    </li>
+    
+    <li >
+        <a href="https://blog.superen.xyz/page/3.html">3</a>
+    </li>
+    
+    <li  class="current">
+        <a href="https://blog.superen.xyz/page/4.html">4</a>
+    </li>
+    
+
+    
+</ol>
+
+
+
 </div>
 
                     <footer id="footer">
@@ -201,16 +145,6 @@
 </footer>
 
 
-    
-    <script type="text/javascript">
-        window.MathJax = {
-            tex2jax: {
-                inlineMath: [['$', '$']],
-                processEscapes: true
-                }
-            };
-    </script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script><script src="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
 <a id="rocket" href="#top"></a>
 <script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
