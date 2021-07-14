@@ -1,5 +1,5 @@
 ---
-title: "N1刷入Armbian"
+title: "群晖dsm-video-station-刮削器设置"
 date: 2021-07-02T19:09:15+08:00
 draft: false
 tags: ["dsm","tmd","刮削器","linux"]
