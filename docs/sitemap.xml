@@ -3,52 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.superen.xyz/categories.html</loc>
-    <lastmod>2021-07-13T15:08:00+08:00</lastmod>
+    <lastmod>2021-07-15T11:18:08+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/</loc>
-    <lastmod>2021-07-13T15:08:00+08:00</lastmod>
+    <lastmod>2021-07-15T11:18:08+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/categories/linux.html</loc>
-    <lastmod>2021-07-13T15:08:00+08:00</lastmod>
+    <lastmod>2021-07-15T11:18:08+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/post.html</loc>
-    <lastmod>2021-07-13T15:08:00+08:00</lastmod>
+    <lastmod>2021-07-15T11:18:08+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/tags.html</loc>
-    <lastmod>2021-07-13T15:08:00+08:00</lastmod>
+    <lastmod>2021-07-15T11:18:08+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/tags/ubuntu.html</loc>
-    <lastmod>2021-07-13T15:08:00+08:00</lastmod>
+    <lastmod>2021-07-15T11:18:08+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/categories/ubuntu.html</loc>
-    <lastmod>2021-07-13T15:08:00+08:00</lastmod>
+    <lastmod>2021-07-15T11:18:08+08:00</lastmod>
   </url><url>
-    <loc>https://blog.superen.xyz/post/2021/07/13/ubuntu%E7%B3%BB%E7%BB%9Fvi%E7%BC%96%E8%BE%91%E6%A8%A1%E5%BC%8F%E4%B8%8B%E5%91%BD%E4%BB%A4%E9%94%99%E4%B9%B1.html</loc>
-    <lastmod>2021-07-13T15:08:00+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.superen.xyz/tags/vi.html</loc>
-    <lastmod>2021-07-13T15:08:00+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.superen.xyz/tags/fcitx.html</loc>
-    <lastmod>2021-07-13T14:49:18+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.superen.xyz/tags/linux.html</loc>
-    <lastmod>2021-07-13T14:49:18+08:00</lastmod>
+    <loc>https://blog.superen.xyz/post/2021/07/15/ubuntu2004%E5%AE%89%E8%A3%85%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html</loc>
+    <lastmod>2021-07-15T11:18:08+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/tags/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html</loc>
-    <lastmod>2021-07-13T14:49:18+08:00</lastmod>
+    <lastmod>2021-07-15T11:18:08+08:00</lastmod>
   </url><url>
-    <loc>https://blog.superen.xyz/post/2021/07/13/%E7%A6%81%E7%94%A8%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95linux%E7%89%88%E7%9A%84%E7%AE%80%E7%B9%81%E5%88%87%E6%8D%A2%E5%BF%AB%E6%8D%B7%E9%94%AE.html</loc>
-    <lastmod>2021-07-13T14:49:18+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.superen.xyz/tags/goland.html</loc>
-    <lastmod>2021-07-12T15:02:41+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.superen.xyz/tags/idea.html</loc>
-    <lastmod>2021-07-12T15:02:41+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.superen.xyz/post/2021/07/12/ubuntu2004%E4%BD%BF%E7%94%A8jetbrain%E5%85%A8%E5%AE%B6%E6%A1%B6%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%8D%E8%B7%9F%E9%9A%8F%E5%85%89%E6%A0%87%E9%97%AE%E9%A2%98.html</loc>
-    <lastmod>2021-07-12T15:02:41+08:00</lastmod>
+    <loc>https://blog.superen.xyz/post/2021/07/15/ubuntu2004%E5%AE%89%E8%A3%85%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E9%97%AE%E9%A2%98%E5%A4%84%E7%90%86.html</loc>
+    <lastmod>2021-07-15T11:18:08+09:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/tags/postgres.html</loc>
     <lastmod>2021-07-07T15:05:57+08:00</lastmod>
@@ -63,6 +45,9 @@
     <lastmod>2021-07-02T19:09:15+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/categories/dsm.html</loc>
+    <lastmod>2021-07-02T19:09:15+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.superen.xyz/tags/linux.html</loc>
     <lastmod>2021-07-02T19:09:15+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/tags/tmd.html</loc>
@@ -241,6 +226,9 @@
   </url><url>
     <loc>https://blog.superen.xyz/tags/%E4%BB%A3%E7%90%86.html</loc>
     <lastmod>2021-03-24T13:13:07+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.superen.xyz/tags/goland.html</loc>
+    <lastmod>2021-03-09T09:26:49+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/post/2021/03/09/%E6%89%93%E5%BC%80goland%E6%8F%90%E7%A4%BA%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</loc>
     <lastmod>2021-03-09T09:26:49+08:00</lastmod>
