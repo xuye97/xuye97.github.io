@@ -9,20 +9,20 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
     
 
-    <title>N1刷入Armbian | en&#39;s blog</title>
-    <meta property="og:title" content="N1刷入Armbian - en&#39;s blog">
+    <title>Ubuntu2004可以看到图片缩略图打开提示错误 | en&#39;s blog</title>
+    <meta property="og:title" content="Ubuntu2004可以看到图片缩略图打开提示错误 - en&#39;s blog">
     <meta property="og:type" content="article">
         
-    <meta property="article:published_time" content='2021-01-04T19:04:33&#43;08:00'>
+    <meta property="article:published_time" content='2021-07-17T15:12:02&#43;08:00'>
         
         
-    <meta property="article:modified_time" content='2021-01-04T19:04:33&#43;08:00'>
+    <meta property="article:modified_time" content='2021-07-17T15:12:02&#43;08:00'>
         
     <meta name="Keywords" content="">
-    <meta name="description" content="N1刷入Armbian">
+    <meta name="description" content="Ubuntu2004可以看到图片缩略图打开提示错误">
         
     <meta name="author" content="enenen">
-    <meta property="og:url" content="https://blog.superen.xyz/post/2021/01/04/n1%E5%88%B7%E5%85%A5armbian.html">
+    <meta property="og:url" content="https://blog.superen.xyz/post/2021/07/17/ubuntu2004%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0%E5%9B%BE%E7%89%87%E7%BC%A9%E7%95%A5%E5%9B%BE%E6%89%93%E5%BC%80%E6%8F%90%E7%A4%BA%E9%94%99%E8%AF%AF.html">
     <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
@@ -72,16 +72,16 @@
     
     <article class="post">
         <header>
-            <h1 class="post-title">N1刷入Armbian</h1>
+            <h1 class="post-title">Ubuntu2004可以看到图片缩略图打开提示错误</h1>
         </header>
         <date class="post-meta meta-date">
-            2021年1月4日
+            2021年7月17日
         </date>
         
         <div class="post-meta">
             <span>|</span>
             
-            <span class="meta-category"><a href='/categories/n1'>n1</a></span>
+            <span class="meta-category"><a href='/categories/ubuntu'>ubuntu</a></span>
             
         </div>
         
@@ -94,95 +94,16 @@
         
         <div class="post-content">
             <blockquote>
-<p>假设N1已经设置优盘启动</p>
+<p>ubuntu 2004 可以看到图片文件的缩略图但是打开的时候提示不是一个PNG格式的文件：</p>
 </blockquote>
-<h2 id="一准备">一、准备</h2>
-<ol>
-<li>电脑</li>
-<li>优盘</li>
-<li><a href="https://oneindex.superen.xyz/?/%E7%B3%BB%E7%BB%9F/N1%E5%88%B7Armbian/%E5%86%99%E7%9B%98%E5%B7%A5%E5%85%B7balenaEtcher-Setup-1.5.101.exe">balenaEtcher</a></li>
-<li><a href="https://oneindex.superen.xyz/?/%E7%B3%BB%E7%BB%9F/N1%E5%88%B7Armbian/Armbian_5.77_Aml-s905_Debian_stretch_default_5.0.2_20190401.img">Armbian_5.77_Aml-s905_Debian_stretch_default_5.0.2_20190401.img</a></li>
-<li><a href="https://oneindex.superen.xyz/?/%E7%B3%BB%E7%BB%9F/N1%E5%88%B7Armbian/meson-gxl-s905d-phicomm-n1-xiangsm.dtb">meson-gxl-s905d-phicomm-n1-xiangsm.dtb</a></li>
-</ol>
-<h2 id="二开始刷机">二、开始刷机</h2>
-<ol>
-<li>
-<p>使用<a href="https://oneindex.superen.xyz/?/%E7%B3%BB%E7%BB%9F/N1%E5%88%B7Armbian/%E5%86%99%E7%9B%98%E5%B7%A5%E5%85%B7balenaEtcher-Setup-1.5.101.exe">balenaEtcher</a>将镜像烧录到优盘</p>
-</li>
-<li>
-<p>优盘从电脑上拔下来再插上，会显示出来一个磁盘 “BOOT”</p>
-</li>
-<li>
-<p>将 <a href="https://oneindex.superen.xyz/?/%E7%B3%BB%E7%BB%9F/N1%E5%88%B7Armbian/meson-gxl-s905d-phicomm-n1-xiangsm.dtb">meson-gxl-s905d-phicomm-n1-xiangsm.dtb</a>复制到 “dtb” 文件夹</p>
-</li>
-<li>
-<p>修改 “BOOT” 目录下的 “<em>uEnv.ini</em>” 文件第一行 修改为</p>
-<pre><code>dtb_name=/dtb/meson-gxl-s905d-phicomm-n1-xiangsm.dtb
-</code></pre></li>
-<li>
-<p><strong>先让N1断电</strong>，然后插上U盘到靠近HDMI的USB口，然后通电即可进入armbian系统</p>
-</li>
-<li>
-<p>ssh链接到armbian 或者 直接登录 默认用户名/密码：root/1234</p>
-</li>
-<li>
-<p>执行脚本</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">nand–sata-install
-</code></pre></div></li>
-<li>
-<p>刷完后关机，拔优盘</p>
-</li>
-</ol>
-<p><strong>重刷Armbian方法：优盘启动重新运行 nand–sata-install</strong></p>
-<h2 id="三问题处理">三、问题处理</h2>
-<ol>
-<li>
-<p>偶尔无法联通外网</p>
-<p>修改/etc/network/interfaces，注释hotplug热插拔模式，换成auto即可：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#960050;background-color:#1e0010">vim</span> <span style="color:#960050;background-color:#1e0010">/etc/network/interfaces</span>
-<span style="color:#960050;background-color:#1e0010">#allow-hotplug</span> <span style="color:#960050;background-color:#1e0010">eth</span><span style="color:#ae81ff">0</span>
-<span style="color:#960050;background-color:#1e0010">auto</span> <span style="color:#960050;background-color:#1e0010">eth</span><span style="color:#ae81ff">0</span>
-</code></pre></div></li>
-<li>
-<p>armbian的有线网卡每次重启后MAC地址都会变</p>
-<p>从路由器或者命令  ip addr 获取当前的mac 地址，然后修改/etc/network/interfaces文件 写死mac地址：增加一行</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hwaddress mac地址
-</code></pre></div></li>
-<li>
-<p>ssh终端无法显示中文，也无法输入中文：</p>
-<p>修改/etc/environment中的LC_ALL：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ARCH<span style="color:#f92672">=</span>arm64
-LC_ALL<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en_US.utf-8&#34;</span>
-</code></pre></div></li>
-<li>
-<p>优化apt源服务器：</p>
-<p>修改 <strong>/etc/apt/sources.list</strong> 为下面数据：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
-
-<span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free</span>
-
-deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free
-
-<span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free</span>
-
-deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free
-
-<span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free</span>
-
-deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian-security/ stretch/updates main contrib non-free
-
-<span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security/ stretch/updates main contrib non-free</span>
-
-<span style="color:#75715e">#deb [ arch=arm64,armhf ] https://mirrors.tuna.tsinghua.edu.cn/debian/ sid main contrib non-free</span>
-</code></pre></div><p>修改完后运行命令：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">apt-get update
-apt-get upgrade
-</code></pre></div></li>
-<li>
-<p>修改为上海时区：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">timedatectl set-timezone Asia/Shanghai
-</code></pre></div></li>
-</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">Could not load image <span style="color:#e6db74">&#34;image.png&#34;</span>
+Fatal error reading PNG image file:Not a PNG file
+</code></pre></div><blockquote>
+<p><strong>解决方法：</strong></p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ file image.png
+image.png: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, comment: <span style="color:#e6db74">&#34;Intel(R) JPEG Library, version 1,5,4,36&#34;</span>, baseline, precision 8, 1920x1200, components <span style="color:#ae81ff">3</span>
+</code></pre></div><p>可以看到image.png 的格式应该是jpeg ，将扩展名修改为jpeg就可以正常打开了</p>
 
         </div>
 
@@ -195,7 +116,15 @@ apt-get upgrade
     <h2>See Also</h2>
     <ul class="listing">
         
-        <li><a href="/post/2021/01/04/n1%E6%95%91%E7%A0%96.html">N1救砖</a></li>
+        <li><a href="/post/2021/07/15/ubuntu2004%E5%AE%89%E8%A3%85%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html">Ubuntu2004安装搜狗输入法</a></li>
+        
+        <li><a href="/post/2021/07/15/linux-%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95-%E9%9A%90%E8%97%8F%E7%8A%B6%E6%80%81%E6%A0%8F.html">linux 搜狗输入法 隐藏状态栏</a></li>
+        
+        <li><a href="/post/2021/07/15/%E7%A6%81%E7%94%A8%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95linux%E7%89%88%E7%9A%84%E7%AE%80%E7%B9%81%E5%88%87%E6%8D%A2%E5%BF%AB%E6%8D%B7%E9%94%AE.html">禁用搜狗输入法Linux版的简繁切换快捷键</a></li>
+        
+        <li><a href="/post/2021/07/15/%E4%BD%BF%E7%94%A8jetbrain%E5%85%A8%E5%AE%B6%E6%A1%B6%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%8D%E8%B7%9F%E9%9A%8F%E5%85%89%E6%A0%87%E9%97%AE%E9%A2%98.html">使用JetBrain全家桶搜狗输入法不跟随光标问题</a></li>
+        
+        <li><a href="/post/2021/04/22/ubuntu%E5%AE%89%E8%A3%85typora.html">Ubuntu安装Typora</a></li>
         
     </ul>
 </div>
@@ -205,9 +134,9 @@ apt-get upgrade
             
             <ul class="clearfix">
                 
-                <li><a href='/tags/n1'>n1</a></li>
+                <li><a href='/tags/ubuntu'>ubuntu</a></li>
                 
-                <li><a href='/tags/armbian'>armbian</a></li>
+                <li><a href='/tags/%E5%9B%BE%E7%89%87'>图片</a></li>
                 
             </ul>
             
