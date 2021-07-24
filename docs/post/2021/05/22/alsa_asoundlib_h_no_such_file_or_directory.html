@@ -98,14 +98,14 @@
             <blockquote>
 <p>最近想写一个在家里装了armbian的N1上播放歌曲的小东西,在测试测试后出现了一下错误:</p>
 </blockquote>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">root@n1:~/music# go run main.go
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">root@n1:~/music# go run main.go
 <span style="color:#75715e"># github.com/hajimehoshi/oto</span>
 /app/gopath/pkg/mod/github.com/hajimehoshi/oto@v0.3.1/driver_linux.go:23:28: fatal error: alsa/asoundlib.h: No such file or directory
  <span style="color:#75715e">#include &lt;alsa/asoundlib.h&gt;</span>
                             ^
 compilation terminated.
 </code></pre></div><p><strong>解决方法:</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">apt-get install libasound2-dev -y
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">apt-get install libasound2-dev -y
 </code></pre></div>
         </div>
 

@@ -207,9 +207,9 @@
 <p>获取 Cloudflare API 令牌
 在域名管理首页（右下角）</p>
 <h3 id="安装-acme">安装 ACME</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl https://get.acme.sh | sh
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl https://get.acme.sh | sh
 </code></pre></div><h3 id="设置-api-令牌">设置 API 令牌</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Cloudflare DNS=dns_cf</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Cloudflare DNS=dns_cf</span>
 export CF_Key<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;密钥&#34;</span>
 export CF_Email<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Cloudflare登录名&#34;</span>
 
@@ -232,14 +232,14 @@ export AWS_SECRET_ACCESS_KEY<span style="color:#f92672">=</span><span style="col
 <span style="color:#75715e"># Linode DNS=dns_linode</span>
 export LINODE_API_KEY<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;xxxxxxxx&#34;</span>
 </code></pre></div><h3 id="验证-dns-并申请证书">验证 DNS 并申请证书</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">~/.acme.sh/acme.sh --issue --dns $DNS -d 根域名 -d *.根域名 <span style="color:#75715e"># DNS 替换为上面 DNS=后面的参数</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">~/.acme.sh/acme.sh --issue --dns $DNS -d 根域名 -d *.根域名 <span style="color:#75715e"># DNS 替换为上面 DNS=后面的参数</span>
 mkdir 证书存放路径
 ~/.acme.sh/acme.sh --installcert -d 根域名 --key-file 证书存放路径/private.key --fullchain-file 证书存放路径/cert.crt <span style="color:#75715e">#将证书安装，证书将要过期的时候会自动更新</span>
 ~/.acme.sh/acme.sh --upgrade --auto-upgrade <span style="color:#75715e">#自动更新</span>
 chmod -R <span style="color:#ae81ff">755</span> 证书存放路径 
 </code></pre></div><h2 id="web--验证申请证书">Web  验证申请证书</h2>
 <p><strong>这种方式，需要开放 80 端口，并保持不被占用的状态，并且这种方式不支持泛域名。</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># 首先安装 socat</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># 首先安装 socat</span>
 yum install socat -y
 
 <span style="color:#75715e"># 配置DNS解析将域名解析到服务器上</span>

@@ -99,7 +99,7 @@
 centos 8 默认使用dnf代替了yum，原yum配置文件（/etc/yum.conf）默认链接到dnf配置文件（/etc/dnf/dnf.conf）
 原来只需更改yum配置文件进行代理设置的方法已经不好用了。
 centos 8需按如下修改</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat /etc/dnf/dnf.conf
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat /etc/dnf/dnf.conf
 
 <span style="color:#f92672">[</span>main<span style="color:#f92672">]</span>
 gpgcheck<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>

@@ -104,19 +104,19 @@
 <blockquote>
 <p>安装中文语言包</p>
 </blockquote>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt-get install  language-pack-zh-han*
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt-get install  language-pack-zh-han*
 </code></pre></div><blockquote>
 <p>运行语言支持检查</p>
 </blockquote>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt install <span style="color:#66d9ef">$(</span>check-language-support<span style="color:#66d9ef">)</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt install <span style="color:#66d9ef">$(</span>check-language-support<span style="color:#66d9ef">)</span>
 </code></pre></div><blockquote>
 <p>修改配置文件：</p>
 </blockquote>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vim /etc/default/locale
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vim /etc/default/locale
 </code></pre></div><blockquote>
 <p>将原始内容注释掉或删掉，替换为如下内容：</p>
 </blockquote>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">LANG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN.UTF-8&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">LANG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN.UTF-8&#34;</span>
 LANGUAGE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN:zh&#34;</span>
 LC_NUMERIC<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
 LC_TIME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
@@ -131,11 +131,11 @@ LC_ALL<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN
 </code></pre></div><blockquote>
 <p>修改环境文件(环境变量(当前用户)):</p>
 </blockquote>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vim /etc/environment
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vim /etc/environment
 </code></pre></div><blockquote>
 <p>不修改原有内容,直接在原内容下面新开一行加入下列内容：</p>
 </blockquote>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">LANG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN.UTF-8&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">LANG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN.UTF-8&#34;</span>
 LANGUAGE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN:zh&#34;</span>
 LC_NUMERIC<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
 LC_TIME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
@@ -150,11 +150,11 @@ LC_ALL<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN
 </code></pre></div><blockquote>
 <p>修改环境文件(环境变量(所有用户)):</p>
 </blockquote>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vim /etc/profile
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vim /etc/profile
 </code></pre></div><blockquote>
 <p>不修改原有内容,直接在原内容下面新开一行加入下列内容：</p>
 </blockquote>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">LANG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN.UTF-8&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">LANG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN.UTF-8&#34;</span>
 </code></pre></div>
         </div>
 
