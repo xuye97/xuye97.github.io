@@ -6,25 +6,7 @@
     <description>Recent content in 错误处理 on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Jul 2021 10:51:58 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ubunt&#43;uwin10双系统时间不一致</title>
-      <link>https://blog.superen.xyz/post/2021/01/21/ubuntuwin10%E5%8F%8C%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4%E4%B8%8D%E4%B8%80%E8%87%B4.html</link>
-      <pubDate>Wed, 28 Jul 2021 10:51:58 +0800</pubDate>
-      
-      <guid>https://blog.superen.xyz/post/2021/01/21/ubuntuwin10%E5%8F%8C%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4%E4%B8%8D%E4%B8%80%E8%87%B4.html</guid>
-      <description>原因 本地时间是操作系统上的时间 硬件时间是</description>
-    </item>
-    
-    <item>
-      <title>打开Goland提示网络错误</title>
-      <link>https://blog.superen.xyz/post/2021/03/04/%E6%89%93%E5%BC%80goland%E6%8F%90%E7%A4%BA%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</link>
-      <pubDate>Wed, 28 Jul 2021 10:41:32 +0800</pubDate>
-      
-      <guid>https://blog.superen.xyz/post/2021/03/04/%E6%89%93%E5%BC%80goland%E6%8F%90%E7%A4%BA%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</guid>
-      <description>打开Goland提示一下错误 Internal error. Please report to http://jb.gg/ide/critical-startup-errors</description>
-    </item>
-    
+    <lastBuildDate>Fri, 02 Jul 2021 09:01:26 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>群晖登录时提示“抱歉，您所指定的页面不存在”</title>
       <link>https://blog.superen.xyz/post/2021/07/02/%E7%BE%A4%E6%99%96%E7%99%BB%E5%BD%95%E6%97%B6%E6%8F%90%E7%A4%BA%E6%8A%B1%E6%AD%89%E6%82%A8%E6%89%80%E6%8C%87%E5%AE%9A%E7%9A%84%E9%A1%B5%E9%9D%A2%E4%B8%8D%E5%AD%98%E5%9C%A8.html</link>
@@ -59,6 +41,24 @@
       
       <guid>https://blog.superen.xyz/post/2021/03/09/%E6%89%93%E5%BC%80goland%E6%8F%90%E7%A4%BA%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</guid>
       <description>打开Goland提示一下错误 Internal error. Please report to http://jb.gg/ide/critical-startup-errors</description>
+    </item>
+    
+    <item>
+      <title>打开Goland提示网络错误</title>
+      <link>https://blog.superen.xyz/post/2021/03/04/%E6%89%93%E5%BC%80goland%E6%8F%90%E7%A4%BA%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</link>
+      <pubDate>Thu, 04 Mar 2021 10:41:32 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/03/04/%E6%89%93%E5%BC%80goland%E6%8F%90%E7%A4%BA%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</guid>
+      <description>打开Goland提示一下错误 Internal error. Please report to http://jb.gg/ide/critical-startup-errors</description>
+    </item>
+    
+    <item>
+      <title>ubunt&#43;uwin10双系统时间不一致</title>
+      <link>https://blog.superen.xyz/post/2021/01/21/ubuntuwin10%E5%8F%8C%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4%E4%B8%8D%E4%B8%80%E8%87%B4.html</link>
+      <pubDate>Thu, 21 Jan 2021 10:51:58 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/01/21/ubuntuwin10%E5%8F%8C%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4%E4%B8%8D%E4%B8%80%E8%87%B4.html</guid>
+      <description>原因 本地时间是操作系统上的时间 硬件时间是</description>
     </item>
     
   </channel>

@@ -1,6 +1,6 @@
 ---
 title: "ubunt+uwin10双系统时间不一致"
-date: 2021-07-28T10:51:58+08:00
+date: 2021-01-21T10:51:58+08:00
 draft: false
 tags: ["ubuntu","win10","双系统"]
 isCJKLanguage: true
