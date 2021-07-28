@@ -6,7 +6,16 @@
     <description>Recent content in 错误处理 on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Jul 2021 10:41:32 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jul 2021 10:51:58 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ubunt&#43;uwin10双系统时间不一致</title>
+      <link>https://blog.superen.xyz/post/2021/01/21/ubuntuwin10%E5%8F%8C%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4%E4%B8%8D%E4%B8%80%E8%87%B4.html</link>
+      <pubDate>Wed, 28 Jul 2021 10:51:58 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/01/21/ubuntuwin10%E5%8F%8C%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4%E4%B8%8D%E4%B8%80%E8%87%B4.html</guid>
+      <description>原因 本地时间是操作系统上的时间 硬件时间是</description>
+    </item>
+    
     <item>
       <title>打开Goland提示网络错误</title>
       <link>https://blog.superen.xyz/post/2021/03/04/%E6%89%93%E5%BC%80goland%E6%8F%90%E7%A4%BA%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</link>
