@@ -16,12 +16,14 @@ categories: ["pip"]
 
 1. 创建文件
 
-   ```she
-   mkdir ~/.pip
-   vi ~/.pip/pip.conf
+   ```shell
+   #window
+   在 C:\User\%username%\ 下创建文件 pip.ini
+   #linux
+   mkdir ~/.pip && vi ~/.pip/pip.conf
    ```
 
-2. 设置pip.conf为：
+2. 修改配置文件：
 
    ```shell
    [global]
