@@ -10,15 +10,20 @@ categories: ["pip"]
 国内的一些代理源：
 
 阿里云 ：http://mirrors.aliyun.com/pypi/simple/
+
 中国科学技术大学：https://pypi.mirrors.ustc.edu.cn/simple/
+
 清华大学：https://pypi.tuna.tsinghua.edu.cn/simple/
+
 豆瓣：http://pypi.douban.com/simple/
+
+
 
 1. 创建文件
 
    ```shell
    #window
-   在 C:\User\%username%\ 下创建文件 pip.ini
+   在 C:\Users\%username%\ 下创建文件 pip.ini
    #linux
    mkdir ~/.pip && vi ~/.pip/pip.conf
    ```
