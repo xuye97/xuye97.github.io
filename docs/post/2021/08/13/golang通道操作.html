@@ -93,7 +93,92 @@
         
         
         <div class="post-content">
-            <!-- raw HTML omitted -->
+            <table>
+<thead>
+<tr>
+<th>操作</th>
+<th>通道状态</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Read</td>
+<td>nil</td>
+<td>阻塞</td>
+</tr>
+<tr>
+<td></td>
+<td>打开，非空</td>
+<td>正常</td>
+</tr>
+<tr>
+<td></td>
+<td>打开，空</td>
+<td>阻塞</td>
+</tr>
+<tr>
+<td></td>
+<td>关闭</td>
+<td>正常返回值 有值返回 值,true    没有值  返回  通道类型默认值,false</td>
+</tr>
+<tr>
+<td></td>
+<td>只写</td>
+<td>编译错误</td>
+</tr>
+<tr>
+<td>Write</td>
+<td>nil</td>
+<td>阻塞</td>
+</tr>
+<tr>
+<td></td>
+<td>打开，已满</td>
+<td>阻塞</td>
+</tr>
+<tr>
+<td></td>
+<td>打开，未满</td>
+<td>正常</td>
+</tr>
+<tr>
+<td></td>
+<td>关闭</td>
+<td>panic</td>
+</tr>
+<tr>
+<td></td>
+<td>只读</td>
+<td>编译错误</td>
+</tr>
+<tr>
+<td>Close</td>
+<td>nil</td>
+<td>panic</td>
+</tr>
+<tr>
+<td></td>
+<td>打开，非空</td>
+<td>正常</td>
+</tr>
+<tr>
+<td></td>
+<td>打开，空</td>
+<td>正常</td>
+</tr>
+<tr>
+<td></td>
+<td>关闭</td>
+<td>panic</td>
+</tr>
+<tr>
+<td></td>
+<td>只读</td>
+<td>编译错误</td>
+</tr>
+</tbody>
+</table>
 
         </div>
 
