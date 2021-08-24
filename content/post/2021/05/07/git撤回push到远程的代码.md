@@ -64,8 +64,8 @@ Date:   Thu May 6 10:50:19 2021 +0800
 
 ## 本地的代码强制推到远程
 
-```she
-git push origin stable --force
+```shell
+git push origin test --force  #test是分支名字
 ```
 
 > 结束
