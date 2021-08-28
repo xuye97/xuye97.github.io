@@ -9,8 +9,8 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
     
 
-    <title>Centos7&#43; systemctl和防火墙firewalld命令 | en&#39;s blog</title>
-    <meta property="og:title" content="Centos7&#43; systemctl和防火墙firewalld命令 - en&#39;s blog">
+    <title>Centos7.0&#43; 防火墙firewalld命令 | en&#39;s blog</title>
+    <meta property="og:title" content="Centos7.0&#43; 防火墙firewalld命令 - en&#39;s blog">
     <meta property="og:type" content="article">
         
     <meta property="article:published_time" content='2021-08-28T10:44:32&#43;08:00'>
@@ -19,7 +19,7 @@
     <meta property="article:modified_time" content='2021-08-28T10:44:32&#43;08:00'>
         
     <meta name="Keywords" content="">
-    <meta name="description" content="Centos7&#43; systemctl和防火墙firewalld命令">
+    <meta name="description" content="Centos7.0&#43; 防火墙firewalld命令">
         
     <meta name="author" content="enenen">
     <meta property="og:url" content="https://blog.superen.xyz/post/2021/08/28/centos7&#43;systemctl%E5%92%8C%E9%98%B2%E7%81%AB%E5%A2%99firewalld%E5%91%BD%E4%BB%A4.html">
@@ -72,7 +72,7 @@
     
     <article class="post">
         <header>
-            <h1 class="post-title">Centos7&#43; systemctl和防火墙firewalld命令</h1>
+            <h1 class="post-title">Centos7.0&#43; 防火墙firewalld命令</h1>
         </header>
         <date class="post-meta meta-date">
             2021年8月28日
@@ -93,31 +93,7 @@
         
         
         <div class="post-content">
-            <p>一、防火墙的开启、关闭、禁用命令</p>
-<ol>
-<li>
-<p>设置开机启用防火墙：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">systemctl enable firewalld.service
-</code></pre></div></li>
-<li>
-<p>设置开机禁用防火墙：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">systemctl disable firewalld.service
-</code></pre></div></li>
-<li>
-<p>启动防火墙：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">systemctl start firewalld
-</code></pre></div></li>
-<li>
-<p>关闭防火墙：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">systemctl stop firewalld
-</code></pre></div></li>
-<li>
-<p>检查防火墙状态：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">systemctl status firewalld 
-</code></pre></div></li>
-</ol>
-<p>二、使用firewall-cmd配置端口</p>
-<ol>
+            <ol>
 <li>
 <p>查看防火墙状态：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">firewall-cmd --state
@@ -125,6 +101,10 @@
 <li>
 <p>查看开放的端口：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">firewall-cmd --list-ports
+</code></pre></div></li>
+<li>
+<p>查看某个端口是否开放</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">firewall-cmd--zone<span style="color:#f92672">=</span>public--query-port<span style="color:#f92672">=</span>80/tcp <span style="color:#75715e">#返回yes代表开启</span>
 </code></pre></div></li>
 <li>
 <p>开启防火墙端口：</p>
@@ -259,7 +239,7 @@
 <ul class="widget-list">
     
     <li>
-        <a href="https://blog.superen.xyz/post/2021/08/28/centos7&#43;systemctl%E5%92%8C%E9%98%B2%E7%81%AB%E5%A2%99firewalld%E5%91%BD%E4%BB%A4.html" title="Centos7&#43; systemctl和防火墙firewalld命令">Centos7&#43; systemctl和防火墙firewalld命令</a>
+        <a href="https://blog.superen.xyz/post/2021/08/28/centos7&#43;systemctl%E5%92%8C%E9%98%B2%E7%81%AB%E5%A2%99firewalld%E5%91%BD%E4%BB%A4.html" title="Centos7.0&#43; 防火墙firewalld命令">Centos7.0&#43; 防火墙firewalld命令</a>
     </li>
     
     <li>
