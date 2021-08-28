@@ -6,7 +6,34 @@
     <description>Recent content in Tags on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 13 Aug 2021 11:36:55 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Aug 2021 10:44:32 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>centos</title>
+      <link>https://blog.superen.xyz/tags/centos.html</link>
+      <pubDate>Sat, 28 Aug 2021 10:44:32 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/tags/centos.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firewalld</title>
+      <link>https://blog.superen.xyz/tags/firewalld.html</link>
+      <pubDate>Sat, 28 Aug 2021 10:44:32 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/tags/firewalld.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>防火墙</title>
+      <link>https://blog.superen.xyz/tags/%E9%98%B2%E7%81%AB%E5%A2%99.html</link>
+      <pubDate>Sat, 28 Aug 2021 10:44:32 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/tags/%E9%98%B2%E7%81%AB%E5%A2%99.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>golang</title>
       <link>https://blog.superen.xyz/tags/golang.html</link>
@@ -121,15 +148,6 @@
       <pubDate>Sat, 19 Jun 2021 15:01:36 +0800</pubDate>
       
       <guid>https://blog.superen.xyz/tags/quoted-printable.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>centos</title>
-      <link>https://blog.superen.xyz/tags/centos.html</link>
-      <pubDate>Fri, 11 Jun 2021 16:43:18 +0800</pubDate>
-      
-      <guid>https://blog.superen.xyz/tags/centos.html</guid>
       <description></description>
     </item>
     
