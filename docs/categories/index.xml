@@ -6,7 +6,16 @@
     <description>Recent content in Categories on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 28 Aug 2021 10:44:32 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Sep 2021 13:33:45 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux</title>
+      <link>https://blog.superen.xyz/categories/linux.html</link>
+      <pubDate>Wed, 29 Sep 2021 13:33:45 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/categories/linux.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>centos</title>
       <link>https://blog.superen.xyz/categories/centos.html</link>
@@ -40,15 +49,6 @@
       <pubDate>Sat, 17 Jul 2021 15:12:02 +0800</pubDate>
       
       <guid>https://blog.superen.xyz/categories/ubuntu.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://blog.superen.xyz/categories/linux.html</link>
-      <pubDate>Thu, 15 Jul 2021 11:18:08 +0800</pubDate>
-      
-      <guid>https://blog.superen.xyz/categories/linux.html</guid>
       <description></description>
     </item>
     

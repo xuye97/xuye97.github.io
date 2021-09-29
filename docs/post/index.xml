@@ -6,7 +6,16 @@
     <description>Recent content in Posts on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 28 Aug 2021 10:44:32 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Sep 2021 13:33:45 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux 备份打包文件时排除指定的扩展名</title>
+      <link>https://blog.superen.xyz/post/2021/09/29/linux%E5%A4%87%E4%BB%BD%E6%89%93%E5%8C%85%E6%96%87%E4%BB%B6%E6%97%B6%E6%8E%92%E9%99%A4%E6%8C%87%E5%AE%9A%E7%9A%84%E6%89%A9%E5%B1%95%E5%90%8D.html</link>
+      <pubDate>Wed, 29 Sep 2021 13:33:45 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/09/29/linux%E5%A4%87%E4%BB%BD%E6%89%93%E5%8C%85%E6%96%87%E4%BB%B6%E6%97%B6%E6%8E%92%E9%99%A4%E6%8C%87%E5%AE%9A%E7%9A%84%E6%89%A9%E5%B1%95%E5%90%8D.html</guid>
+      <description>忽略少量扩展名 tar -zcvf app.tar.gz --exclude *.log /app/ #忽略扩展名为</description>
+    </item>
+    
     <item>
       <title>Centos7.0&#43; 防火墙firewalld命令</title>
       <link>https://blog.superen.xyz/post/2021/08/28/centos7&#43;systemctl%E5%92%8C%E9%98%B2%E7%81%AB%E5%A2%99firewalld%E5%91%BD%E4%BB%A4.html</link>
