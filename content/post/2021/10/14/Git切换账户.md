@@ -4,7 +4,7 @@ date: 2021-10-14T11:48:35+08:00
 draft: false
 tags: ["git","账户"]
 isCJKLanguage: true
-categories: ["git"]e 
+categories: ["git"]
 ---
 
 换了公司电脑之前有人用过，上传代码一直是前一个人的名字，刚开始以为是密钥的问题，换了两次密钥还是之前的那个人的名字。

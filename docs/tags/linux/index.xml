@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on en&#39;s blog</title>
+    <link>https://blog.superen.xyz/tags/linux.html</link>
+    <description>Recent content in linux on en&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 29 Sep 2021 13:33:45 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux 备份打包文件时排除指定的扩展名</title>
+      <link>https://blog.superen.xyz/post/2021/09/29/linux%E5%A4%87%E4%BB%BD%E6%89%93%E5%8C%85%E6%96%87%E4%BB%B6%E6%97%B6%E6%8E%92%E9%99%A4%E6%8C%87%E5%AE%9A%E7%9A%84%E6%89%A9%E5%B1%95%E5%90%8D.html</link>
+      <pubDate>Wed, 29 Sep 2021 13:33:45 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/09/29/linux%E5%A4%87%E4%BB%BD%E6%89%93%E5%8C%85%E6%96%87%E4%BB%B6%E6%97%B6%E6%8E%92%E9%99%A4%E6%8C%87%E5%AE%9A%E7%9A%84%E6%89%A9%E5%B1%95%E5%90%8D.html</guid>
+      <description>忽略少量扩展名 tar -zcvf app.tar.gz --exclude *.log /app/ #忽略扩展名为</description>
+    </item>
+    
+    <item>
+      <title>群晖dsm-video-station-刮削器设置</title>
+      <link>https://blog.superen.xyz/post/2020/07/02/%E7%BE%A4%E6%99%96dsm-video-station-%E5%88%AE%E5%89%8A%E5%99%A8%E8%AE%BE%E7%BD%AE.html</link>
+      <pubDate>Fri, 02 Jul 2021 19:09:15 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2020/07/02/%E7%BE%A4%E6%99%96dsm-video-station-%E5%88%AE%E5%89%8A%E5%99%A8%E8%AE%BE%E7%BD%AE.html</guid>
+      <description>一、The Movie Database 账号注册与 API 接口获取 网站 https://www.themoviedb.org</description>
+    </item>
+    
+    <item>
+      <title>Docker容器启动报WARNING: IPv4 forwarding is disabled. Networking will not work</title>
+      <link>https://blog.superen.xyz/post/2021/06/04/docker%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8%E6%8A%A5warning_ipv4_forwarding_is_disabled_networking_will_not_work.html</link>
+      <pubDate>Fri, 04 Jun 2021 14:29:53 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/06/04/docker%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8%E6%8A%A5warning_ipv4_forwarding_is_disabled_networking_will_not_work.html</guid>
+      <description>解决办法 vi /etc/sysctl.conf 修改数据 net.ipv4.ip_forward = 1 重启网络 查看是</description>
+    </item>
+    
+    <item>
+      <title>N1救砖</title>
+      <link>https://blog.superen.xyz/post/2021/01/04/n1%E6%95%91%E7%A0%96.html</link>
+      <pubDate>Mon, 04 Jan 2021 18:58:24 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/01/04/n1%E6%95%91%E7%A0%96.html</guid>
+      <description>盒子无法开机刷机 一、准备 电脑（win系统</description>
+    </item>
+    
+  </channel>
+</rss>

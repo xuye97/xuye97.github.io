@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>centos on en&#39;s blog</title>
+    <link>https://blog.superen.xyz/tags/centos.html</link>
+    <description>Recent content in centos on en&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 28 Aug 2021 10:44:32 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Centos7.0&#43; 防火墙firewalld命令</title>
+      <link>https://blog.superen.xyz/post/2021/08/28/centos7&#43;systemctl%E5%92%8C%E9%98%B2%E7%81%AB%E5%A2%99firewalld%E5%91%BD%E4%BB%A4.html</link>
+      <pubDate>Sat, 28 Aug 2021 10:44:32 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/08/28/centos7&#43;systemctl%E5%92%8C%E9%98%B2%E7%81%AB%E5%A2%99firewalld%E5%91%BD%E4%BB%A4.html</guid>
+      <description>查看防火墙状态： firewall-cmd --state 查看开放的端口： firewall-cmd --list-ports</description>
+    </item>
+    
+    <item>
+      <title>Centos安装python3</title>
+      <link>https://blog.superen.xyz/post/2021/06/11/centos%E5%AE%89%E8%A3%85python3.html</link>
+      <pubDate>Fri, 11 Jun 2021 16:43:18 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/06/11/centos%E5%AE%89%E8%A3%85python3.html</guid>
+      <description>yum install -y update &amp;amp;&amp;amp; yum install -y upgrade yum install -y gcc gcc-c++ yum -y install gcc automake autoconf</description>
+    </item>
+    
+    <item>
+      <title>Docker容器启动报WARNING: IPv4 forwarding is disabled. Networking will not work</title>
+      <link>https://blog.superen.xyz/post/2021/06/04/docker%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8%E6%8A%A5warning_ipv4_forwarding_is_disabled_networking_will_not_work.html</link>
+      <pubDate>Fri, 04 Jun 2021 14:29:53 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/06/04/docker%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8%E6%8A%A5warning_ipv4_forwarding_is_disabled_networking_will_not_work.html</guid>
+      <description>解决办法 vi /etc/sysctl.conf 修改数据 net.ipv4.ip_forward = 1 重启网络 查看是</description>
+    </item>
+    
+    <item>
+      <title>Centos设置静态网络地址</title>
+      <link>https://blog.superen.xyz/post/2021/06/04/centos%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80.html</link>
+      <pubDate>Fri, 04 Jun 2021 14:09:37 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/06/04/centos%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80.html</guid>
+      <description>修改文件：/etc/sysconfig/</description>
+    </item>
+    
+    <item>
+      <title>dnf命令使用代理</title>
+      <link>https://blog.superen.xyz/post/2021/03/24/dnf%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86.html</link>
+      <pubDate>Wed, 24 Mar 2021 13:13:07 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/03/24/dnf%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86.html</guid>
+      <description>entos 8 配置DNF代理方法 centos 8 默认使用dnf</description>
+    </item>
+    
+  </channel>
+</rss>
