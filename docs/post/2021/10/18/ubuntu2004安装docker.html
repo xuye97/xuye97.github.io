@@ -97,34 +97,34 @@
         <div class="post-content">
             <h2 id="1-安装docker和docker-compose">1. 安装Docker和docker-compose</h2>
 <p>卸载旧版本，旧版本被叫做docker、docker.io或者docker-engine。</p>
-<pre tabindex="0"><code>sudo apt-get remove docker docker-engine docker.io containerd runc
-</code></pre><p>更新apt包索引，并允许apt通过https更新repo</p>
-<pre tabindex="0"><code>sudo apt update
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt-get remove docker docker-engine docker.io containerd runc
+</code></pre></div><p>更新apt包索引，并允许apt通过https更新repo</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt update
 sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
-</code></pre><p>添加Docker的官方 GPG key</p>
-<pre tabindex="0"><code>curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-</code></pre><p><code>9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88</code> 通过搜索指纹的后8个字符，验证您现在是否拥有带有指纹的密钥</p>
-<pre tabindex="0"><code>sudo apt-key fingerprint 0EBFCD88
+</code></pre></div><p>添加Docker的官方 GPG key</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+</code></pre></div><p><code>9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88</code> 通过搜索指纹的后8个字符，验证您现在是否拥有带有指纹的密钥</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt-key fingerprint 0EBFCD88
     
-pub   rsa4096 2017-02-22 [SCEA]
-      9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
-uid           [ unknown] Docker Release (CE deb) &lt;docker@docker.com&gt;
-sub   rsa4096 2017-02-22 [S]
-</code></pre><p>使用以下命令来设置稳定的存储库。其余架构的命令详见 <a href="https://docs.docker.com/engine/install/ubuntu/">docker-ce官方安装文档</a></p>
-<pre tabindex="0"><code>sudo add-apt-repository \
-   &quot;deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   $(lsb_release -cs) \
-   stable&quot;
-</code></pre><p>安装docker，顺便安装docker-compose</p>
-<pre tabindex="0"><code>sudo apt update
+pub   rsa4096 2017-02-22 <span style="color:#f92672">[</span>SCEA<span style="color:#f92672">]</span>
+      9DC8 <span style="color:#ae81ff">5822</span> 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
+uid           <span style="color:#f92672">[</span> unknown<span style="color:#f92672">]</span> Docker Release <span style="color:#f92672">(</span>CE deb<span style="color:#f92672">)</span> &lt;docker@docker.com&gt;
+sub   rsa4096 2017-02-22 <span style="color:#f92672">[</span>S<span style="color:#f92672">]</span>
+</code></pre></div><p>使用以下命令来设置稳定的存储库。其余架构的命令详见 <a href="https://docs.docker.com/engine/install/ubuntu/">docker-ce官方安装文档</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo add-apt-repository <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>   <span style="color:#e6db74">&#34;deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+</span><span style="color:#e6db74">   </span><span style="color:#66d9ef">$(</span>lsb_release -cs<span style="color:#66d9ef">)</span><span style="color:#e6db74"> \
+</span><span style="color:#e6db74">   stable&#34;</span>
+</code></pre></div><p>安装docker，顺便安装docker-compose</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt update
 sudo apt install docker-ce
 sudo apt install docker-compose
-</code></pre><p>启动docker</p>
+</code></pre></div><p>启动docker</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo systemctl start docker
 sudo systemctl enable docker
 </code></pre></div><p>安装完成后，使用如下命令查看安装的docker版本：</p>
-<pre tabindex="0"><code>docker --version
-</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker --version
+</code></pre></div>
         </div>
 
         
