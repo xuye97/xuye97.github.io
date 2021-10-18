@@ -6,7 +6,16 @@
     <description>Recent content in docker on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 04 Jun 2021 14:29:53 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Oct 2021 17:37:52 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker免sudo运行</title>
+      <link>https://blog.superen.xyz/post/2021/10/18/docker%E5%85%8Dsudo%E8%BF%90%E8%A1%8C.html</link>
+      <pubDate>Mon, 18 Oct 2021 17:37:52 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/10/18/docker%E5%85%8Dsudo%E8%BF%90%E8%A1%8C.html</guid>
+      <description>默认情况下，普通用户没有权限执行 docker 相关操</description>
+    </item>
+    
     <item>
       <title>Docker容器启动报WARNING: IPv4 forwarding is disabled. Networking will not work</title>
       <link>https://blog.superen.xyz/post/2021/06/04/docker%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8%E6%8A%A5warning_ipv4_forwarding_is_disabled_networking_will_not_work.html</link>
