@@ -9,20 +9,20 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
     
 
-    <title>Ubuntu2004安装搜狗输入法 | en&#39;s blog</title>
-    <meta property="og:title" content="Ubuntu2004安装搜狗输入法 - en&#39;s blog">
+    <title>Ubuntu 20.04安装docker | en&#39;s blog</title>
+    <meta property="og:title" content="Ubuntu 20.04安装docker - en&#39;s blog">
     <meta property="og:type" content="article">
         
-    <meta property="article:published_time" content='2021-07-15T11:18:08&#43;08:00'>
+    <meta property="article:published_time" content='2021-10-18T17:42:56&#43;08:00'>
         
         
-    <meta property="article:modified_time" content='2021-07-15T11:18:08&#43;08:00'>
+    <meta property="article:modified_time" content='2021-10-18T17:42:56&#43;08:00'>
         
     <meta name="Keywords" content="">
-    <meta name="description" content="Ubuntu2004安装搜狗输入法">
+    <meta name="description" content="Ubuntu 20.04安装docker">
         
     <meta name="author" content="enenen">
-    <meta property="og:url" content="https://blog.superen.xyz/post/2021/07/15/ubuntu2004%E5%AE%89%E8%A3%85%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html">
+    <meta property="og:url" content="https://blog.superen.xyz/post/2021/10/18/ubuntu2004%E5%AE%89%E8%A3%85docker.html">
     <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
@@ -72,18 +72,18 @@
     
     <article class="post">
         <header>
-            <h1 class="post-title">Ubuntu2004安装搜狗输入法</h1>
+            <h1 class="post-title">Ubuntu 20.04安装docker</h1>
         </header>
         <date class="post-meta meta-date">
-            2021年7月15日
+            2021年10月18日
         </date>
         
         <div class="post-meta">
             <span>|</span>
             
-            <span class="meta-category"><a href='/categories/linux'>linux</a></span>
+            <span class="meta-category"><a href='/categories/docker'>docker</a></span>
             
-            <span class="meta-category"><a href='/categories/ubuntu'>ubuntu</a></span>
+            <span class="meta-category"><a href='/categories/linux'>linux</a></span>
             
         </div>
         
@@ -95,8 +95,36 @@
         
         
         <div class="post-content">
-            <p>官方网址 <a href="https://pinyin.sogou.com/linux/help.php">https://pinyin.sogou.com/linux/help.php</a></p>
-
+            <h2 id="1-安装docker和docker-compose">1. 安装Docker和docker-compose</h2>
+<p>卸载旧版本，旧版本被叫做docker、docker.io或者docker-engine。</p>
+<pre tabindex="0"><code>sudo apt-get remove docker docker-engine docker.io containerd runc
+</code></pre><p>更新apt包索引，并允许apt通过https更新repo</p>
+<pre tabindex="0"><code>sudo apt update
+sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+</code></pre><p>添加Docker的官方 GPG key</p>
+<pre tabindex="0"><code>curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+</code></pre><p><code>9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88</code> 通过搜索指纹的后8个字符，验证您现在是否拥有带有指纹的密钥</p>
+<pre tabindex="0"><code>sudo apt-key fingerprint 0EBFCD88
+    
+pub   rsa4096 2017-02-22 [SCEA]
+      9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
+uid           [ unknown] Docker Release (CE deb) &lt;docker@docker.com&gt;
+sub   rsa4096 2017-02-22 [S]
+</code></pre><p>使用以下命令来设置稳定的存储库。其余架构的命令详见 <a href="https://docs.docker.com/engine/install/ubuntu/">docker-ce官方安装文档</a></p>
+<pre tabindex="0"><code>sudo add-apt-repository \
+   &quot;deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable&quot;
+</code></pre><p>安装docker，顺便安装docker-compose</p>
+<pre tabindex="0"><code>sudo apt update
+sudo apt install docker-ce
+sudo apt install docker-compose
+</code></pre><p>启动docker</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo systemctl start docker
+sudo systemctl enable docker
+</code></pre></div><p>安装完成后，使用如下命令查看安装的docker版本：</p>
+<pre tabindex="0"><code>docker --version
+</code></pre>
         </div>
 
         
@@ -108,15 +136,15 @@
     <h2>See Also</h2>
     <ul class="listing">
         
+        <li><a href="/post/2021/10/18/docker%E5%85%8Dsudo%E8%BF%90%E8%A1%8C.html">Docker免sudo运行</a></li>
+        
+        <li><a href="/post/2021/07/17/ubuntu2004%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0%E5%9B%BE%E7%89%87%E7%BC%A9%E7%95%A5%E5%9B%BE%E6%89%93%E5%BC%80%E6%8F%90%E7%A4%BA%E9%94%99%E8%AF%AF.html">Ubuntu2004可以看到图片缩略图打开提示错误</a></li>
+        
+        <li><a href="/post/2021/07/15/ubuntu2004%E5%AE%89%E8%A3%85%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html">Ubuntu2004安装搜狗输入法</a></li>
+        
         <li><a href="/post/2021/07/15/linux-%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95-%E9%9A%90%E8%97%8F%E7%8A%B6%E6%80%81%E6%A0%8F.html">linux 搜狗输入法 隐藏状态栏</a></li>
         
         <li><a href="/post/2021/07/15/%E7%A6%81%E7%94%A8%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95linux%E7%89%88%E7%9A%84%E7%AE%80%E7%B9%81%E5%88%87%E6%8D%A2%E5%BF%AB%E6%8D%B7%E9%94%AE.html">禁用搜狗输入法Linux版的简繁切换快捷键</a></li>
-        
-        <li><a href="/post/2021/07/15/%E4%BD%BF%E7%94%A8jetbrain%E5%85%A8%E5%AE%B6%E6%A1%B6%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%8D%E8%B7%9F%E9%9A%8F%E5%85%89%E6%A0%87%E9%97%AE%E9%A2%98.html">使用JetBrain全家桶搜狗输入法不跟随光标问题</a></li>
-        
-        <li><a href="/post/2021/04/22/ubuntu%E5%AE%89%E8%A3%85typora.html">Ubuntu安装Typora</a></li>
-        
-        <li><a href="/post/2021/04/16/ubuntu-%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95%E5%85%B6%E4%BB%96linux%E7%B3%BB%E7%BB%9F%E6%98%BE%E7%A4%BA%E6%9D%83%E9%99%90%E4%B8%8D%E8%B6%B3.html">linux密钥登录其他linux系统显示权限不足</a></li>
         
     </ul>
 </div>
@@ -126,9 +154,9 @@
             
             <ul class="clearfix">
                 
-                <li><a href='/tags/ubuntu'>ubuntu</a></li>
+                <li><a href='/tags/docker'>docker</a></li>
                 
-                <li><a href='/tags/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95'>搜狗输入法</a></li>
+                <li><a href='/tags/ubuntu'>ubuntu</a></li>
                 
             </ul>
             

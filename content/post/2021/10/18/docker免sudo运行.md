@@ -14,3 +14,4 @@ sudo usermod -aG docker 用户名
 ```
 
 运行命令以后断开SSH重新链接就可以了
+

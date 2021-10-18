@@ -6,7 +6,16 @@
     <description>Recent content in linux on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 29 Sep 2021 13:33:45 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Oct 2021 17:42:56 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 20.04安装docker</title>
+      <link>https://blog.superen.xyz/post/2021/10/18/ubuntu2004%E5%AE%89%E8%A3%85docker.html</link>
+      <pubDate>Mon, 18 Oct 2021 17:42:56 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/10/18/ubuntu2004%E5%AE%89%E8%A3%85docker.html</guid>
+      <description>1. 安装Docker和docker-com</description>
+    </item>
+    
     <item>
       <title>Linux 备份打包文件时排除指定的扩展名</title>
       <link>https://blog.superen.xyz/post/2021/09/29/linux%E5%A4%87%E4%BB%BD%E6%89%93%E5%8C%85%E6%96%87%E4%BB%B6%E6%97%B6%E6%8E%92%E9%99%A4%E6%8C%87%E5%AE%9A%E7%9A%84%E6%89%A9%E5%B1%95%E5%90%8D.html</link>
