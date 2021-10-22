@@ -6,7 +6,16 @@
     <description>Recent content in Posts on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 18 Oct 2021 17:42:56 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Oct 2021 17:44:09 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beego框架RequestBody是空的</title>
+      <link>https://blog.superen.xyz/post/2021/10/22/beego%E6%A1%86%E6%9E%B6requestbody%E6%98%AF%E7%A9%BA%E7%9A%84.html</link>
+      <pubDate>Fri, 22 Oct 2021 17:44:09 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/10/22/beego%E6%A1%86%E6%9E%B6requestbody%E6%98%AF%E7%A9%BA%E7%9A%84.html</guid>
+      <description>beego使用的时候需要接收POST请求</description>
+    </item>
+    
     <item>
       <title>Ubuntu 20.04安装docker</title>
       <link>https://blog.superen.xyz/post/2021/10/18/ubuntu2004%E5%AE%89%E8%A3%85docker.html</link>
