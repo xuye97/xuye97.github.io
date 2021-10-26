@@ -6,7 +6,25 @@
     <description>Recent content in Categories on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 22 Oct 2021 17:44:09 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Oct 2021 13:33:17 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux</title>
+      <link>https://blog.superen.xyz/categories/linux.html</link>
+      <pubDate>Tue, 26 Oct 2021 13:33:17 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/categories/linux.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://blog.superen.xyz/categories/ubuntu.html</link>
+      <pubDate>Tue, 26 Oct 2021 13:33:17 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/categories/ubuntu.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>golang</title>
       <link>https://blog.superen.xyz/categories/golang.html</link>
@@ -22,15 +40,6 @@
       <pubDate>Mon, 18 Oct 2021 17:42:56 +0800</pubDate>
       
       <guid>https://blog.superen.xyz/categories/docker.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://blog.superen.xyz/categories/linux.html</link>
-      <pubDate>Mon, 18 Oct 2021 17:42:56 +0800</pubDate>
-      
-      <guid>https://blog.superen.xyz/categories/linux.html</guid>
       <description></description>
     </item>
     
@@ -58,15 +67,6 @@
       <pubDate>Sat, 07 Aug 2021 09:12:08 +0900</pubDate>
       
       <guid>https://blog.superen.xyz/categories/pip.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ubuntu</title>
-      <link>https://blog.superen.xyz/categories/ubuntu.html</link>
-      <pubDate>Sat, 17 Jul 2021 15:12:02 +0800</pubDate>
-      
-      <guid>https://blog.superen.xyz/categories/ubuntu.html</guid>
       <description></description>
     </item>
     
