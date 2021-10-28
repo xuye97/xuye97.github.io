@@ -1,5 +1,5 @@
 ---
-title: "Manjaro21报错 Cannot find the fakeroot binary"
+title: "Manjaro 21报错 Cannot find the fakeroot binary"
 date: 2021-10-28T09:42:31+08:00
 draft: false
 tags: ["linux","manjaro"]
