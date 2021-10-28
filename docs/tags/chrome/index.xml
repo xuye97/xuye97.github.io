@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chrome on en&#39;s blog</title>
+    <link>https://blog.superen.xyz/tags/chrome.html</link>
+    <description>Recent content in chrome on en&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 28 Oct 2021 09:42:31 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manjaro 21安装谷歌浏览器</title>
+      <link>https://blog.superen.xyz/post/2021/10/28/manjaro21%E5%AE%89%E8%A3%85%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8.html</link>
+      <pubDate>Thu, 28 Oct 2021 09:42:31 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/10/28/manjaro21%E5%AE%89%E8%A3%85%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8.html</guid>
+      <description>1. 安装AUR助手 sudo pacman -S yay 2. 安装谷歌浏览器</description>
+    </item>
+    
+  </channel>
+</rss>
