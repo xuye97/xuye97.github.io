@@ -6,6 +6,7 @@
     <description>Recent content in Tags on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
+<<<<<<< HEAD
     <lastBuildDate>Tue, 09 Nov 2021 10:26:51 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>git</title>
@@ -13,6 +14,24 @@
       <pubDate>Tue, 09 Nov 2021 10:26:51 +0800</pubDate>
       
       <guid>https://blog.superen.xyz/tags/git.html</guid>
+=======
+    <lastBuildDate>Sat, 30 Oct 2021 15:51:55 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>manjaro</title>
+      <link>https://blog.superen.xyz/tags/manjaro.html</link>
+      <pubDate>Sat, 30 Oct 2021 15:51:55 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/tags/manjaro.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>截图</title>
+      <link>https://blog.superen.xyz/tags/%E6%88%AA%E5%9B%BE.html</link>
+      <pubDate>Sat, 30 Oct 2021 15:51:55 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/tags/%E6%88%AA%E5%9B%BE.html</guid>
+>>>>>>> 8796793d4eb72ffda6e7ded9eb8324a6c9ab3236
       <description></description>
     </item>
     
@@ -31,15 +50,6 @@
       <pubDate>Thu, 28 Oct 2021 09:42:31 +0800</pubDate>
       
       <guid>https://blog.superen.xyz/tags/linux.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>manjaro</title>
-      <link>https://blog.superen.xyz/tags/manjaro.html</link>
-      <pubDate>Thu, 28 Oct 2021 09:42:31 +0800</pubDate>
-      
-      <guid>https://blog.superen.xyz/tags/manjaro.html</guid>
       <description></description>
     </item>
     
