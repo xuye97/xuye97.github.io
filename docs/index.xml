@@ -6,7 +6,6 @@
     <description>Recent content on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-<<<<<<< HEAD
     <lastBuildDate>Tue, 09 Nov 2021 10:26:51 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git撤销commit</title>
@@ -15,8 +14,8 @@
       
       <guid>https://blog.superen.xyz/post/2021/11/09/git%E6%92%A4%E9%94%80commit.html</guid>
       <description>执行commit发现提交了不该提交的想要</description>
-=======
-    <lastBuildDate>Sat, 30 Oct 2021 15:51:55 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/index.xml" rel="self" type="application/rss+xml" />
+    </item>
+    
     <item>
       <title>Manjaro使用深度截图</title>
       <link>https://blog.superen.xyz/post/2021/10/30/manjaro%E4%BD%BF%E7%94%A8%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE.html</link>
@@ -24,7 +23,6 @@
       
       <guid>https://blog.superen.xyz/post/2021/10/30/manjaro%E4%BD%BF%E7%94%A8%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE.html</guid>
       <description>1. 安装深度截图 sudo pacman -S deepin-screenshot 2.设置快捷键 系统</description>
->>>>>>> 8796793d4eb72ffda6e7ded9eb8324a6c9ab3236
     </item>
     
     <item>
