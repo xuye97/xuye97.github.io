@@ -6,7 +6,16 @@
     <description>Recent content in 实用工具 on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 10 Dec 2021 16:15:23 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Dec 2021 16:34:24 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acme操作</title>
+      <link>https://blog.superen.xyz/post/2021/12/10/acme%E6%93%8D%E4%BD%9C.html</link>
+      <pubDate>Fri, 10 Dec 2021 16:34:24 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/12/10/acme%E6%93%8D%E4%BD%9C.html</guid>
+      <description>更新acme.sh #更新 acme.sh --upgrade #自动更新 acme.sh</description>
+    </item>
+    
     <item>
       <title>使用acme.sh申请ZeroSSL泛域名证书</title>
       <link>https://blog.superen.xyz/post/2021/12/10/%E4%BD%BF%E7%94%A8acme.sh%E7%94%B3%E8%AF%B7zerossl%E6%B3%9B%E5%9F%9F%E5%90%8D%E8%AF%81%E4%B9%A6.html</link>
