@@ -4,7 +4,7 @@ date: 2021-04-22T16:44:36+08:00
 draft: false
 tags: ["证书","acme"]
 isCJKLanguage: true
-categories: ["默认分类"]
+categories: ["实用工具"]
 toc: true
 ---
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ZeroSSL on en&#39;s blog</title>
+    <link>https://blog.superen.xyz/tags/zerossl.html</link>
+    <description>Recent content in ZeroSSL on en&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 10 Dec 2021 16:15:23 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/zerossl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用acme.sh申请ZeroSSL泛域名证书</title>
+      <link>https://blog.superen.xyz/post/2021/12/10/%E4%BD%BF%E7%94%A8acme.sh%E7%94%B3%E8%AF%B7zerossl%E6%B3%9B%E5%9F%9F%E5%90%8D%E8%AF%81%E4%B9%A6.html</link>
+      <pubDate>Fri, 10 Dec 2021 16:15:23 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/12/10/%E4%BD%BF%E7%94%A8acme.sh%E7%94%B3%E8%AF%B7zerossl%E6%B3%9B%E5%9F%9F%E5%90%8D%E8%AF%81%E4%B9%A6.html</guid>
+      <description>安装acme.sh curl https://get.acme.sh | sh #查看acme</description>
+    </item>
+    
+  </channel>
+</rss>
