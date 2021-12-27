@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+
+    <title>Supervisor安装和使用 | en&#39;s blog</title>
+    <meta property="og:title" content="Supervisor安装和使用 - en&#39;s blog">
+    <meta property="og:type" content="article">
+        
+    <meta property="article:published_time" content='2021-12-27T17:17:44&#43;08:00'>
+        
+        
+    <meta property="article:modified_time" content='2021-12-27T17:17:44&#43;08:00'>
+        
+    <meta name="Keywords" content="">
+    <meta name="description" content="Supervisor安装和使用">
+        
+    <meta name="author" content="enenen">
+    <meta property="og:url" content="https://blog.superen.xyz/post/2021/12/27/supervisor%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8.html">
+    <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
+
+    <link rel="stylesheet" href='/css/normalize.css'>
+    <link rel="stylesheet" href='/css/style.css'>
+    <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    
+    
+    
+        <link href="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
+    
+    
+    
+    
+</head>
+
+
+<body>
+    <header id="header" class="clearfix">
+    <div class="container">
+        <div class="col-group">
+            <div class="site-name ">
+                
+                    <a id="logo" href="https://blog.superen.xyz/">
+                        en&#39;s blog
+                    </a>
+                
+                <p class="description">只有魔法才能打败魔法</p>
+            </div>
+            <div>
+                <nav id="nav-menu" class="clearfix">
+                    <a class="current" href="https://blog.superen.xyz/">首页</a>
+                    
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
+
+                <div class="col-8" id="main">
+                    
+<div class="res-cons">
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">Supervisor安装和使用</h1>
+        </header>
+        <date class="post-meta meta-date">
+            2021年12月27日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7'>实用工具</a></span>
+            
+            <span class="meta-category"><a href='/categories/python'>python</a></span>
+            
+        </div>
+        
+        
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
+                    阅读</span></span>
+        </div>
+        
+        
+        <div class="post-content">
+            <h2 id="一安装">一、安装</h2>
+<ol>
+<li>
+<p>安装</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pip install supervisor
+</code></pre></div></li>
+<li>
+<p>测试supervisor安装是否成功</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">echo_supervisord_conf
+</code></pre></div></li>
+<li>
+<p>卸载</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pip uninstall supervisor
+</code></pre></div></li>
+</ol>
+<h2 id="二配置">二、配置</h2>
+<ol>
+<li>
+<p>生成配置文件</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">mkdir /etc/supervisor
+echo_supervisord_conf &gt; /etc/supervisor/supervisord.conf
+</code></pre></div></li>
+<li>
+<p>启动程序</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">supervisord -c /etc/supervisor/supervisord.conf
+</code></pre></div></li>
+</ol>
+<h2 id="三配置开机自启">三、配置开机自启</h2>
+<ol>
+<li>
+<p>在 /usr/lib/systemd/system/ 目录下面新建文件supervisord.service，并写入如下内容：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#f92672">[</span>Unit<span style="color:#f92672">]</span>
+Description<span style="color:#f92672">=</span>Process Monitoring and Control Daemon<span style="color:#f92672">(</span>Supervisor daemon<span style="color:#f92672">)</span>
+After<span style="color:#f92672">=</span>rc-local.service nss-user-lookup.target
+
+<span style="color:#f92672">[</span>Service<span style="color:#f92672">]</span>
+Type<span style="color:#f92672">=</span>forking
+ExecStart<span style="color:#f92672">=</span>/usr/bin/supervisord -c /etc/supervisor/supervisord.conf
+ExecStop<span style="color:#f92672">=</span>/usr/bin/supervisord shutdown
+ExecReload<span style="color:#f92672">=</span>/usr/bin/supervisord reload
+killMode<span style="color:#f92672">=</span>process
+Restart<span style="color:#f92672">=</span>on-failure
+RestartSec<span style="color:#f92672">=</span>42s
+
+<span style="color:#f92672">[</span>Install<span style="color:#f92672">]</span>
+WantedBy<span style="color:#f92672">=</span>multi-user.target
+</code></pre></div></li>
+<li>
+<p>启动服务</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">systemctl enable supervisord
+</code></pre></div></li>
+<li>
+<p>检查是否自启</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">systemctl is-enabled supervisord
+</code></pre></div></li>
+</ol>
+<h2 id="四web管理页面">四、WEB管理页面</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vi /etc/supervisor/supervisord.conf
+<span style="color:#75715e">#修改下面的配置，去掉前面的分号，如果没有可以自己添加</span>
+<span style="color:#f92672">[</span>inet_http_server<span style="color:#f92672">]</span>             <span style="color:#75715e"># inet (TCP) server disabled by default</span>
+port<span style="color:#f92672">=</span>0.0.0.0:9001              <span style="color:#75715e"># ip_address:port specifier, *:port for all iface</span>
+username<span style="color:#f92672">=</span>user                  <span style="color:#75715e"># default is no username (open server)</span>
+password<span style="color:#f92672">=</span><span style="color:#ae81ff">123</span>                   <span style="color:#75715e"># default is no password (open server)</span>
+
+<span style="color:#75715e">#重新载入配置文件</span>
+supervisorctl reload
+</code></pre></div><h2 id="五添加任务">五、添加任务</h2>
+<ol>
+<li>
+<p>创建文件夹</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">mkdir /etc/supervisor/conf.d
+</code></pre></div></li>
+<li>
+<p>修改配置文件</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vi /etc/supervisor/supervisord.conf
+<span style="color:#75715e">#将下面配置前面的分号去掉</span>
+<span style="color:#f92672">[</span>include<span style="color:#f92672">]</span>
+files <span style="color:#f92672">=</span> /etc/supervisor/conf.d/*.conf
+</code></pre></div></li>
+<li>
+<p>创建任务配置文件</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vi /etc/supervisor/conf.d/文件名.conf
+<span style="color:#75715e">#添加文件内容</span>
+<span style="color:#f92672">[</span>program:test001<span style="color:#f92672">]</span> ;冒号后面是项目名
+directory <span style="color:#f92672">=</span> /root/crons/ ; 程序的启动目录
+command <span style="color:#f92672">=</span> python test001.py  ; 启动命令，与手动在命令行启动的命令是一样
+autostart <span style="color:#f92672">=</span> true     ; 在 supervisord 启动的时候同时启动
+startsecs <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>        ; 启动 <span style="color:#ae81ff">5</span> 秒后没有异常退出，就当作已经正常启动了
+autorestart <span style="color:#f92672">=</span> true   ; 程序异常退出后自动重启
+startretries <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>     ; 启动失败自动重试次数，默认是 <span style="color:#ae81ff">3</span>
+user <span style="color:#f92672">=</span> root          ; 用哪个用户启动
+redirect_stderr <span style="color:#f92672">=</span> true  ; 把 stderr 重定向到 stdout，默认 false
+stdout_logfile_maxbytes <span style="color:#f92672">=</span> 100MB  ; stdout 日志文件大小，默认 50MB
+stdout_logfile_backups <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>     ; stdout 日志文件备份数
+; stdout 日志文件，需要注意当指定目录不存在时无法正常启动，所以需要手动创建目录（supervisord 会自动创建日志文件）
+stdout_logfile <span style="color:#f92672">=</span> /var/log/supervisor/supervisor.log
+loglevel<span style="color:#f92672">=</span>debug
+</code></pre></div></li>
+<li>
+<p>重新加载配置生效</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">supervisorctl reload
+</code></pre></div></li>
+</ol>
+<h2 id="六命令">六、命令</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">supervisorctl status		<span style="color:#75715e">#当前运行状态</span>
+supervisorctl stop 项目名	  <span style="color:#75715e">#停止任务</span>
+supervisorctl start 项目名	  <span style="color:#75715e">#开始任务</span>
+supervisorctl restart 项目名 <span style="color:#75715e">#重启任务</span>
+supervisorctl reload		<span style="color:#75715e">#重新加载</span>
+supervisorctl update 		<span style="color:#75715e">#更新配置</span>
+</code></pre></div>
+        </div>
+
+        
+
+
+        
+
+<div class="post-archive">
+    <h2>See Also</h2>
+    <ul class="listing">
+        
+        <li><a href="/post/2021/06/11/centos%E5%AE%89%E8%A3%85python3.html">Centos安装python3</a></li>
+        
+    </ul>
+</div>
+
+
+        <div class="post-meta meta-tags">
+            
+            <ul class="clearfix">
+                
+                <li><a href='/tags/supervisor'>supervisor</a></li>
+                
+                <li><a href='/tags/python'>python</a></li>
+                
+            </ul>
+            
+        </div>
+    </article>
+    
+    
+
+    
+    
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xuyien97/xuyien97.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+    
+</div>
+
+                    <footer id="footer">
+    <div>
+        &copy; 2021 <a href="https://blog.superen.xyz/">en&#39;s blog By enenen</a>
+        
+    </div>
+    <br />
+    <div>
+        <div class="github-badge">
+            <a href="https://gohugo.io/" target="_black" rel="nofollow"><span class="badge-subject">Powered by</span><span class="badge-value bg-blue">Hugo</span></a>
+        </div>
+        <div class="github-badge">
+           
+        </div>
+        <div class="github-badge">
+            <a href="https://github.com/flysnow-org/maupassant-hugo" target="_black"><span class="badge-subject">Theme</span><span class="badge-value bg-yellowgreen">Maupassant</span></a>
+        </div>
+    </div>
+</footer>
+
+
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script><script src="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<a id="rocket" href="#top"></a>
+<script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
+
+
+
+    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+
+
+
+
+    <script src='/js/douban.js'></script>
+
+                </div>
+
+                <div id="secondary">
+    <section class="widget">
+        <form id="search" action='https://blog.superen.xyz/search' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+      
+      <input type="text" name="q" maxlength="20" placeholder="Search">
+      <input type="hidden" name="sitesearch" value="https://blog.superen.xyz/">
+      <button type="submit" class="submit icon-search"></button>
+</form>
+    </section>
+    
+    <section class="widget">
+        <h3 class="widget-title">最近文章</h3>
+<ul class="widget-list">
+    
+    <li>
+        <a href="https://blog.superen.xyz/post/2021/12/27/supervisor%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8.html" title="Supervisor安装和使用">Supervisor安装和使用</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.superen.xyz/post/2021/12/14/nginx%E9%85%8D%E7%BD%AEhttps.html" title="Nginx配置HTTPS">Nginx配置HTTPS</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.superen.xyz/post/2021/12/10/acme%E6%93%8D%E4%BD%9C.html" title="Acme操作">Acme操作</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.superen.xyz/post/2021/12/10/%E4%BD%BF%E7%94%A8acme.sh%E7%94%B3%E8%AF%B7zerossl%E6%B3%9B%E5%9F%9F%E5%90%8D%E8%AF%81%E4%B9%A6.html" title="使用acme.sh申请ZeroSSL泛域名证书">使用acme.sh申请ZeroSSL泛域名证书</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.superen.xyz/post/2021/11/09/git%E6%92%A4%E9%94%80commit.html" title="Git撤销commit">Git撤销commit</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.superen.xyz/post/2021/10/30/manjaro%E4%BD%BF%E7%94%A8%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE.html" title="Manjaro使用深度截图">Manjaro使用深度截图</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.superen.xyz/post/2021/10/28/manjaro21%E5%AE%89%E8%A3%85%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8.html" title="Manjaro 21安装谷歌浏览器">Manjaro 21安装谷歌浏览器</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.superen.xyz/post/2021/10/28/manjaro21%E9%81%87%E5%88%B0cannotfindthefakerootbinary%E9%94%99%E8%AF%AF.html" title="Manjaro 21报错 Cannot find the fakeroot binary">Manjaro 21报错 Cannot find the fakeroot binary</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.superen.xyz/post/2021/10/27/vmware%E6%8F%90%E7%A4%BA%E6%AD%A4%E4%B8%BB%E6%9C%BA%E4%B8%8D%E6%94%AF%E6%8C%8164%E4%BD%8D%E5%AE%A2%E6%88%B7%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%AD%A4%E7%B3%BB%E7%BB%9F%E6%97%A0%E6%B3%95%E8%BF%90%E8%A1%8C.html" title="Vmware提示此主机不支持64位客户机操作系统，此系统无法运行">Vmware提示此主机不支持64位客户机操作系统，此系统无法运行</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.superen.xyz/post/2021/10/26/ubuntu%E8%AE%BE%E7%BD%AEapt%E4%BB%A3%E7%90%86.html" title="Ubuntu设置apt代理">Ubuntu设置apt代理</a>
+    </li>
+    
+</ul>
+    </section>
+
+    
+
+    <section class="widget">
+        <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
+<ul class="widget-list">
+    
+    <li><a href="https://blog.superen.xyz/categories/centos.html">centos (5)</a></li>
+    
+    <li><a href="https://blog.superen.xyz/categories/docker.html">docker (4)</a></li>
+    
+    <li><a href="https://blog.superen.xyz/categories/dsm.html">dsm (1)</a></li>
+    
+    <li><a href="https://blog.superen.xyz/categories/git.html">git (3)</a></li>
+    
+    <li><a href="https://blog.superen.xyz/categories/golang.html">golang (5)</a></li>
+    
+    <li><a href="https://blog.superen.xyz/categories/linux.html">linux (18)</a></li>
+    
+    <li><a href="https://blog.superen.xyz/categories/manjaro.html">manjaro (3)</a></li>
+    
+    <li><a href="https://blog.superen.xyz/categories/n1.html">n1 (3)</a></li>
+    
+    <li><a href="https://blog.superen.xyz/categories/pip.html">pip (1)</a></li>
+    
+    <li><a href="https://blog.superen.xyz/categories/postgres.html">postgres (4)</a></li>
+    
+    <li><a href="https://blog.superen.xyz/categories/python.html">python (1)</a></li>
+    
+    <li><a href="https://blog.superen.xyz/categories/ssh.html">ssh (2)</a></li>
+    
+    <li><a href="https://blog.superen.xyz/categories/ubuntu.html">ubuntu (11)</a></li>
+    
+    <li><a href="https://blog.superen.xyz/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html">实用工具 (5)</a></li>
+    
+    <li><a href="https://blog.superen.xyz/categories/%E7%BE%A4%E6%99%96.html">群晖 (1)</a></li>
+    
+    <li><a href="https://blog.superen.xyz/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html">错误处理 (8)</a></li>
+    
+    <li><a href="https://blog.superen.xyz/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB.html">默认分类 (2)</a></li>
+    
+</ul>
+    </section>
+
+    <section class="widget">
+        <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
+<div class="tagcloud">
+    
+    <a href="https://blog.superen.xyz/tags/acme.html">acme</a>
+    
+    <a href="https://blog.superen.xyz/tags/apt.html">apt</a>
+    
+    <a href="https://blog.superen.xyz/tags/armbian.html">armbian</a>
+    
+    <a href="https://blog.superen.xyz/tags/beego.html">beego</a>
+    
+    <a href="https://blog.superen.xyz/tags/centos.html">centos</a>
+    
+    <a href="https://blog.superen.xyz/tags/centos8.html">centos8</a>
+    
+    <a href="https://blog.superen.xyz/tags/chrome.html">chrome</a>
+    
+    <a href="https://blog.superen.xyz/tags/curl.html">curl</a>
+    
+    <a href="https://blog.superen.xyz/tags/dnf.html">dnf</a>
+    
+    <a href="https://blog.superen.xyz/tags/docker.html">docker</a>
+    
+    <a href="https://blog.superen.xyz/tags/dpi.html">dpi</a>
+    
+    <a href="https://blog.superen.xyz/tags/dsm.html">dsm</a>
+    
+    <a href="https://blog.superen.xyz/tags/firewalld.html">firewalld</a>
+    
+    <a href="https://blog.superen.xyz/tags/gcc.html">gcc</a>
+    
+    <a href="https://blog.superen.xyz/tags/git.html">git</a>
+    
+    <a href="https://blog.superen.xyz/tags/goland.html">goland</a>
+    
+    <a href="https://blog.superen.xyz/tags/golang.html">golang</a>
+    
+    <a href="https://blog.superen.xyz/tags/https.html">https</a>
+    
+    <a href="https://blog.superen.xyz/tags/linux.html">linux</a>
+    
+    <a href="https://blog.superen.xyz/tags/manjaro.html">manjaro</a>
+    
+    <a href="https://blog.superen.xyz/tags/mx-master-3.html">mx master 3</a>
+    
+    <a href="https://blog.superen.xyz/tags/n1.html">n1</a>
+    
+    <a href="https://blog.superen.xyz/tags/nginx.html">nginx</a>
+    
+    <a href="https://blog.superen.xyz/tags/pip.html">pip</a>
+    
+    <a href="https://blog.superen.xyz/tags/postgres.html">postgres</a>
+    
+    <a href="https://blog.superen.xyz/tags/python.html">python</a>
+    
+    <a href="https://blog.superen.xyz/tags/qp.html">qp</a>
+    
+    <a href="https://blog.superen.xyz/tags/quoted-printable.html">quoted-printable</a>
+    
+    <a href="https://blog.superen.xyz/tags/ssh.html">ssh</a>
+    
+    <a href="https://blog.superen.xyz/tags/supervisor.html">supervisor</a>
+    
+    <a href="https://blog.superen.xyz/tags/tar.html">tar</a>
+    
+    <a href="https://blog.superen.xyz/tags/tmd.html">tmd</a>
+    
+    <a href="https://blog.superen.xyz/tags/typora.html">typora</a>
+    
+    <a href="https://blog.superen.xyz/tags/ubuntu.html">ubuntu</a>
+    
+    <a href="https://blog.superen.xyz/tags/vmware.html">vmware</a>
+    
+    <a href="https://blog.superen.xyz/tags/win10.html">win10</a>
+    
+    <a href="https://blog.superen.xyz/tags/zerossl.html">ZeroSSL</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E4%BB%A3%E7%90%86.html">代理</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E5%85%AC%E7%BD%91ip.html">公网IP</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E5%88%AE%E5%89%8A%E5%99%A8.html">刮削器</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E5%8F%8C%E7%B3%BB%E7%BB%9F.html">双系统</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E5%9B%BE%E6%A0%87.html">图标</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E5%9B%BE%E7%89%87.html">图片</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E6%85%A2%E6%97%A5%E5%BF%97.html">慢日志</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E6%88%AA%E5%9B%BE.html">截图</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E6%89%93%E5%8C%85.html">打包</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95.html">提交记录</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html">搜狗输入法</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E6%95%91%E7%A0%96.html">救砖</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E6%97%B6%E5%8C%BA.html">时区</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E6%97%B6%E9%97%B4.html">时间</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E7%83%AD%E9%94%AE%E7%BB%91%E5%AE%9A.html">热键绑定</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E9%94%AE%E7%9B%98.html">笔记本键盘</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html">网络错误</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E7%BE%A4%E6%99%96.html">群晖</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E8%AF%81%E4%B9%A6.html">证书</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E8%B4%A6%E6%88%B7.html">账户</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E9%98%B2%E7%81%AB%E5%A2%99.html">防火墙</a>
+    
+    <a href="https://blog.superen.xyz/tags/%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80.html">静态地址</a>
+    
+</div>
+    </section>
+
+    
+
+    <section class="widget">
+        <h3 class="widget-title">其它</h3>
+        <ul class="widget-list">
+            <li><a href="https://blog.superen.xyz/index.xml">文章 RSS</a></li>
+        </ul>
+    </section>
+</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

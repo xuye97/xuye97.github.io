@@ -6,7 +6,25 @@
     <description>Recent content in Tags on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 14 Dec 2021 14:11:41 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Dec 2021 17:17:44 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python</title>
+      <link>https://blog.superen.xyz/tags/python.html</link>
+      <pubDate>Mon, 27 Dec 2021 17:17:44 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/tags/python.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>supervisor</title>
+      <link>https://blog.superen.xyz/tags/supervisor.html</link>
+      <pubDate>Mon, 27 Dec 2021 17:17:44 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/tags/supervisor.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>https</title>
       <link>https://blog.superen.xyz/tags/https.html</link>
@@ -301,15 +319,6 @@
       <pubDate>Sat, 19 Jun 2021 15:01:36 +0800</pubDate>
       
       <guid>https://blog.superen.xyz/tags/quoted-printable.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://blog.superen.xyz/tags/python.html</link>
-      <pubDate>Fri, 11 Jun 2021 16:43:18 +0800</pubDate>
-      
-      <guid>https://blog.superen.xyz/tags/python.html</guid>
       <description></description>
     </item>
     

@@ -6,11 +6,20 @@
     <description>Recent content in Categories on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 14 Dec 2021 14:11:41 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Dec 2021 17:17:44 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python</title>
+      <link>https://blog.superen.xyz/categories/python.html</link>
+      <pubDate>Mon, 27 Dec 2021 17:17:44 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/categories/python.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>实用工具</title>
       <link>https://blog.superen.xyz/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html</link>
-      <pubDate>Tue, 14 Dec 2021 14:11:41 +0800</pubDate>
+      <pubDate>Mon, 27 Dec 2021 17:17:44 +0800</pubDate>
       
       <guid>https://blog.superen.xyz/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html</guid>
       <description></description>
