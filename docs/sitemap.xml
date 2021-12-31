@@ -3,13 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.superen.xyz/categories.html</loc>
-    <lastmod>2021-12-27T17:17:44+08:00</lastmod>
+    <lastmod>2021-12-31T11:30:31+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/</loc>
-    <lastmod>2021-12-27T17:17:44+08:00</lastmod>
+    <lastmod>2021-12-31T11:30:31+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.superen.xyz/categories/linux.html</loc>
+    <lastmod>2021-12-31T11:30:31+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.superen.xyz/tags/oracle.html</loc>
+    <lastmod>2021-12-31T11:30:31+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.superen.xyz/post/2021/12/31/oraclecloud%E7%94%B2%E9%AA%A8%E6%96%87%E5%85%8D%E8%B4%B9vps%E6%A2%AF%E5%AD%90%E9%98%B2%E7%81%AB%E5%A2%99%E8%AE%BE%E7%BD%AE.html</loc>
+    <lastmod>2021-12-31T11:30:31+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/post.html</loc>
-    <lastmod>2021-12-27T17:17:44+08:00</lastmod>
+    <lastmod>2021-12-31T11:30:31+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.superen.xyz/tags.html</loc>
+    <lastmod>2021-12-31T11:30:31+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.superen.xyz/tags/ubuntu.html</loc>
+    <lastmod>2021-12-31T11:30:31+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.superen.xyz/categories/ubuntu.html</loc>
+    <lastmod>2021-12-31T11:30:31+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.superen.xyz/tags/%E7%94%B2%E9%AA%A8%E6%96%87.html</loc>
+    <lastmod>2021-12-31T11:30:31+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/tags/python.html</loc>
     <lastmod>2021-12-27T17:17:44+08:00</lastmod>
@@ -21,9 +42,6 @@
     <lastmod>2021-12-27T17:17:44+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/post/2021/12/27/supervisor%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8.html</loc>
-    <lastmod>2021-12-27T17:17:44+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.superen.xyz/tags.html</loc>
     <lastmod>2021-12-27T17:17:44+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html</loc>
@@ -62,9 +80,6 @@
     <loc>https://blog.superen.xyz/post/2021/11/09/git%E6%92%A4%E9%94%80commit.html</loc>
     <lastmod>2021-11-09T10:26:51+08:00</lastmod>
   </url><url>
-    <loc>https://blog.superen.xyz/categories/linux.html</loc>
-    <lastmod>2021-10-30T15:51:55+08:00</lastmod>
-  </url><url>
     <loc>https://blog.superen.xyz/tags/manjaro.html</loc>
     <lastmod>2021-10-30T15:51:55+08:00</lastmod>
   </url><url>
@@ -99,12 +114,6 @@
     <lastmod>2021-10-27T14:00:55+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/tags/apt.html</loc>
-    <lastmod>2021-10-26T13:33:17+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.superen.xyz/tags/ubuntu.html</loc>
-    <lastmod>2021-10-26T13:33:17+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.superen.xyz/categories/ubuntu.html</loc>
     <lastmod>2021-10-26T13:33:17+08:00</lastmod>
   </url><url>
     <loc>https://blog.superen.xyz/post/2021/10/26/ubuntu%E8%AE%BE%E7%BD%AEapt%E4%BB%A3%E7%90%86.html</loc>

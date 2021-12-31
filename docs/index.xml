@@ -6,7 +6,16 @@
     <description>Recent content on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 27 Dec 2021 17:17:44 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Dec 2021 11:30:31 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oracle Cloud甲骨文免费VPS 梯子防火墙设置</title>
+      <link>https://blog.superen.xyz/post/2021/12/31/oraclecloud%E7%94%B2%E9%AA%A8%E6%96%87%E5%85%8D%E8%B4%B9vps%E6%A2%AF%E5%AD%90%E9%98%B2%E7%81%AB%E5%A2%99%E8%AE%BE%E7%BD%AE.html</link>
+      <pubDate>Fri, 31 Dec 2021 11:30:31 +0800</pubDate>
+      
+      <guid>https://blog.superen.xyz/post/2021/12/31/oraclecloud%E7%94%B2%E9%AA%A8%E6%96%87%E5%85%8D%E8%B4%B9vps%E6%A2%AF%E5%AD%90%E9%98%B2%E7%81%AB%E5%A2%99%E8%AE%BE%E7%BD%AE.html</guid>
+      <description>Oracle Cloud甲骨文免费VPS在创建vps</description>
+    </item>
+    
     <item>
       <title>Supervisor安装和使用</title>
       <link>https://blog.superen.xyz/post/2021/12/27/supervisor%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8.html</link>
