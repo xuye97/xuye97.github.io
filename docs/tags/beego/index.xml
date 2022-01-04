@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>beego on en&#39;s blog</title>
-    <link>https://blog.superen.xyz/tags/beego.html</link>
+    <link>https://blog.xyemy.com/tags/beego.html</link>
     <description>Recent content in beego on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 22 Oct 2021 17:44:09 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/tags/beego/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Oct 2021 17:44:09 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/beego/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Beego框架RequestBody是空的</title>
-      <link>https://blog.superen.xyz/post/2021/10/22/beego%E6%A1%86%E6%9E%B6requestbody%E6%98%AF%E7%A9%BA%E7%9A%84.html</link>
+      <link>https://blog.xyemy.com/post/2021/10/22/beego%E6%A1%86%E6%9E%B6requestbody%E6%98%AF%E7%A9%BA%E7%9A%84.html</link>
       <pubDate>Fri, 22 Oct 2021 17:44:09 +0800</pubDate>
       
-      <guid>https://blog.superen.xyz/post/2021/10/22/beego%E6%A1%86%E6%9E%B6requestbody%E6%98%AF%E7%A9%BA%E7%9A%84.html</guid>
+      <guid>https://blog.xyemy.com/post/2021/10/22/beego%E6%A1%86%E6%9E%B6requestbody%E6%98%AF%E7%A9%BA%E7%9A%84.html</guid>
       <description>beego使用的时候需要接收POST请求</description>
     </item>
     

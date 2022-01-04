@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>默认分类 on en&#39;s blog</title>
-    <link>https://blog.superen.xyz/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB.html</link>
+    <link>https://blog.xyemy.com/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB.html</link>
     <description>Recent content in 默认分类 on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 20 May 2021 16:11:14 +0800</lastBuildDate><atom:link href="https://blog.superen.xyz/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 May 2021 16:11:14 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>获取公网ip的url地址</title>
-      <link>https://blog.superen.xyz/post/2021/05/20/%E8%8E%B7%E5%8F%96%E5%85%AC%E7%BD%91ip%E7%9A%84url%E5%9C%B0%E5%9D%80.html</link>
+      <link>https://blog.xyemy.com/post/2021/05/20/%E8%8E%B7%E5%8F%96%E5%85%AC%E7%BD%91ip%E7%9A%84url%E5%9C%B0%E5%9D%80.html</link>
       <pubDate>Thu, 20 May 2021 16:11:14 +0800</pubDate>
       
-      <guid>https://blog.superen.xyz/post/2021/05/20/%E8%8E%B7%E5%8F%96%E5%85%AC%E7%BD%91ip%E7%9A%84url%E5%9C%B0%E5%9D%80.html</guid>
+      <guid>https://blog.xyemy.com/post/2021/05/20/%E8%8E%B7%E5%8F%96%E5%85%AC%E7%BD%91ip%E7%9A%84url%E5%9C%B0%E5%9D%80.html</guid>
       <description>获取公网ip地址 curl ip.42.pl/raw curl api.ip.sb/ip curl ip.3322.net curl ip.qaros.com curl ident.me curl api.ipify.org</description>
     </item>
     
     <item>
       <title>笔记本启用或禁用自带键盘</title>
-      <link>https://blog.superen.xyz/post/2021/04/09/%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%90%AF%E7%94%A8%E6%88%96%E7%A6%81%E7%94%A8%E8%87%AA%E5%B8%A6%E9%94%AE%E7%9B%98.html</link>
+      <link>https://blog.xyemy.com/post/2021/04/09/%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%90%AF%E7%94%A8%E6%88%96%E7%A6%81%E7%94%A8%E8%87%AA%E5%B8%A6%E9%94%AE%E7%9B%98.html</link>
       <pubDate>Fri, 09 Apr 2021 16:05:44 +0800</pubDate>
       
-      <guid>https://blog.superen.xyz/post/2021/04/09/%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%90%AF%E7%94%A8%E6%88%96%E7%A6%81%E7%94%A8%E8%87%AA%E5%B8%A6%E9%94%AE%E7%9B%98.html</guid>
+      <guid>https://blog.xyemy.com/post/2021/04/09/%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%90%AF%E7%94%A8%E6%88%96%E7%A6%81%E7%94%A8%E8%87%AA%E5%B8%A6%E9%94%AE%E7%9B%98.html</guid>
       <description>管理员权限 关闭自带键盘 sc config i8042prt start= disabled 开启自带</description>
     </item>
     
