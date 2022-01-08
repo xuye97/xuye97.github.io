@@ -6,7 +6,16 @@
     <description>Recent content in ubuntu on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 31 Dec 2021 11:30:31 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jan 2022 09:23:14 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arm Ubuntu2004安装docker</title>
+      <link>https://blog.xyemy.com/post/2022/01/08/arm-ubuntu2004%E5%AE%89%E8%A3%85docker.html</link>
+      <pubDate>Sat, 08 Jan 2022 09:23:14 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/01/08/arm-ubuntu2004%E5%AE%89%E8%A3%85docker.html</guid>
+      <description>删除旧版本 sudo apt-get remove docker docker-engine docker.io containerd runc 安装需要的包 sudo</description>
+    </item>
+    
     <item>
       <title>Oracle Cloud甲骨文免费VPS 梯子防火墙设置</title>
       <link>https://blog.xyemy.com/post/2021/12/31/oraclecloud%E7%94%B2%E9%AA%A8%E6%96%87%E5%85%8D%E8%B4%B9vps%E6%A2%AF%E5%AD%90%E9%98%B2%E7%81%AB%E5%A2%99%E8%AE%BE%E7%BD%AE.html</link>
