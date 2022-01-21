@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>笔记本键盘 on en&#39;s blog</title>
-    <link>https://blog.xyemy.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E9%94%AE%E7%9B%98.html</link>
+    <link>https://xyemy.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E9%94%AE%E7%9B%98.html</link>
     <description>Recent content in 笔记本键盘 on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 09 Apr 2021 16:05:44 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E9%94%AE%E7%9B%98/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Apr 2021 16:05:44 +0800</lastBuildDate><atom:link href="https://xyemy.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E9%94%AE%E7%9B%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>笔记本启用或禁用自带键盘</title>
-      <link>https://blog.xyemy.com/post/2021/04/09/%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%90%AF%E7%94%A8%E6%88%96%E7%A6%81%E7%94%A8%E8%87%AA%E5%B8%A6%E9%94%AE%E7%9B%98.html</link>
+      <link>https://xyemy.com/post/2021/04/09/%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%90%AF%E7%94%A8%E6%88%96%E7%A6%81%E7%94%A8%E8%87%AA%E5%B8%A6%E9%94%AE%E7%9B%98.html</link>
       <pubDate>Fri, 09 Apr 2021 16:05:44 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/04/09/%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%90%AF%E7%94%A8%E6%88%96%E7%A6%81%E7%94%A8%E8%87%AA%E5%B8%A6%E9%94%AE%E7%9B%98.html</guid>
+      <guid>https://xyemy.com/post/2021/04/09/%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%90%AF%E7%94%A8%E6%88%96%E7%A6%81%E7%94%A8%E8%87%AA%E5%B8%A6%E9%94%AE%E7%9B%98.html</guid>
       <description>管理员权限 关闭自带键盘 sc config i8042prt start= disabled 开启自带</description>
     </item>
     

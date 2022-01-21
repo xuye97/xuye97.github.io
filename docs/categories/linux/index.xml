@@ -2,179 +2,179 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on en&#39;s blog</title>
-    <link>https://blog.xyemy.com/categories/linux.html</link>
+    <link>https://xyemy.com/categories/linux.html</link>
     <description>Recent content in linux on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 31 Dec 2021 11:30:31 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Dec 2021 11:30:31 +0800</lastBuildDate><atom:link href="https://xyemy.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Oracle Cloud甲骨文免费VPS 梯子防火墙设置</title>
-      <link>https://blog.xyemy.com/post/2021/12/31/oraclecloud%E7%94%B2%E9%AA%A8%E6%96%87%E5%85%8D%E8%B4%B9vps%E6%A2%AF%E5%AD%90%E9%98%B2%E7%81%AB%E5%A2%99%E8%AE%BE%E7%BD%AE.html</link>
+      <link>https://xyemy.com/post/2021/12/31/oraclecloud%E7%94%B2%E9%AA%A8%E6%96%87%E5%85%8D%E8%B4%B9vps%E6%A2%AF%E5%AD%90%E9%98%B2%E7%81%AB%E5%A2%99%E8%AE%BE%E7%BD%AE.html</link>
       <pubDate>Fri, 31 Dec 2021 11:30:31 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/12/31/oraclecloud%E7%94%B2%E9%AA%A8%E6%96%87%E5%85%8D%E8%B4%B9vps%E6%A2%AF%E5%AD%90%E9%98%B2%E7%81%AB%E5%A2%99%E8%AE%BE%E7%BD%AE.html</guid>
+      <guid>https://xyemy.com/post/2021/12/31/oraclecloud%E7%94%B2%E9%AA%A8%E6%96%87%E5%85%8D%E8%B4%B9vps%E6%A2%AF%E5%AD%90%E9%98%B2%E7%81%AB%E5%A2%99%E8%AE%BE%E7%BD%AE.html</guid>
       <description>Oracle Cloud甲骨文免费VPS在创建vps</description>
     </item>
     
     <item>
       <title>Manjaro使用深度截图</title>
-      <link>https://blog.xyemy.com/post/2021/10/30/manjaro%E4%BD%BF%E7%94%A8%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE.html</link>
+      <link>https://xyemy.com/post/2021/10/30/manjaro%E4%BD%BF%E7%94%A8%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE.html</link>
       <pubDate>Sat, 30 Oct 2021 15:51:55 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/10/30/manjaro%E4%BD%BF%E7%94%A8%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE.html</guid>
+      <guid>https://xyemy.com/post/2021/10/30/manjaro%E4%BD%BF%E7%94%A8%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE.html</guid>
       <description>1. 安装深度截图 sudo pacman -S deepin-screenshot 2.设置快捷键 系统</description>
     </item>
     
     <item>
       <title>Manjaro 21安装谷歌浏览器</title>
-      <link>https://blog.xyemy.com/post/2021/10/28/manjaro21%E5%AE%89%E8%A3%85%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8.html</link>
+      <link>https://xyemy.com/post/2021/10/28/manjaro21%E5%AE%89%E8%A3%85%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8.html</link>
       <pubDate>Thu, 28 Oct 2021 09:42:31 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/10/28/manjaro21%E5%AE%89%E8%A3%85%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8.html</guid>
+      <guid>https://xyemy.com/post/2021/10/28/manjaro21%E5%AE%89%E8%A3%85%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8.html</guid>
       <description>1. 安装AUR助手 sudo pacman -S yay 2. 安装谷歌浏览器</description>
     </item>
     
     <item>
       <title>Manjaro 21报错 Cannot find the fakeroot binary</title>
-      <link>https://blog.xyemy.com/post/2021/10/28/manjaro21%E9%81%87%E5%88%B0cannotfindthefakerootbinary%E9%94%99%E8%AF%AF.html</link>
+      <link>https://xyemy.com/post/2021/10/28/manjaro21%E9%81%87%E5%88%B0cannotfindthefakerootbinary%E9%94%99%E8%AF%AF.html</link>
       <pubDate>Thu, 28 Oct 2021 09:42:31 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/10/28/manjaro21%E9%81%87%E5%88%B0cannotfindthefakerootbinary%E9%94%99%E8%AF%AF.html</guid>
+      <guid>https://xyemy.com/post/2021/10/28/manjaro21%E9%81%87%E5%88%B0cannotfindthefakerootbinary%E9%94%99%E8%AF%AF.html</guid>
       <description>原因： 因为没安装 fakeroot、bin</description>
     </item>
     
     <item>
       <title>Ubuntu设置apt代理</title>
-      <link>https://blog.xyemy.com/post/2021/10/26/ubuntu%E8%AE%BE%E7%BD%AEapt%E4%BB%A3%E7%90%86.html</link>
+      <link>https://xyemy.com/post/2021/10/26/ubuntu%E8%AE%BE%E7%BD%AEapt%E4%BB%A3%E7%90%86.html</link>
       <pubDate>Tue, 26 Oct 2021 13:33:17 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/10/26/ubuntu%E8%AE%BE%E7%BD%AEapt%E4%BB%A3%E7%90%86.html</guid>
+      <guid>https://xyemy.com/post/2021/10/26/ubuntu%E8%AE%BE%E7%BD%AEapt%E4%BB%A3%E7%90%86.html</guid>
       <description>1. 临时使用（推荐） #在apt后加 -o ，没有</description>
     </item>
     
     <item>
       <title>Ubuntu 20.04安装docker</title>
-      <link>https://blog.xyemy.com/post/2021/10/18/ubuntu2004%E5%AE%89%E8%A3%85docker.html</link>
+      <link>https://xyemy.com/post/2021/10/18/ubuntu2004%E5%AE%89%E8%A3%85docker.html</link>
       <pubDate>Mon, 18 Oct 2021 17:42:56 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/10/18/ubuntu2004%E5%AE%89%E8%A3%85docker.html</guid>
+      <guid>https://xyemy.com/post/2021/10/18/ubuntu2004%E5%AE%89%E8%A3%85docker.html</guid>
       <description>1. 安装Docker和docker-com</description>
     </item>
     
     <item>
       <title>Linux 备份打包文件时排除指定的扩展名</title>
-      <link>https://blog.xyemy.com/post/2021/09/29/linux%E5%A4%87%E4%BB%BD%E6%89%93%E5%8C%85%E6%96%87%E4%BB%B6%E6%97%B6%E6%8E%92%E9%99%A4%E6%8C%87%E5%AE%9A%E7%9A%84%E6%89%A9%E5%B1%95%E5%90%8D.html</link>
+      <link>https://xyemy.com/post/2021/09/29/linux%E5%A4%87%E4%BB%BD%E6%89%93%E5%8C%85%E6%96%87%E4%BB%B6%E6%97%B6%E6%8E%92%E9%99%A4%E6%8C%87%E5%AE%9A%E7%9A%84%E6%89%A9%E5%B1%95%E5%90%8D.html</link>
       <pubDate>Wed, 29 Sep 2021 13:33:45 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/09/29/linux%E5%A4%87%E4%BB%BD%E6%89%93%E5%8C%85%E6%96%87%E4%BB%B6%E6%97%B6%E6%8E%92%E9%99%A4%E6%8C%87%E5%AE%9A%E7%9A%84%E6%89%A9%E5%B1%95%E5%90%8D.html</guid>
+      <guid>https://xyemy.com/post/2021/09/29/linux%E5%A4%87%E4%BB%BD%E6%89%93%E5%8C%85%E6%96%87%E4%BB%B6%E6%97%B6%E6%8E%92%E9%99%A4%E6%8C%87%E5%AE%9A%E7%9A%84%E6%89%A9%E5%B1%95%E5%90%8D.html</guid>
       <description>忽略少量扩展名 tar -zcvf app.tar.gz --exclude *.log /app/ #忽略扩展名为</description>
     </item>
     
     <item>
       <title>Ubuntu2004安装搜狗输入法</title>
-      <link>https://blog.xyemy.com/post/2021/07/15/ubuntu2004%E5%AE%89%E8%A3%85%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html</link>
+      <link>https://xyemy.com/post/2021/07/15/ubuntu2004%E5%AE%89%E8%A3%85%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html</link>
       <pubDate>Thu, 15 Jul 2021 11:18:08 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/07/15/ubuntu2004%E5%AE%89%E8%A3%85%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html</guid>
+      <guid>https://xyemy.com/post/2021/07/15/ubuntu2004%E5%AE%89%E8%A3%85%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html</guid>
       <description>官方网址 https://pinyin.sogou.com/linux/help.php</description>
     </item>
     
     <item>
       <title>linux 搜狗输入法 隐藏状态栏</title>
-      <link>https://blog.xyemy.com/post/2021/07/15/linux-%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95-%E9%9A%90%E8%97%8F%E7%8A%B6%E6%80%81%E6%A0%8F.html</link>
+      <link>https://xyemy.com/post/2021/07/15/linux-%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95-%E9%9A%90%E8%97%8F%E7%8A%B6%E6%80%81%E6%A0%8F.html</link>
       <pubDate>Thu, 15 Jul 2021 11:25:08 +0900</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/07/15/linux-%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95-%E9%9A%90%E8%97%8F%E7%8A%B6%E6%80%81%E6%A0%8F.html</guid>
+      <guid>https://xyemy.com/post/2021/07/15/linux-%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95-%E9%9A%90%E8%97%8F%E7%8A%B6%E6%80%81%E6%A0%8F.html</guid>
       <description>linux 搜狗输入法 隐藏状态栏 解决方案 修改搜狗拼</description>
     </item>
     
     <item>
       <title>禁用搜狗输入法Linux版的简繁切换快捷键</title>
-      <link>https://blog.xyemy.com/post/2021/07/15/%E7%A6%81%E7%94%A8%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95linux%E7%89%88%E7%9A%84%E7%AE%80%E7%B9%81%E5%88%87%E6%8D%A2%E5%BF%AB%E6%8D%B7%E9%94%AE.html</link>
+      <link>https://xyemy.com/post/2021/07/15/%E7%A6%81%E7%94%A8%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95linux%E7%89%88%E7%9A%84%E7%AE%80%E7%B9%81%E5%88%87%E6%8D%A2%E5%BF%AB%E6%8D%B7%E9%94%AE.html</link>
       <pubDate>Thu, 15 Jul 2021 11:22:08 +0900</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/07/15/%E7%A6%81%E7%94%A8%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95linux%E7%89%88%E7%9A%84%E7%AE%80%E7%B9%81%E5%88%87%E6%8D%A2%E5%BF%AB%E6%8D%B7%E9%94%AE.html</guid>
+      <guid>https://xyemy.com/post/2021/07/15/%E7%A6%81%E7%94%A8%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95linux%E7%89%88%E7%9A%84%E7%AE%80%E7%B9%81%E5%88%87%E6%8D%A2%E5%BF%AB%E6%8D%B7%E9%94%AE.html</guid>
       <description>禁用搜狗输入法Linux版的简繁切换快捷</description>
     </item>
     
     <item>
       <title>使用JetBrain全家桶搜狗输入法不跟随光标问题</title>
-      <link>https://blog.xyemy.com/post/2021/07/15/%E4%BD%BF%E7%94%A8jetbrain%E5%85%A8%E5%AE%B6%E6%A1%B6%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%8D%E8%B7%9F%E9%9A%8F%E5%85%89%E6%A0%87%E9%97%AE%E9%A2%98.html</link>
+      <link>https://xyemy.com/post/2021/07/15/%E4%BD%BF%E7%94%A8jetbrain%E5%85%A8%E5%AE%B6%E6%A1%B6%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%8D%E8%B7%9F%E9%9A%8F%E5%85%89%E6%A0%87%E9%97%AE%E9%A2%98.html</link>
       <pubDate>Thu, 15 Jul 2021 11:20:08 +0900</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/07/15/%E4%BD%BF%E7%94%A8jetbrain%E5%85%A8%E5%AE%B6%E6%A1%B6%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%8D%E8%B7%9F%E9%9A%8F%E5%85%89%E6%A0%87%E9%97%AE%E9%A2%98.html</guid>
+      <guid>https://xyemy.com/post/2021/07/15/%E4%BD%BF%E7%94%A8jetbrain%E5%85%A8%E5%AE%B6%E6%A1%B6%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%8D%E8%B7%9F%E9%9A%8F%E5%85%89%E6%A0%87%E9%97%AE%E9%A2%98.html</guid>
       <description>使用JetBrain全家桶搜狗输入法不跟</description>
     </item>
     
     <item>
       <title>群晖dsm-video-station-刮削器设置</title>
-      <link>https://blog.xyemy.com/post/2020/07/02/%E7%BE%A4%E6%99%96dsm-video-station-%E5%88%AE%E5%89%8A%E5%99%A8%E8%AE%BE%E7%BD%AE.html</link>
+      <link>https://xyemy.com/post/2020/07/02/%E7%BE%A4%E6%99%96dsm-video-station-%E5%88%AE%E5%89%8A%E5%99%A8%E8%AE%BE%E7%BD%AE.html</link>
       <pubDate>Fri, 02 Jul 2021 19:09:15 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2020/07/02/%E7%BE%A4%E6%99%96dsm-video-station-%E5%88%AE%E5%89%8A%E5%99%A8%E8%AE%BE%E7%BD%AE.html</guid>
+      <guid>https://xyemy.com/post/2020/07/02/%E7%BE%A4%E6%99%96dsm-video-station-%E5%88%AE%E5%89%8A%E5%99%A8%E8%AE%BE%E7%BD%AE.html</guid>
       <description>一、The Movie Database 账号注册与 API 接口获取 网站 https://www.themoviedb.org</description>
     </item>
     
     <item>
       <title>Centos安装python3</title>
-      <link>https://blog.xyemy.com/post/2021/06/11/centos%E5%AE%89%E8%A3%85python3.html</link>
+      <link>https://xyemy.com/post/2021/06/11/centos%E5%AE%89%E8%A3%85python3.html</link>
       <pubDate>Fri, 11 Jun 2021 16:43:18 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/06/11/centos%E5%AE%89%E8%A3%85python3.html</guid>
+      <guid>https://xyemy.com/post/2021/06/11/centos%E5%AE%89%E8%A3%85python3.html</guid>
       <description>yum install -y update &amp;amp;&amp;amp; yum install -y upgrade yum install -y gcc gcc-c++ yum -y install gcc automake autoconf</description>
     </item>
     
     <item>
       <title>Docker容器启动报WARNING: IPv4 forwarding is disabled. Networking will not work</title>
-      <link>https://blog.xyemy.com/post/2021/06/04/docker%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8%E6%8A%A5warning_ipv4_forwarding_is_disabled_networking_will_not_work.html</link>
+      <link>https://xyemy.com/post/2021/06/04/docker%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8%E6%8A%A5warning_ipv4_forwarding_is_disabled_networking_will_not_work.html</link>
       <pubDate>Fri, 04 Jun 2021 14:29:53 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/06/04/docker%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8%E6%8A%A5warning_ipv4_forwarding_is_disabled_networking_will_not_work.html</guid>
+      <guid>https://xyemy.com/post/2021/06/04/docker%E5%AE%B9%E5%99%A8%E5%90%AF%E5%8A%A8%E6%8A%A5warning_ipv4_forwarding_is_disabled_networking_will_not_work.html</guid>
       <description>解决办法 vi /etc/sysctl.conf 修改数据 net.ipv4.ip_forward = 1 重启网络 查看是</description>
     </item>
     
     <item>
       <title>Centos设置静态网络地址</title>
-      <link>https://blog.xyemy.com/post/2021/06/04/centos%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80.html</link>
+      <link>https://xyemy.com/post/2021/06/04/centos%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80.html</link>
       <pubDate>Fri, 04 Jun 2021 14:09:37 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/06/04/centos%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80.html</guid>
+      <guid>https://xyemy.com/post/2021/06/04/centos%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80.html</guid>
       <description>修改文件：/etc/sysconfig/</description>
     </item>
     
     <item>
       <title>linux密钥登录其他linux系统显示权限不足</title>
-      <link>https://blog.xyemy.com/post/2021/04/16/ubuntu-%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95%E5%85%B6%E4%BB%96linux%E7%B3%BB%E7%BB%9F%E6%98%BE%E7%A4%BA%E6%9D%83%E9%99%90%E4%B8%8D%E8%B6%B3.html</link>
+      <link>https://xyemy.com/post/2021/04/16/ubuntu-%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95%E5%85%B6%E4%BB%96linux%E7%B3%BB%E7%BB%9F%E6%98%BE%E7%A4%BA%E6%9D%83%E9%99%90%E4%B8%8D%E8%B6%B3.html</link>
       <pubDate>Fri, 16 Apr 2021 11:05:44 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/04/16/ubuntu-%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95%E5%85%B6%E4%BB%96linux%E7%B3%BB%E7%BB%9F%E6%98%BE%E7%A4%BA%E6%9D%83%E9%99%90%E4%B8%8D%E8%B6%B3.html</guid>
+      <guid>https://xyemy.com/post/2021/04/16/ubuntu-%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95%E5%85%B6%E4%BB%96linux%E7%B3%BB%E7%BB%9F%E6%98%BE%E7%A4%BA%E6%9D%83%E9%99%90%E4%B8%8D%E8%B6%B3.html</guid>
       <description>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0750 for &amp;#39;n1&amp;#39; are too open. It is required that</description>
     </item>
     
     <item>
       <title>dnf命令使用代理</title>
-      <link>https://blog.xyemy.com/post/2021/03/24/dnf%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86.html</link>
+      <link>https://xyemy.com/post/2021/03/24/dnf%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86.html</link>
       <pubDate>Wed, 24 Mar 2021 13:13:07 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/03/24/dnf%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86.html</guid>
+      <guid>https://xyemy.com/post/2021/03/24/dnf%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86.html</guid>
       <description>entos 8 配置DNF代理方法 centos 8 默认使用dnf</description>
     </item>
     
     <item>
       <title>Ubuntu解除热键绑定</title>
-      <link>https://blog.xyemy.com/post/2021/03/04/ubuntu%E8%A7%A3%E9%99%A4%E7%83%AD%E9%94%AE%E7%BB%91%E5%AE%9A.html</link>
+      <link>https://xyemy.com/post/2021/03/04/ubuntu%E8%A7%A3%E9%99%A4%E7%83%AD%E9%94%AE%E7%BB%91%E5%AE%9A.html</link>
       <pubDate>Thu, 04 Mar 2021 18:55:10 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/03/04/ubuntu%E8%A7%A3%E9%99%A4%E7%83%AD%E9%94%AE%E7%BB%91%E5%AE%9A.html</guid>
+      <guid>https://xyemy.com/post/2021/03/04/ubuntu%E8%A7%A3%E9%99%A4%E7%83%AD%E9%94%AE%E7%BB%91%E5%AE%9A.html</guid>
       <description>ubuntu使用idea的时候习惯使用c</description>
     </item>
     
     <item>
       <title>Ubuntu命令方式安装中文语言包</title>
-      <link>https://blog.xyemy.com/post/2021/03/04/ubuntu%E5%91%BD%E4%BB%A4%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80%E5%8C%85.html</link>
+      <link>https://xyemy.com/post/2021/03/04/ubuntu%E5%91%BD%E4%BB%A4%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80%E5%8C%85.html</link>
       <pubDate>Thu, 04 Mar 2021 09:29:03 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/03/04/ubuntu%E5%91%BD%E4%BB%A4%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80%E5%8C%85.html</guid>
+      <guid>https://xyemy.com/post/2021/03/04/ubuntu%E5%91%BD%E4%BB%A4%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80%E5%8C%85.html</guid>
       <description>安装之前执行 echo $LANG 查看语言环境 中文语言包:</description>
     </item>
     

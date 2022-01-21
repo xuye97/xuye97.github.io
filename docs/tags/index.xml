@@ -2,584 +2,584 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on en&#39;s blog</title>
-    <link>https://blog.xyemy.com/tags.html</link>
+    <link>https://xyemy.com/tags.html</link>
     <description>Recent content in Tags on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 18 Jan 2022 08:55:16 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Jan 2022 08:55:16 +0800</lastBuildDate><atom:link href="https://xyemy.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>docker</title>
-      <link>https://blog.xyemy.com/tags/docker.html</link>
+      <link>https://xyemy.com/tags/docker.html</link>
       <pubDate>Tue, 18 Jan 2022 08:55:16 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/docker.html</guid>
+      <guid>https://xyemy.com/tags/docker.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>日志</title>
-      <link>https://blog.xyemy.com/tags/%E6%97%A5%E5%BF%97.html</link>
+      <link>https://xyemy.com/tags/%E6%97%A5%E5%BF%97.html</link>
       <pubDate>Tue, 18 Jan 2022 08:55:16 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E6%97%A5%E5%BF%97.html</guid>
+      <guid>https://xyemy.com/tags/%E6%97%A5%E5%BF%97.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>arm</title>
-      <link>https://blog.xyemy.com/tags/arm.html</link>
+      <link>https://xyemy.com/tags/arm.html</link>
       <pubDate>Mon, 10 Jan 2022 08:41:02 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/arm.html</guid>
+      <guid>https://xyemy.com/tags/arm.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>mysql</title>
-      <link>https://blog.xyemy.com/tags/mysql.html</link>
+      <link>https://xyemy.com/tags/mysql.html</link>
       <pubDate>Mon, 10 Jan 2022 08:41:02 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/mysql.html</guid>
+      <guid>https://xyemy.com/tags/mysql.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>ubuntu</title>
-      <link>https://blog.xyemy.com/tags/ubuntu.html</link>
+      <link>https://xyemy.com/tags/ubuntu.html</link>
       <pubDate>Sat, 08 Jan 2022 09:23:14 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/ubuntu.html</guid>
+      <guid>https://xyemy.com/tags/ubuntu.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>oracle</title>
-      <link>https://blog.xyemy.com/tags/oracle.html</link>
+      <link>https://xyemy.com/tags/oracle.html</link>
       <pubDate>Fri, 31 Dec 2021 11:30:31 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/oracle.html</guid>
+      <guid>https://xyemy.com/tags/oracle.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>甲骨文</title>
-      <link>https://blog.xyemy.com/tags/%E7%94%B2%E9%AA%A8%E6%96%87.html</link>
+      <link>https://xyemy.com/tags/%E7%94%B2%E9%AA%A8%E6%96%87.html</link>
       <pubDate>Fri, 31 Dec 2021 11:30:31 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E7%94%B2%E9%AA%A8%E6%96%87.html</guid>
+      <guid>https://xyemy.com/tags/%E7%94%B2%E9%AA%A8%E6%96%87.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>https://blog.xyemy.com/tags/python.html</link>
+      <link>https://xyemy.com/tags/python.html</link>
       <pubDate>Mon, 27 Dec 2021 17:17:44 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/python.html</guid>
+      <guid>https://xyemy.com/tags/python.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>supervisor</title>
-      <link>https://blog.xyemy.com/tags/supervisor.html</link>
+      <link>https://xyemy.com/tags/supervisor.html</link>
       <pubDate>Mon, 27 Dec 2021 17:17:44 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/supervisor.html</guid>
+      <guid>https://xyemy.com/tags/supervisor.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>https</title>
-      <link>https://blog.xyemy.com/tags/https.html</link>
+      <link>https://xyemy.com/tags/https.html</link>
       <pubDate>Tue, 14 Dec 2021 14:11:41 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/https.html</guid>
+      <guid>https://xyemy.com/tags/https.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>nginx</title>
-      <link>https://blog.xyemy.com/tags/nginx.html</link>
+      <link>https://xyemy.com/tags/nginx.html</link>
       <pubDate>Tue, 14 Dec 2021 14:11:41 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/nginx.html</guid>
+      <guid>https://xyemy.com/tags/nginx.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>acme</title>
-      <link>https://blog.xyemy.com/tags/acme.html</link>
+      <link>https://xyemy.com/tags/acme.html</link>
       <pubDate>Fri, 10 Dec 2021 16:34:24 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/acme.html</guid>
+      <guid>https://xyemy.com/tags/acme.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>ZeroSSL</title>
-      <link>https://blog.xyemy.com/tags/zerossl.html</link>
+      <link>https://xyemy.com/tags/zerossl.html</link>
       <pubDate>Fri, 10 Dec 2021 16:15:23 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/zerossl.html</guid>
+      <guid>https://xyemy.com/tags/zerossl.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>证书</title>
-      <link>https://blog.xyemy.com/tags/%E8%AF%81%E4%B9%A6.html</link>
+      <link>https://xyemy.com/tags/%E8%AF%81%E4%B9%A6.html</link>
       <pubDate>Fri, 10 Dec 2021 16:15:23 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E8%AF%81%E4%B9%A6.html</guid>
+      <guid>https://xyemy.com/tags/%E8%AF%81%E4%B9%A6.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>https://blog.xyemy.com/tags/git.html</link>
+      <link>https://xyemy.com/tags/git.html</link>
       <pubDate>Tue, 09 Nov 2021 10:26:51 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/git.html</guid>
+      <guid>https://xyemy.com/tags/git.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>manjaro</title>
-      <link>https://blog.xyemy.com/tags/manjaro.html</link>
+      <link>https://xyemy.com/tags/manjaro.html</link>
       <pubDate>Sat, 30 Oct 2021 15:51:55 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/manjaro.html</guid>
+      <guid>https://xyemy.com/tags/manjaro.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>截图</title>
-      <link>https://blog.xyemy.com/tags/%E6%88%AA%E5%9B%BE.html</link>
+      <link>https://xyemy.com/tags/%E6%88%AA%E5%9B%BE.html</link>
       <pubDate>Sat, 30 Oct 2021 15:51:55 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E6%88%AA%E5%9B%BE.html</guid>
+      <guid>https://xyemy.com/tags/%E6%88%AA%E5%9B%BE.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>chrome</title>
-      <link>https://blog.xyemy.com/tags/chrome.html</link>
+      <link>https://xyemy.com/tags/chrome.html</link>
       <pubDate>Thu, 28 Oct 2021 09:42:31 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/chrome.html</guid>
+      <guid>https://xyemy.com/tags/chrome.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>https://blog.xyemy.com/tags/linux.html</link>
+      <link>https://xyemy.com/tags/linux.html</link>
       <pubDate>Thu, 28 Oct 2021 09:42:31 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/linux.html</guid>
+      <guid>https://xyemy.com/tags/linux.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>vmware</title>
-      <link>https://blog.xyemy.com/tags/vmware.html</link>
+      <link>https://xyemy.com/tags/vmware.html</link>
       <pubDate>Wed, 27 Oct 2021 14:00:55 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/vmware.html</guid>
+      <guid>https://xyemy.com/tags/vmware.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>apt</title>
-      <link>https://blog.xyemy.com/tags/apt.html</link>
+      <link>https://xyemy.com/tags/apt.html</link>
       <pubDate>Tue, 26 Oct 2021 13:33:17 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/apt.html</guid>
+      <guid>https://xyemy.com/tags/apt.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>代理</title>
-      <link>https://blog.xyemy.com/tags/%E4%BB%A3%E7%90%86.html</link>
+      <link>https://xyemy.com/tags/%E4%BB%A3%E7%90%86.html</link>
       <pubDate>Tue, 26 Oct 2021 13:33:17 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E4%BB%A3%E7%90%86.html</guid>
+      <guid>https://xyemy.com/tags/%E4%BB%A3%E7%90%86.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>beego</title>
-      <link>https://blog.xyemy.com/tags/beego.html</link>
+      <link>https://xyemy.com/tags/beego.html</link>
       <pubDate>Fri, 22 Oct 2021 17:44:09 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/beego.html</guid>
+      <guid>https://xyemy.com/tags/beego.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://blog.xyemy.com/tags/golang.html</link>
+      <link>https://xyemy.com/tags/golang.html</link>
       <pubDate>Fri, 22 Oct 2021 17:44:09 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/golang.html</guid>
+      <guid>https://xyemy.com/tags/golang.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>账户</title>
-      <link>https://blog.xyemy.com/tags/%E8%B4%A6%E6%88%B7.html</link>
+      <link>https://xyemy.com/tags/%E8%B4%A6%E6%88%B7.html</link>
       <pubDate>Thu, 14 Oct 2021 11:48:35 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E8%B4%A6%E6%88%B7.html</guid>
+      <guid>https://xyemy.com/tags/%E8%B4%A6%E6%88%B7.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>tar</title>
-      <link>https://blog.xyemy.com/tags/tar.html</link>
+      <link>https://xyemy.com/tags/tar.html</link>
       <pubDate>Wed, 29 Sep 2021 13:33:45 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/tar.html</guid>
+      <guid>https://xyemy.com/tags/tar.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>打包</title>
-      <link>https://blog.xyemy.com/tags/%E6%89%93%E5%8C%85.html</link>
+      <link>https://xyemy.com/tags/%E6%89%93%E5%8C%85.html</link>
       <pubDate>Wed, 29 Sep 2021 13:33:45 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E6%89%93%E5%8C%85.html</guid>
+      <guid>https://xyemy.com/tags/%E6%89%93%E5%8C%85.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>centos</title>
-      <link>https://blog.xyemy.com/tags/centos.html</link>
+      <link>https://xyemy.com/tags/centos.html</link>
       <pubDate>Sat, 28 Aug 2021 10:44:32 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/centos.html</guid>
+      <guid>https://xyemy.com/tags/centos.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>firewalld</title>
-      <link>https://blog.xyemy.com/tags/firewalld.html</link>
+      <link>https://xyemy.com/tags/firewalld.html</link>
       <pubDate>Sat, 28 Aug 2021 10:44:32 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/firewalld.html</guid>
+      <guid>https://xyemy.com/tags/firewalld.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>防火墙</title>
-      <link>https://blog.xyemy.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99.html</link>
+      <link>https://xyemy.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99.html</link>
       <pubDate>Sat, 28 Aug 2021 10:44:32 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99.html</guid>
+      <guid>https://xyemy.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>pip</title>
-      <link>https://blog.xyemy.com/tags/pip.html</link>
+      <link>https://xyemy.com/tags/pip.html</link>
       <pubDate>Sat, 07 Aug 2021 09:12:08 +0900</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/pip.html</guid>
+      <guid>https://xyemy.com/tags/pip.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>图片</title>
-      <link>https://blog.xyemy.com/tags/%E5%9B%BE%E7%89%87.html</link>
+      <link>https://xyemy.com/tags/%E5%9B%BE%E7%89%87.html</link>
       <pubDate>Sat, 17 Jul 2021 15:12:02 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E5%9B%BE%E7%89%87.html</guid>
+      <guid>https://xyemy.com/tags/%E5%9B%BE%E7%89%87.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>搜狗输入法</title>
-      <link>https://blog.xyemy.com/tags/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html</link>
+      <link>https://xyemy.com/tags/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html</link>
       <pubDate>Thu, 15 Jul 2021 11:18:08 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html</guid>
+      <guid>https://xyemy.com/tags/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>postgres</title>
-      <link>https://blog.xyemy.com/tags/postgres.html</link>
+      <link>https://xyemy.com/tags/postgres.html</link>
       <pubDate>Wed, 07 Jul 2021 15:05:57 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/postgres.html</guid>
+      <guid>https://xyemy.com/tags/postgres.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>dsm</title>
-      <link>https://blog.xyemy.com/tags/dsm.html</link>
+      <link>https://xyemy.com/tags/dsm.html</link>
       <pubDate>Fri, 02 Jul 2021 19:09:15 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/dsm.html</guid>
+      <guid>https://xyemy.com/tags/dsm.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>tmd</title>
-      <link>https://blog.xyemy.com/tags/tmd.html</link>
+      <link>https://xyemy.com/tags/tmd.html</link>
       <pubDate>Fri, 02 Jul 2021 19:09:15 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/tmd.html</guid>
+      <guid>https://xyemy.com/tags/tmd.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>刮削器</title>
-      <link>https://blog.xyemy.com/tags/%E5%88%AE%E5%89%8A%E5%99%A8.html</link>
+      <link>https://xyemy.com/tags/%E5%88%AE%E5%89%8A%E5%99%A8.html</link>
       <pubDate>Fri, 02 Jul 2021 19:09:15 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E5%88%AE%E5%89%8A%E5%99%A8.html</guid>
+      <guid>https://xyemy.com/tags/%E5%88%AE%E5%89%8A%E5%99%A8.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>群晖</title>
-      <link>https://blog.xyemy.com/tags/%E7%BE%A4%E6%99%96.html</link>
+      <link>https://xyemy.com/tags/%E7%BE%A4%E6%99%96.html</link>
       <pubDate>Fri, 02 Jul 2021 09:01:26 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E7%BE%A4%E6%99%96.html</guid>
+      <guid>https://xyemy.com/tags/%E7%BE%A4%E6%99%96.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>qp</title>
-      <link>https://blog.xyemy.com/tags/qp.html</link>
+      <link>https://xyemy.com/tags/qp.html</link>
       <pubDate>Sat, 19 Jun 2021 15:01:36 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/qp.html</guid>
+      <guid>https://xyemy.com/tags/qp.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>quoted-printable</title>
-      <link>https://blog.xyemy.com/tags/quoted-printable.html</link>
+      <link>https://xyemy.com/tags/quoted-printable.html</link>
       <pubDate>Sat, 19 Jun 2021 15:01:36 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/quoted-printable.html</guid>
+      <guid>https://xyemy.com/tags/quoted-printable.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>时区</title>
-      <link>https://blog.xyemy.com/tags/%E6%97%B6%E5%8C%BA.html</link>
+      <link>https://xyemy.com/tags/%E6%97%B6%E5%8C%BA.html</link>
       <pubDate>Wed, 09 Jun 2021 10:49:44 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E6%97%B6%E5%8C%BA.html</guid>
+      <guid>https://xyemy.com/tags/%E6%97%B6%E5%8C%BA.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>时间</title>
-      <link>https://blog.xyemy.com/tags/%E6%97%B6%E9%97%B4.html</link>
+      <link>https://xyemy.com/tags/%E6%97%B6%E9%97%B4.html</link>
       <pubDate>Wed, 09 Jun 2021 10:49:44 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E6%97%B6%E9%97%B4.html</guid>
+      <guid>https://xyemy.com/tags/%E6%97%B6%E9%97%B4.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>静态地址</title>
-      <link>https://blog.xyemy.com/tags/%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80.html</link>
+      <link>https://xyemy.com/tags/%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80.html</link>
       <pubDate>Fri, 04 Jun 2021 14:09:37 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80.html</guid>
+      <guid>https://xyemy.com/tags/%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>n1</title>
-      <link>https://blog.xyemy.com/tags/n1.html</link>
+      <link>https://xyemy.com/tags/n1.html</link>
       <pubDate>Fri, 04 Jun 2021 10:10:14 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/n1.html</guid>
+      <guid>https://xyemy.com/tags/n1.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>centos8</title>
-      <link>https://blog.xyemy.com/tags/centos8.html</link>
+      <link>https://xyemy.com/tags/centos8.html</link>
       <pubDate>Wed, 26 May 2021 14:53:36 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/centos8.html</guid>
+      <guid>https://xyemy.com/tags/centos8.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>gcc</title>
-      <link>https://blog.xyemy.com/tags/gcc.html</link>
+      <link>https://xyemy.com/tags/gcc.html</link>
       <pubDate>Mon, 24 May 2021 17:12:28 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/gcc.html</guid>
+      <guid>https://xyemy.com/tags/gcc.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>curl</title>
-      <link>https://blog.xyemy.com/tags/curl.html</link>
+      <link>https://xyemy.com/tags/curl.html</link>
       <pubDate>Thu, 20 May 2021 16:11:14 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/curl.html</guid>
+      <guid>https://xyemy.com/tags/curl.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>公网IP</title>
-      <link>https://blog.xyemy.com/tags/%E5%85%AC%E7%BD%91ip.html</link>
+      <link>https://xyemy.com/tags/%E5%85%AC%E7%BD%91ip.html</link>
       <pubDate>Thu, 20 May 2021 16:11:14 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E5%85%AC%E7%BD%91ip.html</guid>
+      <guid>https://xyemy.com/tags/%E5%85%AC%E7%BD%91ip.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>慢日志</title>
-      <link>https://blog.xyemy.com/tags/%E6%85%A2%E6%97%A5%E5%BF%97.html</link>
+      <link>https://xyemy.com/tags/%E6%85%A2%E6%97%A5%E5%BF%97.html</link>
       <pubDate>Fri, 14 May 2021 09:10:27 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E6%85%A2%E6%97%A5%E5%BF%97.html</guid>
+      <guid>https://xyemy.com/tags/%E6%85%A2%E6%97%A5%E5%BF%97.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>提交记录</title>
-      <link>https://blog.xyemy.com/tags/%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95.html</link>
+      <link>https://xyemy.com/tags/%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95.html</link>
       <pubDate>Fri, 07 May 2021 10:13:15 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95.html</guid>
+      <guid>https://xyemy.com/tags/%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>typora</title>
-      <link>https://blog.xyemy.com/tags/typora.html</link>
+      <link>https://xyemy.com/tags/typora.html</link>
       <pubDate>Thu, 22 Apr 2021 17:30:00 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/typora.html</guid>
+      <guid>https://xyemy.com/tags/typora.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssh</title>
-      <link>https://blog.xyemy.com/tags/ssh.html</link>
+      <link>https://xyemy.com/tags/ssh.html</link>
       <pubDate>Fri, 16 Apr 2021 11:05:44 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/ssh.html</guid>
+      <guid>https://xyemy.com/tags/ssh.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>dpi</title>
-      <link>https://blog.xyemy.com/tags/dpi.html</link>
+      <link>https://xyemy.com/tags/dpi.html</link>
       <pubDate>Fri, 09 Apr 2021 16:05:44 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/dpi.html</guid>
+      <guid>https://xyemy.com/tags/dpi.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>mx master 3</title>
-      <link>https://blog.xyemy.com/tags/mx-master-3.html</link>
+      <link>https://xyemy.com/tags/mx-master-3.html</link>
       <pubDate>Fri, 09 Apr 2021 16:05:44 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/mx-master-3.html</guid>
+      <guid>https://xyemy.com/tags/mx-master-3.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>笔记本键盘</title>
-      <link>https://blog.xyemy.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E9%94%AE%E7%9B%98.html</link>
+      <link>https://xyemy.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E9%94%AE%E7%9B%98.html</link>
       <pubDate>Fri, 09 Apr 2021 16:05:44 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E9%94%AE%E7%9B%98.html</guid>
+      <guid>https://xyemy.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E9%94%AE%E7%9B%98.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>dnf</title>
-      <link>https://blog.xyemy.com/tags/dnf.html</link>
+      <link>https://xyemy.com/tags/dnf.html</link>
       <pubDate>Wed, 24 Mar 2021 13:13:07 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/dnf.html</guid>
+      <guid>https://xyemy.com/tags/dnf.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>图标</title>
-      <link>https://blog.xyemy.com/tags/%E5%9B%BE%E6%A0%87.html</link>
+      <link>https://xyemy.com/tags/%E5%9B%BE%E6%A0%87.html</link>
       <pubDate>Wed, 24 Mar 2021 10:44:35 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E5%9B%BE%E6%A0%87.html</guid>
+      <guid>https://xyemy.com/tags/%E5%9B%BE%E6%A0%87.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>goland</title>
-      <link>https://blog.xyemy.com/tags/goland.html</link>
+      <link>https://xyemy.com/tags/goland.html</link>
       <pubDate>Tue, 09 Mar 2021 09:26:49 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/goland.html</guid>
+      <guid>https://xyemy.com/tags/goland.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>网络错误</title>
-      <link>https://blog.xyemy.com/tags/%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</link>
+      <link>https://xyemy.com/tags/%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</link>
       <pubDate>Tue, 09 Mar 2021 09:26:49 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</guid>
+      <guid>https://xyemy.com/tags/%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>热键绑定</title>
-      <link>https://blog.xyemy.com/tags/%E7%83%AD%E9%94%AE%E7%BB%91%E5%AE%9A.html</link>
+      <link>https://xyemy.com/tags/%E7%83%AD%E9%94%AE%E7%BB%91%E5%AE%9A.html</link>
       <pubDate>Thu, 04 Mar 2021 18:55:10 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E7%83%AD%E9%94%AE%E7%BB%91%E5%AE%9A.html</guid>
+      <guid>https://xyemy.com/tags/%E7%83%AD%E9%94%AE%E7%BB%91%E5%AE%9A.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>win10</title>
-      <link>https://blog.xyemy.com/tags/win10.html</link>
+      <link>https://xyemy.com/tags/win10.html</link>
       <pubDate>Thu, 21 Jan 2021 10:51:58 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/win10.html</guid>
+      <guid>https://xyemy.com/tags/win10.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>双系统</title>
-      <link>https://blog.xyemy.com/tags/%E5%8F%8C%E7%B3%BB%E7%BB%9F.html</link>
+      <link>https://xyemy.com/tags/%E5%8F%8C%E7%B3%BB%E7%BB%9F.html</link>
       <pubDate>Thu, 21 Jan 2021 10:51:58 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E5%8F%8C%E7%B3%BB%E7%BB%9F.html</guid>
+      <guid>https://xyemy.com/tags/%E5%8F%8C%E7%B3%BB%E7%BB%9F.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>armbian</title>
-      <link>https://blog.xyemy.com/tags/armbian.html</link>
+      <link>https://xyemy.com/tags/armbian.html</link>
       <pubDate>Mon, 04 Jan 2021 19:04:33 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/armbian.html</guid>
+      <guid>https://xyemy.com/tags/armbian.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>救砖</title>
-      <link>https://blog.xyemy.com/tags/%E6%95%91%E7%A0%96.html</link>
+      <link>https://xyemy.com/tags/%E6%95%91%E7%A0%96.html</link>
       <pubDate>Mon, 04 Jan 2021 18:58:24 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/%E6%95%91%E7%A0%96.html</guid>
+      <guid>https://xyemy.com/tags/%E6%95%91%E7%A0%96.html</guid>
       <description></description>
     </item>
     

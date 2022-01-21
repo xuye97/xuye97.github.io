@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>时间 on en&#39;s blog</title>
-    <link>https://blog.xyemy.com/tags/%E6%97%B6%E9%97%B4.html</link>
+    <link>https://xyemy.com/tags/%E6%97%B6%E9%97%B4.html</link>
     <description>Recent content in 时间 on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 09 Jun 2021 10:49:44 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/%E6%97%B6%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jun 2021 10:49:44 +0800</lastBuildDate><atom:link href="https://xyemy.com/tags/%E6%97%B6%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Postgres根据时区获取时间</title>
-      <link>https://blog.xyemy.com/post/2021/06/09/postgres%E6%A0%B9%E6%8D%AE%E6%97%B6%E5%8C%BA%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4.html</link>
+      <link>https://xyemy.com/post/2021/06/09/postgres%E6%A0%B9%E6%8D%AE%E6%97%B6%E5%8C%BA%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4.html</link>
       <pubDate>Wed, 09 Jun 2021 10:49:44 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/06/09/postgres%E6%A0%B9%E6%8D%AE%E6%97%B6%E5%8C%BA%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4.html</guid>
+      <guid>https://xyemy.com/post/2021/06/09/postgres%E6%A0%B9%E6%8D%AE%E6%97%B6%E5%8C%BA%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4.html</guid>
       <description>postgres获取指定时区的时间 SELECT to_char(now()::timestamp at</description>
     </item>
     
     <item>
       <title>postgres时间戳日期转换</title>
-      <link>https://blog.xyemy.com/post/2021/04/07/psql%E6%97%B6%E9%97%B4%E6%88%B3%E6%97%A5%E6%9C%9F%E8%BD%AC%E6%8D%A2.html</link>
+      <link>https://xyemy.com/post/2021/04/07/psql%E6%97%B6%E9%97%B4%E6%88%B3%E6%97%A5%E6%9C%9F%E8%BD%AC%E6%8D%A2.html</link>
       <pubDate>Wed, 07 Apr 2021 12:16:19 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/04/07/psql%E6%97%B6%E9%97%B4%E6%88%B3%E6%97%A5%E6%9C%9F%E8%BD%AC%E6%8D%A2.html</guid>
+      <guid>https://xyemy.com/post/2021/04/07/psql%E6%97%B6%E9%97%B4%E6%88%B3%E6%97%A5%E6%9C%9F%E8%BD%AC%E6%8D%A2.html</guid>
       <description># 获取当前时间戳 SELECT EXTRACT(epoch FROM NOW()); # 日期转时间戳 SELECT</description>
     </item>
     

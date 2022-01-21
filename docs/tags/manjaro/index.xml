@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>manjaro on en&#39;s blog</title>
-    <link>https://blog.xyemy.com/tags/manjaro.html</link>
+    <link>https://xyemy.com/tags/manjaro.html</link>
     <description>Recent content in manjaro on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 30 Oct 2021 15:51:55 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/manjaro/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Oct 2021 15:51:55 +0800</lastBuildDate><atom:link href="https://xyemy.com/tags/manjaro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Manjaro使用深度截图</title>
-      <link>https://blog.xyemy.com/post/2021/10/30/manjaro%E4%BD%BF%E7%94%A8%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE.html</link>
+      <link>https://xyemy.com/post/2021/10/30/manjaro%E4%BD%BF%E7%94%A8%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE.html</link>
       <pubDate>Sat, 30 Oct 2021 15:51:55 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/10/30/manjaro%E4%BD%BF%E7%94%A8%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE.html</guid>
+      <guid>https://xyemy.com/post/2021/10/30/manjaro%E4%BD%BF%E7%94%A8%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE.html</guid>
       <description>1. 安装深度截图 sudo pacman -S deepin-screenshot 2.设置快捷键 系统</description>
     </item>
     
     <item>
       <title>Manjaro 21安装谷歌浏览器</title>
-      <link>https://blog.xyemy.com/post/2021/10/28/manjaro21%E5%AE%89%E8%A3%85%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8.html</link>
+      <link>https://xyemy.com/post/2021/10/28/manjaro21%E5%AE%89%E8%A3%85%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8.html</link>
       <pubDate>Thu, 28 Oct 2021 09:42:31 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/10/28/manjaro21%E5%AE%89%E8%A3%85%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8.html</guid>
+      <guid>https://xyemy.com/post/2021/10/28/manjaro21%E5%AE%89%E8%A3%85%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8.html</guid>
       <description>1. 安装AUR助手 sudo pacman -S yay 2. 安装谷歌浏览器</description>
     </item>
     
     <item>
       <title>Manjaro 21报错 Cannot find the fakeroot binary</title>
-      <link>https://blog.xyemy.com/post/2021/10/28/manjaro21%E9%81%87%E5%88%B0cannotfindthefakerootbinary%E9%94%99%E8%AF%AF.html</link>
+      <link>https://xyemy.com/post/2021/10/28/manjaro21%E9%81%87%E5%88%B0cannotfindthefakerootbinary%E9%94%99%E8%AF%AF.html</link>
       <pubDate>Thu, 28 Oct 2021 09:42:31 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/10/28/manjaro21%E9%81%87%E5%88%B0cannotfindthefakerootbinary%E9%94%99%E8%AF%AF.html</guid>
+      <guid>https://xyemy.com/post/2021/10/28/manjaro21%E9%81%87%E5%88%B0cannotfindthefakerootbinary%E9%94%99%E8%AF%AF.html</guid>
       <description>原因： 因为没安装 fakeroot、bin</description>
     </item>
     

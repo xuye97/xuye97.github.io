@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>防火墙 on en&#39;s blog</title>
-    <link>https://blog.xyemy.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99.html</link>
+    <link>https://xyemy.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99.html</link>
     <description>Recent content in 防火墙 on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 28 Aug 2021 10:44:32 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Aug 2021 10:44:32 +0800</lastBuildDate><atom:link href="https://xyemy.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Centos7.0&#43; 防火墙firewalld命令</title>
-      <link>https://blog.xyemy.com/post/2021/08/28/centos7&#43;systemctl%E5%92%8C%E9%98%B2%E7%81%AB%E5%A2%99firewalld%E5%91%BD%E4%BB%A4.html</link>
+      <link>https://xyemy.com/post/2021/08/28/centos7&#43;systemctl%E5%92%8C%E9%98%B2%E7%81%AB%E5%A2%99firewalld%E5%91%BD%E4%BB%A4.html</link>
       <pubDate>Sat, 28 Aug 2021 10:44:32 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/08/28/centos7&#43;systemctl%E5%92%8C%E9%98%B2%E7%81%AB%E5%A2%99firewalld%E5%91%BD%E4%BB%A4.html</guid>
+      <guid>https://xyemy.com/post/2021/08/28/centos7&#43;systemctl%E5%92%8C%E9%98%B2%E7%81%AB%E5%A2%99firewalld%E5%91%BD%E4%BB%A4.html</guid>
       <description>查看防火墙状态： firewall-cmd --state 查看开放的端口： firewall-cmd --list-ports</description>
     </item>
     

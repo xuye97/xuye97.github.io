@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>n1 on en&#39;s blog</title>
-    <link>https://blog.xyemy.com/tags/n1.html</link>
+    <link>https://xyemy.com/tags/n1.html</link>
     <description>Recent content in n1 on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 04 Jun 2021 10:10:14 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/n1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jun 2021 10:10:14 +0800</lastBuildDate><atom:link href="https://xyemy.com/tags/n1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>N1刷入armbian后刷回电视盒子系统</title>
-      <link>https://blog.xyemy.com/post/2021/06/04/n1%E5%88%B7%E5%85%A5armbian%E5%90%8E%E5%88%B7%E5%9B%9E%E7%94%B5%E8%A7%86%E7%9B%92%E5%AD%90%E7%B3%BB%E7%BB%9F.html</link>
+      <link>https://xyemy.com/post/2021/06/04/n1%E5%88%B7%E5%85%A5armbian%E5%90%8E%E5%88%B7%E5%9B%9E%E7%94%B5%E8%A7%86%E7%9B%92%E5%AD%90%E7%B3%BB%E7%BB%9F.html</link>
       <pubDate>Fri, 04 Jun 2021 10:10:14 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/06/04/n1%E5%88%B7%E5%85%A5armbian%E5%90%8E%E5%88%B7%E5%9B%9E%E7%94%B5%E8%A7%86%E7%9B%92%E5%AD%90%E7%B3%BB%E7%BB%9F.html</guid>
+      <guid>https://xyemy.com/post/2021/06/04/n1%E5%88%B7%E5%85%A5armbian%E5%90%8E%E5%88%B7%E5%9B%9E%E7%94%B5%E8%A7%86%E7%9B%92%E5%AD%90%E7%B3%BB%E7%BB%9F.html</guid>
       <description>具体参考“N1救砖”</description>
     </item>
     
     <item>
       <title>N1刷入Armbian</title>
-      <link>https://blog.xyemy.com/post/2021/01/04/n1%E5%88%B7%E5%85%A5armbian.html</link>
+      <link>https://xyemy.com/post/2021/01/04/n1%E5%88%B7%E5%85%A5armbian.html</link>
       <pubDate>Mon, 04 Jan 2021 19:04:33 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/01/04/n1%E5%88%B7%E5%85%A5armbian.html</guid>
+      <guid>https://xyemy.com/post/2021/01/04/n1%E5%88%B7%E5%85%A5armbian.html</guid>
       <description>假设N1已经设置优盘启动 一、准备 电脑 优盘</description>
     </item>
     
     <item>
       <title>N1救砖</title>
-      <link>https://blog.xyemy.com/post/2021/01/04/n1%E6%95%91%E7%A0%96.html</link>
+      <link>https://xyemy.com/post/2021/01/04/n1%E6%95%91%E7%A0%96.html</link>
       <pubDate>Mon, 04 Jan 2021 18:58:24 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/01/04/n1%E6%95%91%E7%A0%96.html</guid>
+      <guid>https://xyemy.com/post/2021/01/04/n1%E6%95%91%E7%A0%96.html</guid>
       <description>盒子无法开机刷机 一、准备 电脑（win系统</description>
     </item>
     

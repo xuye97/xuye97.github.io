@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>群晖 on en&#39;s blog</title>
-    <link>https://blog.xyemy.com/categories/%E7%BE%A4%E6%99%96.html</link>
+    <link>https://xyemy.com/categories/%E7%BE%A4%E6%99%96.html</link>
     <description>Recent content in 群晖 on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 02 Jul 2021 09:01:26 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/%E7%BE%A4%E6%99%96/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 09:01:26 +0800</lastBuildDate><atom:link href="https://xyemy.com/categories/%E7%BE%A4%E6%99%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>群晖登录时提示“抱歉，您所指定的页面不存在”</title>
-      <link>https://blog.xyemy.com/post/2021/07/02/%E7%BE%A4%E6%99%96%E7%99%BB%E5%BD%95%E6%97%B6%E6%8F%90%E7%A4%BA%E6%8A%B1%E6%AD%89%E6%82%A8%E6%89%80%E6%8C%87%E5%AE%9A%E7%9A%84%E9%A1%B5%E9%9D%A2%E4%B8%8D%E5%AD%98%E5%9C%A8.html</link>
+      <link>https://xyemy.com/post/2021/07/02/%E7%BE%A4%E6%99%96%E7%99%BB%E5%BD%95%E6%97%B6%E6%8F%90%E7%A4%BA%E6%8A%B1%E6%AD%89%E6%82%A8%E6%89%80%E6%8C%87%E5%AE%9A%E7%9A%84%E9%A1%B5%E9%9D%A2%E4%B8%8D%E5%AD%98%E5%9C%A8.html</link>
       <pubDate>Fri, 02 Jul 2021 09:01:26 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2021/07/02/%E7%BE%A4%E6%99%96%E7%99%BB%E5%BD%95%E6%97%B6%E6%8F%90%E7%A4%BA%E6%8A%B1%E6%AD%89%E6%82%A8%E6%89%80%E6%8C%87%E5%AE%9A%E7%9A%84%E9%A1%B5%E9%9D%A2%E4%B8%8D%E5%AD%98%E5%9C%A8.html</guid>
+      <guid>https://xyemy.com/post/2021/07/02/%E7%BE%A4%E6%99%96%E7%99%BB%E5%BD%95%E6%97%B6%E6%8F%90%E7%A4%BA%E6%8A%B1%E6%AD%89%E6%82%A8%E6%89%80%E6%8C%87%E5%AE%9A%E7%9A%84%E9%A1%B5%E9%9D%A2%E4%B8%8D%E5%AD%98%E5%9C%A8.html</guid>
       <description>解决方法： 找同版本、同型号的群晖系统安装</description>
     </item>
     
