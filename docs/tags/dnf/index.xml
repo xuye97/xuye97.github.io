@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dnf on en&#39;s blog</title>
-    <link>https://xyemy.com/tags/dnf.html</link>
+    <link>https://blog.xyemy.com/tags/dnf.html</link>
     <description>Recent content in dnf on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 24 Mar 2021 13:13:07 +0800</lastBuildDate><atom:link href="https://xyemy.com/tags/dnf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Mar 2021 13:13:07 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/dnf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>dnf命令使用代理</title>
-      <link>https://xyemy.com/post/2021/03/24/dnf%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86.html</link>
+      <link>https://blog.xyemy.com/post/2021/03/24/dnf%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86.html</link>
       <pubDate>Wed, 24 Mar 2021 13:13:07 +0800</pubDate>
       
-      <guid>https://xyemy.com/post/2021/03/24/dnf%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86.html</guid>
+      <guid>https://blog.xyemy.com/post/2021/03/24/dnf%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86.html</guid>
       <description>entos 8 配置DNF代理方法 centos 8 默认使用dnf</description>
     </item>
     

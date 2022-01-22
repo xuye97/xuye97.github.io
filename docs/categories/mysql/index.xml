@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mysql on en&#39;s blog</title>
-    <link>https://xyemy.com/categories/mysql.html</link>
+    <link>https://blog.xyemy.com/categories/mysql.html</link>
     <description>Recent content in mysql on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 10 Jan 2022 08:41:02 +0800</lastBuildDate><atom:link href="https://xyemy.com/categories/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jan 2022 08:41:02 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arm docker安装mysql</title>
-      <link>https://xyemy.com/post/2022/01/10/armdocker%E5%AE%89%E8%A3%85mysql.html</link>
+      <link>https://blog.xyemy.com/post/2022/01/10/armdocker%E5%AE%89%E8%A3%85mysql.html</link>
       <pubDate>Mon, 10 Jan 2022 08:41:02 +0800</pubDate>
       
-      <guid>https://xyemy.com/post/2022/01/10/armdocker%E5%AE%89%E8%A3%85mysql.html</guid>
+      <guid>https://blog.xyemy.com/post/2022/01/10/armdocker%E5%AE%89%E8%A3%85mysql.html</guid>
       <description>docker run -d \ --name mysql \ -v $PWD/conf:/etc/mysql/conf.d \ -v $PWD/logs:/logs \ -v $PWD/data:/var/lib/mysql \ -e MYS</description>
     </item>
     

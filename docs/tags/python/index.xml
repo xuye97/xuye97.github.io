@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>python on en&#39;s blog</title>
-    <link>https://xyemy.com/tags/python.html</link>
+    <link>https://blog.xyemy.com/tags/python.html</link>
     <description>Recent content in python on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 27 Dec 2021 17:17:44 +0800</lastBuildDate><atom:link href="https://xyemy.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Dec 2021 17:17:44 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Supervisor安装和使用</title>
-      <link>https://xyemy.com/post/2021/12/27/supervisor%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8.html</link>
+      <link>https://blog.xyemy.com/post/2021/12/27/supervisor%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8.html</link>
       <pubDate>Mon, 27 Dec 2021 17:17:44 +0800</pubDate>
       
-      <guid>https://xyemy.com/post/2021/12/27/supervisor%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8.html</guid>
+      <guid>https://blog.xyemy.com/post/2021/12/27/supervisor%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8.html</guid>
       <description>一、安装 安装 pip install supervisor 测试superviso</description>
     </item>
     
     <item>
       <title>Centos安装python3</title>
-      <link>https://xyemy.com/post/2021/06/11/centos%E5%AE%89%E8%A3%85python3.html</link>
+      <link>https://blog.xyemy.com/post/2021/06/11/centos%E5%AE%89%E8%A3%85python3.html</link>
       <pubDate>Fri, 11 Jun 2021 16:43:18 +0800</pubDate>
       
-      <guid>https://xyemy.com/post/2021/06/11/centos%E5%AE%89%E8%A3%85python3.html</guid>
+      <guid>https://blog.xyemy.com/post/2021/06/11/centos%E5%AE%89%E8%A3%85python3.html</guid>
       <description>yum install -y update &amp;amp;&amp;amp; yum install -y upgrade yum install -y gcc gcc-c++ yum -y install gcc automake autoconf</description>
     </item>
     
