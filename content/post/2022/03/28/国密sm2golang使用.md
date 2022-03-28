@@ -1,7 +1,7 @@
 ---
 title: "国密sm2 golang使用"
 date: 2022-03-28T11:51:43+08:00
-draft: true
+draft: false
 tags: ["golang","sm2"]
 isCJKLanguage: true
 categories: ["实用工具","golang"]
