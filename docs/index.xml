@@ -13,7 +13,7 @@
       <pubDate>Tue, 29 Mar 2022 10:50:52 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/03/29/golang%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E5%B9%B6%E8%A7%A3%E6%9E%90%E6%96%87%E4%BB%B6%E5%90%8D.html</guid>
-      <description>下载文件时，文件名存在返回头的 Content-Disposition 中 import ( &amp;#34;github.com/spf13/cast&amp;#34;</description>
+      <description>**下载文件时，文件名存在返回头的 Content-Disposition 中 **</description>
     </item>
     
     <item>

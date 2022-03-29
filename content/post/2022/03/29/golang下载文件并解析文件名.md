@@ -7,7 +7,9 @@ isCJKLanguage: true
 categories: ["golang"]
 ---
 
-**下载文件时，文件名存在返回头的 Content-Disposition 中**
+**下载文件时，文件名存在返回头的 Content-Disposition 中 **
+
+**格式 Content-Disposition: attachment;filename=044001617111_94691918.pdf**
 
 ```go
 import (
