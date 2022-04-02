@@ -6,7 +6,16 @@
     <description>Recent content in Posts on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 29 Mar 2022 10:50:52 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Apr 2022 17:30:48 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git更改远程仓库地址</title>
+      <link>https://blog.xyemy.com/post/2022/04/02/git%E6%9B%B4%E6%94%B9%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80.html</link>
+      <pubDate>Sat, 02 Apr 2022 17:30:48 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/04/02/git%E6%9B%B4%E6%94%B9%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80.html</guid>
+      <description>1. 修改命令 git remote set-url origin 新的地址 2. 先删后加 git remote</description>
+    </item>
+    
     <item>
       <title>Golang下载文件并解析文件名</title>
       <link>https://blog.xyemy.com/post/2022/03/29/golang%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E5%B9%B6%E8%A7%A3%E6%9E%90%E6%96%87%E4%BB%B6%E5%90%8D.html</link>

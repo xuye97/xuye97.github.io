@@ -3,10 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.xyemy.com/categories.html</loc>
-    <lastmod>2022-03-29T10:50:52+08:00</lastmod>
+    <lastmod>2022-04-02T17:30:48+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/</loc>
-    <lastmod>2022-03-29T10:50:52+08:00</lastmod>
+    <lastmod>2022-04-02T17:30:48+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/git.html</loc>
+    <lastmod>2022-04-02T17:30:48+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/git.html</loc>
+    <lastmod>2022-04-02T17:30:48+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post/2022/04/02/git%E6%9B%B4%E6%94%B9%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80.html</loc>
+    <lastmod>2022-04-02T17:30:48+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post.html</loc>
+    <lastmod>2022-04-02T17:30:48+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags.html</loc>
+    <lastmod>2022-04-02T17:30:48+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/golang.html</loc>
     <lastmod>2022-03-29T10:50:52+08:00</lastmod>
@@ -15,12 +30,6 @@
     <lastmod>2022-03-29T10:50:52+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/03/29/golang%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E5%B9%B6%E8%A7%A3%E6%9E%90%E6%96%87%E4%BB%B6%E5%90%8D.html</loc>
-    <lastmod>2022-03-29T10:50:52+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/post.html</loc>
-    <lastmod>2022-03-29T10:50:52+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags.html</loc>
     <lastmod>2022-03-29T10:50:52+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/sm2.html</loc>
@@ -121,12 +130,6 @@
   </url><url>
     <loc>https://blog.xyemy.com/tags/%E8%AF%81%E4%B9%A6.html</loc>
     <lastmod>2021-12-10T16:15:23+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags/git.html</loc>
-    <lastmod>2021-11-09T10:26:51+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/categories/git.html</loc>
-    <lastmod>2021-11-09T10:26:51+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2021/11/09/git%E6%92%A4%E9%94%80commit.html</loc>
     <lastmod>2021-11-09T10:26:51+08:00</lastmod>
