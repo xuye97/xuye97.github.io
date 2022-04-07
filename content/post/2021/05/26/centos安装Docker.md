@@ -39,8 +39,8 @@ sudo yum-config-manager --enable docker-ce-test
 **5、安装最新的Docker和Containerd**
 
 ```shell
-sudo yum install https://download.docker.com/linux/fedora/30/x86_64/stable/Packages/containerd.io-1.2.6-3.3.fc30.x86_64.rpm
-sudo yum install docker-ce docker-ce-cli
+sudo yum install -y https://download.docker.com/linux/fedora/30/x86_64/stable/Packages/containerd.io-1.2.6-3.3.fc30.x86_64.rpm
+sudo yum install -y docker-ce docker-ce-cli
 ```
 
 **6、启动Docker**
