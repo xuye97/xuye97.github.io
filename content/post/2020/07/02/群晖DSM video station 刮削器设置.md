@@ -2,9 +2,9 @@
 title: "群晖dsm-video-station-刮削器设置"
 date: 2021-07-02T19:09:15+08:00
 draft: false
-tags: ["dsm","tmd","刮削器","linux"]
+tags: ["群晖","tmd","刮削器"]
 isCJKLanguage: true
-categories: ["dsm","linux"]
+categories: ["群晖"]
 ---
 
 ## 一、The Movie Database 账号注册与 API 接口获取
