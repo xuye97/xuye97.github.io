@@ -56,8 +56,9 @@ categories: ["docker"]
 
 6. 查看已经push的manifest 
 
-   ```she
+   ```shell
    $docker manifest inspect aaa/aaa:latest
    ```
 
    
+
