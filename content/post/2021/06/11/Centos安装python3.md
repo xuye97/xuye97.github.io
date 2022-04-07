@@ -4,7 +4,7 @@ date: 2021-06-11T16:43:18+08:00
 draft: false
 tags: ["centos","python"]
 isCJKLanguage: true
-categories: ["centos","linux"]
+categories: ["centos","linux","python"]
 ---
 
 ```shell
@@ -14,7 +14,7 @@ yum -y install gcc automake autoconf libtool make
 yum groupinstall -y 'Development Tools'
 yum install -y gcc openssl-devel bzip2-devel libffi-devel
 
-wget https://www.python.org/ftp/python/3.9.5/Python-3.9.5.tgz
+wget https://www.python.org/ftp/python/3.9.5/Python-3.9.5.tgz &&tar -zxvf Python-3.9.5.tgz
 
 mkdir /usr/local/python3 
 cd Python-3.9.5/
