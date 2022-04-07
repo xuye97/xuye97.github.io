@@ -9,21 +9,24 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
     
 
-    <title>arm | en&#39;s blog</title>
-    <meta property="og:title" content="arm - en&#39;s blog">
+    <title>镜像上传到Dockerhub上 | en&#39;s blog</title>
+    <meta property="og:title" content="镜像上传到Dockerhub上 - en&#39;s blog">
     <meta property="og:type" content="article">
         
+    <meta property="article:published_time" content='2022-04-07T12:32:00&#43;08:00'>
+        
+        
+    <meta property="article:modified_time" content='2022-04-07T12:32:00&#43;08:00'>
         
     <meta name="Keywords" content="">
-    <meta name="description" content="arm">
+    <meta name="description" content="镜像上传到Dockerhub上">
         
     <meta name="author" content="enenen">
-    <meta property="og:url" content="https://blog.xyemy.com/tags/arm.html">
+    <meta property="og:url" content="https://blog.xyemy.com/post/2022/04/07/%E9%95%9C%E5%83%8F%E4%B8%8A%E4%BC%A0%E5%88%B0dockerhub%E4%B8%8A.html">
     <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
     <link rel="stylesheet" href='/css/style.css'>
-    <link rel="alternate" type="application/rss+xml" href="https://blog.xyemy.com/tags/arm/index.xml" title="en's blog" />
     <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
@@ -51,7 +54,7 @@
             </div>
             <div>
                 <nav id="nav-menu" class="clearfix">
-                    <a class="" href="https://blog.xyemy.com/">首页</a>
+                    <a class="current" href="https://blog.xyemy.com/">首页</a>
                     
                 </nav>
             </div>
@@ -67,71 +70,101 @@
                     
 <div class="res-cons">
     
-    <h3 class="archive-title">
-        包含标签
-        <span class="keyword">arm</span>
-        的文章
-    </h3>
-    
-
-    
     <article class="post">
         <header>
-            <h1 class="post-title">
-                <a href="https://blog.xyemy.com/post/2022/01/10/armdocker%E5%AE%89%E8%A3%85mysql.html">Arm docker安装mysql</a>
-            </h1>
+            <h1 class="post-title">镜像上传到Dockerhub上</h1>
         </header>
         <date class="post-meta meta-date">
-            2022年1月10日
+            2022年4月7日
         </date>
         
-        <div class="post-meta meta-category">
-            |
+        <div class="post-meta">
+            <span>|</span>
             
-            <a href='/categories/docker'>docker</a>
-            
-            <a href='/categories/mysql'>mysql</a>
+            <span class="meta-category"><a href='/categories/docker'>docker</a></span>
             
         </div>
         
+        
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
+                    阅读</span></span>
+        </div>
+        
+        
         <div class="post-content">
-            docker run -d \ --name mysql \ -v $PWD/conf:/etc/mysql/conf.d \ -v $PWD/logs:/logs \ -v $PWD/data:/var/lib/mysql \ -e MYS……
-            <p class="readmore"><a href="https://blog.xyemy.com/post/2022/01/10/armdocker%E5%AE%89%E8%A3%85mysql.html">阅读全文</a></p>
+            <ol>
+<li>
+<p>先注册账号 <a href="https://hub.docker.com/">https://hub.docker.com/</a></p>
+</li>
+<li>
+<p>使用Docker hub账号在验证本地登录</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker login
+</code></pre></div></li>
+<li>
+<p>先<code>docker images</code>看看本地的镜像</p>
+<p>如果REPOITORY的名不是你Docker hub账号和仓库，即<code>Docker ID/仓库名</code>，是上传不成功的</p>
+<p>当然可以使用<code>docker tag 镜像ID 用户名称/镜像源名(repository name):新的标签名(tag)</code>来更改</p>
+</li>
+<li>
+<p>.使用<code>docker push</code>命令将镜像上传到docker hub的仓库</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker push&lt;hub-user&gt;/&lt;repo-name&gt;:&lt;tag&gt;
+</code></pre></div></li>
+<li>
+<p><a href="https://hub.docker.com/">https://hub.docker.com/</a> 登陆账号后查看镜像</p>
+</li>
+</ol>
+
+        </div>
+
+        
+
+
+        
+
+<div class="post-archive">
+    <h2>See Also</h2>
+    <ul class="listing">
+        
+        <li><a href="/post/2022/01/18/%E8%AE%BE%E7%BD%AEdocker%E5%AE%B9%E5%99%A8%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6.html">设置Docker容器日志文件大小限制</a></li>
+        
+        <li><a href="/post/2022/01/10/armdocker%E5%AE%89%E8%A3%85mysql.html">Arm docker安装mysql</a></li>
+        
+        <li><a href="/post/2022/01/08/arm-ubuntu2004%E5%AE%89%E8%A3%85docker.html">Arm Ubuntu2004安装docker</a></li>
+        
+        <li><a href="/post/2021/10/18/ubuntu2004%E5%AE%89%E8%A3%85docker.html">Ubuntu 20.04安装docker</a></li>
+        
+        <li><a href="/post/2021/10/18/docker%E5%85%8Dsudo%E8%BF%90%E8%A1%8C.html">Docker免sudo运行</a></li>
+        
+    </ul>
+</div>
+
+
+        <div class="post-meta meta-tags">
+            
+            <ul class="clearfix">
+                
+                <li><a href='/tags/docker'>docker</a></li>
+                
+            </ul>
+            
         </div>
     </article>
     
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://blog.xyemy.com/post/2022/01/08/arm-ubuntu2004%E5%AE%89%E8%A3%85docker.html">Arm Ubuntu2004安装docker</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2022年1月8日
-        </date>
-        
-        <div class="post-meta meta-category">
-            |
-            
-            <a href='/categories/ubuntu'>ubuntu</a>
-            
-            <a href='/categories/docker'>docker</a>
-            
-        </div>
-        
-        <div class="post-content">
-            删除旧版本 sudo apt-get remove docker docker-engine docker.io containerd runc 安装需要的包 sudo……
-            <p class="readmore"><a href="https://blog.xyemy.com/post/2022/01/08/arm-ubuntu2004%E5%AE%89%E8%A3%85docker.html">阅读全文</a></p>
-        </div>
-    </article>
     
 
     
-
-
-
-
-
+    
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xuyien97/xuyien97.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+    
 </div>
 
                     <footer id="footer">
@@ -154,6 +187,16 @@
 </footer>
 
 
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script><script src="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
 <a id="rocket" href="#top"></a>
 <script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
