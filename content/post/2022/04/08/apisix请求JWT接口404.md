@@ -21,6 +21,7 @@ categories: ["apisix"]
            "public-api": {}
        }
    }'
+   #请求方式：curl 'http://127.0.0.1:9080/apisix/plugin/jwt/sign?key=user-key'
    ```
 
 2. 暴露自定义的路由
@@ -38,6 +39,7 @@ categories: ["apisix"]
            "key-auth": {}
        }
    }'
+   #请求方式：curl 'http://127.0.0.1:9080/gen_token?key=user-key'
    ```
 
 3. 暴露需要认证的路由（请求的时候必须加认证头apikey 不然返回401）
@@ -55,8 +57,9 @@ categories: ["apisix"]
            "key-auth": {}
        }
    }'
+   #请求方式：curl -i 'http://127.0.0.1:9080/gen_token?key=user-key' -H "apikey: test-apikey"
    ```
-
+   
    
 
 文档地址：https://apisix.apache.org/zh/docs/apisix/plugins/public-api/

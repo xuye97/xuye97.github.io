@@ -106,6 +106,7 @@
 </span><span style="color:#e6db74">        &#34;public-api&#34;: {}
 </span><span style="color:#e6db74">    }
 </span><span style="color:#e6db74">}&#39;</span>
+<span style="color:#75715e">#请求方式：curl &#39;http://127.0.0.1:9080/apisix/plugin/jwt/sign?key=user-key&#39;</span>
 </code></pre></div></li>
 <li>
 <p>暴露自定义的路由</p>
@@ -121,6 +122,7 @@
 </span><span style="color:#e6db74">        &#34;key-auth&#34;: {}
 </span><span style="color:#e6db74">    }
 </span><span style="color:#e6db74">}&#39;</span>
+<span style="color:#75715e">#请求方式：curl &#39;http://127.0.0.1:9080/gen_token?key=user-key&#39;</span>
 </code></pre></div></li>
 <li>
 <p>暴露需要认证的路由（请求的时候必须加认证头apikey 不然返回401）</p>
@@ -136,6 +138,7 @@
 </span><span style="color:#e6db74">        &#34;key-auth&#34;: {}
 </span><span style="color:#e6db74">    }
 </span><span style="color:#e6db74">}&#39;</span>
+<span style="color:#75715e">#请求方式：curl -i &#39;http://127.0.0.1:9080/gen_token?key=user-key&#39; -H &#34;apikey: test-apikey&#34;</span>
 </code></pre></div></li>
 </ol>
 <p>文档地址：https://apisix.apache.org/zh/docs/apisix/plugins/public-api/</p>
