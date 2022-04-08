@@ -60,7 +60,12 @@ categories: ["apisix"]
    #请求方式：curl -i 'http://127.0.0.1:9080/gen_token?key=user-key' -H "apikey: test-apikey"
    ```
    
-   
+
+
+
+### <api-key>就是admin api 
+
+### admin api 存放在apisix配置文件的 apisix.admin_key role为admin 的key的值
 
 文档地址：https://apisix.apache.org/zh/docs/apisix/plugins/public-api/
 
