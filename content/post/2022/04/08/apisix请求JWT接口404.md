@@ -61,11 +61,7 @@ categories: ["apisix"]
    ```
    
 
-
-
-### <api-key>就是admin api 
-
-### admin api 存放在apisix配置文件的 apisix.admin_key role为admin 的key的值
+### api-key 就是apisix配置文件的 apisix.admin_key role为admin 的key的值
 
 文档地址：https://apisix.apache.org/zh/docs/apisix/plugins/public-api/
 
