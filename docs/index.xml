@@ -6,7 +6,16 @@
     <description>Recent content on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 08 Apr 2022 17:27:47 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 10:05:25 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu系统启用root用户远程登陆</title>
+      <link>https://blog.xyemy.com/post/2022/04/15/ubuntu%E7%B3%BB%E7%BB%9F%E5%90%AF%E7%94%A8root%E7%94%A8%E6%88%B7%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86.html</link>
+      <pubDate>Fri, 15 Apr 2022 10:05:25 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/04/15/ubuntu%E7%B3%BB%E7%BB%9F%E5%90%AF%E7%94%A8root%E7%94%A8%E6%88%B7%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86.html</guid>
+      <description>编辑 /etc/ssh/sshd_config 文件 #修改 PermitRootLogin 为true $ sudo vim /etc/ssh/sshd_config #LoginGraceTime 2m</description>
+    </item>
+    
     <item>
       <title>Apisix请求JWT接口404</title>
       <link>https://blog.xyemy.com/post/2022/04/08/apisix%E8%AF%B7%E6%B1%82jwt%E6%8E%A5%E5%8F%A3404.html</link>
