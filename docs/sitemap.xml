@@ -3,10 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.xyemy.com/categories.html</loc>
-    <lastmod>2022-04-15T10:05:25+08:00</lastmod>
+    <lastmod>2022-04-25T09:50:22+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/</loc>
-    <lastmod>2022-04-15T10:05:25+08:00</lastmod>
+    <lastmod>2022-04-25T09:50:22+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post.html</loc>
+    <lastmod>2022-04-25T09:50:22+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/sql.html</loc>
+    <lastmod>2022-04-25T09:50:22+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/sql.html</loc>
+    <lastmod>2022-04-25T09:50:22+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post/2022/04/25/sql%E6%8B%BC%E6%8E%A5%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%97%B6%E5%8D%95%E5%BC%95%E5%8F%B7%E8%BD%AC%E4%B9%89%E9%97%AE%E9%A2%98.html</loc>
+    <lastmod>2022-04-25T09:50:22+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags.html</loc>
+    <lastmod>2022-04-25T09:50:22+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/linux.html</loc>
     <lastmod>2022-04-15T10:05:25+08:00</lastmod>
@@ -14,13 +29,7 @@
     <loc>https://blog.xyemy.com/categories/linux.html</loc>
     <lastmod>2022-04-15T10:05:25+08:00</lastmod>
   </url><url>
-    <loc>https://blog.xyemy.com/post.html</loc>
-    <lastmod>2022-04-15T10:05:25+08:00</lastmod>
-  </url><url>
     <loc>https://blog.xyemy.com/tags/ssh.html</loc>
-    <lastmod>2022-04-15T10:05:25+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags.html</loc>
     <lastmod>2022-04-15T10:05:25+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/ubuntu.html</loc>

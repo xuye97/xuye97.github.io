@@ -6,7 +6,16 @@
     <description>Recent content in Posts on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 15 Apr 2022 10:05:25 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Apr 2022 09:50:22 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL拼接字符串时单引号转义问题</title>
+      <link>https://blog.xyemy.com/post/2022/04/25/sql%E6%8B%BC%E6%8E%A5%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%97%B6%E5%8D%95%E5%BC%95%E5%8F%B7%E8%BD%AC%E4%B9%89%E9%97%AE%E9%A2%98.html</link>
+      <pubDate>Mon, 25 Apr 2022 09:50:22 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/04/25/sql%E6%8B%BC%E6%8E%A5%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%97%B6%E5%8D%95%E5%BC%95%E5%8F%B7%E8%BD%AC%E4%B9%89%E9%97%AE%E9%A2%98.html</guid>
+      <description>两个单引号就转义为单引号,如下： &amp;#39;&amp;#39;&amp;#39;&amp;#39;+str&amp;#39;&amp;#39;&amp;#39;&amp;#39; eg：</description>
+    </item>
+    
     <item>
       <title>Ubuntu系统启用root用户远程登陆</title>
       <link>https://blog.xyemy.com/post/2022/04/15/ubuntu%E7%B3%BB%E7%BB%9F%E5%90%AF%E7%94%A8root%E7%94%A8%E6%88%B7%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86.html</link>

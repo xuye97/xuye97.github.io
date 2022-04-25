@@ -6,7 +6,16 @@
     <description>Recent content in Tags on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 15 Apr 2022 10:05:25 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Apr 2022 09:50:22 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>sql</title>
+      <link>https://blog.xyemy.com/tags/sql.html</link>
+      <pubDate>Mon, 25 Apr 2022 09:50:22 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/tags/sql.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>linux</title>
       <link>https://blog.xyemy.com/tags/linux.html</link>
