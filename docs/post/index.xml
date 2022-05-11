@@ -6,7 +6,16 @@
     <description>Recent content in Posts on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 25 Apr 2022 09:50:22 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 May 2022 10:13:44 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VirtualBox网络连接方式选择桥接网卡的时候显示发现无效设置网卡未指定</title>
+      <link>https://blog.xyemy.com/post/2022/05/11/virtualbox%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E6%96%B9%E5%BC%8F%E9%80%89%E6%8B%A9%E6%A1%A5%E6%8E%A5%E7%BD%91%E5%8D%A1%E7%9A%84%E6%97%B6%E5%80%99%E6%98%BE%E7%A4%BA%E5%8F%91%E7%8E%B0%E6%97%A0%E6%95%88%E8%AE%BE%E7%BD%AE%E7%BD%91%E5%8D%A1%E6%9C%AA%E6%8C%87%E5%AE%9A.html</link>
+      <pubDate>Wed, 11 May 2022 10:13:44 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/05/11/virtualbox%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E6%96%B9%E5%BC%8F%E9%80%89%E6%8B%A9%E6%A1%A5%E6%8E%A5%E7%BD%91%E5%8D%A1%E7%9A%84%E6%97%B6%E5%80%99%E6%98%BE%E7%A4%BA%E5%8F%91%E7%8E%B0%E6%97%A0%E6%95%88%E8%AE%BE%E7%BD%AE%E7%BD%91%E5%8D%A1%E6%9C%AA%E6%8C%87%E5%AE%9A.html</guid>
+      <description>1.错误样例 2.错误原因 window10</description>
+    </item>
+    
     <item>
       <title>SQL拼接字符串时单引号转义问题</title>
       <link>https://blog.xyemy.com/post/2022/04/25/sql%E6%8B%BC%E6%8E%A5%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%97%B6%E5%8D%95%E5%BC%95%E5%8F%B7%E8%BD%AC%E4%B9%89%E9%97%AE%E9%A2%98.html</link>

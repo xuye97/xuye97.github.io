@@ -1,7 +1,7 @@
 ---
 title: "VirtualBox网络连接方式选择桥接网卡的时候显示发现无效设置网卡未指定"
 date: 2022-05-11T10:13:44+08:00
-draft: true
+draft: false
 tags: ["virtualbox"]
 isCJKLanguage: true
 categories: ["virtualbox","错误处理"]

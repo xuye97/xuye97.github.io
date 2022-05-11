@@ -3,13 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.xyemy.com/categories.html</loc>
-    <lastmod>2022-04-25T09:50:22+08:00</lastmod>
+    <lastmod>2022-05-11T10:13:44+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/</loc>
-    <lastmod>2022-04-25T09:50:22+08:00</lastmod>
+    <lastmod>2022-05-11T10:13:44+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post.html</loc>
-    <lastmod>2022-04-25T09:50:22+08:00</lastmod>
+    <lastmod>2022-05-11T10:13:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags.html</loc>
+    <lastmod>2022-05-11T10:13:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/virtualbox.html</loc>
+    <lastmod>2022-05-11T10:13:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/virtualbox.html</loc>
+    <lastmod>2022-05-11T10:13:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post/2022/05/11/virtualbox%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E6%96%B9%E5%BC%8F%E9%80%89%E6%8B%A9%E6%A1%A5%E6%8E%A5%E7%BD%91%E5%8D%A1%E7%9A%84%E6%97%B6%E5%80%99%E6%98%BE%E7%A4%BA%E5%8F%91%E7%8E%B0%E6%97%A0%E6%95%88%E8%AE%BE%E7%BD%AE%E7%BD%91%E5%8D%A1%E6%9C%AA%E6%8C%87%E5%AE%9A.html</loc>
+    <lastmod>2022-05-11T10:13:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</loc>
+    <lastmod>2022-05-11T10:13:44+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/sql.html</loc>
     <lastmod>2022-04-25T09:50:22+08:00</lastmod>
@@ -18,9 +33,6 @@
     <lastmod>2022-04-25T09:50:22+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/04/25/sql%E6%8B%BC%E6%8E%A5%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%97%B6%E5%8D%95%E5%BC%95%E5%8F%B7%E8%BD%AC%E4%B9%89%E9%97%AE%E9%A2%98.html</loc>
-    <lastmod>2022-04-25T09:50:22+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags.html</loc>
     <lastmod>2022-04-25T09:50:22+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/linux.html</loc>
@@ -192,9 +204,6 @@
     <lastmod>2021-10-28T09:42:31+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2021/10/28/manjaro21%E9%81%87%E5%88%B0cannotfindthefakerootbinary%E9%94%99%E8%AF%AF.html</loc>
-    <lastmod>2021-10-28T09:42:31+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</loc>
     <lastmod>2021-10-28T09:42:31+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/vmware.html</loc>
