@@ -18,7 +18,6 @@ busuanzi = true
 relativeURLs = false
 subtitle = "只有魔法才能打败魔法"
 customJS = ['douban.js']
-fancybox = true
 
 [taxonomies]
 tag = "tags"

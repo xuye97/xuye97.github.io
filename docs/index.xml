@@ -6,7 +6,16 @@
     <description>Recent content on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 11 May 2022 10:13:44 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 May 2022 15:28:49 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安卓手机无root抓包解决方案之VMOS&#43;小黄鸟</title>
+      <link>https://blog.xyemy.com/post/2022/05/15/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%97%A0root%E6%8A%93%E5%8C%85%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%B9%8Bvmos%E5%92%8C%E5%B0%8F%E9%BB%84%E9%B8%9F.html</link>
+      <pubDate>Sun, 15 May 2022 15:28:49 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/05/15/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%97%A0root%E6%8A%93%E5%8C%85%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%B9%8Bvmos%E5%92%8C%E5%B0%8F%E9%BB%84%E9%B8%9F.html</guid>
+      <description>真机安装小黄鸟和VMOS 小黄鸟的设置目标</description>
+    </item>
+    
     <item>
       <title>VirtualBox网络连接方式选择桥接网卡的时候显示发现无效设置网卡未指定</title>
       <link>https://blog.xyemy.com/post/2022/05/11/virtualbox%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E6%96%B9%E5%BC%8F%E9%80%89%E6%8B%A9%E6%A1%A5%E6%8E%A5%E7%BD%91%E5%8D%A1%E7%9A%84%E6%97%B6%E5%80%99%E6%98%BE%E7%A4%BA%E5%8F%91%E7%8E%B0%E6%97%A0%E6%95%88%E8%AE%BE%E7%BD%AE%E7%BD%91%E5%8D%A1%E6%9C%AA%E6%8C%87%E5%AE%9A.html</link>

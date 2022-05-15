@@ -108,15 +108,15 @@ ubuntu等linux发行版的本地时间与硬件时间不同，硬件时间使用
 所以，当win10与ubuntu的本地时间&ndash;硬件时间转换关系不同时，一定会出现时间不同步问题。</p>
 </blockquote>
 <h3 id="ubuntu2004win10解决办法同样适用于1804">ubuntu20.04+win10解决办法：(同样适用于18.04)</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#安装ntpdate：</span>
-sudo apt-get install ntpdate
-
-<span style="color:#75715e">#设置校正服务器：</span>
-sudo ntpdate time.windows.com
-
-<span style="color:#75715e">#设置硬件时间为本地时间：</span>
-sudo hwclock --localtime --systohc
-</code></pre></div><p><strong>最后重启电脑</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#安装ntpdate：</span>
+</span></span><span style="display:flex;"><span>sudo apt-get install ntpdate
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#设置校正服务器：</span>
+</span></span><span style="display:flex;"><span>sudo ntpdate time.windows.com
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#设置硬件时间为本地时间：</span>
+</span></span><span style="display:flex;"><span>sudo hwclock --localtime --systohc
+</span></span></code></pre></div><p><strong>最后重启电脑</strong></p>
 
         </div>
 
@@ -217,6 +217,10 @@ sudo hwclock --localtime --systohc
 <ul class="widget-list">
     
     <li>
+        <a href="https://blog.xyemy.com/post/2022/05/15/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%97%A0root%E6%8A%93%E5%8C%85%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%B9%8Bvmos%E5%92%8C%E5%B0%8F%E9%BB%84%E9%B8%9F.html" title="安卓手机无root抓包解决方案之VMOS&#43;小黄鸟">安卓手机无root抓包解决方案之VMOS&#43;小黄鸟</a>
+    </li>
+    
+    <li>
         <a href="https://blog.xyemy.com/post/2022/05/11/virtualbox%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E6%96%B9%E5%BC%8F%E9%80%89%E6%8B%A9%E6%A1%A5%E6%8E%A5%E7%BD%91%E5%8D%A1%E7%9A%84%E6%97%B6%E5%80%99%E6%98%BE%E7%A4%BA%E5%8F%91%E7%8E%B0%E6%97%A0%E6%95%88%E8%AE%BE%E7%BD%AE%E7%BD%91%E5%8D%A1%E6%9C%AA%E6%8C%87%E5%AE%9A.html" title="VirtualBox网络连接方式选择桥接网卡的时候显示发现无效设置网卡未指定">VirtualBox网络连接方式选择桥接网卡的时候显示发现无效设置网卡未指定</a>
     </li>
     
@@ -250,10 +254,6 @@ sudo hwclock --localtime --systohc
     
     <li>
         <a href="https://blog.xyemy.com/post/2022/03/28/%E5%9B%BD%E5%AF%86sm2golang%E4%BD%BF%E7%94%A8.html" title="国密sm2 golang使用">国密sm2 golang使用</a>
-    </li>
-    
-    <li>
-        <a href="https://blog.xyemy.com/post/2022/02/07/centos8%E9%81%87%E5%88%B0failedtodownloadmetadataforrepoappstream.html" title="Centos8遇到Error: Failed to download metadata for repo &#39;appstream&#39;: Cannot prepare internal mirrorlist: No URLs in mirrorlist">Centos8遇到Error: Failed to download metadata for repo &#39;appstream&#39;: Cannot prepare internal mirrorlist: No URLs in mirrorlist</a>
     </li>
     
 </ul>
@@ -297,7 +297,7 @@ sudo hwclock --localtime --systohc
     
     <li><a href="https://blog.xyemy.com/categories/virtualbox.html">virtualbox (1)</a></li>
     
-    <li><a href="https://blog.xyemy.com/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html">实用工具 (6)</a></li>
+    <li><a href="https://blog.xyemy.com/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html">实用工具 (7)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/%E7%BE%A4%E6%99%96.html">群晖 (2)</a></li>
     
@@ -350,6 +350,8 @@ sudo hwclock --localtime --systohc
     
     <a href="https://blog.xyemy.com/tags/golang.html">golang</a>
     
+    <a href="https://blog.xyemy.com/tags/httpcanary.html">httpcanary</a>
+    
     <a href="https://blog.xyemy.com/tags/https.html">https</a>
     
     <a href="https://blog.xyemy.com/tags/jwt.html">jwt</a>
@@ -398,6 +400,8 @@ sudo hwclock --localtime --systohc
     
     <a href="https://blog.xyemy.com/tags/virtualbox.html">virtualbox</a>
     
+    <a href="https://blog.xyemy.com/tags/vmos.html">vmos</a>
+    
     <a href="https://blog.xyemy.com/tags/vmware.html">vmware</a>
     
     <a href="https://blog.xyemy.com/tags/win10.html">win10</a>
@@ -416,11 +420,17 @@ sudo hwclock --localtime --systohc
     
     <a href="https://blog.xyemy.com/tags/%E5%9B%BE%E7%89%87.html">图片</a>
     
+    <a href="https://blog.xyemy.com/tags/%E5%AE%89%E5%8D%93.html">安卓</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E5%B0%8F%E9%BB%84%E9%B8%9F.html">小黄鸟</a>
+    
     <a href="https://blog.xyemy.com/tags/%E6%85%A2%E6%97%A5%E5%BF%97.html">慢日志</a>
     
     <a href="https://blog.xyemy.com/tags/%E6%88%AA%E5%9B%BE.html">截图</a>
     
     <a href="https://blog.xyemy.com/tags/%E6%89%93%E5%8C%85.html">打包</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E6%8A%93%E5%8C%85.html">抓包</a>
     
     <a href="https://blog.xyemy.com/tags/%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95.html">提交记录</a>
     
