@@ -127,8 +127,8 @@
 </li>
 <li>
 <p>执行脚本</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nand–sata-install
-</span></span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">nand–sata-install
+</code></pre></div></li>
 <li>
 <p>刷完后关机，拔优盘</p>
 </li>
@@ -139,49 +139,49 @@
 <li>
 <p>偶尔无法联通外网</p>
 <p>修改/etc/network/interfaces，注释hotplug热插拔模式，换成auto即可：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">vim</span> <span style="color:#960050;background-color:#1e0010">/etc/network/interfaces</span>
-</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#allow-hotplug</span> <span style="color:#960050;background-color:#1e0010">eth</span><span style="color:#ae81ff">0</span>
-</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">auto</span> <span style="color:#960050;background-color:#1e0010">eth</span><span style="color:#ae81ff">0</span>
-</span></span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#960050;background-color:#1e0010">vim</span> <span style="color:#960050;background-color:#1e0010">/etc/network/interfaces</span>
+<span style="color:#960050;background-color:#1e0010">#allow-hotplug</span> <span style="color:#960050;background-color:#1e0010">eth</span><span style="color:#ae81ff">0</span>
+<span style="color:#960050;background-color:#1e0010">auto</span> <span style="color:#960050;background-color:#1e0010">eth</span><span style="color:#ae81ff">0</span>
+</code></pre></div></li>
 <li>
 <p>armbian的有线网卡每次重启后MAC地址都会变</p>
 <p>从路由器或者命令  ip addr 获取当前的mac 地址，然后修改/etc/network/interfaces文件 写死mac地址：增加一行</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hwaddress mac地址
-</span></span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hwaddress mac地址
+</code></pre></div></li>
 <li>
 <p>ssh终端无法显示中文，也无法输入中文：</p>
 <p>修改/etc/environment中的LC_ALL：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ARCH<span style="color:#f92672">=</span>arm64
-</span></span><span style="display:flex;"><span>LC_ALL<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en_US.utf-8&#34;</span>
-</span></span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ARCH<span style="color:#f92672">=</span>arm64
+LC_ALL<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en_US.utf-8&#34;</span>
+</code></pre></div></li>
 <li>
 <p>优化apt源服务器：</p>
 <p>修改 <strong>/etc/apt/sources.list</strong> 为下面数据：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian-security/ stretch/updates main contrib non-free
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security/ stretch/updates main contrib non-free</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#deb [ arch=arm64,armhf ] https://mirrors.tuna.tsinghua.edu.cn/debian/ sid main contrib non-free</span>
-</span></span></code></pre></div><p>修改完后运行命令：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>apt-get update
-</span></span><span style="display:flex;"><span>apt-get upgrade
-</span></span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
+
+<span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free</span>
+
+deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free
+
+<span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free</span>
+
+deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free
+
+<span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free</span>
+
+deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian-security/ stretch/updates main contrib non-free
+
+<span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security/ stretch/updates main contrib non-free</span>
+
+<span style="color:#75715e">#deb [ arch=arm64,armhf ] https://mirrors.tuna.tsinghua.edu.cn/debian/ sid main contrib non-free</span>
+</code></pre></div><p>修改完后运行命令：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">apt-get update
+apt-get upgrade
+</code></pre></div></li>
 <li>
 <p>修改为上海时区：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>timedatectl set-timezone Asia/Shanghai
-</span></span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">timedatectl set-timezone Asia/Shanghai
+</code></pre></div></li>
 </ol>
 
         </div>
@@ -290,6 +290,10 @@
 <ul class="widget-list">
     
     <li>
+        <a href="https://blog.xyemy.com/post/2022/05/25/%E4%BD%BF%E7%94%A8openssl%E6%8A%8Apem%E8%AF%81%E4%B9%A6%E8%BD%AC%E6%8D%A2%E4%B8%BAcrt%E5%92%8Ckey.html" title="使用openssl把pem证书转换为crt和key">使用openssl把pem证书转换为crt和key</a>
+    </li>
+    
+    <li>
         <a href="https://blog.xyemy.com/post/2022/05/15/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%97%A0root%E6%8A%93%E5%8C%85%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%B9%8Bvmos%E5%92%8C%E5%B0%8F%E9%BB%84%E9%B8%9F.html" title="安卓手机无root抓包解决方案之VMOS&#43;小黄鸟">安卓手机无root抓包解决方案之VMOS&#43;小黄鸟</a>
     </li>
     
@@ -323,10 +327,6 @@
     
     <li>
         <a href="https://blog.xyemy.com/post/2022/03/29/golang%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E5%B9%B6%E8%A7%A3%E6%9E%90%E6%96%87%E4%BB%B6%E5%90%8D.html" title="Golang下载文件并解析文件名">Golang下载文件并解析文件名</a>
-    </li>
-    
-    <li>
-        <a href="https://blog.xyemy.com/post/2022/03/28/%E5%9B%BD%E5%AF%86sm2golang%E4%BD%BF%E7%94%A8.html" title="国密sm2 golang使用">国密sm2 golang使用</a>
     </li>
     
 </ul>
@@ -370,7 +370,7 @@
     
     <li><a href="https://blog.xyemy.com/categories/virtualbox.html">virtualbox (1)</a></li>
     
-    <li><a href="https://blog.xyemy.com/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html">实用工具 (7)</a></li>
+    <li><a href="https://blog.xyemy.com/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html">实用工具 (8)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/%E7%BE%A4%E6%99%96.html">群晖 (2)</a></li>
     
@@ -443,7 +443,11 @@
     
     <a href="https://blog.xyemy.com/tags/nginx.html">nginx</a>
     
+    <a href="https://blog.xyemy.com/tags/openssl.html">openssl</a>
+    
     <a href="https://blog.xyemy.com/tags/oracle.html">oracle</a>
+    
+    <a href="https://blog.xyemy.com/tags/pem.html">pem</a>
     
     <a href="https://blog.xyemy.com/tags/pip.html">pip</a>
     

@@ -104,58 +104,58 @@
 <blockquote>
 <p>安装中文语言包</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt-get install  language-pack-zh-han*
-</span></span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt-get install  language-pack-zh-han*
+</code></pre></div><blockquote>
 <p>运行语言支持检查</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt install <span style="color:#66d9ef">$(</span>check-language-support<span style="color:#66d9ef">)</span>
-</span></span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt install <span style="color:#66d9ef">$(</span>check-language-support<span style="color:#66d9ef">)</span>
+</code></pre></div><blockquote>
 <p>修改配置文件：</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>vim /etc/default/locale
-</span></span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vim /etc/default/locale
+</code></pre></div><blockquote>
 <p>将原始内容注释掉或删掉，替换为如下内容：</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>LANG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN.UTF-8&#34;</span>
-</span></span><span style="display:flex;"><span>LANGUAGE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN:zh&#34;</span>
-</span></span><span style="display:flex;"><span>LC_NUMERIC<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_TIME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_MONETARY<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_PAPER<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_NAME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_ADDRESS<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_TELEPHONE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_MEASUREMENT<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_IDENTIFICATION<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_ALL<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN.UTF-8&#34;</span>
-</span></span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">LANG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN.UTF-8&#34;</span>
+LANGUAGE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN:zh&#34;</span>
+LC_NUMERIC<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_TIME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_MONETARY<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_PAPER<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_NAME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_ADDRESS<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_TELEPHONE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_MEASUREMENT<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_IDENTIFICATION<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_ALL<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN.UTF-8&#34;</span>
+</code></pre></div><blockquote>
 <p>修改环境文件(环境变量(当前用户)):</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>vim /etc/environment
-</span></span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vim /etc/environment
+</code></pre></div><blockquote>
 <p>不修改原有内容,直接在原内容下面新开一行加入下列内容：</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>LANG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN.UTF-8&#34;</span>
-</span></span><span style="display:flex;"><span>LANGUAGE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN:zh&#34;</span>
-</span></span><span style="display:flex;"><span>LC_NUMERIC<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_TIME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_MONETARY<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_PAPER<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_NAME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_ADDRESS<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_TELEPHONE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_MEASUREMENT<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_IDENTIFICATION<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
-</span></span><span style="display:flex;"><span>LC_ALL<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN.UTF-8&#34;</span>
-</span></span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">LANG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN.UTF-8&#34;</span>
+LANGUAGE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN:zh&#34;</span>
+LC_NUMERIC<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_TIME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_MONETARY<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_PAPER<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_NAME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_ADDRESS<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_TELEPHONE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_MEASUREMENT<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_IDENTIFICATION<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN&#34;</span>
+LC_ALL<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN.UTF-8&#34;</span>
+</code></pre></div><blockquote>
 <p>修改环境文件(环境变量(所有用户)):</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>vim /etc/profile
-</span></span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vim /etc/profile
+</code></pre></div><blockquote>
 <p>不修改原有内容,直接在原内容下面新开一行加入下列内容：</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>LANG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN.UTF-8&#34;</span>
-</span></span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">LANG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh_CN.UTF-8&#34;</span>
+</code></pre></div>
         </div>
 
         
@@ -260,6 +260,10 @@
 <ul class="widget-list">
     
     <li>
+        <a href="https://blog.xyemy.com/post/2022/05/25/%E4%BD%BF%E7%94%A8openssl%E6%8A%8Apem%E8%AF%81%E4%B9%A6%E8%BD%AC%E6%8D%A2%E4%B8%BAcrt%E5%92%8Ckey.html" title="使用openssl把pem证书转换为crt和key">使用openssl把pem证书转换为crt和key</a>
+    </li>
+    
+    <li>
         <a href="https://blog.xyemy.com/post/2022/05/15/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%97%A0root%E6%8A%93%E5%8C%85%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%B9%8Bvmos%E5%92%8C%E5%B0%8F%E9%BB%84%E9%B8%9F.html" title="安卓手机无root抓包解决方案之VMOS&#43;小黄鸟">安卓手机无root抓包解决方案之VMOS&#43;小黄鸟</a>
     </li>
     
@@ -293,10 +297,6 @@
     
     <li>
         <a href="https://blog.xyemy.com/post/2022/03/29/golang%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E5%B9%B6%E8%A7%A3%E6%9E%90%E6%96%87%E4%BB%B6%E5%90%8D.html" title="Golang下载文件并解析文件名">Golang下载文件并解析文件名</a>
-    </li>
-    
-    <li>
-        <a href="https://blog.xyemy.com/post/2022/03/28/%E5%9B%BD%E5%AF%86sm2golang%E4%BD%BF%E7%94%A8.html" title="国密sm2 golang使用">国密sm2 golang使用</a>
     </li>
     
 </ul>
@@ -340,7 +340,7 @@
     
     <li><a href="https://blog.xyemy.com/categories/virtualbox.html">virtualbox (1)</a></li>
     
-    <li><a href="https://blog.xyemy.com/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html">实用工具 (7)</a></li>
+    <li><a href="https://blog.xyemy.com/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html">实用工具 (8)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/%E7%BE%A4%E6%99%96.html">群晖 (2)</a></li>
     
@@ -413,7 +413,11 @@
     
     <a href="https://blog.xyemy.com/tags/nginx.html">nginx</a>
     
+    <a href="https://blog.xyemy.com/tags/openssl.html">openssl</a>
+    
     <a href="https://blog.xyemy.com/tags/oracle.html">oracle</a>
+    
+    <a href="https://blog.xyemy.com/tags/pem.html">pem</a>
     
     <a href="https://blog.xyemy.com/tags/pip.html">pip</a>
     

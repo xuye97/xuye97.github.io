@@ -99,17 +99,17 @@
 centos 8 默认使用dnf代替了yum，原yum配置文件（/etc/yum.conf）默认链接到dnf配置文件（/etc/dnf/dnf.conf）
 原来只需更改yum配置文件进行代理设置的方法已经不好用了。
 centos 8需按如下修改</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cat /etc/dnf/dnf.conf
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>main<span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span>gpgcheck<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
-</span></span><span style="display:flex;"><span>installonly_limit<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>
-</span></span><span style="display:flex;"><span>clean_requirements_on_remove<span style="color:#f92672">=</span>True
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>proxy<span style="color:#f92672">=</span>协议://地址:端口
-</span></span><span style="display:flex;"><span>proxy_username<span style="color:#f92672">=</span>用户名（没有可不要）
-</span></span><span style="display:flex;"><span>proxy_password<span style="color:#f92672">=</span>密码（没有可不要）
-</span></span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat /etc/dnf/dnf.conf
+
+<span style="color:#f92672">[</span>main<span style="color:#f92672">]</span>
+gpgcheck<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+installonly_limit<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>
+clean_requirements_on_remove<span style="color:#f92672">=</span>True
+
+proxy<span style="color:#f92672">=</span>协议://地址:端口
+proxy_username<span style="color:#f92672">=</span>用户名（没有可不要）
+proxy_password<span style="color:#f92672">=</span>密码（没有可不要）
+</code></pre></div>
         </div>
 
         
@@ -209,6 +209,10 @@ centos 8需按如下修改</p>
 <ul class="widget-list">
     
     <li>
+        <a href="https://blog.xyemy.com/post/2022/05/25/%E4%BD%BF%E7%94%A8openssl%E6%8A%8Apem%E8%AF%81%E4%B9%A6%E8%BD%AC%E6%8D%A2%E4%B8%BAcrt%E5%92%8Ckey.html" title="使用openssl把pem证书转换为crt和key">使用openssl把pem证书转换为crt和key</a>
+    </li>
+    
+    <li>
         <a href="https://blog.xyemy.com/post/2022/05/15/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%97%A0root%E6%8A%93%E5%8C%85%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%B9%8Bvmos%E5%92%8C%E5%B0%8F%E9%BB%84%E9%B8%9F.html" title="安卓手机无root抓包解决方案之VMOS&#43;小黄鸟">安卓手机无root抓包解决方案之VMOS&#43;小黄鸟</a>
     </li>
     
@@ -242,10 +246,6 @@ centos 8需按如下修改</p>
     
     <li>
         <a href="https://blog.xyemy.com/post/2022/03/29/golang%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E5%B9%B6%E8%A7%A3%E6%9E%90%E6%96%87%E4%BB%B6%E5%90%8D.html" title="Golang下载文件并解析文件名">Golang下载文件并解析文件名</a>
-    </li>
-    
-    <li>
-        <a href="https://blog.xyemy.com/post/2022/03/28/%E5%9B%BD%E5%AF%86sm2golang%E4%BD%BF%E7%94%A8.html" title="国密sm2 golang使用">国密sm2 golang使用</a>
     </li>
     
 </ul>
@@ -289,7 +289,7 @@ centos 8需按如下修改</p>
     
     <li><a href="https://blog.xyemy.com/categories/virtualbox.html">virtualbox (1)</a></li>
     
-    <li><a href="https://blog.xyemy.com/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html">实用工具 (7)</a></li>
+    <li><a href="https://blog.xyemy.com/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html">实用工具 (8)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/%E7%BE%A4%E6%99%96.html">群晖 (2)</a></li>
     
@@ -362,7 +362,11 @@ centos 8需按如下修改</p>
     
     <a href="https://blog.xyemy.com/tags/nginx.html">nginx</a>
     
+    <a href="https://blog.xyemy.com/tags/openssl.html">openssl</a>
+    
     <a href="https://blog.xyemy.com/tags/oracle.html">oracle</a>
+    
+    <a href="https://blog.xyemy.com/tags/pem.html">pem</a>
     
     <a href="https://blog.xyemy.com/tags/pip.html">pip</a>
     

@@ -99,24 +99,24 @@
 <p>Centos7，Centos8都适用</p>
 </blockquote>
 <p><strong>1、更新系统</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo yum update -y <span style="color:#f92672">&amp;&amp;</span> yum upgrade -y
-</span></span></code></pre></div><p><strong>2、安装yum-utils</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo yum install -y yum-utils
-</span></span></code></pre></div><p><strong>3、添加源</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo yum-config-manager <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --add-repo <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    https://download.docker.com/linux/centos/docker-ce.repo
-</span></span></code></pre></div><p><strong>4、Enable the nightly or test repositories</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo yum-config-manager --enable docker-ce-nightly
-</span></span><span style="display:flex;"><span>sudo yum-config-manager --enable docker-ce-test
-</span></span></code></pre></div><p><strong>5、安装最新的Docker和Containerd</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo yum install -y https://download.docker.com/linux/fedora/30/x86_64/stable/Packages/containerd.io-1.2.6-3.3.fc30.x86_64.rpm
-</span></span><span style="display:flex;"><span>sudo yum install -y docker-ce docker-ce-cli
-</span></span></code></pre></div><p><strong>6、启动Docker</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo systemctl start docker
-</span></span></code></pre></div><p><strong>7、配置Docker开机自启动</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo systemctl enable docker
-</span></span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo yum update -y <span style="color:#f92672">&amp;&amp;</span> yum upgrade -y
+</code></pre></div><p><strong>2、安装yum-utils</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo yum install -y yum-utils
+</code></pre></div><p><strong>3、添加源</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo yum-config-manager <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    --add-repo <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    https://download.docker.com/linux/centos/docker-ce.repo
+</code></pre></div><p><strong>4、Enable the nightly or test repositories</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo yum-config-manager --enable docker-ce-nightly
+sudo yum-config-manager --enable docker-ce-test
+</code></pre></div><p><strong>5、安装最新的Docker和Containerd</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo yum install -y https://download.docker.com/linux/fedora/30/x86_64/stable/Packages/containerd.io-1.2.6-3.3.fc30.x86_64.rpm
+sudo yum install -y docker-ce docker-ce-cli
+</code></pre></div><p><strong>6、启动Docker</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo systemctl start docker
+</code></pre></div><p><strong>7、配置Docker开机自启动</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo systemctl enable docker
+</code></pre></div>
         </div>
 
         
@@ -214,6 +214,10 @@
 <ul class="widget-list">
     
     <li>
+        <a href="https://blog.xyemy.com/post/2022/05/25/%E4%BD%BF%E7%94%A8openssl%E6%8A%8Apem%E8%AF%81%E4%B9%A6%E8%BD%AC%E6%8D%A2%E4%B8%BAcrt%E5%92%8Ckey.html" title="使用openssl把pem证书转换为crt和key">使用openssl把pem证书转换为crt和key</a>
+    </li>
+    
+    <li>
         <a href="https://blog.xyemy.com/post/2022/05/15/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%97%A0root%E6%8A%93%E5%8C%85%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%B9%8Bvmos%E5%92%8C%E5%B0%8F%E9%BB%84%E9%B8%9F.html" title="安卓手机无root抓包解决方案之VMOS&#43;小黄鸟">安卓手机无root抓包解决方案之VMOS&#43;小黄鸟</a>
     </li>
     
@@ -247,10 +251,6 @@
     
     <li>
         <a href="https://blog.xyemy.com/post/2022/03/29/golang%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E5%B9%B6%E8%A7%A3%E6%9E%90%E6%96%87%E4%BB%B6%E5%90%8D.html" title="Golang下载文件并解析文件名">Golang下载文件并解析文件名</a>
-    </li>
-    
-    <li>
-        <a href="https://blog.xyemy.com/post/2022/03/28/%E5%9B%BD%E5%AF%86sm2golang%E4%BD%BF%E7%94%A8.html" title="国密sm2 golang使用">国密sm2 golang使用</a>
     </li>
     
 </ul>
@@ -294,7 +294,7 @@
     
     <li><a href="https://blog.xyemy.com/categories/virtualbox.html">virtualbox (1)</a></li>
     
-    <li><a href="https://blog.xyemy.com/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html">实用工具 (7)</a></li>
+    <li><a href="https://blog.xyemy.com/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html">实用工具 (8)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/%E7%BE%A4%E6%99%96.html">群晖 (2)</a></li>
     
@@ -367,7 +367,11 @@
     
     <a href="https://blog.xyemy.com/tags/nginx.html">nginx</a>
     
+    <a href="https://blog.xyemy.com/tags/openssl.html">openssl</a>
+    
     <a href="https://blog.xyemy.com/tags/oracle.html">oracle</a>
+    
+    <a href="https://blog.xyemy.com/tags/pem.html">pem</a>
     
     <a href="https://blog.xyemy.com/tags/pip.html">pip</a>
     
