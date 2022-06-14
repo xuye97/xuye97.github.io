@@ -6,7 +6,16 @@
     <description>Recent content on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 07 Jun 2022 15:42:34 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Jun 2022 15:34:31 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>重装git以后上传代码报错</title>
+      <link>https://blog.xyemy.com/post/2022/06/14/%E9%87%8D%E8%A3%85git%E4%BB%A5%E5%90%8E%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81%E6%8A%A5%E9%94%99.html</link>
+      <pubDate>Tue, 14 Jun 2022 15:34:31 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/06/14/%E9%87%8D%E8%A3%85git%E4%BB%A5%E5%90%8E%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81%E6%8A%A5%E9%94%99.html</guid>
+      <description>安装新的git以后长传代码报错 Unable to negotiate with 47.98.49.44</description>
+    </item>
+    
     <item>
       <title>docker-compose安装</title>
       <link>https://blog.xyemy.com/post/2022/06/07/dockercompose%E5%AE%89%E8%A3%85.html</link>
