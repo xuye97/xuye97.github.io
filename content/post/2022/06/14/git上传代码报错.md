@@ -1,5 +1,5 @@
 ---
-title: "重装git以后上传代码报错"
+title: "git上传代码报错 no matching host key type found. Their offer: ssh-rsa"
 date: 2022-06-14T15:34:31+08:00
 draft: false
 tags: ["git"]
