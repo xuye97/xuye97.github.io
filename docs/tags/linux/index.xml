@@ -6,7 +6,16 @@
     <description>Recent content in linux on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 15 Apr 2022 10:05:25 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jun 2022 15:07:13 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux登录进去命令行出现 -bash-4.2</title>
+      <link>https://blog.xyemy.com/post/2022/06/20/linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%87%BA%E7%8E%B0bash42.html</link>
+      <pubDate>Mon, 20 Jun 2022 15:07:13 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/06/20/linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%87%BA%E7%8E%B0bash42.html</guid>
+      <description>Linux服务器新建立的用户在登录时显示</description>
+    </item>
+    
     <item>
       <title>Ubuntu系统启用root用户远程登陆</title>
       <link>https://blog.xyemy.com/post/2022/04/15/ubuntu%E7%B3%BB%E7%BB%9F%E5%90%AF%E7%94%A8root%E7%94%A8%E6%88%B7%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86.html</link>

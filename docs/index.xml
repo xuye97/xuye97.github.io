@@ -6,7 +6,16 @@
     <description>Recent content on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 14 Jun 2022 15:34:31 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jun 2022 15:07:13 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux登录进去命令行出现 -bash-4.2</title>
+      <link>https://blog.xyemy.com/post/2022/06/20/linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%87%BA%E7%8E%B0bash42.html</link>
+      <pubDate>Mon, 20 Jun 2022 15:07:13 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/06/20/linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%87%BA%E7%8E%B0bash42.html</guid>
+      <description>Linux服务器新建立的用户在登录时显示</description>
+    </item>
+    
     <item>
       <title>git上传代码报错 no matching host key type found. Their offer: ssh-rsa</title>
       <link>https://blog.xyemy.com/post/2022/06/14/git%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81%E6%8A%A5%E9%94%99.html</link>

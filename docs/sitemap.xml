@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.xyemy.com/categories.html</loc>
-    <lastmod>2022-06-14T15:34:31+08:00</lastmod>
+    <lastmod>2022-06-20T15:07:13+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/</loc>
-    <lastmod>2022-06-14T15:34:31+08:00</lastmod>
+    <lastmod>2022-06-20T15:07:13+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/linux.html</loc>
+    <lastmod>2022-06-20T15:07:13+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/linux.html</loc>
+    <lastmod>2022-06-20T15:07:13+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post/2022/06/20/linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%87%BA%E7%8E%B0bash42.html</loc>
+    <lastmod>2022-06-20T15:07:13+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post.html</loc>
+    <lastmod>2022-06-20T15:07:13+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/ssh.html</loc>
+    <lastmod>2022-06-20T15:07:13+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/ssh.html</loc>
+    <lastmod>2022-06-20T15:07:13+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags.html</loc>
+    <lastmod>2022-06-20T15:07:13+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/git.html</loc>
     <lastmod>2022-06-14T15:34:31+08:00</lastmod>
@@ -15,12 +36,6 @@
     <lastmod>2022-06-14T15:34:31+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/06/14/git%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81%E6%8A%A5%E9%94%99.html</loc>
-    <lastmod>2022-06-14T15:34:31+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/post.html</loc>
-    <lastmod>2022-06-14T15:34:31+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags.html</loc>
     <lastmod>2022-06-14T15:34:31+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</loc>
@@ -85,15 +100,6 @@
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/04/25/sql%E6%8B%BC%E6%8E%A5%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%97%B6%E5%8D%95%E5%BC%95%E5%8F%B7%E8%BD%AC%E4%B9%89%E9%97%AE%E9%A2%98.html</loc>
     <lastmod>2022-04-25T09:50:22+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags/linux.html</loc>
-    <lastmod>2022-04-15T10:05:25+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/categories/linux.html</loc>
-    <lastmod>2022-04-15T10:05:25+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags/ssh.html</loc>
-    <lastmod>2022-04-15T10:05:25+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/ubuntu.html</loc>
     <lastmod>2022-04-15T10:05:25+08:00</lastmod>
@@ -444,9 +450,6 @@
     <lastmod>2021-04-22T16:44:36+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2021/04/16/ubuntu-%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95%E5%85%B6%E4%BB%96linux%E7%B3%BB%E7%BB%9F%E6%98%BE%E7%A4%BA%E6%9D%83%E9%99%90%E4%B8%8D%E8%B6%B3.html</loc>
-    <lastmod>2021-04-16T11:05:44+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/categories/ssh.html</loc>
     <lastmod>2021-04-16T11:05:44+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/dpi.html</loc>

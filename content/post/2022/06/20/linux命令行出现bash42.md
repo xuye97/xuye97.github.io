@@ -1,7 +1,7 @@
 ---
 title: "Linux登录进去命令行出现 -bash-4.2"
 date: 2022-06-20T15:07:13+08:00
-draft: true
+draft: false
 tags: ["linux","ssh"]
 isCJKLanguage: true
 categories: ["linux","ssh"]
