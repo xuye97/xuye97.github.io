@@ -6,7 +6,16 @@
     <description>Recent content in Posts on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 20 Jun 2022 15:07:13 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jul 2022 15:01:09 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker可视化---Portainer安装</title>
+      <link>https://blog.xyemy.com/post/2022/07/01/docker%E5%8F%AF%E8%A7%86%E5%8C%96portainer%E5%AE%89%E8%A3%85.html</link>
+      <pubDate>Fri, 01 Jul 2022 15:01:09 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/07/01/docker%E5%8F%AF%E8%A7%86%E5%8C%96portainer%E5%AE%89%E8%A3%85.html</guid>
+      <description>Portainer 是一个轻量级的管理 UI ，可让你轻松管理不</description>
+    </item>
+    
     <item>
       <title>Linux登录进去命令行出现 -bash-4.2</title>
       <link>https://blog.xyemy.com/post/2022/06/20/linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%87%BA%E7%8E%B0bash42.html</link>
