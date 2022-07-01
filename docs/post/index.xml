@@ -6,7 +6,16 @@
     <description>Recent content in Posts on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 01 Jul 2022 15:01:09 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jul 2022 15:32:28 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>根据发票代码判断发票类型</title>
+      <link>https://blog.xyemy.com/post/2022/07/01/%E6%A0%B9%E6%8D%AE%E5%8F%91%E7%A5%A8%E4%BB%A3%E7%A0%81%E5%88%A4%E6%96%AD%E5%8F%91%E7%A5%A8%E7%B1%BB%E5%9E%8B.html</link>
+      <pubDate>Fri, 01 Jul 2022 15:32:28 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/07/01/%E6%A0%B9%E6%8D%AE%E5%8F%91%E7%A5%A8%E4%BB%A3%E7%A0%81%E5%88%A4%E6%96%AD%E5%8F%91%E7%A5%A8%E7%B1%BB%E5%9E%8B.html</guid>
+      <description>发票代码长度为10位 第8位是 1 或者 5 增值</description>
+    </item>
+    
     <item>
       <title>Docker可视化---Portainer安装</title>
       <link>https://blog.xyemy.com/post/2022/07/01/docker%E5%8F%AF%E8%A7%86%E5%8C%96portainer%E5%AE%89%E8%A3%85.html</link>
