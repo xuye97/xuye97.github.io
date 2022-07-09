@@ -8,9 +8,9 @@ categories: ["docker"]
 ---
 **win10安装docker desktop，打开的时候报错：**
 
-[docker desktop报错](/image/2022/07/09/win10installdockererrorwsl2installationisincomplete.png)
+![docker desktop报错](/image/2022/07/09/win10installdockererrorwsl2installationisincomplete.png)
 
-解决方法：
+## 解决方法
 
 1. 检查系统是否开启了**适用于Linux 的 Windows子系统**，路径：控制面板\程序\程序和功能\启用或关闭windows功能
 
