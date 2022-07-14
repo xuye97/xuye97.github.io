@@ -1,10 +1,10 @@
 ---
-title: "postgres时间戳日期转换"
+title: "postgresql时间戳日期转换"
 date: 2021-04-07T12:16:19+08:00
 draft: false
-tags: ["postgres","时间"]
+tags: ["postgresql","时间"]
 isCJKLanguage: true
-categories: ["postgres"]
+categories: ["postgresql"]
 ---
 
 ```shell

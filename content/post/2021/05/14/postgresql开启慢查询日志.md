@@ -2,9 +2,9 @@
 title: "Postgresql开启慢查询日志"
 date: 2021-05-14T09:10:27+08:00
 draft: false
-tags: ["postgres","慢日志"]
+tags: ["postgresql","慢日志"]
 isCJKLanguage: true
-categories: ["postgres"]
+categories: ["postgresql"]
 ---
 
 ## 修改系统设置（二选一）

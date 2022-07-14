@@ -1,10 +1,10 @@
 ---
-title: "Postgres根据时区获取时间"
+title: "PostgreSQL根据时区获取时间"
 date: 2021-06-09T10:49:44+08:00
 draft: false
-tags: ["postgres",“时间”,"时区"]
+tags: ["postgresql",“时间”,"时区"]
 isCJKLanguage: true
-categories: ["postgres"]
+categories: ["postgresql"]
 ---
 
 > postgres获取指定时区的时间
