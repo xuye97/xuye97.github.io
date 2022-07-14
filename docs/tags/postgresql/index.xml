@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>postgres on en&#39;s blog</title>
-    <link>https://blog.xyemy.com/tags/postgres.html</link>
-    <description>Recent content in postgres on en&#39;s blog</description>
+    <title>postgresql on en&#39;s blog</title>
+    <link>https://blog.xyemy.com/tags/postgresql.html</link>
+    <description>Recent content in postgresql on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 07 Jul 2021 15:05:57 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/postgres/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Jul 2022 16:39:17 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker&#43;PostgreSQL增量备份策略</title>
+      <link>https://blog.xyemy.com/post/2022/07/14/postgresql%E5%A2%9E%E9%87%8F%E5%A4%87%E4%BB%BD%E7%AD%96%E7%95%A5.html</link>
+      <pubDate>Thu, 14 Jul 2022 16:39:17 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/07/14/postgresql%E5%A2%9E%E9%87%8F%E5%A4%87%E4%BB%BD%E7%AD%96%E7%95%A5.html</guid>
+      <description>PostgreSQL在做写入利用时，对数</description>
+    </item>
+    
     <item>
       <title>Postgresql如果查询出的数据为空，则设为0的方法</title>
       <link>https://blog.xyemy.com/post/2021/07/07/postgresql%E5%A6%82%E6%9E%9C%E6%9F%A5%E8%AF%A2%E5%87%BA%E7%9A%84%E6%95%B0%E6%8D%AE%E4%B8%BA%E7%A9%BA%E5%88%99%E8%AE%BE%E4%B8%BA0%E7%9A%84%E6%96%B9%E6%B3%95.html</link>
@@ -17,7 +26,7 @@
     </item>
     
     <item>
-      <title>Postgres根据时区获取时间</title>
+      <title>PostgreSQL根据时区获取时间</title>
       <link>https://blog.xyemy.com/post/2021/06/09/postgres%E6%A0%B9%E6%8D%AE%E6%97%B6%E5%8C%BA%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4.html</link>
       <pubDate>Wed, 09 Jun 2021 10:49:44 +0800</pubDate>
       
@@ -35,7 +44,7 @@
     </item>
     
     <item>
-      <title>postgres时间戳日期转换</title>
+      <title>postgresql时间戳日期转换</title>
       <link>https://blog.xyemy.com/post/2021/04/07/psql%E6%97%B6%E9%97%B4%E6%88%B3%E6%97%A5%E6%9C%9F%E8%BD%AC%E6%8D%A2.html</link>
       <pubDate>Wed, 07 Apr 2021 12:16:19 +0800</pubDate>
       
