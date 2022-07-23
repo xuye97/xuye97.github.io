@@ -11,7 +11,7 @@ categories: ["linux","centos"]
 >
 > “enp0s3” 可能不同
 
-    ```shell
+```shell
     TYPE=Ethernet
     PROXY_METHOD=none
     BROWSER_ONLY=no
@@ -32,4 +32,4 @@ categories: ["linux","centos"]
     GATEWAY=192.168.2.254#网关
     DNS1=192.168.2.254#DNS服务器1
     DNS2=192.168.2.254#DNS服务器2
-    ```
+```
