@@ -78,17 +78,17 @@ categories: ["实用工具","python"]
 
 ## 四、WEB管理页面
 
-```shell
-vi /etc/supervisor/supervisord.conf
-#修改下面的配置，去掉前面的分号，如果没有可以自己添加
-[inet_http_server]             # inet (TCP) server disabled by default
-port=0.0.0.0:9001              # ip_address:port specifier, *:port for all iface
-username=user                  # default is no username (open server)
-password=123                   # default is no password (open server)
+   ```shell
+   vi /etc/supervisor/supervisord.conf
+   #修改下面的配置，去掉前面的分号，如果没有可以自己添加
+   [inet_http_server]             # inet (TCP) server disabled by default
+   port=0.0.0.0:9001              # ip_address:port specifier, *:port for all iface
+   username=user                  # default is no username (open server)
+   password=123                   # default is no password (open server)
 
-#重新载入配置文件
-supervisorctl reload
-```
+   #重新载入配置文件
+   supervisorctl reload
+   ```
 
 ## 五、添加任务
 
@@ -136,12 +136,12 @@ supervisorctl reload
 
 ## 六、命令
 
-```shell
-supervisorctl status		#当前运行状态
-supervisorctl stop 项目名	  #停止任务
-supervisorctl start 项目名	  #开始任务
-supervisorctl restart 项目名 #重启任务
-supervisorctl reload		#重新加载
-supervisorctl update 		#更新配置
-```
+   ```shell
+   supervisorctl status		#当前运行状态
+   supervisorctl stop 项目名	  #停止任务
+   supervisorctl start 项目名	  #开始任务
+   supervisorctl restart 项目名 #重启任务
+   supervisorctl reload		#重新加载
+   supervisorctl update 		#更新配置
+   ```
 

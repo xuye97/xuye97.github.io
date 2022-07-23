@@ -96,8 +96,8 @@
             <blockquote>
 <p><strong>Quoted-printable</strong>可译为“可打印字符引用编码”，编码常用在电子邮件中，如：Content-Transfer-Encoding: quoted-printable ，它是MIME编码常见一种表示方法！ 在邮件里面我们常需要用可打印的ASCII字符 (如字母、数字与&quot;=&quot;)表示各种编码格式下的字符！Quoted-printable将任何8-bit字节值可编码为3个字符：一个等号&quot;=&ldquo;后跟随两个十六进制数字(0–9或A–F)表示该字节的数值。例如，ASCII码换页符（十进制值为12）可以表示为&rdquo;=0C&quot;， 等号&quot;=&quot;（十进制值为61）必须表示为&quot;=3D&quot;，gb2312下“中”表示为=D6=D0。除了可打印ASCII字符与换行符以外，所有字符必须表示为这种格式。</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a6e22e">qpStr</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">ioutil</span>.<span style="color:#a6e22e">ReadAll</span>(<span style="color:#a6e22e">quotedprintable</span>.<span style="color:#a6e22e">NewReader</span>(<span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">NewReader</span>(<span style="color:#e6db74">&#34;=E6=88=91=E6=98=AF=E6=9C=80=E5=B8=85=E7=9A=84&#34;</span>)))
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">qpStr</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">ioutil</span>.<span style="color:#a6e22e">ReadAll</span>(<span style="color:#a6e22e">quotedprintable</span>.<span style="color:#a6e22e">NewReader</span>(<span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">NewReader</span>(<span style="color:#e6db74">&#34;=E6=88=91=E6=98=AF=E6=9C=80=E5=B8=85=E7=9A=84&#34;</span>)))
+</span></span></code></pre></div>
         </div>
 
         

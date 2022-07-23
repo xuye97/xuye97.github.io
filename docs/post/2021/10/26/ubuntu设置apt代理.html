@@ -96,17 +96,17 @@
         
         <div class="post-content">
             <h3 id="1-临时使用推荐">1. 临时使用（推荐）</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#在apt后加 -o ，没有用户名 密码可省略</span>
-sudo apt-get -o Acquire::http::proxy<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;socks5h://用户名:密码@服务器地址:端口号/&#34;</span> update
-</code></pre></div><h3 id="2-修改环境变量">2. 修改环境变量</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#没有用户名 密码可省略</span>
-export http_proxy<span style="color:#f92672">=</span>http://用户名:密码@服务器地址:端口号
-sudo apt-get update
-</code></pre></div><h3 id="3-修改配置文件">3. 修改配置文件</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo vi /etc/apt/apt.conf
-<span style="color:#75715e">#增加：</span>
-Acquire::http::proxy<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://用户名:密码@服务器地址:端口号/&#34;</span>
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#在apt后加 -o ，没有用户名 密码可省略</span>
+</span></span><span style="display:flex;"><span>sudo apt-get -o Acquire::http::proxy<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;socks5h://用户名:密码@服务器地址:端口号/&#34;</span> update
+</span></span></code></pre></div><h3 id="2-修改环境变量">2. 修改环境变量</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#没有用户名 密码可省略</span>
+</span></span><span style="display:flex;"><span>export http_proxy<span style="color:#f92672">=</span>http://用户名:密码@服务器地址:端口号
+</span></span><span style="display:flex;"><span>sudo apt-get update
+</span></span></code></pre></div><h3 id="3-修改配置文件">3. 修改配置文件</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo vi /etc/apt/apt.conf
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#增加：</span>
+</span></span><span style="display:flex;"><span>Acquire::http::proxy<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://用户名:密码@服务器地址:端口号/&#34;</span>
+</span></span></code></pre></div>
         </div>
 
         

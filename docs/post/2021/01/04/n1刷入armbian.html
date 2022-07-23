@@ -127,8 +127,8 @@
 </li>
 <li>
 <p>执行脚本</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">nand–sata-install
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nand–sata-install
+</span></span></code></pre></div></li>
 <li>
 <p>刷完后关机，拔优盘</p>
 </li>
@@ -139,49 +139,49 @@
 <li>
 <p>偶尔无法联通外网</p>
 <p>修改/etc/network/interfaces，注释hotplug热插拔模式，换成auto即可：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#960050;background-color:#1e0010">vim</span> <span style="color:#960050;background-color:#1e0010">/etc/network/interfaces</span>
-<span style="color:#960050;background-color:#1e0010">#allow-hotplug</span> <span style="color:#960050;background-color:#1e0010">eth</span><span style="color:#ae81ff">0</span>
-<span style="color:#960050;background-color:#1e0010">auto</span> <span style="color:#960050;background-color:#1e0010">eth</span><span style="color:#ae81ff">0</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">vim</span> <span style="color:#960050;background-color:#1e0010">/etc/network/interfaces</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">#allow-hotplug</span> <span style="color:#960050;background-color:#1e0010">eth</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">auto</span> <span style="color:#960050;background-color:#1e0010">eth</span><span style="color:#ae81ff">0</span>
+</span></span></code></pre></div></li>
 <li>
 <p>armbian的有线网卡每次重启后MAC地址都会变</p>
 <p>从路由器或者命令  ip addr 获取当前的mac 地址，然后修改/etc/network/interfaces文件 写死mac地址：增加一行</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hwaddress mac地址
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hwaddress mac地址
+</span></span></code></pre></div></li>
 <li>
 <p>ssh终端无法显示中文，也无法输入中文：</p>
 <p>修改/etc/environment中的LC_ALL：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ARCH<span style="color:#f92672">=</span>arm64
-LC_ALL<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en_US.utf-8&#34;</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ARCH<span style="color:#f92672">=</span>arm64
+</span></span><span style="display:flex;"><span>LC_ALL<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en_US.utf-8&#34;</span>
+</span></span></code></pre></div></li>
 <li>
 <p>优化apt源服务器：</p>
 <p>修改 <strong>/etc/apt/sources.list</strong> 为下面数据：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
-
-<span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free</span>
-
-deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free
-
-<span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free</span>
-
-deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free
-
-<span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free</span>
-
-deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian-security/ stretch/updates main contrib non-free
-
-<span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security/ stretch/updates main contrib non-free</span>
-
-<span style="color:#75715e">#deb [ arch=arm64,armhf ] https://mirrors.tuna.tsinghua.edu.cn/debian/ sid main contrib non-free</span>
-</code></pre></div><p>修改完后运行命令：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">apt-get update
-apt-get upgrade
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>deb <span style="color:#f92672">[</span> arch<span style="color:#f92672">=</span>arm64,armhf <span style="color:#f92672">]</span> https://mirrors.tuna.tsinghua.edu.cn/debian-security/ stretch/updates main contrib non-free
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security/ stretch/updates main contrib non-free</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#deb [ arch=arm64,armhf ] https://mirrors.tuna.tsinghua.edu.cn/debian/ sid main contrib non-free</span>
+</span></span></code></pre></div><p>修改完后运行命令：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>apt-get update
+</span></span><span style="display:flex;"><span>apt-get upgrade
+</span></span></code></pre></div></li>
 <li>
 <p>修改为上海时区：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">timedatectl set-timezone Asia/Shanghai
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>timedatectl set-timezone Asia/Shanghai
+</span></span></code></pre></div></li>
 </ol>
 
         </div>

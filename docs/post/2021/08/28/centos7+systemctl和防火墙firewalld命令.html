@@ -96,32 +96,32 @@
             <ol>
 <li>
 <p>查看防火墙状态：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">firewall-cmd --state
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>firewall-cmd --state
+</span></span></code></pre></div></li>
 <li>
 <p>查看开放的端口：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">firewall-cmd --list-ports
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>firewall-cmd --list-ports
+</span></span></code></pre></div></li>
 <li>
 <p>查看某个端口是否开放</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">firewall-cmd--zone<span style="color:#f92672">=</span>public--query-port<span style="color:#f92672">=</span>80/tcp <span style="color:#75715e">#返回yes代表开启</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>firewall-cmd--zone<span style="color:#f92672">=</span>public--query-port<span style="color:#f92672">=</span>80/tcp <span style="color:#75715e">#返回yes代表开启</span>
+</span></span></code></pre></div></li>
 <li>
 <p>开启防火墙端口：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">firewall-cmd --zone<span style="color:#f92672">=</span>public --add-port<span style="color:#f92672">=</span>80/tcp --permanent
-<span style="color:#75715e">#命令含义：</span>
-<span style="color:#75715e">#–zone #作用域</span>
-<span style="color:#75715e">#–add-port=80/tcp #添加端口，格式为：端口/通讯协议</span>
-<span style="color:#75715e">#–permanent #永久生效，没有此参数重启后失效</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>firewall-cmd --zone<span style="color:#f92672">=</span>public --add-port<span style="color:#f92672">=</span>80/tcp --permanent
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#命令含义：</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#–zone #作用域</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#–add-port=80/tcp #添加端口，格式为：端口/通讯协议</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#–permanent #永久生效，没有此参数重启后失效</span>
+</span></span></code></pre></div></li>
 <li>
 <p>关闭防火墙端口：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">firewall-cmd --zone<span style="color:#f92672">=</span>public --remove-port<span style="color:#f92672">=</span>80/tcp --permanent
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>firewall-cmd --zone<span style="color:#f92672">=</span>public --remove-port<span style="color:#f92672">=</span>80/tcp --permanent
+</span></span></code></pre></div></li>
 <li>
 <p>重新加载配置：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">firewall-cmd --reload
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>firewall-cmd --reload
+</span></span></code></pre></div></li>
 </ol>
 <p>　　<strong>注意：添加端口后，必须用命令firewall-cmd &ndash;reload重新加载一遍才会生效</strong></p>
 

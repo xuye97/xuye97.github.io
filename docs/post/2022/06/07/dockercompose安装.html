@@ -98,16 +98,17 @@
 </blockquote>
 <ul>
 <li>下载docker-compose的当前稳定版
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo curl -L <span style="color:#e6db74">&#34;https://github.com/docker/compose/releases/download/1.29.2/docker-compose-</span><span style="color:#66d9ef">$(</span>uname -s<span style="color:#66d9ef">)</span><span style="color:#e6db74">-</span><span style="color:#66d9ef">$(</span>uname -m<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> -o /usr/local/bin/docker-compose
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo curl -L <span style="color:#e6db74">&#34;https://github.com/docker/compose/releases/download/1.29.2/docker-compose-</span><span style="color:#66d9ef">$(</span>uname -s<span style="color:#66d9ef">)</span><span style="color:#e6db74">-</span><span style="color:#66d9ef">$(</span>uname -m<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> -o /usr/local/bin/docker-compose
+</span></span></code></pre></div></li>
 <li>赋予执行权限
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo chmod +x /usr/local/bin/docker-compose
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo chmod +x /usr/local/bin/docker-compose
+</span></span></code></pre></div></li>
 <li>创建软链
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+</span></span></code></pre></div></li>
 <li>查看版本,验证安装
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker-compose --version</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker-compose --version
+</span></span></code></pre></div></li>
 </ul>
 
         </div>

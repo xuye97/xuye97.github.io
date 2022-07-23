@@ -97,50 +97,49 @@
 <p>撤回错误上传的代码</p>
 </blockquote>
 <h2 id="查看提交记录">查看提交记录</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git log
-commit 3cb10f20846181a579b2d75e6aaa7afbd9416a4b <span style="color:#f92672">(</span>HEAD -&gt; stable, origin/stable<span style="color:#f92672">)</span>
-Author: Username &lt;xxx@outlook.com&gt;
-Date:   Thu May <span style="color:#ae81ff">6</span> 14:01:18 <span style="color:#ae81ff">2021</span> +0800
-
-    提交备注1
-
-commit 4709d2919a9ba1b6cc76b25512c4539c9119fe21
-Author: Username &lt;xxx@outlook.com&gt;
-Date:   Thu May <span style="color:#ae81ff">6</span> 16:22:08 <span style="color:#ae81ff">2021</span> +0800
-
-    提交备注2
-
-commit 30b174cef05c0142dfc5cad31bc22091c4862a8f
-Author: Username &lt;xxx@outlook.com&gt;
-Date:   Thu May <span style="color:#ae81ff">6</span> 10:50:19 <span style="color:#ae81ff">2021</span> +0800
-
-    提交备注3
-
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ git log
+</span></span><span style="display:flex;"><span>commit 3cb10f20846181a579b2d75e6aaa7afbd9416a4b <span style="color:#f92672">(</span>HEAD -&gt; stable, origin/stable<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>Author: Username &lt;xxx@outlook.com&gt;
+</span></span><span style="display:flex;"><span>Date:   Thu May <span style="color:#ae81ff">6</span> 14:01:18 <span style="color:#ae81ff">2021</span> +0800
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    提交备注1
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>commit 4709d2919a9ba1b6cc76b25512c4539c9119fe21
+</span></span><span style="display:flex;"><span>Author: Username &lt;xxx@outlook.com&gt;
+</span></span><span style="display:flex;"><span>Date:   Thu May <span style="color:#ae81ff">6</span> 16:22:08 <span style="color:#ae81ff">2021</span> +0800
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    提交备注2
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>commit 30b174cef05c0142dfc5cad31bc22091c4862a8f
+</span></span><span style="display:flex;"><span>Author: Username &lt;xxx@outlook.com&gt;
+</span></span><span style="display:flex;"><span>Date:   Thu May <span style="color:#ae81ff">6</span> 10:50:19 <span style="color:#ae81ff">2021</span> +0800
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    提交备注3
+</span></span></code></pre></div><blockquote>
 <p>commit 后面就是提交记录的id</p>
 <p>现在需要回滚到 “提交备注2”</p>
 </blockquote>
 <h2 id="回滚">回滚</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git reset --soft 4709d2919a9ba1b6cc76b25512c4539c9119fe21
-</code></pre></div><h2 id="查看提交记录-1">查看提交记录</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git log
-commit 4709d2919a9ba1b6cc76b25512c4539c9119fe21
-Author: Username &lt;xxx@outlook.com&gt;
-Date:   Thu May <span style="color:#ae81ff">6</span> 16:22:08 <span style="color:#ae81ff">2021</span> +0800
-
-    提交备注2
-
-commit 30b174cef05c0142dfc5cad31bc22091c4862a8f
-Author: Username &lt;xxx@outlook.com&gt;
-Date:   Thu May <span style="color:#ae81ff">6</span> 10:50:19 <span style="color:#ae81ff">2021</span> +0800
-
-    提交备注3
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>git reset --soft 4709d2919a9ba1b6cc76b25512c4539c9119fe21
+</span></span></code></pre></div><h2 id="查看提交记录-1">查看提交记录</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ git log
+</span></span><span style="display:flex;"><span>commit 4709d2919a9ba1b6cc76b25512c4539c9119fe21
+</span></span><span style="display:flex;"><span>Author: Username &lt;xxx@outlook.com&gt;
+</span></span><span style="display:flex;"><span>Date:   Thu May <span style="color:#ae81ff">6</span> 16:22:08 <span style="color:#ae81ff">2021</span> +0800
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    提交备注2
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>commit 30b174cef05c0142dfc5cad31bc22091c4862a8f
+</span></span><span style="display:flex;"><span>Author: Username &lt;xxx@outlook.com&gt;
+</span></span><span style="display:flex;"><span>Date:   Thu May <span style="color:#ae81ff">6</span> 10:50:19 <span style="color:#ae81ff">2021</span> +0800
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    提交备注3
+</span></span></code></pre></div><blockquote>
 <p>最上面的 &ldquo;提交备注1&rdquo; 3cb10f20846181a579b2d75e6aaa7afbd9416a4b 已经看不到了，这表示撤销成功了。</p>
 </blockquote>
 <h2 id="本地的代码强制推到远程">本地的代码强制推到远程</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git push origin test --force  <span style="color:#75715e">#test是分支名字</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>git push origin test --force  <span style="color:#75715e">#test是分支名字</span>
+</span></span></code></pre></div><blockquote>
 <p>结束</p>
 </blockquote>
 

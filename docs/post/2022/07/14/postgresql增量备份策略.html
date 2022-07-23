@@ -101,111 +101,111 @@
 <ol>
 <li>
 <p>创建文件夹</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># 备份文件</span>
-mkdir -p pg_backup/archive_wals
-<span style="color:#75715e"># 备份基础数据中间文件</span>
-mkdir -p pg_backup/basebackup/backups-tmp
-<span style="color:#75715e"># 存放备份脚本</span>
-mkdir -p pg_backup/scripts
-<span style="color:#75715e"># 设置备份文件夹的用户为postgres 让用户有权限讲文件复制进来</span>
-chown -R postgres:postgres pg_backup
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># 备份文件</span>
+</span></span><span style="display:flex;"><span>mkdir -p pg_backup/archive_wals
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 备份基础数据中间文件</span>
+</span></span><span style="display:flex;"><span>mkdir -p pg_backup/basebackup/backups-tmp
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 存放备份脚本</span>
+</span></span><span style="display:flex;"><span>mkdir -p pg_backup/scripts
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 设置备份文件夹的用户为postgres 让用户有权限讲文件复制进来</span>
+</span></span><span style="display:flex;"><span>chown -R postgres:postgres pg_backup
+</span></span></code></pre></div></li>
 <li>
 <p>运行数据库</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker rm -f postgres
-docker run -d <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    --restart always <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    --name postgres <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    -e POSTGRES_USER<span style="color:#f92672">=</span>postgres <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    -e POSTGRES_PASSWORD<span style="color:#f92672">=</span>mimamima <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    -v $PWD/pg_backup:/pgback <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    -v $PWD/data:/var/lib/postgresql/data <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    -p 5432:5432 <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    postgres:13
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker rm -f postgres
+</span></span><span style="display:flex;"><span>docker run -d <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --restart always <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --name postgres <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -e POSTGRES_USER<span style="color:#f92672">=</span>postgres <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -e POSTGRES_PASSWORD<span style="color:#f92672">=</span>mimamima <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -v $PWD/pg_backup:/pgback <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -v $PWD/data:/var/lib/postgresql/data <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -p 5432:5432 <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    postgres:13
+</span></span></code></pre></div></li>
 <li>
 <p>修改数据库配置文件,修改过后重启数据库生效</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vim postgresql.conf
-
-wal_level <span style="color:#f92672">=</span> replica
-archive_mode <span style="color:#f92672">=</span> on
-<span style="color:#75715e"># 判断文件是否存在，不存在就复制</span>
-<span style="color:#75715e"># %f 日志文件的文件名 eg:000000010000000000000001</span>
-<span style="color:#75715e"># %p 日志文件的全部路径  eg:/log/000000010000000000000001</span>
-archive_command <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;test ! -f /pg_backup/archive_wals/%f &amp;&amp; cp %p /pg_backup/archive_wals/%f&#34;</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>vim postgresql.conf
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>wal_level <span style="color:#f92672">=</span> replica
+</span></span><span style="display:flex;"><span>archive_mode <span style="color:#f92672">=</span> on
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 判断文件是否存在，不存在就复制</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># %f 日志文件的文件名 eg:000000010000000000000001</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># %p 日志文件的全部路径  eg:/log/000000010000000000000001</span>
+</span></span><span style="display:flex;"><span>archive_command <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;test ! -f /pg_backup/archive_wals/%f &amp;&amp; cp %p /pg_backup/archive_wals/%f&#34;</span>
+</span></span></code></pre></div></li>
 <li>
 <p>基础备份脚本 <strong>vi pg_backup/scripts/pg_basebackup.sh</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#!/bin/bash
-</span><span style="color:#75715e"></span>
-DATE<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>date <span style="color:#e6db74">&#39;+%Y%m%d&#39;</span><span style="color:#66d9ef">)</span>
-sevendays_time<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>date -d -7days <span style="color:#e6db74">&#39;+%Y%m%d&#39;</span><span style="color:#66d9ef">)</span>
-port<span style="color:#f92672">=</span><span style="color:#ae81ff">5432</span>
-pguser<span style="color:#f92672">=</span>postgres
-bkpath<span style="color:#f92672">=</span>pg_backup/basebackup
-bktmp<span style="color:#f92672">=</span>$bkpath/backups-tmp
-
-echo <span style="color:#e6db74">&#34;START...............&#34;</span>
-<span style="color:#75715e"># 删除过期的备份</span>
-rm -rf $bkpath/base_$sevendays_time.tar.gz
-<span style="color:#75715e">#生成基础备份</span>
-pg_basebackup -Ft -Pv -Xf -z -Z5 -p $port -U $pguser -D $bktmp
-<span style="color:#75715e"># 基础备份改一下名字并挪到备份文件夹</span>
-mv $bktmp/base.tar.gz $bkpath/base_$DATE.tar.gz
-<span style="color:#75715e">#手动举行一次WAL切换</span>
-psql -p $port -U $pguser -c <span style="color:#e6db74">&#34;select pg_switch_wal()&#34;</span>
-echo <span style="color:#e6db74">&#34;END&#34;</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>DATE<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>date <span style="color:#e6db74">&#39;+%Y%m%d&#39;</span><span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>sevendays_time<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>date -d -7days <span style="color:#e6db74">&#39;+%Y%m%d&#39;</span><span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>port<span style="color:#f92672">=</span><span style="color:#ae81ff">5432</span>
+</span></span><span style="display:flex;"><span>pguser<span style="color:#f92672">=</span>postgres
+</span></span><span style="display:flex;"><span>bkpath<span style="color:#f92672">=</span>pg_backup/basebackup
+</span></span><span style="display:flex;"><span>bktmp<span style="color:#f92672">=</span>$bkpath/backups-tmp
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;START...............&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 删除过期的备份</span>
+</span></span><span style="display:flex;"><span>rm -rf $bkpath/base_$sevendays_time.tar.gz
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#生成基础备份</span>
+</span></span><span style="display:flex;"><span>pg_basebackup -Ft -Pv -Xf -z -Z5 -p $port -U $pguser -D $bktmp
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 基础备份改一下名字并挪到备份文件夹</span>
+</span></span><span style="display:flex;"><span>mv $bktmp/base.tar.gz $bkpath/base_$DATE.tar.gz
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#手动举行一次WAL切换</span>
+</span></span><span style="display:flex;"><span>psql -p $port -U $pguser -c <span style="color:#e6db74">&#34;select pg_switch_wal()&#34;</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;END&#34;</span>
+</span></span></code></pre></div></li>
 <li>
 <p>设置还原点（可选）</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql">postgres<span style="color:#f92672">=#</span> <span style="color:#66d9ef">select</span> pg_create_restore_point(<span style="color:#e6db74">&#39;restore_point_200207140520&#39;</span>);
- pg_switch_wal
-<span style="color:#75715e">---------------
-</span><span style="color:#75715e"></span><span style="color:#ae81ff">0</span><span style="color:#f92672">/</span><span style="color:#ae81ff">18000000</span>
-(<span style="color:#ae81ff">1</span> <span style="color:#66d9ef">row</span>)
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span>postgres<span style="color:#f92672">=#</span> <span style="color:#66d9ef">select</span> pg_create_restore_point(<span style="color:#e6db74">&#39;restore_point_200207140520&#39;</span>);
+</span></span><span style="display:flex;"><span> pg_switch_wal
+</span></span><span style="display:flex;"><span><span style="color:#75715e">---------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#ae81ff">0</span><span style="color:#f92672">/</span><span style="color:#ae81ff">18000000</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#ae81ff">1</span> <span style="color:#66d9ef">row</span>)
+</span></span></code></pre></div></li>
 <li>
 <p>获取事务ID（可选）</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql">postgres<span style="color:#f92672">=#</span> <span style="color:#66d9ef">select</span> txid_current();
- txid_current
-<span style="color:#75715e">--------------
-</span><span style="color:#75715e"></span>        <span style="color:#ae81ff">701</span>
-(<span style="color:#ae81ff">1</span> <span style="color:#66d9ef">row</span>)
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span>postgres<span style="color:#f92672">=#</span> <span style="color:#66d9ef">select</span> txid_current();
+</span></span><span style="display:flex;"><span> txid_current
+</span></span><span style="display:flex;"><span><span style="color:#75715e">--------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#ae81ff">701</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#ae81ff">1</span> <span style="color:#66d9ef">row</span>)
+</span></span></code></pre></div></li>
 <li>
 <p>宿主机创建定时任务 <strong>crontab -e</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> * * * docker exec -it postgres <span style="color:#e6db74">&#34;/pg_backup/scripts/pg_backup_d.sh&#34;</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span> * * * docker exec -it postgres <span style="color:#e6db74">&#34;/pg_backup/scripts/pg_backup_d.sh&#34;</span>
+</span></span></code></pre></div></li>
 </ol>
 <h2 id="恢复数据">恢复数据</h2>
 <ol>
 <li>
 <p>暂停docker</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker stop postgres
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker stop postgres
+</span></span></code></pre></div></li>
 <li>
 <p>恢复基本数据</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># data是docker容器映射到外面的数据库数据</span>
-rm -rf /app/postgres/data
-<span style="color:#75715e"># base_20220714.tar.gz 是之前脚本备份的基础数据</span>
-tar -xvf pg_backup/basebackup/base_20220714.tar.gz -C /app/postgres/data
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># data是docker容器映射到外面的数据库数据</span>
+</span></span><span style="display:flex;"><span>rm -rf /app/postgres/data
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># base_20220714.tar.gz 是之前脚本备份的基础数据</span>
+</span></span><span style="display:flex;"><span>tar -xvf pg_backup/basebackup/base_20220714.tar.gz -C /app/postgres/data
+</span></span></code></pre></div></li>
 <li>
 <p>修改配置文件  <strong>vim data/postgresql.conf</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># 恢复命令</span>
-restore_command <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;cp /pgback/pg_backup/archive_wals/%f %p&#39;</span>
-<span style="color:#75715e"># 下面几个选项多选一</span>
-<span style="color:#75715e"># 恢复到指定时间点</span>
-recovery_target_time <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;2022-07-14 17:20:00&#39;</span>
-<span style="color:#75715e"># 恢复到指定还原点 ”restore_point_200207140520“ 是之前创建的还原点</span>
-recovery_target_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;restore_point_200207140520&#39;</span>
-<span style="color:#75715e"># 恢复到指定事务 ”701“ 是之前查询的事务id</span>
-recovery_target_xid <span style="color:#f92672">=</span> <span style="color:#ae81ff">701</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># 恢复命令</span>
+</span></span><span style="display:flex;"><span>restore_command <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;cp /pgback/pg_backup/archive_wals/%f %p&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 下面几个选项多选一</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 恢复到指定时间点</span>
+</span></span><span style="display:flex;"><span>recovery_target_time <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;2022-07-14 17:20:00&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 恢复到指定还原点 ”restore_point_200207140520“ 是之前创建的还原点</span>
+</span></span><span style="display:flex;"><span>recovery_target_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;restore_point_200207140520&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 恢复到指定事务 ”701“ 是之前查询的事务id</span>
+</span></span><span style="display:flex;"><span>recovery_target_xid <span style="color:#f92672">=</span> <span style="color:#ae81ff">701</span>
+</span></span></code></pre></div></li>
 <li>
 <p>重新启动数据库</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker start postgres
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker start postgres
+</span></span></code></pre></div></li>
 </ol>
 <h2 id="到这就完成了">到这就完成了</h2>
 

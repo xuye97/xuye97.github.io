@@ -96,41 +96,41 @@
             <ol>
 <li>
 <p>开启 manifest</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ vi /etc/docker/daemon.json
-<span style="color:#f92672">{</span>
-  <span style="color:#e6db74">&#34;experimental&#34;</span>: true
-<span style="color:#f92672">}</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ vi /etc/docker/daemon.json
+</span></span><span style="display:flex;"><span><span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;experimental&#34;</span>: true
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div></li>
 <li>
 <p>开启experimental：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#临时法:</span>
-export DOCKER_CLI_EXPERIMENTAL<span style="color:#f92672">=</span>enabled
-<span style="color:#75715e">#永久法:</span>
-$vi ~/.docker/config.json
-<span style="color:#f92672">{</span>
-    <span style="color:#e6db74">&#34;experimental&#34;</span>: <span style="color:#e6db74">&#34;enabled&#34;</span>
-<span style="color:#f92672">}</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#临时法:</span>
+</span></span><span style="display:flex;"><span>export DOCKER_CLI_EXPERIMENTAL<span style="color:#f92672">=</span>enabled
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#永久法:</span>
+</span></span><span style="display:flex;"><span>$vi ~/.docker/config.json
+</span></span><span style="display:flex;"><span><span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;experimental&#34;</span>: <span style="color:#e6db74">&#34;enabled&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div></li>
 <li>
 <p>创建 manifest</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker manifest create --insecure aaa/aaa:latest bbb/bbb:arm64 ccc/ccc:x86
-</code></pre></div><p><strong>aaa/aaa:latest 是manifest list地址，也就是最后统一了架构后的镜像地址</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker manifest create --insecure aaa/aaa:latest bbb/bbb:arm64 ccc/ccc:x86
+</span></span></code></pre></div><p><strong>aaa/aaa:latest 是manifest list地址，也就是最后统一了架构后的镜像地址</strong></p>
 <p><strong>bbb/bbb:arm64 ccc/ccc:x86  已经在仓库中有的镜像地址 要上传以后才行</strong></p>
 <p><strong>&ndash;insecure  防止远端仓库没有https证书的问题</strong></p>
 </li>
 <li>
 <p>向manifest添加镜像</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker manifest create --insecure  --amend aaa/aaa:latest ddd/ddd:amd64
-</code></pre></div><p><strong>增加&ndash;amend选项，将x86的架构信息增加到了aaa中。</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker manifest create --insecure  --amend aaa/aaa:latest ddd/ddd:amd64
+</span></span></code></pre></div><p><strong>增加&ndash;amend选项，将x86的架构信息增加到了aaa中。</strong></p>
 </li>
 <li>
 <p>推送到仓库</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$docker manifest push aaa/aaa:latest
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$docker manifest push aaa/aaa:latest
+</span></span></code></pre></div></li>
 <li>
 <p>查看已经push的manifest</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$docker manifest inspect aaa/aaa:latest
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$docker manifest inspect aaa/aaa:latest
+</span></span></code></pre></div></li>
 </ol>
 
         </div>

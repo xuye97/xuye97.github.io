@@ -97,49 +97,49 @@
 <ol>
 <li>
 <p>最简单的方式</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ curl -X PUT <span style="color:#e6db74">&#39;http://127.0.0.1:9080/apisix/admin/routes/r1&#39;</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    -H <span style="color:#e6db74">&#39;X-API-KEY: &lt;api-key&gt;&#39;</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    -H <span style="color:#e6db74">&#39;Content-Type: application/json&#39;</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    -d <span style="color:#e6db74">&#39;{
-</span><span style="color:#e6db74">    &#34;uri&#34;: &#34;/apisix/plugin/jwt/sign&#34;,
-</span><span style="color:#e6db74">    &#34;plugins&#34;: {
-</span><span style="color:#e6db74">        &#34;public-api&#34;: {}
-</span><span style="color:#e6db74">    }
-</span><span style="color:#e6db74">}&#39;</span>
-<span style="color:#75715e">#请求方式：curl &#39;http://127.0.0.1:9080/apisix/plugin/jwt/sign?key=user-key&#39;</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ curl -X PUT <span style="color:#e6db74">&#39;http://127.0.0.1:9080/apisix/admin/routes/r1&#39;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -H <span style="color:#e6db74">&#39;X-API-KEY: &lt;api-key&gt;&#39;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -H <span style="color:#e6db74">&#39;Content-Type: application/json&#39;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -d <span style="color:#e6db74">&#39;{
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;uri&#34;: &#34;/apisix/plugin/jwt/sign&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;plugins&#34;: {
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &#34;public-api&#34;: {}
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    }
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">}&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#请求方式：curl &#39;http://127.0.0.1:9080/apisix/plugin/jwt/sign?key=user-key&#39;</span>
+</span></span></code></pre></div></li>
 <li>
 <p>暴露自定义的路由</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ curl -X PUT <span style="color:#e6db74">&#39;http://127.0.0.1:9080/apisix/admin/routes/r2&#39;</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    -H <span style="color:#e6db74">&#39;X-API-KEY: &lt;api-key&gt;&#39;</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    -H <span style="color:#e6db74">&#39;Content-Type: application/json&#39;</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    -d <span style="color:#e6db74">&#39;{
-</span><span style="color:#e6db74">    &#34;uri&#34;: &#34;/gen_token&#34;,
-</span><span style="color:#e6db74">    &#34;plugins&#34;: {
-</span><span style="color:#e6db74">        &#34;public-api&#34;: {
-</span><span style="color:#e6db74">            &#34;uri&#34;: &#34;/apisix/plugin/jwt/sign&#34;
-</span><span style="color:#e6db74">        },
-</span><span style="color:#e6db74">        &#34;key-auth&#34;: {}
-</span><span style="color:#e6db74">    }
-</span><span style="color:#e6db74">}&#39;</span>
-<span style="color:#75715e">#请求方式：curl &#39;http://127.0.0.1:9080/gen_token?key=user-key&#39;</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ curl -X PUT <span style="color:#e6db74">&#39;http://127.0.0.1:9080/apisix/admin/routes/r2&#39;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -H <span style="color:#e6db74">&#39;X-API-KEY: &lt;api-key&gt;&#39;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -H <span style="color:#e6db74">&#39;Content-Type: application/json&#39;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -d <span style="color:#e6db74">&#39;{
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;uri&#34;: &#34;/gen_token&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;plugins&#34;: {
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &#34;public-api&#34;: {
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            &#34;uri&#34;: &#34;/apisix/plugin/jwt/sign&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        },
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &#34;key-auth&#34;: {}
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    }
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">}&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#请求方式：curl &#39;http://127.0.0.1:9080/gen_token?key=user-key&#39;</span>
+</span></span></code></pre></div></li>
 <li>
 <p>暴露需要认证的路由（请求的时候必须加认证头apikey 不然返回401）</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ curl -X PUT <span style="color:#e6db74">&#39;http://127.0.0.1:9080/apisix/admin/routes/r2&#39;</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    -H <span style="color:#e6db74">&#39;X-API-KEY: &lt;api-key&gt;&#39;</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    -H <span style="color:#e6db74">&#39;Content-Type: application/json&#39;</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>    -d <span style="color:#e6db74">&#39;{
-</span><span style="color:#e6db74">    &#34;uri&#34;: &#34;/gen_token&#34;,
-</span><span style="color:#e6db74">    &#34;plugins&#34;: {
-</span><span style="color:#e6db74">        &#34;public-api&#34;: {
-</span><span style="color:#e6db74">            &#34;uri&#34;: &#34;/apisix/plugin/jwt/sign&#34;
-</span><span style="color:#e6db74">        },
-</span><span style="color:#e6db74">        &#34;key-auth&#34;: {}
-</span><span style="color:#e6db74">    }
-</span><span style="color:#e6db74">}&#39;</span>
-<span style="color:#75715e">#请求方式：curl -i &#39;http://127.0.0.1:9080/gen_token?key=user-key&#39; -H &#34;apikey: test-apikey&#34;</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ curl -X PUT <span style="color:#e6db74">&#39;http://127.0.0.1:9080/apisix/admin/routes/r2&#39;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -H <span style="color:#e6db74">&#39;X-API-KEY: &lt;api-key&gt;&#39;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -H <span style="color:#e6db74">&#39;Content-Type: application/json&#39;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -d <span style="color:#e6db74">&#39;{
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;uri&#34;: &#34;/gen_token&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;plugins&#34;: {
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &#34;public-api&#34;: {
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            &#34;uri&#34;: &#34;/apisix/plugin/jwt/sign&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        },
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        &#34;key-auth&#34;: {}
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    }
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">}&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#请求方式：curl -i &#39;http://127.0.0.1:9080/gen_token?key=user-key&#39; -H &#34;apikey: test-apikey&#34;</span>
+</span></span></code></pre></div></li>
 </ol>
 <h3 id="api-key-就是apisix配置文件的-apisixadmin_key-role为admin-的key的值">api-key 就是apisix配置文件的 apisix.admin_key role为admin 的key的值</h3>
 <p>文档地址：https://apisix.apache.org/zh/docs/apisix/plugins/public-api/</p>

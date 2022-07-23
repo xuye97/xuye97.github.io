@@ -98,17 +98,17 @@
             <blockquote>
 <p>解决办法</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vi /etc/sysctl.conf
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>vi /etc/sysctl.conf
+</span></span></code></pre></div><blockquote>
 <p>修改数据</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"> net.ipv4.ip_forward <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span> net.ipv4.ip_forward <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span></code></pre></div><blockquote>
 <p>重启网络</p>
 <p>查看是不是修改成功</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sysctl net.ipv4.ip_forward
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sysctl net.ipv4.ip_forward
+</span></span></code></pre></div><blockquote>
 <p>如果返回为“ net.ipv4.ip_forward = 1 ”则表示成功了</p>
 <p>这时，重启容器即可。</p>
 </blockquote>
