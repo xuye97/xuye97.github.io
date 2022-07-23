@@ -93,19 +93,15 @@
         
         
         <div class="post-content">
-            <pre><code>```shell
-# 获取当前时间戳
-SELECT EXTRACT(epoch FROM NOW());
-# 日期转时间戳
-SELECT EXTRACT(epoch FROM CAST('2020-05-06 00:30:10' AS TIMESTAMP));
-# 时间戳转日期
-SELECT TO_TIMESTAMP(1589178132.43633); 
-# 时间戳转date
-select to_date(to_timestamp(1588725010)::text,'YYYY-MM-DD');
-
-```
-</code></pre>
-
+            <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># 获取当前时间戳</span>
+</span></span><span style="display:flex;"><span>SELECT EXTRACT<span style="color:#f92672">(</span>epoch FROM NOW<span style="color:#f92672">())</span>;
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 日期转时间戳</span>
+</span></span><span style="display:flex;"><span>SELECT EXTRACT<span style="color:#f92672">(</span>epoch FROM CAST<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;2020-05-06 00:30:10&#39;</span> AS TIMESTAMP<span style="color:#f92672">))</span>;
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 时间戳转日期</span>
+</span></span><span style="display:flex;"><span>SELECT TO_TIMESTAMP<span style="color:#f92672">(</span>1589178132.43633<span style="color:#f92672">)</span>; 
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 时间戳转date</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">select</span> to_date<span style="color:#f92672">(</span>to_timestamp<span style="color:#f92672">(</span>1588725010<span style="color:#f92672">)</span>::text,<span style="color:#e6db74">&#39;YYYY-MM-DD&#39;</span><span style="color:#f92672">)</span>;
+</span></span></code></pre></div>
         </div>
 
         
@@ -259,7 +255,7 @@ select to_date(to_timestamp(1588725010)::text,'YYYY-MM-DD');
     
     <li><a href="https://blog.xyemy.com/categories/git.html">git (5)</a></li>
     
-    <li><a href="https://blog.xyemy.com/categories/golang.html">golang (7)</a></li>
+    <li><a href="https://blog.xyemy.com/categories/golang.html">golang (8)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/linux.html">linux (21)</a></li>
     
@@ -333,6 +329,8 @@ select to_date(to_timestamp(1588725010)::text,'YYYY-MM-DD');
     <a href="https://blog.xyemy.com/tags/gcc.html">gcc</a>
     
     <a href="https://blog.xyemy.com/tags/git.html">git</a>
+    
+    <a href="https://blog.xyemy.com/tags/goimports.html">goimports</a>
     
     <a href="https://blog.xyemy.com/tags/goland.html">goland</a>
     

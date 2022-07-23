@@ -575,6 +575,15 @@
     </item>
     
     <item>
+      <title>GoImports安装</title>
+      <link>https://blog.xyemy.com/post/2021/04/18/goimports%E5%AE%89%E8%A3%85.html</link>
+      <pubDate>Sun, 18 Apr 2021 21:23:28 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2021/04/18/goimports%E5%AE%89%E8%A3%85.html</guid>
+      <description>Go开发过程中时候总需要手工引入包和删除</description>
+    </item>
+    
+    <item>
       <title>linux密钥登录其他linux系统显示权限不足</title>
       <link>https://blog.xyemy.com/post/2021/04/16/ubuntu-%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95%E5%85%B6%E4%BB%96linux%E7%B3%BB%E7%BB%9F%E6%98%BE%E7%A4%BA%E6%9D%83%E9%99%90%E4%B8%8D%E8%B6%B3.html</link>
       <pubDate>Fri, 16 Apr 2021 11:05:44 +0800</pubDate>
@@ -607,7 +616,7 @@
       <pubDate>Wed, 07 Apr 2021 12:16:19 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2021/04/07/psql%E6%97%B6%E9%97%B4%E6%88%B3%E6%97%A5%E6%9C%9F%E8%BD%AC%E6%8D%A2.html</guid>
-      <description>```shell # 获取当前时间戳 SELECT EXTRACT(epoch FROM NOW()); # 日期转时间戳</description>
+      <description># 获取当前时间戳 SELECT EXTRACT(epoch FROM NOW()); # 日期转时间戳 SELECT</description>
     </item>
     
     <item>

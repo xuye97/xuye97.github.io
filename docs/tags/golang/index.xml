@@ -70,5 +70,14 @@
       <description>最近想写一个在家里装了armbian的N</description>
     </item>
     
+    <item>
+      <title>GoImports安装</title>
+      <link>https://blog.xyemy.com/post/2021/04/18/goimports%E5%AE%89%E8%A3%85.html</link>
+      <pubDate>Sun, 18 Apr 2021 21:23:28 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2021/04/18/goimports%E5%AE%89%E8%A3%85.html</guid>
+      <description>Go开发过程中时候总需要手工引入包和删除</description>
+    </item>
+    
   </channel>
 </rss>

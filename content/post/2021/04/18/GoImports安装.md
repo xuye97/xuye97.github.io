@@ -1,7 +1,7 @@
 ---
 title: "GoImports安装"
 date: 2021-04-18T21:23:28+08:00
-draft: true
+draft: false
 tags: ["golang","goimports"]
 isCJKLanguage: true
 categories: ["golang"]
