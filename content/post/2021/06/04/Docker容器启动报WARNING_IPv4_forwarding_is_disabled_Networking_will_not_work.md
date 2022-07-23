@@ -30,7 +30,5 @@ sysctl net.ipv4.ip_forward
 > 如果返回为“ net.ipv4.ip_forward = 1 ”则表示成功了
 >
 > 这时，重启容器即可。
-
-
-
+>
 > 还可以通过run时加-p 参数指定IP的方式来解决，比如 -p 0.0.0.0:999:999（指定ip就按ipv4来，否则默认全部是ipv6的）

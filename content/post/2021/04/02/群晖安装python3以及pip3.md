@@ -27,27 +27,25 @@ categories: ["dsm","linux"]
    python3 get-pip.py
    ```
 
-   
-
 ## 3. 执行 pip3 提示没有找到命令
 
 安装完后执行 pip3 提示没有找到命令，安装pip的时候打印了日志说安装在哪里
 
-```shell
-Collecting pip<21.0
-  Using cached pip-20.3.4-py2.py3-none-any.whl (1.5 MB)
-Collecting wheel
-  Using cached wheel-0.36.2-py2.py3-none-any.whl (35 kB)
-Installing collected packages: wheel, pip
-  WARNING: The script wheel is installed in '/volume1/@appstore/py3k/usr/local/bin' which is not on PATH.
-  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
-  WARNING: The scripts pip, pip3 and pip3.5 are installed in '/volume1/@appstore/py3k/usr/local/bin' which is not on PATH.
-  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  ```shell
+  Collecting pip<21.0
+    Using cached pip-20.3.4-py2.py3-none-any.whl (1.5 MB)
+  Collecting wheel
+    Using cached wheel-0.36.2-py2.py3-none-any.whl (35 kB)
+  Installing collected packages: wheel, pip
+    WARNING: The script wheel is installed in '/volume1/@appstore/py3k/usr/local/bin' which is not on PATH.
+    Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+    WARNING: The scripts pip, pip3 and pip3.5 are installed in '/volume1/@appstore/py3k/usr/local/bin' which is not on PATH.
+    Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
 
-```
+  ```
 
-**解决方法**
+## 解决方法
 
-```shell
-export PATH="/volume1/@appstore/py3k/usr/local/bin:$PATH"
-```
+  ```shell
+  export PATH="/volume1/@appstore/py3k/usr/local/bin:$PATH"
+  ```

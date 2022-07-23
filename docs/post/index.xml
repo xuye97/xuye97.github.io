@@ -58,7 +58,7 @@
       <pubDate>Tue, 14 Jun 2022 15:34:31 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/06/14/git%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81%E6%8A%A5%E9%94%99.html</guid>
-      <description>安装新的git以后长传代码报错 Unable to negotiate with 47.98.49.44</description>
+      <description>安装新的git以后长传代码报错 ```shell Unable to negotiate with</description>
     </item>
     
     <item>
@@ -76,7 +76,7 @@
       <pubDate>Wed, 25 May 2022 11:16:54 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/05/25/%E4%BD%BF%E7%94%A8openssl%E6%8A%8Apem%E8%AF%81%E4%B9%A6%E8%BD%AC%E6%8D%A2%E4%B8%BAcrt%E5%92%8Ckey.html</guid>
-      <description>pem转crt格式 openssl x509 -in xxx.pem -out xxx.crt pem转k</description>
+      <description>pem转crt格式 ```shell openssl x509 -in xxx.pem -out xxx.crt ``` pem</description>
     </item>
     
     <item>
@@ -103,7 +103,7 @@
       <pubDate>Mon, 25 Apr 2022 09:50:22 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/04/25/sql%E6%8B%BC%E6%8E%A5%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%97%B6%E5%8D%95%E5%BC%95%E5%8F%B7%E8%BD%AC%E4%B9%89%E9%97%AE%E9%A2%98.html</guid>
-      <description>两个单引号就转义为单引号,如下： &amp;#39;&amp;#39;&amp;#39;&amp;#39;||str||&amp;#39;&amp;#39;&amp;#39;&amp;#39; eg：</description>
+      <description>两个单引号就转义为单引号,如下 ```sql &#39;&#39;&#39;&#39;||str||&#39;&#39;&#39;&#39; ``` eg</description>
     </item>
     
     <item>
@@ -139,7 +139,7 @@
       <pubDate>Thu, 07 Apr 2022 12:32:00 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/04/07/%E9%95%9C%E5%83%8F%E4%B8%8A%E4%BC%A0%E5%88%B0dockerhub%E4%B8%8A.html</guid>
-      <description>先注册账号 https://hub.docker.com/ 使用Docker hub账号在</description>
+      <description>先注册账号 https://hub.docker.com 使用Docker hub账号在</description>
     </item>
     
     <item>
@@ -148,7 +148,7 @@
       <pubDate>Sat, 02 Apr 2022 17:30:48 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/04/02/git%E6%9B%B4%E6%94%B9%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80.html</guid>
-      <description>1. 修改命令 git remote set-url origin 新的地址 2. 先删后加 git remote</description>
+      <description>1. 修改命令 ```shell git remote set-url origin 新的地址 ``` 2. 先删后加</description>
     </item>
     
     <item>
@@ -157,7 +157,7 @@
       <pubDate>Tue, 29 Mar 2022 10:50:52 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/03/29/golang%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E5%B9%B6%E8%A7%A3%E6%9E%90%E6%96%87%E4%BB%B6%E5%90%8D.html</guid>
-      <description>**下载文件时，文件名存在返回头的 Content-Disposition 中 **</description>
+      <description>下载文件时，文件名存在返回头的 Content-Disposition 中 格式 Content-Disposition:</description>
     </item>
     
     <item>
@@ -166,7 +166,7 @@
       <pubDate>Mon, 28 Mar 2022 11:51:43 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/03/28/%E5%9B%BD%E5%AF%86sm2golang%E4%BD%BF%E7%94%A8.html</guid>
-      <description>package main import ( &amp;#34;bytes&amp;#34; &amp;#34;crypto/rand&amp;#34; &amp;#34;encoding/base64&amp;#34; &amp;#34;encoding/hex&amp;#34; &amp;#34;fmt&amp;#34; &amp;#34;github.com/tjfoc/gmsm/x509&amp;#34; ) func main() { //公钥 var sm2PublicKey</description>
+      <description>```go package main import ( &amp;quot;bytes&amp;quot; &amp;quot;crypto/rand&amp;quot; &amp;quot;encoding/base64&amp;quot; &amp;quot;encoding/hex&amp;quot; &amp;quot;fmt&amp;quot; &amp;quot;github.com/tjfoc/gmsm/x509&amp;quot; ) func main() { //公钥 var</description>
     </item>
     
     <item>
@@ -188,12 +188,12 @@
     </item>
     
     <item>
-      <title>Arm docker安装mysql</title>
+      <title>Arm64 docker安装mysql</title>
       <link>https://blog.xyemy.com/post/2022/01/10/armdocker%E5%AE%89%E8%A3%85mysql.html</link>
       <pubDate>Mon, 10 Jan 2022 08:41:02 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/01/10/armdocker%E5%AE%89%E8%A3%85mysql.html</guid>
-      <description>docker run -d \ --name mysql \ -v $PWD/conf:/etc/mysql/conf.d \ -v $PWD/logs:/logs \ -v $PWD/data:/var/lib/mysql \ -e MYS</description>
+      <description>```shell docker run -d \ --name mysql \ -v $PWD/conf:/etc/mysql/conf.d \ -v $PWD/logs:/logs \ -v $PWD/data:/var/lib/mysql \ -e MY</description>
     </item>
     
     <item>
@@ -535,7 +535,7 @@
       <pubDate>Thu, 20 May 2021 16:11:14 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2021/05/20/%E8%8E%B7%E5%8F%96%E5%85%AC%E7%BD%91ip%E7%9A%84url%E5%9C%B0%E5%9D%80.html</guid>
-      <description>获取公网ip地址 curl ip.42.pl/raw curl api.ip.sb/ip curl ip.3322.net curl ip.qaros.com curl ident.me curl api.ipify.org</description>
+      <description>获取公网ip地址 ```shell curl ip.42.pl/raw curl api.ip.sb/ip curl ip.3322.net curl ip.qaros.com curl ident.me curl</description>
     </item>
     
     <item>
@@ -553,7 +553,7 @@
       <pubDate>Fri, 07 May 2021 10:13:15 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2021/05/07/git%E6%92%A4%E5%9B%9Epush%E5%88%B0%E8%BF%9C%E7%A8%8B%E7%9A%84%E4%BB%A3%E7%A0%81.html</guid>
-      <description>撤回错误上传的代码 查看提交记录 $ git log commit 3cb10f20846181a579b2d75e6aaa7afbd9416a4b</description>
+      <description>撤回错误上传的代码 查看提交记录 ```shell $ git log commit</description>
     </item>
     
     <item>
@@ -580,7 +580,7 @@
       <pubDate>Fri, 16 Apr 2021 11:05:44 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2021/04/16/ubuntu-%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95%E5%85%B6%E4%BB%96linux%E7%B3%BB%E7%BB%9F%E6%98%BE%E7%A4%BA%E6%9D%83%E9%99%90%E4%B8%8D%E8%B6%B3.html</guid>
-      <description>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0750 for &amp;#39;n1&amp;#39; are too open. It is required that</description>
+      <description>```shell @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0750 for &#39;n1&#39; are too open. It is required</description>
     </item>
     
     <item>
@@ -598,7 +598,7 @@
       <pubDate>Fri, 09 Apr 2021 16:05:44 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2021/04/09/%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%90%AF%E7%94%A8%E6%88%96%E7%A6%81%E7%94%A8%E8%87%AA%E5%B8%A6%E9%94%AE%E7%9B%98.html</guid>
-      <description>管理员权限 关闭自带键盘 sc config i8042prt start= disabled 开启自带</description>
+      <description>```shell 管理员权限 关闭自带键盘 sc config i8042prt start= disabled 开启自</description>
     </item>
     
     <item>
@@ -607,7 +607,7 @@
       <pubDate>Wed, 07 Apr 2021 12:16:19 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2021/04/07/psql%E6%97%B6%E9%97%B4%E6%88%B3%E6%97%A5%E6%9C%9F%E8%BD%AC%E6%8D%A2.html</guid>
-      <description># 获取当前时间戳 SELECT EXTRACT(epoch FROM NOW()); # 日期转时间戳 SELECT</description>
+      <description>```shell # 获取当前时间戳 SELECT EXTRACT(epoch FROM NOW()); # 日期转时间戳</description>
     </item>
     
     <item>
@@ -625,7 +625,7 @@
       <pubDate>Wed, 24 Mar 2021 10:44:35 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2021/03/04/ubuntu%E5%88%9B%E5%BB%BA%E5%9B%BE%E6%A0%87.html</guid>
-      <description>ubuntu图标存放在 /usr/share/applications 进入图标存放的位</description>
+      <description>ubuntu图标目录： /usr/share/applications 进入图标存放的位</description>
     </item>
     
     <item>
@@ -644,15 +644,6 @@
       
       <guid>https://blog.xyemy.com/post/2021/03/04/ubuntu%E8%A7%A3%E9%99%A4%E7%83%AD%E9%94%AE%E7%BB%91%E5%AE%9A.html</guid>
       <description>ubuntu使用idea的时候习惯使用c</description>
-    </item>
-    
-    <item>
-      <title>打开Goland提示网络错误</title>
-      <link>https://blog.xyemy.com/post/2021/03/04/%E6%89%93%E5%BC%80goland%E6%8F%90%E7%A4%BA%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</link>
-      <pubDate>Thu, 04 Mar 2021 10:41:32 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/post/2021/03/04/%E6%89%93%E5%BC%80goland%E6%8F%90%E7%A4%BA%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</guid>
-      <description>打开Goland提示一下错误 Internal error. Please report to http://jb.gg/ide/critical-startup-errors</description>
     </item>
     
     <item>

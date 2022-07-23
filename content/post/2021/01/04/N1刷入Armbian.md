@@ -27,7 +27,7 @@ categories: ["n1"]
 
 4. 修改 “BOOT” 目录下的 “*uEnv.ini*” 文件第一行 修改为
 
-   ```
+   ```ini
    dtb_name=/dtb/meson-gxl-s905d-phicomm-n1-xiangsm.dtb
    ```
 
@@ -43,7 +43,7 @@ categories: ["n1"]
 
 8. 刷完后关机，拔优盘
 
-**重刷Armbian方法：优盘启动重新运行 nand–sata-install**
+### 重刷Armbian方法：优盘启动重新运行 nand–sata-install
 
 ## 三、问题处理
 
@@ -110,5 +110,4 @@ categories: ["n1"]
    ```shell
    timedatectl set-timezone Asia/Shanghai
    ```
-
    

@@ -18,7 +18,7 @@ root@n1:~/music# go run main.go
 compilation terminated.
 ```
 
-**解决方法:**
+## 解决方法
 
 ```shell
 apt-get install libasound2-dev -y

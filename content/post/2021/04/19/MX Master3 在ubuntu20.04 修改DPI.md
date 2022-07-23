@@ -9,4 +9,3 @@ categories: ["ubuntu"]
 
 使用 **Solaar**
 直接去Ubuntu Software 搜索安装
-

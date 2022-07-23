@@ -96,21 +96,24 @@
             <blockquote>
 <p>Docker Compose是 docker 提供的一个命令行工具，用来定义和运行由多个容器组成的应用。使用 compose，可以通过 YAML 文件声明式的定义应用程序的各个服务，并由单个命令完成应用的创建和启动。</p>
 </blockquote>
-<ul>
-<li>下载docker-compose的当前稳定版
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo curl -L <span style="color:#e6db74">&#34;https://github.com/docker/compose/releases/download/1.29.2/docker-compose-</span><span style="color:#66d9ef">$(</span>uname -s<span style="color:#66d9ef">)</span><span style="color:#e6db74">-</span><span style="color:#66d9ef">$(</span>uname -m<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> -o /usr/local/bin/docker-compose
-</span></span></code></pre></div></li>
-<li>赋予执行权限
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo chmod +x /usr/local/bin/docker-compose
-</span></span></code></pre></div></li>
-<li>创建软链
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
-</span></span></code></pre></div></li>
-<li>查看版本,验证安装
+<h3 id="下载docker-compose的当前稳定版">下载docker-compose的当前稳定版</h3>
+<pre><code>```shell
+sudo curl -L &quot;https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)&quot; -o /usr/local/bin/docker-compose
+```
+</code></pre>
+<h3 id="赋予执行权限">赋予执行权限</h3>
+<pre><code>```shell
+sudo chmod +x /usr/local/bin/docker-compose
+```
+</code></pre>
+<h3 id="创建软链">创建软链</h3>
+<pre><code>```shell
+ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+```
+</code></pre>
+<h3 id="查看版本验证安装">查看版本,验证安装</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker-compose --version
-</span></span></code></pre></div></li>
-</ul>
-
+</span></span></code></pre></div>
         </div>
 
         
@@ -290,7 +293,7 @@
     
     <li><a href="https://blog.xyemy.com/categories/%E7%BE%A4%E6%99%96.html">群晖 (2)</a></li>
     
-    <li><a href="https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html">错误处理 (10)</a></li>
+    <li><a href="https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html">错误处理 (9)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB.html">默认分类 (2)</a></li>
     

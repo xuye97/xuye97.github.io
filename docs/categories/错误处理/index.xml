@@ -13,7 +13,7 @@
       <pubDate>Tue, 14 Jun 2022 15:34:31 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/06/14/git%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81%E6%8A%A5%E9%94%99.html</guid>
-      <description>安装新的git以后长传代码报错 Unable to negotiate with 47.98.49.44</description>
+      <description>安装新的git以后长传代码报错 ```shell Unable to negotiate with</description>
     </item>
     
     <item>
@@ -76,15 +76,6 @@
       <pubDate>Tue, 09 Mar 2021 09:26:49 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2021/03/09/%E6%89%93%E5%BC%80goland%E6%8F%90%E7%A4%BA%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</guid>
-      <description>打开Goland提示一下错误 Internal error. Please report to http://jb.gg/ide/critical-startup-errors</description>
-    </item>
-    
-    <item>
-      <title>打开Goland提示网络错误</title>
-      <link>https://blog.xyemy.com/post/2021/03/04/%E6%89%93%E5%BC%80goland%E6%8F%90%E7%A4%BA%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</link>
-      <pubDate>Thu, 04 Mar 2021 10:41:32 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/post/2021/03/04/%E6%89%93%E5%BC%80goland%E6%8F%90%E7%A4%BA%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</guid>
       <description>打开Goland提示一下错误 Internal error. Please report to http://jb.gg/ide/critical-startup-errors</description>
     </item>
     

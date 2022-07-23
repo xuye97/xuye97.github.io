@@ -18,4 +18,3 @@ SELECT to_char(now()::timestamp at time zone 'cst+8', 'YYYY/MM/DD HH12:MI:SS')
 | 2021/06/09 10:52:51 |
 
 > "cst+8" 是时区，代表东八区
-

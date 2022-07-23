@@ -29,5 +29,4 @@ categories: ["docker"]
    systemctl restart docker
    ```
 
-**设置的日志大小规则，只对新建的容器有效**
-
+### 设置的日志大小规则，只对新建的容器有效

@@ -22,4 +22,3 @@ sudo pacman -S deepin-screenshot
 ```shell
 deepin-screenshot
 ```
-

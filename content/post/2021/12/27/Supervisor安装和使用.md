@@ -137,11 +137,10 @@ categories: ["实用工具","python"]
 ## 六、命令
 
    ```shell
-   supervisorctl status		#当前运行状态
-   supervisorctl stop 项目名	  #停止任务
-   supervisorctl start 项目名	  #开始任务
+   supervisorctl status  #当前运行状态
+   supervisorctl stop 项目名   #停止任务
+   supervisorctl start 项目名   #开始任务
    supervisorctl restart 项目名 #重启任务
-   supervisorctl reload		#重新加载
-   supervisorctl update 		#更新配置
+   supervisorctl reload  #重新加载
+   supervisorctl update   #更新配置
    ```
-

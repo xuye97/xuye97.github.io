@@ -99,17 +99,20 @@
 centos 8 默认使用dnf代替了yum，原yum配置文件（/etc/yum.conf）默认链接到dnf配置文件（/etc/dnf/dnf.conf）
 原来只需更改yum配置文件进行代理设置的方法已经不好用了。
 centos 8需按如下修改</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cat /etc/dnf/dnf.conf
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>main<span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span>gpgcheck<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
-</span></span><span style="display:flex;"><span>installonly_limit<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>
-</span></span><span style="display:flex;"><span>clean_requirements_on_remove<span style="color:#f92672">=</span>True
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>proxy<span style="color:#f92672">=</span>协议://地址:端口
-</span></span><span style="display:flex;"><span>proxy_username<span style="color:#f92672">=</span>用户名（没有可不要）
-</span></span><span style="display:flex;"><span>proxy_password<span style="color:#f92672">=</span>密码（没有可不要）
-</span></span></code></pre></div>
+<pre><code>```shell
+cat /etc/dnf/dnf.conf
+
+[main]
+gpgcheck=1
+installonly_limit=3
+clean_requirements_on_remove=True
+
+proxy=协议://地址:端口
+proxy_username=用户名（没有可不要）
+proxy_password=密码（没有可不要）
+```
+</code></pre>
+
         </div>
 
         
@@ -293,7 +296,7 @@ centos 8需按如下修改</p>
     
     <li><a href="https://blog.xyemy.com/categories/%E7%BE%A4%E6%99%96.html">群晖 (2)</a></li>
     
-    <li><a href="https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html">错误处理 (10)</a></li>
+    <li><a href="https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html">错误处理 (9)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB.html">默认分类 (2)</a></li>
     

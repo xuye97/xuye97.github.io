@@ -7,7 +7,7 @@ isCJKLanguage: true
 categories: ["ubuntu","linux"]
 ---
 
-1. 编辑 /etc/ssh/sshd_config 文件
+1. 编辑 **/etc/ssh/sshd_config** 文件
 
    ```shell
    #修改 PermitRootLogin 为true
@@ -31,5 +31,3 @@ categories: ["ubuntu","linux"]
    ```shell
    sudo  systemctl  restart  sshd
    ```
-
-   

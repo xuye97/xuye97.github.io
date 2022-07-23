@@ -29,6 +29,3 @@ sudo vi /etc/apt/apt.conf
 #增加：
 Acquire::http::proxy="http://用户名:密码@服务器地址:端口号/"
 ```
-
-
-

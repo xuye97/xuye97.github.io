@@ -16,4 +16,3 @@ categories: ["linux","manjaro","错误处理"]
 ```shell
 pacman -S base-devel
 ```
-

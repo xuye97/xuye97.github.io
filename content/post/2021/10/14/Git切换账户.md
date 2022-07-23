@@ -9,14 +9,14 @@ categories: ["git"]
 
 换了公司电脑之前有人用过，上传代码一直是前一个人的名字，刚开始以为是密钥的问题，换了两次密钥还是之前的那个人的名字。
 
-**查看当前用户名及邮箱**
+## 查看当前用户名及邮箱
 
 ```shell
-git config user.name	#当前git用户名
-git config user.email	#当前git邮箱
+git config user.name #当前git用户名
+git config user.email #当前git邮箱
 ```
 
-**设置新的用户名及邮箱**
+## 设置新的用户名及邮箱
 
 ```shell
 git config --global user.name "用户名"

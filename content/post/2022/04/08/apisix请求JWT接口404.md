@@ -7,7 +7,7 @@ isCJKLanguage: true
 categories: ["apisix"]
 ---
 
-**apisix启用jwt-auth插件会新增一个管理接口 /apisix/plugin/jwt/sign 但是这个接口需要手动暴露，不然请求会返回404**
+## apisix启用jwt-auth插件会新增一个管理接口 /apisix/plugin/jwt/sign 但是这个接口需要手动暴露，不然请求会返回404
 
 1. 最简单的方式
 
@@ -59,9 +59,7 @@ categories: ["apisix"]
    }'
    #请求方式：curl -i 'http://127.0.0.1:9080/gen_token?key=user-key' -H "apikey: test-apikey"
    ```
-   
 
 ### api-key 就是apisix配置文件的 apisix.admin_key role为admin 的key的值
 
-文档地址：https://apisix.apache.org/zh/docs/apisix/plugins/public-api/
-
+文档地址：<https://apisix.apache.org/zh/docs/apisix/plugins/public-api>

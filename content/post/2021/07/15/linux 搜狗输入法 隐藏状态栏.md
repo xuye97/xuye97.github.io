@@ -9,7 +9,7 @@ categories: ["linux","ubuntu"]
 
 ## linux 搜狗输入法 隐藏状态栏
 
-#### 解决方案
+### 解决方案
 
 修改搜狗拼音的配置文件
 
@@ -19,4 +19,3 @@ vi ~/.config/sogoupinyin/conf/env.ini
 StatusAppearance=1    #修改前
 StatusAppearance=0    #修改后
 ````
-

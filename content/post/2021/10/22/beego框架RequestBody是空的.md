@@ -7,11 +7,10 @@ isCJKLanguage: true
 categories: ["golang"]
 ---
 
-**beego使用的时候需要接收POST请求的Body里面的数据，但是Context.Input.RequestBody 是空的**
+## beego使用的时候需要接收POST请求的Body里面的数据，但是Context.Input.RequestBody 是空的
 
 解决方法配置文件增加一行配置：
 
 ```shell
 copyrequestbody = true
 ```
-

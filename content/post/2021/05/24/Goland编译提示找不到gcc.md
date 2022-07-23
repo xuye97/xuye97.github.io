@@ -11,11 +11,9 @@ categories: ["错误处理","golang"]
 
 > 在项目中引用 了cgo库，需要gcd编译c代码
 
-### 解决办法
+## 解决办法
 
-#### window
-
-**安装MinGW-W64**
+### window: **安装MinGW-W64**
 
 #### linux
 
@@ -25,4 +23,3 @@ sudo apt install gcc
 #centos
 sudo yum install gcc
 ```
-

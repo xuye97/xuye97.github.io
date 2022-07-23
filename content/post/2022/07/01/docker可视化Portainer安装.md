@@ -12,10 +12,10 @@ categories: ["docker"]
 ```shell
 docker rm -f prtainer
 docker run -d \
-	-p 9000:9000 \
-	-v /var/run/docker.sock:/var/run/docker.sock \
-	--restart=always \
-	--name prtainer portainer/portainer
+ -p 9000:9000 \
+ -v /var/run/docker.sock:/var/run/docker.sock \
+ --restart=always \
+ --name prtainer portainer/portainer
 ```
 
 * -d 后台运行
@@ -24,4 +24,4 @@ docker run -d \
 * --restart=always 自动重启
 * --name 设置容器名
 
-**启动后浏览器访问 http:IP:9000 **
+### 启动后浏览器访问 http:IP:9000

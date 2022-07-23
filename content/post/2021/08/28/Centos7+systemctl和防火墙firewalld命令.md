@@ -24,7 +24,7 @@ categories: ["centos"]
    ```shell
    firewall-cmd--zone=public--query-port=80/tcp #返回yes代表开启
    ```
-   
+
 4. 开启防火墙端口：
 
    ```shell
@@ -47,5 +47,4 @@ categories: ["centos"]
    firewall-cmd --reload
    ```
 
-
-　　**注意：添加端口后，必须用命令firewall-cmd --reload重新加载一遍才会生效**
+### 注意：添加端口后，必须用命令firewall-cmd --reload重新加载一遍才会生效

@@ -8,12 +8,12 @@
     <language>zh-CN</language>
     <lastBuildDate>Mon, 10 Jan 2022 08:41:02 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Arm docker安装mysql</title>
+      <title>Arm64 docker安装mysql</title>
       <link>https://blog.xyemy.com/post/2022/01/10/armdocker%E5%AE%89%E8%A3%85mysql.html</link>
       <pubDate>Mon, 10 Jan 2022 08:41:02 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/01/10/armdocker%E5%AE%89%E8%A3%85mysql.html</guid>
-      <description>docker run -d \ --name mysql \ -v $PWD/conf:/etc/mysql/conf.d \ -v $PWD/logs:/logs \ -v $PWD/data:/var/lib/mysql \ -e MYS</description>
+      <description>```shell docker run -d \ --name mysql \ -v $PWD/conf:/etc/mysql/conf.d \ -v $PWD/logs:/logs \ -v $PWD/data:/var/lib/mysql \ -e MY</description>
     </item>
     
   </channel>

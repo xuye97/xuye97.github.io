@@ -6,7 +6,7 @@ tags: ["docker"]
 isCJKLanguage: true
 categories: ["docker"]
 ---
-**win10安装docker desktop，打开的时候报错：**
+## win10安装docker desktop，打开的时候报错
 
 ![docker desktop报错](/image/2022/07/09/win10installdockererrorwsl2installationisincomplete.png)
 

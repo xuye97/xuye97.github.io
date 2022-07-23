@@ -7,5 +7,4 @@ isCJKLanguage: true
 categories: ["linux","ubuntu"]
 ---
 
-官方网址 https://pinyin.sogou.com/linux/help.php
-
+官方网址 <https://pinyin.sogou.com/linux/help.php>

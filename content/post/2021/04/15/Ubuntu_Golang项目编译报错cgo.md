@@ -11,9 +11,8 @@ categories: ["linux","golang"]
 
 golang在使用cgo调用c的库. 所以是cgo报的错.
 
-解决方法:
-安装gcc就行
+解决方法:**安装gcc就行**
 
-```shell
-sudo apt install gcc
-```
+    ```shell
+    sudo apt install gcc
+    ```

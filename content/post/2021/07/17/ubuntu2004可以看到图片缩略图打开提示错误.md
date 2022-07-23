@@ -22,4 +22,3 @@ image.png: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segme
 ```
 
 可以看到image.png 的格式应该是jpeg ，将扩展名修改为jpeg就可以正常打开了
-

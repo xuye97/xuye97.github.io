@@ -12,6 +12,3 @@ categories: ["golang"]
 ```go
 qpStr, _ := ioutil.ReadAll(quotedprintable.NewReader(strings.NewReader("=E6=88=91=E6=98=AF=E6=9C=80=E5=B8=85=E7=9A=84")))
 ```
-
-
-

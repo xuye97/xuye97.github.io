@@ -18,17 +18,17 @@ categories: ["群晖"]
 
 ## 二、将The Movie Database的IP加入到群晖的host
 
-```shell
-13.226.238.76 api.themoviedb.org
-13.224.161.90 api.themoviedb.org
-13.35.7.102 api.themoviedb.org
-13.225.103.26 api.themoviedb.org
-13.226.191.85 api.themoviedb.org
-13.225.103.110 api.themoviedb.org
-52.85.79.89 api.themoviedb.org
-13.225.41.40 api.themoviedb.org
-13.226.251.88 api.themoviedb.org
-13.225.89.239 api.thetvdb.com
-13.249.175.212 api.thetvdb.com
-13.35.161.120 api.thetvdb.com
-```
+    ```shell
+    13.226.238.76 api.themoviedb.org
+    13.224.161.90 api.themoviedb.org
+    13.35.7.102 api.themoviedb.org
+    13.225.103.26 api.themoviedb.org
+    13.226.191.85 api.themoviedb.org
+    13.225.103.110 api.themoviedb.org
+    52.85.79.89 api.themoviedb.org
+    13.225.41.40 api.themoviedb.org
+    13.226.251.88 api.themoviedb.org
+    13.225.89.239 api.thetvdb.com
+    13.249.175.212 api.thetvdb.com
+    13.35.161.120 api.thetvdb.com
+    ```

@@ -36,6 +36,3 @@ categories: ["linux"]
    *.png
    *.PNG
    ```
-
-   
-

@@ -11,7 +11,7 @@ categories: ["linux"]
 
 > 在 Ctrl+Shift+F 格式化代码的时候发现并没有格式化代码，而是触发了简繁切换
 
-#### 解决方案
+### 解决方案
 
 1. 修改fcitx的配置文件
 
@@ -19,7 +19,7 @@ categories: ["linux"]
    vi ~/.config/sogoupinyin/conf/env.ini
    #将下面这行注释取消并置空
    #Hotkey=CTRL_SHIFT_F  #修改前
-   Hotkey=				  #修改后
+   Hotkey=      #修改后（空的）
    ```
 
 2. 修改搜狗拼音的配置文件

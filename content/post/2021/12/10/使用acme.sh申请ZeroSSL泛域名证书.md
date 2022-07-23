@@ -30,7 +30,7 @@ export CF_Key="sdfsdfsdfljlbjkljlkjsdfoiwje"
 export CF_Email="xxxx@sss.com"
 ```
 
-**其他更多命令：https://github.com/acmesh-official/acme.sh/wiki/dnsapi**
+**其他更多命令：<https://github.com/acmesh-official/acme.sh/wiki/dnsapi>**
 
 ### acme.sh申请ZeroSSL泛域名SSL证书
 
@@ -49,4 +49,3 @@ acme.sh  --installcert  -d  domain.com   \
         --key-file   /app-data/cert/domain.com.key \
         --fullchain-file /app-data/cert/domain.com.crt
 ```
-

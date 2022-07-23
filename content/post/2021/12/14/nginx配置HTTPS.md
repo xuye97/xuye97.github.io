@@ -42,11 +42,10 @@ server {
 }
 ```
 
-**如果要配置多个，创建多个配置文件即可，server_name不能相同**
+### 如果要配置多个，创建多个配置文件即可，server_name不能相同
 
 ### 重启nginx
 
 ```shell
 systemctl restart nginx
 ```
-

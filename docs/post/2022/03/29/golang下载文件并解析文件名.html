@@ -93,46 +93,50 @@
         
         
         <div class="post-content">
-            <p>**下载文件时，文件名存在返回头的 Content-Disposition 中 **</p>
-<p><strong>格式 Content-Disposition: attachment;filename=044001617111_94691918.pdf</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">import</span> (
-</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;github.com/spf13/cast&#34;</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;io/ioutil&#34;</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;mime&#34;</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;net/http&#34;</span>
-</span></span><span style="display:flex;"><span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">GetFileByUrl</span>(<span style="color:#a6e22e">fileUrl</span> <span style="color:#66d9ef">string</span>) ([]<span style="color:#66d9ef">byte</span>, <span style="color:#66d9ef">string</span>) {
-</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">resp</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Get</span>(<span style="color:#a6e22e">fileUrl</span>)
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
-</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Error</span>(<span style="color:#a6e22e">err</span>)
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>, <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>	}
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">Body</span>.<span style="color:#a6e22e">Close</span>()
-</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fd</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">ioutil</span>.<span style="color:#a6e22e">ReadAll</span>(<span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">Body</span>)
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
-</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Error</span>(<span style="color:#a6e22e">err</span>)
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>, <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>	}
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">StatusCode</span> <span style="color:#f92672">!=</span> <span style="color:#ae81ff">200</span> {
-</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Error</span>(string(<span style="color:#a6e22e">fd</span>))
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>, <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>	}
-</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fileName</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//获取返回头
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">getDispos</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">Header</span>.<span style="color:#a6e22e">Get</span>(<span style="color:#e6db74">&#34;Content-Disposition&#34;</span>)
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">getDispos</span> <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#34;&#34;</span> {
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">//解析返回头
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		<span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">params</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">mime</span>.<span style="color:#a6e22e">ParseMediaType</span>(<span style="color:#a6e22e">getDispos</span>)
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">nil</span> {
-</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">ok</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">params</span>[<span style="color:#e6db74">&#34;filename&#34;</span>]; <span style="color:#a6e22e">ok</span> {
-</span></span><span style="display:flex;"><span>				<span style="color:#a6e22e">fileName</span> = <span style="color:#a6e22e">cast</span>.<span style="color:#a6e22e">ToString</span>(<span style="color:#a6e22e">params</span>[<span style="color:#e6db74">&#34;filename&#34;</span>])
-</span></span><span style="display:flex;"><span>			}
-</span></span><span style="display:flex;"><span>		}
-</span></span><span style="display:flex;"><span>	}
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">fd</span>, <span style="color:#a6e22e">fileName</span>
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div>
+            <h2 id="下载文件时文件名存在返回头的-content-disposition-中">下载文件时，文件名存在返回头的 Content-Disposition 中</h2>
+<h2 id="格式-content-disposition-attachmentfilename044001617111_94691918pdf">格式 Content-Disposition: attachment;filename=044001617111_94691918.pdf</h2>
+<pre><code>```go
+import (
+	&quot;github.com/spf13/cast&quot;
+	&quot;io/ioutil&quot;
+	&quot;mime&quot;
+	&quot;net/http&quot;
+)
+
+func GetFileByUrl(fileUrl string) ([]byte, string) {
+	resp, err := http.Get(fileUrl)
+	if err != nil {
+		log.Error(err)
+		return nil, &quot;&quot;
+	}
+	defer resp.Body.Close()
+	fd, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		log.Error(err)
+		return nil, &quot;&quot;
+	}
+	if resp.StatusCode != 200 {
+		log.Error(string(fd))
+		return nil, &quot;&quot;
+	}
+	fileName := &quot;&quot;
+	//获取返回头
+	getDispos := resp.Header.Get(&quot;Content-Disposition&quot;)
+	if getDispos != &quot;&quot; {
+		//解析返回头
+		_, params, err := mime.ParseMediaType(getDispos)
+		if err == nil {
+			if _, ok := params[&quot;filename&quot;]; ok {
+				fileName = cast.ToString(params[&quot;filename&quot;])
+			}
+		}
+	}
+	return fd, fileName
+}
+
+```
+</code></pre>
+
         </div>
 
         
@@ -329,7 +333,7 @@
     
     <li><a href="https://blog.xyemy.com/categories/%E7%BE%A4%E6%99%96.html">群晖 (2)</a></li>
     
-    <li><a href="https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html">错误处理 (10)</a></li>
+    <li><a href="https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html">错误处理 (9)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB.html">默认分类 (2)</a></li>
     

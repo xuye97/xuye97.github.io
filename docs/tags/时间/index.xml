@@ -22,7 +22,7 @@
       <pubDate>Wed, 07 Apr 2021 12:16:19 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2021/04/07/psql%E6%97%B6%E9%97%B4%E6%88%B3%E6%97%A5%E6%9C%9F%E8%BD%AC%E6%8D%A2.html</guid>
-      <description># 获取当前时间戳 SELECT EXTRACT(epoch FROM NOW()); # 日期转时间戳 SELECT</description>
+      <description>```shell # 获取当前时间戳 SELECT EXTRACT(epoch FROM NOW()); # 日期转时间戳</description>
     </item>
     
   </channel>

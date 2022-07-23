@@ -98,10 +98,10 @@
 </blockquote>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker rm -f prtainer
 </span></span><span style="display:flex;"><span>docker run -d <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>	-p 9000:9000 <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>	-v /var/run/docker.sock:/var/run/docker.sock <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>	--restart<span style="color:#f92672">=</span>always <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>	--name prtainer portainer/portainer
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span> -p 9000:9000 <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span> -v /var/run/docker.sock:/var/run/docker.sock <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span> --restart<span style="color:#f92672">=</span>always <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span> --name prtainer portainer/portainer
 </span></span></code></pre></div><ul>
 <li>-d 后台运行</li>
 <li>-p 端口映射 冒号前面是宿主机端口 后面是容器内端口</li>
@@ -109,7 +109,7 @@
 <li>&ndash;restart=always 自动重启</li>
 <li>&ndash;name 设置容器名</li>
 </ul>
-<p>**启动后浏览器访问 http:IP:9000 **</p>
+<h3 id="启动后浏览器访问-httpip9000">启动后浏览器访问 http:IP:9000</h3>
 
         </div>
 
@@ -128,7 +128,7 @@
         
         <li><a href="/post/2022/01/18/%E8%AE%BE%E7%BD%AEdocker%E5%AE%B9%E5%99%A8%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E9%99%90%E5%88%B6.html">设置Docker容器日志文件大小限制</a></li>
         
-        <li><a href="/post/2022/01/10/armdocker%E5%AE%89%E8%A3%85mysql.html">Arm docker安装mysql</a></li>
+        <li><a href="/post/2022/01/10/armdocker%E5%AE%89%E8%A3%85mysql.html">Arm64 docker安装mysql</a></li>
         
         <li><a href="/post/2022/01/08/arm-ubuntu2004%E5%AE%89%E8%A3%85docker.html">Arm Ubuntu2004安装docker</a></li>
         
@@ -309,7 +309,7 @@
     
     <li><a href="https://blog.xyemy.com/categories/%E7%BE%A4%E6%99%96.html">群晖 (2)</a></li>
     
-    <li><a href="https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html">错误处理 (10)</a></li>
+    <li><a href="https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html">错误处理 (9)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB.html">默认分类 (2)</a></li>
     

@@ -28,7 +28,7 @@ categories: ["docker"]
    }
    ```
 
-3. 创建 manifest 
+3. 创建 manifest
 
    ```shell
    docker manifest create --insecure aaa/aaa:latest bbb/bbb:arm64 ccc/ccc:x86
@@ -54,11 +54,8 @@ categories: ["docker"]
    $docker manifest push aaa/aaa:latest
    ```
 
-6. 查看已经push的manifest 
+6. 查看已经push的manifest
 
    ```shell
    $docker manifest inspect aaa/aaa:latest
    ```
-
-   
-

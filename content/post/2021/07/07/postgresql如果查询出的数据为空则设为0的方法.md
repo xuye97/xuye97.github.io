@@ -10,4 +10,3 @@ categories: ["postgresql"]
 ```sql
 SELECT COALESCE(sum(amount),0) from biz where xxx
 ```
-

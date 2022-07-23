@@ -58,5 +58,3 @@ categories: ["ubuntu","docker"]
    ```shell
    systemctl enable docker
    ```
-
-   
