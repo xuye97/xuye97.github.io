@@ -2,8 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.xyemy.com/tags/bbr.html</loc>
+    <lastmod>2022-07-27T10:12:16+08:00</lastmod>
+  </url><url>
     <loc>https://blog.xyemy.com/categories.html</loc>
-    <lastmod>2022-07-14T16:39:17+08:00</lastmod>
+    <lastmod>2022-07-27T10:12:16+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/debian.html</loc>
+    <lastmod>2022-07-27T10:12:16+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/debian.html</loc>
+    <lastmod>2022-07-27T10:12:16+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post/2022/07/27/debian1011%E5%BC%80%E5%90%AFbbr.html</loc>
+    <lastmod>2022-07-27T10:12:16+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/</loc>
+    <lastmod>2022-07-27T10:12:16+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/linux.html</loc>
+    <lastmod>2022-07-27T10:12:16+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/linux.html</loc>
+    <lastmod>2022-07-27T10:12:16+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post.html</loc>
+    <lastmod>2022-07-27T10:12:16+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags.html</loc>
+    <lastmod>2022-07-27T10:12:16+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/docker.html</loc>
     <lastmod>2022-07-14T16:39:17+08:00</lastmod>
@@ -11,19 +38,10 @@
     <loc>https://blog.xyemy.com/post/2022/07/14/postgresql%E5%A2%9E%E9%87%8F%E5%A4%87%E4%BB%BD%E7%AD%96%E7%95%A5.html</loc>
     <lastmod>2022-07-14T16:39:17+08:00</lastmod>
   </url><url>
-    <loc>https://blog.xyemy.com/</loc>
-    <lastmod>2022-07-14T16:39:17+08:00</lastmod>
-  </url><url>
     <loc>https://blog.xyemy.com/tags/postgresql.html</loc>
     <lastmod>2022-07-14T16:39:17+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/categories/postgresql.html</loc>
-    <lastmod>2022-07-14T16:39:17+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/post.html</loc>
-    <lastmod>2022-07-14T16:39:17+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags.html</loc>
     <lastmod>2022-07-14T16:39:17+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/categories/docker.html</loc>
@@ -46,12 +64,6 @@
   </url><url>
     <loc>https://blog.xyemy.com/tags/portainer.html</loc>
     <lastmod>2022-07-01T15:01:09+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags/linux.html</loc>
-    <lastmod>2022-06-20T15:07:13+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/categories/linux.html</loc>
-    <lastmod>2022-06-20T15:07:13+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/06/20/linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%87%BA%E7%8E%B0bash42.html</loc>
     <lastmod>2022-06-20T15:07:13+08:00</lastmod>

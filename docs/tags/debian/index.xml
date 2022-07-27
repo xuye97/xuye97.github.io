@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>debian on en&#39;s blog</title>
+    <link>https://blog.xyemy.com/tags/debian.html</link>
+    <description>Recent content in debian on en&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 27 Jul 2022 10:12:16 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debian 10/11 开启bbr</title>
+      <link>https://blog.xyemy.com/post/2022/07/27/debian1011%E5%BC%80%E5%90%AFbbr.html</link>
+      <pubDate>Wed, 27 Jul 2022 10:12:16 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/07/27/debian1011%E5%BC%80%E5%90%AFbbr.html</guid>
+      <description>/etc/sysctl.conf 文件修改 #修改文件： net.core.default_qdisc=fq net.ipv4.tcp_congestion_control=bbr #或者直接运行</description>
+    </item>
+    
+  </channel>
+</rss>

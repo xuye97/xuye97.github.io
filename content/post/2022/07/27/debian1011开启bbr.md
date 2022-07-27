@@ -1,7 +1,7 @@
 ---
 title: "Debian 10/11 开启bbr"
 date: 2022-07-27T10:12:16+08:00
-draft: true
+draft: false
 tags: ["linux","debian","bbr"]
 isCJKLanguage: true
 categories: ["linux","debian"]

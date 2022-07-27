@@ -6,7 +6,16 @@
     <description>Recent content in linux on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 20 Jun 2022 15:07:13 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Jul 2022 10:12:16 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debian 10/11 开启bbr</title>
+      <link>https://blog.xyemy.com/post/2022/07/27/debian1011%E5%BC%80%E5%90%AFbbr.html</link>
+      <pubDate>Wed, 27 Jul 2022 10:12:16 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/07/27/debian1011%E5%BC%80%E5%90%AFbbr.html</guid>
+      <description>/etc/sysctl.conf 文件修改 #修改文件： net.core.default_qdisc=fq net.ipv4.tcp_congestion_control=bbr #或者直接运行</description>
+    </item>
+    
     <item>
       <title>Linux登录进去命令行出现 -bash-4.2</title>
       <link>https://blog.xyemy.com/post/2022/06/20/linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%87%BA%E7%8E%B0bash42.html</link>
