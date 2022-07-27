@@ -202,7 +202,7 @@
       <pubDate>Mon, 10 Jan 2022 08:41:02 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/01/10/armdocker%E5%AE%89%E8%A3%85mysql.html</guid>
-      <description>```shell docker run -d \ --name mysql \ -v $PWD/conf:/etc/mysql/conf.d \ -v $PWD/logs:/logs \ -v $PWD/data:/var/lib/mysql \ -e MY</description>
+      <description>docker run -d \ --name mysql \ -v $PWD/conf:/etc/mysql/conf.d \ -v $PWD/logs:/logs \ -v $PWD/data:/var/lib/mysql \ -e MYS</description>
     </item>
     
     <item>
