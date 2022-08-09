@@ -49,7 +49,7 @@
       <pubDate>Fri, 07 May 2021 10:13:15 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2021/05/07/git%E6%92%A4%E5%9B%9Epush%E5%88%B0%E8%BF%9C%E7%A8%8B%E7%9A%84%E4%BB%A3%E7%A0%81.html</guid>
-      <description>撤回错误上传的代码 查看提交记录 ```shell $ git log commit</description>
+      <description>撤回错误上传的代码 查看提交记录 $ git log commit 3cb10f20846181a579b2d75e6aaa7afbd9416a4b</description>
     </item>
     
   </channel>

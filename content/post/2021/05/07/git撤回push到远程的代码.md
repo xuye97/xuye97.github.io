@@ -11,7 +11,7 @@ categories: ["git"]
 
 ## 查看提交记录
 
-    ```shell
+```shell
     $ git log
     commit 3cb10f20846181a579b2d75e6aaa7afbd9416a4b (HEAD -> stable, origin/stable)
     Author: Username <xxx@outlook.com>
@@ -31,7 +31,7 @@ categories: ["git"]
 
         提交备注3
 
-    ```
+```
 
 > commit 后面就是提交记录的id
 >
@@ -39,13 +39,13 @@ categories: ["git"]
 
 ## 回滚
 
-    ```shell
+```shell
     git reset --soft 4709d2919a9ba1b6cc76b25512c4539c9119fe21
-    ```
+```
 
 ## 再次查看提交记录
 
-    ```shell
+```shell
     $ git log
     commit 4709d2919a9ba1b6cc76b25512c4539c9119fe21
     Author: Username <xxx@outlook.com>
@@ -58,14 +58,14 @@ categories: ["git"]
     Date:   Thu May 6 10:50:19 2021 +0800
 
         提交备注3
-    ```
+```
 
 > 最上面的 "提交备注1" 3cb10f20846181a579b2d75e6aaa7afbd9416a4b 已经看不到了，这表示撤销成功了。
 
 ## 本地的代码强制推到远程
 
-    ```shell
+```shell
     git push origin test --force  #test是分支名字
-    ```
+```
 
 > 结束
