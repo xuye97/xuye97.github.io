@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>图片旋转 on en&#39;s blog</title>
+    <link>https://blog.xyemy.com/tags/%E5%9B%BE%E7%89%87%E6%97%8B%E8%BD%AC.html</link>
+    <description>Recent content in 图片旋转 on en&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 18 Aug 2022 15:38:58 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/%E5%9B%BE%E7%89%87%E6%97%8B%E8%BD%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang处理图片Decode后导致图片旋转</title>
+      <link>https://blog.xyemy.com/post/2022/08/18/golang%E5%A4%84%E7%90%86%E5%9B%BE%E7%89%87decode%E5%90%8E%E5%AF%BC%E8%87%B4%E5%9B%BE%E7%89%87%E6%97%8B%E8%BD%AC.html</link>
+      <pubDate>Thu, 18 Aug 2022 15:38:58 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/08/18/golang%E5%A4%84%E7%90%86%E5%9B%BE%E7%89%87decode%E5%90%8E%E5%AF%BC%E8%87%B4%E5%9B%BE%E7%89%87%E6%97%8B%E8%BD%AC.html</guid>
+      <description>处理系统业务的时候需要裁切图片，发现某些</description>
+    </item>
+    
+  </channel>
+</rss>
