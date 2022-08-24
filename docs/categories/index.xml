@@ -6,7 +6,25 @@
     <description>Recent content in Categories on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 18 Aug 2022 15:38:58 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Aug 2022 13:45:28 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dm8</title>
+      <link>https://blog.xyemy.com/categories/dm8.html</link>
+      <pubDate>Wed, 24 Aug 2022 13:45:28 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/categories/dm8.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgres</title>
+      <link>https://blog.xyemy.com/categories/postgres.html</link>
+      <pubDate>Wed, 24 Aug 2022 13:45:28 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/categories/postgres.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>golang</title>
       <link>https://blog.xyemy.com/categories/golang.html</link>

@@ -95,44 +95,45 @@
         <div class="post-content">
             <h2 id="下载文件时文件名存在返回头的-content-disposition-中">下载文件时，文件名存在返回头的 Content-Disposition 中</h2>
 <h2 id="格式-content-disposition-attachmentfilename044001617111_94691918pdf">格式 Content-Disposition: attachment;filename=044001617111_94691918.pdf</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">import</span> (
-</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;github.com/spf13/cast&#34;</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;io/ioutil&#34;</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;mime&#34;</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;net/http&#34;</span>
-</span></span><span style="display:flex;"><span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">GetFileByUrl</span>(<span style="color:#a6e22e">fileUrl</span> <span style="color:#66d9ef">string</span>) ([]<span style="color:#66d9ef">byte</span>, <span style="color:#66d9ef">string</span>) {
-</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">resp</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Get</span>(<span style="color:#a6e22e">fileUrl</span>)
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
-</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Error</span>(<span style="color:#a6e22e">err</span>)
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>, <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>	}
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">Body</span>.<span style="color:#a6e22e">Close</span>()
-</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fd</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">ioutil</span>.<span style="color:#a6e22e">ReadAll</span>(<span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">Body</span>)
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
-</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Error</span>(<span style="color:#a6e22e">err</span>)
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>, <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>	}
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">StatusCode</span> <span style="color:#f92672">!=</span> <span style="color:#ae81ff">200</span> {
-</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Error</span>(string(<span style="color:#a6e22e">fd</span>))
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>, <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>	}
-</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fileName</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#75715e">//获取返回头
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">getDispos</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">Header</span>.<span style="color:#a6e22e">Get</span>(<span style="color:#e6db74">&#34;Content-Disposition&#34;</span>)
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">getDispos</span> <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#34;&#34;</span> {
-</span></span><span style="display:flex;"><span>		<span style="color:#75715e">//解析返回头
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		<span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">params</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">mime</span>.<span style="color:#a6e22e">ParseMediaType</span>(<span style="color:#a6e22e">getDispos</span>)
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">nil</span> {
-</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">ok</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">params</span>[<span style="color:#e6db74">&#34;filename&#34;</span>]; <span style="color:#a6e22e">ok</span> {
-</span></span><span style="display:flex;"><span>				<span style="color:#a6e22e">fileName</span> = <span style="color:#a6e22e">cast</span>.<span style="color:#a6e22e">ToString</span>(<span style="color:#a6e22e">params</span>[<span style="color:#e6db74">&#34;filename&#34;</span>])
-</span></span><span style="display:flex;"><span>			}
-</span></span><span style="display:flex;"><span>		}
-</span></span><span style="display:flex;"><span>	}
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">fd</span>, <span style="color:#a6e22e">fileName</span>
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">import</span> (
+	<span style="color:#e6db74">&#34;github.com/spf13/cast&#34;</span>
+	<span style="color:#e6db74">&#34;io/ioutil&#34;</span>
+	<span style="color:#e6db74">&#34;mime&#34;</span>
+	<span style="color:#e6db74">&#34;net/http&#34;</span>
+)
+
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">GetFileByUrl</span>(<span style="color:#a6e22e">fileUrl</span> <span style="color:#66d9ef">string</span>) ([]<span style="color:#66d9ef">byte</span>, <span style="color:#66d9ef">string</span>) {
+	<span style="color:#a6e22e">resp</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Get</span>(<span style="color:#a6e22e">fileUrl</span>)
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Error</span>(<span style="color:#a6e22e">err</span>)
+		<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>, <span style="color:#e6db74">&#34;&#34;</span>
+	}
+	<span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">Body</span>.<span style="color:#a6e22e">Close</span>()
+	<span style="color:#a6e22e">fd</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">ioutil</span>.<span style="color:#a6e22e">ReadAll</span>(<span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">Body</span>)
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Error</span>(<span style="color:#a6e22e">err</span>)
+		<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>, <span style="color:#e6db74">&#34;&#34;</span>
+	}
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">StatusCode</span> <span style="color:#f92672">!=</span> <span style="color:#ae81ff">200</span> {
+		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Error</span>(string(<span style="color:#a6e22e">fd</span>))
+		<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>, <span style="color:#e6db74">&#34;&#34;</span>
+	}
+	<span style="color:#a6e22e">fileName</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;&#34;</span>
+	<span style="color:#75715e">//获取返回头
+</span><span style="color:#75715e"></span>	<span style="color:#a6e22e">getDispos</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">resp</span>.<span style="color:#a6e22e">Header</span>.<span style="color:#a6e22e">Get</span>(<span style="color:#e6db74">&#34;Content-Disposition&#34;</span>)
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">getDispos</span> <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#34;&#34;</span> {
+		<span style="color:#75715e">//解析返回头
+</span><span style="color:#75715e"></span>		<span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">params</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">mime</span>.<span style="color:#a6e22e">ParseMediaType</span>(<span style="color:#a6e22e">getDispos</span>)
+		<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">nil</span> {
+			<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">ok</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">params</span>[<span style="color:#e6db74">&#34;filename&#34;</span>]; <span style="color:#a6e22e">ok</span> {
+				<span style="color:#a6e22e">fileName</span> = <span style="color:#a6e22e">cast</span>.<span style="color:#a6e22e">ToString</span>(<span style="color:#a6e22e">params</span>[<span style="color:#e6db74">&#34;filename&#34;</span>])
+			}
+		}
+	}
+	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">fd</span>, <span style="color:#a6e22e">fileName</span>
+}
+
+</code></pre></div>
         </div>
 
         
@@ -245,6 +246,10 @@
 <ul class="widget-list">
     
     <li>
+        <a href="https://blog.xyemy.com/post/2022/08/24/postgres%E6%95%B0%E6%8D%AE%E4%BD%BF%E7%94%A8dst%E8%BF%81%E7%A7%BB%E5%88%B0dm8.html" title="Postgres数据使用dst迁移到dm8">Postgres数据使用dst迁移到dm8</a>
+    </li>
+    
+    <li>
         <a href="https://blog.xyemy.com/post/2022/08/18/golang%E5%A4%84%E7%90%86%E5%9B%BE%E7%89%87decode%E5%90%8E%E5%AF%BC%E8%87%B4%E5%9B%BE%E7%89%87%E6%97%8B%E8%BD%AC.html" title="Golang处理图片Decode后导致图片旋转">Golang处理图片Decode后导致图片旋转</a>
     </li>
     
@@ -280,10 +285,6 @@
         <a href="https://blog.xyemy.com/post/2022/06/07/dockercompose%E5%AE%89%E8%A3%85.html" title="docker-compose安装">docker-compose安装</a>
     </li>
     
-    <li>
-        <a href="https://blog.xyemy.com/post/2022/05/25/%E4%BD%BF%E7%94%A8openssl%E6%8A%8Apem%E8%AF%81%E4%B9%A6%E8%BD%AC%E6%8D%A2%E4%B8%BAcrt%E5%92%8Ckey.html" title="使用openssl把pem证书转换为crt和key">使用openssl把pem证书转换为crt和key</a>
-    </li>
-    
 </ul>
     </section>
 
@@ -298,6 +299,8 @@
     <li><a href="https://blog.xyemy.com/categories/centos.html">centos (6)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/debian.html">debian (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/dm8.html">dm8 (1)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/docker.html">docker (12)</a></li>
     
@@ -314,6 +317,8 @@
     <li><a href="https://blog.xyemy.com/categories/n1.html">n1 (3)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/pip.html">pip (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/postgres.html">postgres (1)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/postgresql.html">postgresql (5)</a></li>
     
@@ -366,6 +371,8 @@
     
     <a href="https://blog.xyemy.com/tags/debian.html">debian</a>
     
+    <a href="https://blog.xyemy.com/tags/dm8.html">dm8</a>
+    
     <a href="https://blog.xyemy.com/tags/dnf.html">dnf</a>
     
     <a href="https://blog.xyemy.com/tags/docker.html">docker</a>
@@ -375,6 +382,8 @@
     <a href="https://blog.xyemy.com/tags/dpi.html">dpi</a>
     
     <a href="https://blog.xyemy.com/tags/dsm.html">dsm</a>
+    
+    <a href="https://blog.xyemy.com/tags/dst.html">dst</a>
     
     <a href="https://blog.xyemy.com/tags/firewalld.html">firewalld</a>
     
@@ -417,6 +426,8 @@
     <a href="https://blog.xyemy.com/tags/pip.html">pip</a>
     
     <a href="https://blog.xyemy.com/tags/portainer.html">portainer</a>
+    
+    <a href="https://blog.xyemy.com/tags/postgres.html">postgres</a>
     
     <a href="https://blog.xyemy.com/tags/postgresql.html">postgresql</a>
     

@@ -94,27 +94,27 @@
         
         <div class="post-content">
             <h3 id="安装acmesh">安装acme.sh</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>curl  https://get.acme.sh | sh
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#查看acme版本</span>
-</span></span><span style="display:flex;"><span>acme.sh -v
-</span></span></code></pre></div><h3 id="将acmesh-server更改为zerossl">将acme.sh server更改为ZeroSSL</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>acme.sh --set-default-ca  --server zerossl
-</span></span></code></pre></div><h3 id="配置dns-api">配置DNS API</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl  https://get.acme.sh | sh
+<span style="color:#75715e">#查看acme版本</span>
+acme.sh -v
+</code></pre></div><h3 id="将acmesh-server更改为zerossl">将acme.sh server更改为ZeroSSL</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">acme.sh --set-default-ca  --server zerossl
+</code></pre></div><h3 id="配置dns-api">配置DNS API</h3>
 <p><strong>使用Cloudflare命令：</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>export CF_Key<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sdfsdfsdfljlbjkljlkjsdfoiwje&#34;</span>
-</span></span><span style="display:flex;"><span>export CF_Email<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;xxxx@sss.com&#34;</span>
-</span></span></code></pre></div><p><strong>其他更多命令：<a href="https://github.com/acmesh-official/acme.sh/wiki/dnsapi">https://github.com/acmesh-official/acme.sh/wiki/dnsapi</a></strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">export CF_Key<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sdfsdfsdfljlbjkljlkjsdfoiwje&#34;</span>
+export CF_Email<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;xxxx@sss.com&#34;</span>
+</code></pre></div><p><strong>其他更多命令：<a href="https://github.com/acmesh-official/acme.sh/wiki/dnsapi">https://github.com/acmesh-official/acme.sh/wiki/dnsapi</a></strong></p>
 <h3 id="acmesh申请zerossl泛域名ssl证书">acme.sh申请ZeroSSL泛域名SSL证书</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#example@example.com 需要修改为自己邮箱，已经注册会自动关联</span>
-</span></span><span style="display:flex;"><span>acme.sh  --register-account  -m example@example.com --server zerossl
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#申请ZeroSSL泛域名SSL证书 --dns 参数的值可以在上面的链接里面找到</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#domain.com需要替换为自己的域名</span>
-</span></span><span style="display:flex;"><span>acme.sh --dns dns_cf --issue -d domain.com -d *.domain.com
-</span></span></code></pre></div><h3 id="安装证书">安装证书</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>acme.sh  --installcert  -d  domain.com   <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>        --key-file   /app-data/cert/domain.com.key <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>        --fullchain-file /app-data/cert/domain.com.crt
-</span></span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#example@example.com 需要修改为自己邮箱，已经注册会自动关联</span>
+acme.sh  --register-account  -m example@example.com --server zerossl
+<span style="color:#75715e">#申请ZeroSSL泛域名SSL证书 --dns 参数的值可以在上面的链接里面找到</span>
+<span style="color:#75715e">#domain.com需要替换为自己的域名</span>
+acme.sh --dns dns_cf --issue -d domain.com -d *.domain.com
+</code></pre></div><h3 id="安装证书">安装证书</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">acme.sh  --installcert  -d  domain.com   <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>        --key-file   /app-data/cert/domain.com.key <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>        --fullchain-file /app-data/cert/domain.com.crt
+</code></pre></div>
         </div>
 
         
@@ -223,6 +223,10 @@
 <ul class="widget-list">
     
     <li>
+        <a href="https://blog.xyemy.com/post/2022/08/24/postgres%E6%95%B0%E6%8D%AE%E4%BD%BF%E7%94%A8dst%E8%BF%81%E7%A7%BB%E5%88%B0dm8.html" title="Postgres数据使用dst迁移到dm8">Postgres数据使用dst迁移到dm8</a>
+    </li>
+    
+    <li>
         <a href="https://blog.xyemy.com/post/2022/08/18/golang%E5%A4%84%E7%90%86%E5%9B%BE%E7%89%87decode%E5%90%8E%E5%AF%BC%E8%87%B4%E5%9B%BE%E7%89%87%E6%97%8B%E8%BD%AC.html" title="Golang处理图片Decode后导致图片旋转">Golang处理图片Decode后导致图片旋转</a>
     </li>
     
@@ -258,10 +262,6 @@
         <a href="https://blog.xyemy.com/post/2022/06/07/dockercompose%E5%AE%89%E8%A3%85.html" title="docker-compose安装">docker-compose安装</a>
     </li>
     
-    <li>
-        <a href="https://blog.xyemy.com/post/2022/05/25/%E4%BD%BF%E7%94%A8openssl%E6%8A%8Apem%E8%AF%81%E4%B9%A6%E8%BD%AC%E6%8D%A2%E4%B8%BAcrt%E5%92%8Ckey.html" title="使用openssl把pem证书转换为crt和key">使用openssl把pem证书转换为crt和key</a>
-    </li>
-    
 </ul>
     </section>
 
@@ -276,6 +276,8 @@
     <li><a href="https://blog.xyemy.com/categories/centos.html">centos (6)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/debian.html">debian (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/dm8.html">dm8 (1)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/docker.html">docker (12)</a></li>
     
@@ -292,6 +294,8 @@
     <li><a href="https://blog.xyemy.com/categories/n1.html">n1 (3)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/pip.html">pip (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/postgres.html">postgres (1)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/postgresql.html">postgresql (5)</a></li>
     
@@ -344,6 +348,8 @@
     
     <a href="https://blog.xyemy.com/tags/debian.html">debian</a>
     
+    <a href="https://blog.xyemy.com/tags/dm8.html">dm8</a>
+    
     <a href="https://blog.xyemy.com/tags/dnf.html">dnf</a>
     
     <a href="https://blog.xyemy.com/tags/docker.html">docker</a>
@@ -353,6 +359,8 @@
     <a href="https://blog.xyemy.com/tags/dpi.html">dpi</a>
     
     <a href="https://blog.xyemy.com/tags/dsm.html">dsm</a>
+    
+    <a href="https://blog.xyemy.com/tags/dst.html">dst</a>
     
     <a href="https://blog.xyemy.com/tags/firewalld.html">firewalld</a>
     
@@ -395,6 +403,8 @@
     <a href="https://blog.xyemy.com/tags/pip.html">pip</a>
     
     <a href="https://blog.xyemy.com/tags/portainer.html">portainer</a>
+    
+    <a href="https://blog.xyemy.com/tags/postgres.html">postgres</a>
     
     <a href="https://blog.xyemy.com/tags/postgresql.html">postgresql</a>
     

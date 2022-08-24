@@ -98,18 +98,18 @@
             <p>Oracle Cloud甲骨文免费VPS在创建vps后如果需要搭建梯子，需要对防火墙进行设置。
 1、在子网中的安全列表中对入口规则和出口规则进行更改，对0.0.0.0/0的所有协议进行放行。
 2、做完第一步是对网络的防火墙打开了，但是vps搭建的梯子还是不能连接，需要对vpc机器的防火墙进行设置</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#开放所有端口</span>
-</span></span><span style="display:flex;"><span>sudo iptables -P INPUT ACCEPT
-</span></span><span style="display:flex;"><span>sudo iptables -P FORWARD ACCEPT
-</span></span><span style="display:flex;"><span>sudo iptables -P OUTPUT ACCEPT
-</span></span><span style="display:flex;"><span>sudo iptables -F
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#Oracle自带的Ubuntu镜像默认设置了Iptable规则，关闭它</span>
-</span></span><span style="display:flex;"><span>apt-get purge netfilter-persistent
-</span></span><span style="display:flex;"><span>reboot
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#强制删除</span>
-</span></span><span style="display:flex;"><span>rm -rf /etc/iptables <span style="color:#f92672">&amp;&amp;</span> reboot
-</span></span></code></pre></div><p>参照：https://www.lingbaoboy.com/2019/09/oracle-cloudvps.html</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#开放所有端口</span>
+sudo iptables -P INPUT ACCEPT
+sudo iptables -P FORWARD ACCEPT
+sudo iptables -P OUTPUT ACCEPT
+sudo iptables -F
+<span style="color:#75715e">#Oracle自带的Ubuntu镜像默认设置了Iptable规则，关闭它</span>
+apt-get purge netfilter-persistent
+reboot
+
+<span style="color:#75715e">#强制删除</span>
+rm -rf /etc/iptables <span style="color:#f92672">&amp;&amp;</span> reboot
+</code></pre></div><p>参照：https://www.lingbaoboy.com/2019/09/oracle-cloudvps.html</p>
 <p>实测环境ubuntu 20.04</p>
 
         </div>
@@ -228,6 +228,10 @@
 <ul class="widget-list">
     
     <li>
+        <a href="https://blog.xyemy.com/post/2022/08/24/postgres%E6%95%B0%E6%8D%AE%E4%BD%BF%E7%94%A8dst%E8%BF%81%E7%A7%BB%E5%88%B0dm8.html" title="Postgres数据使用dst迁移到dm8">Postgres数据使用dst迁移到dm8</a>
+    </li>
+    
+    <li>
         <a href="https://blog.xyemy.com/post/2022/08/18/golang%E5%A4%84%E7%90%86%E5%9B%BE%E7%89%87decode%E5%90%8E%E5%AF%BC%E8%87%B4%E5%9B%BE%E7%89%87%E6%97%8B%E8%BD%AC.html" title="Golang处理图片Decode后导致图片旋转">Golang处理图片Decode后导致图片旋转</a>
     </li>
     
@@ -263,10 +267,6 @@
         <a href="https://blog.xyemy.com/post/2022/06/07/dockercompose%E5%AE%89%E8%A3%85.html" title="docker-compose安装">docker-compose安装</a>
     </li>
     
-    <li>
-        <a href="https://blog.xyemy.com/post/2022/05/25/%E4%BD%BF%E7%94%A8openssl%E6%8A%8Apem%E8%AF%81%E4%B9%A6%E8%BD%AC%E6%8D%A2%E4%B8%BAcrt%E5%92%8Ckey.html" title="使用openssl把pem证书转换为crt和key">使用openssl把pem证书转换为crt和key</a>
-    </li>
-    
 </ul>
     </section>
 
@@ -281,6 +281,8 @@
     <li><a href="https://blog.xyemy.com/categories/centos.html">centos (6)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/debian.html">debian (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/dm8.html">dm8 (1)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/docker.html">docker (12)</a></li>
     
@@ -297,6 +299,8 @@
     <li><a href="https://blog.xyemy.com/categories/n1.html">n1 (3)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/pip.html">pip (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/postgres.html">postgres (1)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/postgresql.html">postgresql (5)</a></li>
     
@@ -349,6 +353,8 @@
     
     <a href="https://blog.xyemy.com/tags/debian.html">debian</a>
     
+    <a href="https://blog.xyemy.com/tags/dm8.html">dm8</a>
+    
     <a href="https://blog.xyemy.com/tags/dnf.html">dnf</a>
     
     <a href="https://blog.xyemy.com/tags/docker.html">docker</a>
@@ -358,6 +364,8 @@
     <a href="https://blog.xyemy.com/tags/dpi.html">dpi</a>
     
     <a href="https://blog.xyemy.com/tags/dsm.html">dsm</a>
+    
+    <a href="https://blog.xyemy.com/tags/dst.html">dst</a>
     
     <a href="https://blog.xyemy.com/tags/firewalld.html">firewalld</a>
     
@@ -400,6 +408,8 @@
     <a href="https://blog.xyemy.com/tags/pip.html">pip</a>
     
     <a href="https://blog.xyemy.com/tags/portainer.html">portainer</a>
+    
+    <a href="https://blog.xyemy.com/tags/postgres.html">postgres</a>
     
     <a href="https://blog.xyemy.com/tags/postgresql.html">postgresql</a>
     
