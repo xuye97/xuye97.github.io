@@ -6,7 +6,34 @@
     <description>Recent content in Tags on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 24 Aug 2022 13:45:28 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Aug 2022 11:45:43 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gin</title>
+      <link>https://blog.xyemy.com/tags/gin.html</link>
+      <pubDate>Fri, 26 Aug 2022 11:45:43 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/tags/gin.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://blog.xyemy.com/tags/golang.html</link>
+      <pubDate>Fri, 26 Aug 2022 11:45:43 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/tags/golang.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>跨域</title>
+      <link>https://blog.xyemy.com/tags/%E8%B7%A8%E5%9F%9F.html</link>
+      <pubDate>Fri, 26 Aug 2022 11:45:43 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/tags/%E8%B7%A8%E5%9F%9F.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>dm8</title>
       <link>https://blog.xyemy.com/tags/dm8.html</link>
@@ -265,15 +292,6 @@
       <pubDate>Thu, 07 Apr 2022 15:38:43 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/tags/manifest.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://blog.xyemy.com/tags/golang.html</link>
-      <pubDate>Tue, 29 Mar 2022 10:50:52 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/tags/golang.html</guid>
       <description></description>
     </item>
     
