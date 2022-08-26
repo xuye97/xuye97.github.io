@@ -6,7 +6,16 @@
     <description>Recent content in Tags on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 26 Aug 2022 11:45:43 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Aug 2022 15:23:18 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>frpc</title>
+      <link>https://blog.xyemy.com/tags/frpc.html</link>
+      <pubDate>Fri, 26 Aug 2022 15:23:18 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/tags/frpc.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>gin</title>
       <link>https://blog.xyemy.com/tags/gin.html</link>

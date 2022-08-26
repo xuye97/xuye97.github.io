@@ -3,10 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.xyemy.com/categories.html</loc>
-    <lastmod>2022-08-26T11:45:43+08:00</lastmod>
+    <lastmod>2022-08-26T15:23:18+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/</loc>
-    <lastmod>2022-08-26T11:45:43+08:00</lastmod>
+    <lastmod>2022-08-26T15:23:18+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/frp.html</loc>
+    <lastmod>2022-08-26T15:23:18+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/frpc.html</loc>
+    <lastmod>2022-08-26T15:23:18+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post/2022/08/26/frpc%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%90%E7%A4%BAlogintoserverfailedeof.html</loc>
+    <lastmod>2022-08-26T15:23:18+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post.html</loc>
+    <lastmod>2022-08-26T15:23:18+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags.html</loc>
+    <lastmod>2022-08-26T15:23:18+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</loc>
+    <lastmod>2022-08-26T15:23:18+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/gin.html</loc>
     <lastmod>2022-08-26T11:45:43+08:00</lastmod>
@@ -18,12 +36,6 @@
     <lastmod>2022-08-26T11:45:43+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/categories/golang.html</loc>
-    <lastmod>2022-08-26T11:45:43+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/post.html</loc>
-    <lastmod>2022-08-26T11:45:43+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags.html</loc>
     <lastmod>2022-08-26T11:45:43+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/%E8%B7%A8%E5%9F%9F.html</loc>
@@ -123,9 +135,6 @@
     <lastmod>2022-06-14T15:34:31+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/06/14/git%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81%E6%8A%A5%E9%94%99.html</loc>
-    <lastmod>2022-06-14T15:34:31+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</loc>
     <lastmod>2022-06-14T15:34:31+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/06/07/dockercompose%E5%AE%89%E8%A3%85.html</loc>

@@ -1,7 +1,7 @@
 ---
 title: "frpc无法连接服务器提示 [W] [service.go:102] login to server failed: EOF"
 date: 2022-08-26T15:23:18+08:00
-draft: true
+draft: false
 tags: ["frpc"]
 isCJKLanguage: true
 categories: ["错误处理","frp"]
