@@ -13,7 +13,7 @@
       <pubDate>Mon, 28 Mar 2022 11:51:43 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/03/28/%E5%9B%BD%E5%AF%86sm2golang%E4%BD%BF%E7%94%A8.html</guid>
-      <description>```go package main import ( &amp;quot;bytes&amp;quot; &amp;quot;crypto/rand&amp;quot; &amp;quot;encoding/base64&amp;quot; &amp;quot;encoding/hex&amp;quot; &amp;quot;fmt&amp;quot; &amp;quot;github.com/tjfoc/gmsm/x509&amp;quot; ) func main() { //公钥 var</description>
+      <description>package main import ( &amp;#34;bytes&amp;#34; &amp;#34;crypto/rand&amp;#34; &amp;#34;encoding/base64&amp;#34; &amp;#34;encoding/hex&amp;#34; &amp;#34;fmt&amp;#34; &amp;#34;github.com/tjfoc/gmsm/x509&amp;#34; ) func main() { //公钥 var sm2PublicKey</description>
     </item>
     
   </channel>

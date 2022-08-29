@@ -9,13 +9,13 @@ categories: ["sql"]
 
 ## 两个单引号就转义为单引号,如下
 
-    ```sql
-    ''''||str||''''
-    ```
+```sql
+''''||str||''''
+```
 
 eg：
 
-    ```sql
-    select ''''||to_char(now(), 'yyyy')||''''
-    '2022'
-    ```
+```sql
+select ''''||to_char(now(), 'yyyy')||''''
+'2022'
+```

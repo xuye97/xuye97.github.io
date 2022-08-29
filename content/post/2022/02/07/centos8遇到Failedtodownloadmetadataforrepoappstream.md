@@ -11,12 +11,12 @@ centos8运行更新时提示**Error: Failed to download metadata for repo 'appst
 
 解决方法：
 
-    ```shell
-    sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-Linux-*
-    sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-Linux-*
-    sudo dnf install centos-release-stream -y
-    sudo dnf swap centos-{linux,stream}-repos -y
-    sudo dnf distro-sync -y
-    ```
+```shell
+sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-Linux-*
+sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-Linux-*
+sudo dnf install centos-release-stream -y
+sudo dnf swap centos-{linux,stream}-repos -y
+sudo dnf distro-sync -y
+```
 
 原文地址：<https://flutterq.com/failed-to-download-metadata-for-repo-appstream-cannot-prepare-internal-mirrorlist-no-urls-in-mirrorlist>

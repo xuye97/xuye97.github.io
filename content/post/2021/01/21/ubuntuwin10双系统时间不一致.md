@@ -21,15 +21,15 @@ categories: ["ubuntu","错误处理"]
 
 ### ubuntu20.04+win10解决办法：(同样适用于18.04)
 
-    ```shell
-    #安装ntpdate：
-    sudo apt-get install ntpdate
+```shell
+#安装ntpdate：
+sudo apt-get install ntpdate
 
-    #设置校正服务器：
-    sudo ntpdate time.windows.com
+#设置校正服务器：
+sudo ntpdate time.windows.com
 
-    #设置硬件时间为本地时间：
-    sudo hwclock --localtime --systohc
-    ```
+#设置硬件时间为本地时间：
+sudo hwclock --localtime --systohc
+```
 
 ### 最后重启电脑

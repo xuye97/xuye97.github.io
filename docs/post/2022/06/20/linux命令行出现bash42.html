@@ -99,12 +99,9 @@
 <p>Linux服务器新建立的用户在登录时显示“-bash-4.2$”，而不是“user@主机名+路径”的显示方式。出现的此问题的原因是用户根目录下丢失了.bash_profile和.bashrc两个环境变量文件。</p>
 </blockquote>
 <h3 id="解决办法"><strong>解决办法：</strong></h3>
-<pre><code>```shell
-cp /etc/skel/.bashrc ~
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cp /etc/skel/.bashrc ~
 cp /etc/skel/.bash_profile ~
-```
-</code></pre>
-<h3 id="之后退出重新连接就可以了">之后退出重新连接就可以了</h3>
+</code></pre></div><h3 id="之后退出重新连接就可以了">之后退出重新连接就可以了</h3>
 
         </div>
 
@@ -200,8 +197,6 @@ cp /etc/skel/.bash_profile ~
 
 
 
-
-    <script src='/js/douban.js'></script>
 
                 </div>
 

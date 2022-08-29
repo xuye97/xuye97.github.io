@@ -11,9 +11,9 @@ categories: ["linux","ssh"]
 
 ### **解决办法：**
 
-    ```shell
-    cp /etc/skel/.bashrc ~
-    cp /etc/skel/.bash_profile ~
-    ```
+```shell
+cp /etc/skel/.bashrc ~
+cp /etc/skel/.bash_profile ~
+```
 
 ### 之后退出重新连接就可以了

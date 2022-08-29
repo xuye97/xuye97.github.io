@@ -96,21 +96,12 @@
         
         <div class="post-content">
             <p>ubuntu使用idea的时候习惯使用<strong>ctrl+alt+下</strong> 来复制代码，但是这组快捷键已经被系统占用需要手动解除绑定：</p>
-<pre><code>```shell
-gsettings get org.gnome.desktop.wm.keybindings switch-to-workspace-down 
-```
-</code></pre>
-<p>返回的应该是</p>
-<pre><code>```shell 
-['&lt;Super&gt;Page_Down', '&lt;Control&gt;&lt;Alt&gt;Down']
-```
-</code></pre>
-<p>设置快捷键</p>
-<pre><code>```shell
-gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down &quot;['&lt;Super&gt;Page_Dowm']&quot;
-```
-</code></pre>
-<h2 id="完成">完成</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gsettings get org.gnome.desktop.wm.keybindings switch-to-workspace-down 
+</code></pre></div><p>返回的应该是</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#f92672">[</span><span style="color:#e6db74">&#39;&lt;Super&gt;Page_Down&#39;</span>, <span style="color:#e6db74">&#39;&lt;Control&gt;&lt;Alt&gt;Down&#39;</span><span style="color:#f92672">]</span>
+</code></pre></div><p>设置快捷键</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down <span style="color:#e6db74">&#34;[&#39;&lt;Super&gt;Page_Dowm&#39;]&#34;</span>
+</code></pre></div><h2 id="完成">完成</h2>
 
         </div>
 
@@ -200,8 +191,6 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down &quot;['
 
 
 
-
-    <script src='/js/douban.js'></script>
 
                 </div>
 

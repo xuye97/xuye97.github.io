@@ -9,12 +9,12 @@ categories: ["实用工具"]
 
 ### pem转crt格式
 
-    ```shell
-    openssl x509 -in xxx.pem -out xxx.crt  
-    ```
+```shell
+openssl x509 -in xxx.pem -out xxx.crt  
+```
 
 ### pem转key格式
 
-    ```shell
-    openssl rsa -in xxx.pem -out xxx.key  
-    ```
+```shell
+openssl rsa -in xxx.pem -out xxx.key  
+```

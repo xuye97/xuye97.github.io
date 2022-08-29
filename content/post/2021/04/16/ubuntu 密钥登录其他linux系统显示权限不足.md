@@ -7,19 +7,19 @@ isCJKLanguage: true
 categories: ["ssh","linux"]
 ---
 
-    ```shell
-    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-    @         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
-    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-    Permissions 0750 for 'n1' are too open.
-    It is required that your private key files are NOT accessible by others.
-    This private key will be ignored.
-    Load key "密钥文件": bad permissions
-    192.168.2.1: Permission denied (publickey).
-    ```
+```shell
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0750 for 'n1' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key "密钥文件": bad permissions
+192.168.2.1: Permission denied (publickey).
+```
 
 > 修改密钥文件权限
 
-    ```shell
-    chmod 600 密钥文件
-    ```
+```shell
+chmod 600 密钥文件
+```

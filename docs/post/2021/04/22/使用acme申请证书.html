@@ -207,61 +207,49 @@
 <p>获取 Cloudflare API 令牌
 在域名管理首页（右下角）</p>
 <h3 id="安装-acme">安装 ACME</h3>
-<pre><code>```shell
-curl https://get.acme.sh | sh
-```
-</code></pre>
-<h3 id="设置-api-令牌">设置 API 令牌</h3>
-<pre><code>```shell
-# Cloudflare DNS=dns_cf
-export CF_Key=&quot;密钥&quot;
-export CF_Email=&quot;Cloudflare登录名&quot;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl https://get.acme.sh | sh
+</code></pre></div><h3 id="设置-api-令牌">设置 API 令牌</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Cloudflare DNS=dns_cf</span>
+export CF_Key<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;密钥&#34;</span>
+export CF_Email<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Cloudflare登录名&#34;</span>
 
-# 阿里云 DNS=dns_ali
-export Ali_Key=&quot;1234&quot;
-export Ali_Secret=&quot;sADDsdasdgdsf&quot;
+<span style="color:#75715e"># 阿里云 DNS=dns_ali</span>
+export Ali_Key<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;1234&#34;</span>
+export Ali_Secret<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sADDsdasdgdsf&#34;</span>
 
-# Dnspod DNS=dns_dp
-export DP_Id=&quot;1234&quot;
-export DP_Key=&quot;sADDsdasdgdsf&quot;
+<span style="color:#75715e"># Dnspod DNS=dns_dp</span>
+export DP_Id<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;1234&#34;</span>
+export DP_Key<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sADDsdasdgdsf&#34;</span>
 
-# Godaddy DNS=dns_gd
-export GD_Key=&quot;sdfsdfsdfljlbjkljlkjsdfoiwje&quot;
-export GD_Secret=&quot;asdfsdfsfsdfsdfdfsdf&quot;
+<span style="color:#75715e"># Godaddy DNS=dns_gd</span>
+export GD_Key<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sdfsdfsdfljlbjkljlkjsdfoiwje&#34;</span>
+export GD_Secret<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;asdfsdfsfsdfsdfdfsdf&#34;</span>
 
-# AWS DNS=dns_aws
-export AWS_ACCESS_KEY_ID=&quot;sdfsdfsdfljlbjkljlkjsdfoiwje&quot;
-export AWS_SECRET_ACCESS_KEY=&quot;xxxxxxx&quot;
+<span style="color:#75715e"># AWS DNS=dns_aws</span>
+export AWS_ACCESS_KEY_ID<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sdfsdfsdfljlbjkljlkjsdfoiwje&#34;</span>
+export AWS_SECRET_ACCESS_KEY<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;xxxxxxx&#34;</span>
 
-# Linode DNS=dns_linode
-export LINODE_API_KEY=&quot;xxxxxxxx&quot;
-```
-</code></pre>
-<h3 id="验证-dns-并申请证书">验证 DNS 并申请证书</h3>
-<pre><code>```shell
-~/.acme.sh/acme.sh --issue --dns $DNS -d 根域名 -d *.根域名 # DNS 替换为上面 DNS=后面的参数
+<span style="color:#75715e"># Linode DNS=dns_linode</span>
+export LINODE_API_KEY<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;xxxxxxxx&#34;</span>
+</code></pre></div><h3 id="验证-dns-并申请证书">验证 DNS 并申请证书</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">~/.acme.sh/acme.sh --issue --dns $DNS -d 根域名 -d *.根域名 <span style="color:#75715e"># DNS 替换为上面 DNS=后面的参数</span>
 mkdir 证书存放路径
-~/.acme.sh/acme.sh --installcert -d 根域名 --key-file 证书存放路径/private.key --fullchain-file 证书存放路径/cert.crt #将证书安装，证书将要过期的时候会自动更新
-~/.acme.sh/acme.sh --upgrade --auto-upgrade #自动更新
-chmod -R 755 证书存放路径 
-```
-</code></pre>
-<h2 id="web-验证申请证书-这种方式需要开放-80-端口并保持不被占用的状态并且这种方式不支持泛域名">Web 验证申请证书 <strong>这种方式，需要开放 80 端口，并保持不被占用的状态，并且这种方式不支持泛域名。</strong></h2>
-<pre><code>````shell
-# 首先安装 socat
+~/.acme.sh/acme.sh --installcert -d 根域名 --key-file 证书存放路径/private.key --fullchain-file 证书存放路径/cert.crt <span style="color:#75715e">#将证书安装，证书将要过期的时候会自动更新</span>
+~/.acme.sh/acme.sh --upgrade --auto-upgrade <span style="color:#75715e">#自动更新</span>
+chmod -R <span style="color:#ae81ff">755</span> 证书存放路径 
+</code></pre></div><h2 id="web-验证申请证书-这种方式需要开放-80-端口并保持不被占用的状态并且这种方式不支持泛域名">Web 验证申请证书 <strong>这种方式，需要开放 80 端口，并保持不被占用的状态，并且这种方式不支持泛域名。</strong></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># 首先安装 socat</span>
 yum install socat -y
 
-# 配置DNS解析将域名解析到服务器上
-# 安装 ACME 并申请证书
+<span style="color:#75715e"># 配置DNS解析将域名解析到服务器上</span>
+<span style="color:#75715e"># 安装 ACME 并申请证书</span>
 curl https://get.acme.sh | sh
 ~/.acme.sh/acme.sh  --issue -d 域名 --standalone
 mkdir 证书安装路径
 ~/.acme.sh/acme.sh --installcert -d 域名 --key-file 证书安装路径/private.key --fullchain-file 证书安装路径/cert.crt
-~/.acme.sh/acme.sh --upgrade --auto-upgrade #自动更新
-chmod -R 755 证书安装路径
-```
-</code></pre>
-
+~/.acme.sh/acme.sh --upgrade --auto-upgrade <span style="color:#75715e">#自动更新</span>
+chmod -R <span style="color:#ae81ff">755</span> 证书安装路径
+</code></pre></div>
         </div>
 
         
@@ -339,8 +327,6 @@ chmod -R 755 证书安装路径
 
 
 
-
-    <script src='/js/douban.js'></script>
 
                 </div>
 

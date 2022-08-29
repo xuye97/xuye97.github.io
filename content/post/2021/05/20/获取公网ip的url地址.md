@@ -9,12 +9,9 @@ categories: ["默认分类"]
 
 ### 获取公网ip地址
 
-    ```shell
-    curl ip.42.pl/raw
-    curl api.ip.sb/ip
-    curl ip.3322.net
-    curl ip.qaros.com
-    curl ident.me
-    curl api.ipify.org
-    curl dhcp.cn
-    ```
+```shell
+curl api.ip.sb/ip
+curl ip.3322.net
+curl ip.qaros.com
+curl ipv4.icanhazip.com
+```

@@ -1,23 +1,23 @@
 baseURL = "https://blog.xyemy.com/"
-languageCode = "zh-CN"
-title = "en's blog"
+languageCode = "zh-CN" # 语言
+title = "en's blog" # 标题
 
-theme = "maupassant"
+theme = "maupassant" #主题名字
 
 summaryLength = 20
 uglyurls = true
 
 [author]
-name = "xuye"
+name = "xuye" #作者
 
 
 [params]
-localSearch = true
+localSearch = true #开启搜索
 fancybox = true
-busuanzi = true
+busuanzi = true #不蒜子计数器
 relativeURLs = false
-subtitle = "只有魔法才能打败魔法"
-customJS = ['douban.js']
+subtitle = "只有魔法才能打败魔法" #副标题
+# customJS = ['douban.js'] #需要另外加载的js
 
 [taxonomies]
 tag = "tags"

@@ -103,7 +103,7 @@
       <pubDate>Tue, 14 Jun 2022 15:34:31 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/06/14/git%E4%B8%8A%E4%BC%A0%E4%BB%A3%E7%A0%81%E6%8A%A5%E9%94%99.html</guid>
-      <description>安装新的git以后长传代码报错 ```shell Unable to negotiate with</description>
+      <description>安装新的git以后长传代码报错 Unable to negotiate with 47.98.49.44</description>
     </item>
     
     <item>
@@ -121,7 +121,7 @@
       <pubDate>Wed, 25 May 2022 11:16:54 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/05/25/%E4%BD%BF%E7%94%A8openssl%E6%8A%8Apem%E8%AF%81%E4%B9%A6%E8%BD%AC%E6%8D%A2%E4%B8%BAcrt%E5%92%8Ckey.html</guid>
-      <description>pem转crt格式 ```shell openssl x509 -in xxx.pem -out xxx.crt ``` pem</description>
+      <description>pem转crt格式 openssl x509 -in xxx.pem -out xxx.crt pem转k</description>
     </item>
     
     <item>
@@ -148,7 +148,7 @@
       <pubDate>Mon, 25 Apr 2022 09:50:22 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/04/25/sql%E6%8B%BC%E6%8E%A5%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%97%B6%E5%8D%95%E5%BC%95%E5%8F%B7%E8%BD%AC%E4%B9%89%E9%97%AE%E9%A2%98.html</guid>
-      <description>两个单引号就转义为单引号,如下 ```sql &#39;&#39;&#39;&#39;||str||&#39;&#39;&#39;&#39; ``` eg</description>
+      <description>两个单引号就转义为单引号,如下 &amp;#39;&amp;#39;&amp;#39;&amp;#39;||str||&amp;#39;&amp;#39;&amp;#39;&amp;#39; eg： select</description>
     </item>
     
     <item>
@@ -193,7 +193,7 @@
       <pubDate>Sat, 02 Apr 2022 17:30:48 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/04/02/git%E6%9B%B4%E6%94%B9%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80.html</guid>
-      <description>1. 修改命令 ```shell git remote set-url origin 新的地址 ``` 2. 先删后加</description>
+      <description>1. 修改命令 git remote set-url origin 新的地址 2. 先删后加 git remote</description>
     </item>
     
     <item>
@@ -211,7 +211,7 @@
       <pubDate>Mon, 28 Mar 2022 11:51:43 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2022/03/28/%E5%9B%BD%E5%AF%86sm2golang%E4%BD%BF%E7%94%A8.html</guid>
-      <description>```go package main import ( &amp;quot;bytes&amp;quot; &amp;quot;crypto/rand&amp;quot; &amp;quot;encoding/base64&amp;quot; &amp;quot;encoding/hex&amp;quot; &amp;quot;fmt&amp;quot; &amp;quot;github.com/tjfoc/gmsm/x509&amp;quot; ) func main() { //公钥 var</description>
+      <description>package main import ( &amp;#34;bytes&amp;#34; &amp;#34;crypto/rand&amp;#34; &amp;#34;encoding/base64&amp;#34; &amp;#34;encoding/hex&amp;#34; &amp;#34;fmt&amp;#34; &amp;#34;github.com/tjfoc/gmsm/x509&amp;#34; ) func main() { //公钥 var sm2PublicKey</description>
     </item>
     
     <item>
@@ -580,7 +580,7 @@
       <pubDate>Thu, 20 May 2021 16:11:14 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2021/05/20/%E8%8E%B7%E5%8F%96%E5%85%AC%E7%BD%91ip%E7%9A%84url%E5%9C%B0%E5%9D%80.html</guid>
-      <description>获取公网ip地址 ```shell curl ip.42.pl/raw curl api.ip.sb/ip curl ip.3322.net curl ip.qaros.com curl ident.me curl</description>
+      <description>获取公网ip地址 curl api.ip.sb/ip curl ip.3322.net curl ip.qaros.com curl ipv4.icanhazip.com</description>
     </item>
     
     <item>
@@ -634,7 +634,7 @@
       <pubDate>Fri, 16 Apr 2021 11:05:44 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2021/04/16/ubuntu-%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95%E5%85%B6%E4%BB%96linux%E7%B3%BB%E7%BB%9F%E6%98%BE%E7%A4%BA%E6%9D%83%E9%99%90%E4%B8%8D%E8%B6%B3.html</guid>
-      <description>```shell @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0750 for &#39;n1&#39; are too open. It is required</description>
+      <description>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: UNPROTECTED PRIVATE KEY FILE! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Permissions 0750 for &amp;#39;n1&amp;#39; are too open. It is required that</description>
     </item>
     
     <item>
@@ -652,7 +652,7 @@
       <pubDate>Fri, 09 Apr 2021 16:05:44 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2021/04/09/%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%90%AF%E7%94%A8%E6%88%96%E7%A6%81%E7%94%A8%E8%87%AA%E5%B8%A6%E9%94%AE%E7%9B%98.html</guid>
-      <description>```shell 管理员权限 关闭自带键盘 sc config i8042prt start= disabled 开启自</description>
+      <description>#管理员权限 #关闭自带键盘 sc config i8042prt start= disabled #开</description>
     </item>
     
     <item>

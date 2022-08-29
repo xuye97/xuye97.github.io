@@ -97,15 +97,12 @@
         <div class="post-content">
             <p>centos8运行更新时提示<strong>Error: Failed to download metadata for repo &lsquo;appstream&rsquo;: Cannot prepare internal mirrorlist: No URLs in mirrorlist</strong></p>
 <p>解决方法：</p>
-<pre><code>```shell
-sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-Linux-*
-sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-Linux-*
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sed -i <span style="color:#e6db74">&#39;s/mirrorlist/#mirrorlist/g&#39;</span> /etc/yum.repos.d/CentOS-Linux-*
+sed -i <span style="color:#e6db74">&#39;s|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g&#39;</span> /etc/yum.repos.d/CentOS-Linux-*
 sudo dnf install centos-release-stream -y
-sudo dnf swap centos-{linux,stream}-repos -y
+sudo dnf swap centos-<span style="color:#f92672">{</span>linux,stream<span style="color:#f92672">}</span>-repos -y
 sudo dnf distro-sync -y
-```
-</code></pre>
-<p>原文地址：<a href="https://flutterq.com/failed-to-download-metadata-for-repo-appstream-cannot-prepare-internal-mirrorlist-no-urls-in-mirrorlist">https://flutterq.com/failed-to-download-metadata-for-repo-appstream-cannot-prepare-internal-mirrorlist-no-urls-in-mirrorlist</a></p>
+</code></pre></div><p>原文地址：<a href="https://flutterq.com/failed-to-download-metadata-for-repo-appstream-cannot-prepare-internal-mirrorlist-no-urls-in-mirrorlist">https://flutterq.com/failed-to-download-metadata-for-repo-appstream-cannot-prepare-internal-mirrorlist-no-urls-in-mirrorlist</a></p>
 
         </div>
 
@@ -191,8 +188,6 @@ sudo dnf distro-sync -y
 
 
 
-
-    <script src='/js/douban.js'></script>
 
                 </div>
 

@@ -99,20 +99,17 @@
 centos 8 默认使用dnf代替了yum，原yum配置文件（/etc/yum.conf）默认链接到dnf配置文件（/etc/dnf/dnf.conf）
 原来只需更改yum配置文件进行代理设置的方法已经不好用了。
 centos 8需按如下修改</p>
-<pre><code>```shell
-cat /etc/dnf/dnf.conf
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat /etc/dnf/dnf.conf
 
-[main]
-gpgcheck=1
-installonly_limit=3
-clean_requirements_on_remove=True
+<span style="color:#f92672">[</span>main<span style="color:#f92672">]</span>
+gpgcheck<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+installonly_limit<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>
+clean_requirements_on_remove<span style="color:#f92672">=</span>True
 
-proxy=协议://地址:端口
-proxy_username=用户名（没有可不要）
-proxy_password=密码（没有可不要）
-```
-</code></pre>
-
+proxy<span style="color:#f92672">=</span>协议://地址:端口
+proxy_username<span style="color:#f92672">=</span>用户名（没有可不要）
+proxy_password<span style="color:#f92672">=</span>密码（没有可不要）
+</code></pre></div>
         </div>
 
         
@@ -192,8 +189,6 @@ proxy_password=密码（没有可不要）
 
 
 
-
-    <script src='/js/douban.js'></script>
 
                 </div>
 

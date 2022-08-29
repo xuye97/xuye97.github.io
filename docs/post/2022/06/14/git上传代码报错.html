@@ -96,16 +96,12 @@
         
         <div class="post-content">
             <h3 id="安装新的git以后长传代码报错">安装新的git以后长传代码报错</h3>
-<pre><code>```shell
-Unable to negotiate with 47.98.49.44 port 22: no matching host key type found. Their offer: ssh-rsa
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">Unable to negotiate with 47.98.49.44 port 22: no matching host key type found. Their offer: ssh-rsa
 fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
 and the repository exists.
-```
-</code></pre>
-<h3 id="解决方法">解决方法</h3>
-<pre><code>```ini
-#修改 ~/.ssh/config 文件，没有就创建
+</code></pre></div><h3 id="解决方法">解决方法</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#修改 ~/.ssh/config 文件，没有就创建</span>
 Host 服务器域名
     HostName 服务器域名
     User git
@@ -113,9 +109,7 @@ Host 服务器域名
     IdentitiesOnly yes
     PubkeyAcceptedAlgorithms +ssh-rsa
     HostkeyAlgorithms +ssh-rsa
-```
-</code></pre>
-
+</code></pre></div>
         </div>
 
         
@@ -206,8 +200,6 @@ Host 服务器域名
 
 
 
-
-    <script src='/js/douban.js'></script>
 
                 </div>
 
