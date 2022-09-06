@@ -6,7 +6,16 @@
     <description>Recent content in golang on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 26 Aug 2022 11:45:43 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Sep 2022 13:44:47 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang 设置时区</title>
+      <link>https://blog.xyemy.com/post/2022/09/06/golang%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA.html</link>
+      <pubDate>Tue, 06 Sep 2022 13:44:47 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/09/06/golang%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA.html</guid>
+      <description>1. 使用 time.FixedZone (推荐) import ( &amp;#34;fmt&amp;#34; &amp;#34;time&amp;#34; ) func main() { //东八</description>
+    </item>
+    
     <item>
       <title>Gin框架解决跨域问题</title>
       <link>https://blog.xyemy.com/post/2022/08/26/gin%E6%A1%86%E6%9E%B6%E8%A7%A3%E5%86%B3%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98.html</link>

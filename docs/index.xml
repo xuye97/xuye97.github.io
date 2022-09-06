@@ -6,7 +6,16 @@
     <description>Recent content on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 26 Aug 2022 15:23:18 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Sep 2022 13:44:47 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang 设置时区</title>
+      <link>https://blog.xyemy.com/post/2022/09/06/golang%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA.html</link>
+      <pubDate>Tue, 06 Sep 2022 13:44:47 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/09/06/golang%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA.html</guid>
+      <description>1. 使用 time.FixedZone (推荐) import ( &amp;#34;fmt&amp;#34; &amp;#34;time&amp;#34; ) func main() { //东八</description>
+    </item>
+    
     <item>
       <title>frpc无法连接服务器提示 [W] [service.go:102] login to server failed: EOF</title>
       <link>https://blog.xyemy.com/post/2022/08/26/frpc%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%90%E7%A4%BAlogintoserverfailedeof.html</link>
