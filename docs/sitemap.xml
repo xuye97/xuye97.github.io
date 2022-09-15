@@ -3,10 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.xyemy.com/categories.html</loc>
-    <lastmod>2022-09-06T13:44:47+08:00</lastmod>
+    <lastmod>2022-09-15T10:05:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/docker.html</loc>
+    <lastmod>2022-09-15T10:05:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/docker.html</loc>
+    <lastmod>2022-09-15T10:05:44+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/</loc>
-    <lastmod>2022-09-06T13:44:47+08:00</lastmod>
+    <lastmod>2022-09-15T10:05:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post.html</loc>
+    <lastmod>2022-09-15T10:05:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags.html</loc>
+    <lastmod>2022-09-15T10:05:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post/2022/09/15/window%E8%BF%90%E8%A1%8Cdocker%E6%8A%A5%E9%94%99hardwareassistedvirtualizationanddataexecutionprotectionmustbeenabledinthebios.html</loc>
+    <lastmod>2022-09-15T10:05:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</loc>
+    <lastmod>2022-09-15T10:05:44+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/golang.html</loc>
     <lastmod>2022-09-06T13:44:47+08:00</lastmod>
@@ -15,12 +33,6 @@
     <lastmod>2022-09-06T13:44:47+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/09/06/golang%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA.html</loc>
-    <lastmod>2022-09-06T13:44:47+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/post.html</loc>
-    <lastmod>2022-09-06T13:44:47+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags.html</loc>
     <lastmod>2022-09-06T13:44:47+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/%E6%97%B6%E5%8C%BA.html</loc>
@@ -33,9 +45,6 @@
     <lastmod>2022-08-26T15:23:18+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/08/26/frpc%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%90%E7%A4%BAlogintoserverfailedeof.html</loc>
-    <lastmod>2022-08-26T15:23:18+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</loc>
     <lastmod>2022-08-26T15:23:18+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/gin.html</loc>
@@ -92,9 +101,6 @@
     <loc>https://blog.xyemy.com/categories/linux.html</loc>
     <lastmod>2022-07-27T10:12:16+08:00</lastmod>
   </url><url>
-    <loc>https://blog.xyemy.com/tags/docker.html</loc>
-    <lastmod>2022-07-14T16:39:17+08:00</lastmod>
-  </url><url>
     <loc>https://blog.xyemy.com/post/2022/07/14/postgresql%E5%A2%9E%E9%87%8F%E5%A4%87%E4%BB%BD%E7%AD%96%E7%95%A5.html</loc>
     <lastmod>2022-07-14T16:39:17+08:00</lastmod>
   </url><url>
@@ -103,9 +109,6 @@
   </url><url>
     <loc>https://blog.xyemy.com/categories/postgresql.html</loc>
     <lastmod>2022-07-14T16:39:17+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/categories/docker.html</loc>
-    <lastmod>2022-07-09T10:17:03+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/07/09/win10%E5%AE%89%E8%A3%85docker%E9%94%99%E8%AF%AFwsl2installationisincomplete.html</loc>
     <lastmod>2022-07-09T10:17:03+08:00</lastmod>

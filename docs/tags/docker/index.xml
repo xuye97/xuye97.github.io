@@ -6,7 +6,16 @@
     <description>Recent content in docker on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 14 Jul 2022 16:39:17 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Sep 2022 10:05:44 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows运行docker报错 Hardware assisted virtualization and data execution protection must be enabled in the BIOS</title>
+      <link>https://blog.xyemy.com/post/2022/09/15/window%E8%BF%90%E8%A1%8Cdocker%E6%8A%A5%E9%94%99hardwareassistedvirtualizationanddataexecutionprotectionmustbeenabledinthebios.html</link>
+      <pubDate>Thu, 15 Sep 2022 10:05:44 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/09/15/window%E8%BF%90%E8%A1%8Cdocker%E6%8A%A5%E9%94%99hardwareassistedvirtualizationanddataexecutionprotectionmustbeenabledinthebios.html</guid>
+      <description>windows运行Docker的时候报错</description>
+    </item>
+    
     <item>
       <title>Docker&#43;PostgreSQL增量备份策略</title>
       <link>https://blog.xyemy.com/post/2022/07/14/postgresql%E5%A2%9E%E9%87%8F%E5%A4%87%E4%BB%BD%E7%AD%96%E7%95%A5.html</link>

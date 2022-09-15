@@ -6,7 +6,16 @@
     <description>Recent content in 错误处理 on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 26 Aug 2022 15:23:18 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Sep 2022 10:05:44 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows运行docker报错 Hardware assisted virtualization and data execution protection must be enabled in the BIOS</title>
+      <link>https://blog.xyemy.com/post/2022/09/15/window%E8%BF%90%E8%A1%8Cdocker%E6%8A%A5%E9%94%99hardwareassistedvirtualizationanddataexecutionprotectionmustbeenabledinthebios.html</link>
+      <pubDate>Thu, 15 Sep 2022 10:05:44 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/09/15/window%E8%BF%90%E8%A1%8Cdocker%E6%8A%A5%E9%94%99hardwareassistedvirtualizationanddataexecutionprotectionmustbeenabledinthebios.html</guid>
+      <description>windows运行Docker的时候报错</description>
+    </item>
+    
     <item>
       <title>frpc无法连接服务器提示 [W] [service.go:102] login to server failed: EOF</title>
       <link>https://blog.xyemy.com/post/2022/08/26/frpc%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%90%E7%A4%BAlogintoserverfailedeof.html</link>
