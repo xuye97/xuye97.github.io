@@ -96,14 +96,14 @@
             <blockquote>
 <p>ubuntu 2004 可以看到图片文件的缩略图但是打开的时候提示不是一个PNG格式的文件：</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">Could not load image <span style="color:#e6db74">&#34;image.png&#34;</span>
-Fatal error reading PNG image file:Not a PNG file
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>Could not load image <span style="color:#e6db74">&#34;image.png&#34;</span>
+</span></span><span style="display:flex;"><span>Fatal error reading PNG image file:Not a PNG file
+</span></span></code></pre></div><blockquote>
 <p><strong>解决方法：</strong></p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ file image.png
-image.png: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, comment: <span style="color:#e6db74">&#34;Intel(R) JPEG Library, version 1,5,4,36&#34;</span>, baseline, precision 8, 1920x1200, components <span style="color:#ae81ff">3</span>
-</code></pre></div><p>可以看到image.png 的格式应该是jpeg ，将扩展名修改为jpeg就可以正常打开了</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ file image.png
+</span></span><span style="display:flex;"><span>image.png: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, comment: <span style="color:#e6db74">&#34;Intel(R) JPEG Library, version 1,5,4,36&#34;</span>, baseline, precision 8, 1920x1200, components <span style="color:#ae81ff">3</span>
+</span></span></code></pre></div><p>可以看到image.png 的格式应该是jpeg ，将扩展名修改为jpeg就可以正常打开了</p>
 
         </div>
 

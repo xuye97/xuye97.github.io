@@ -98,25 +98,25 @@
             <ol>
 <li>
 <p><strong>/etc/sysctl.conf</strong> 文件修改</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#修改文件：</span>
-net.core.default_qdisc<span style="color:#f92672">=</span>fq
-net.ipv4.tcp_congestion_control<span style="color:#f92672">=</span>bbr
-
-<span style="color:#75715e">#或者直接运行命令：</span>
-echo <span style="color:#e6db74">&#34;net.core.default_qdisc=fq&#34;</span> &gt;&gt; /etc/sysctl.conf
-echo <span style="color:#e6db74">&#34;net.ipv4.tcp_congestion_control=bbr&#34;</span> &gt;&gt; /etc/sysctl.conf
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#修改文件：</span>
+</span></span><span style="display:flex;"><span>net.core.default_qdisc<span style="color:#f92672">=</span>fq
+</span></span><span style="display:flex;"><span>net.ipv4.tcp_congestion_control<span style="color:#f92672">=</span>bbr
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#或者直接运行命令：</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;net.core.default_qdisc=fq&#34;</span> &gt;&gt; /etc/sysctl.conf
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;net.ipv4.tcp_congestion_control=bbr&#34;</span> &gt;&gt; /etc/sysctl.conf
+</span></span></code></pre></div></li>
 <li>
 <p>保存并生效</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">    sysctl -p
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>    sysctl -p
+</span></span></code></pre></div></li>
 <li>
 <p>查看是否开启成功（多选一）</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">    <span style="color:#75715e">#这个命令显示 &#34;net.ipv4.tcp_available_congestion_control = reno cubic bbr&#34; 成功</span>
-    sysctl net.ipv4.tcp_available_congestion_control
-    <span style="color:#75715e">#这个命令显示 &#34;tcp_bbr                20480  6&#34; 成功</span>
-    lsmod | grep bbr
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>    <span style="color:#75715e">#这个命令显示 &#34;net.ipv4.tcp_available_congestion_control = reno cubic bbr&#34; 成功</span>
+</span></span><span style="display:flex;"><span>    sysctl net.ipv4.tcp_available_congestion_control
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#这个命令显示 &#34;tcp_bbr                20480  6&#34; 成功</span>
+</span></span><span style="display:flex;"><span>    lsmod | grep bbr
+</span></span></code></pre></div></li>
 </ol>
 
         </div>

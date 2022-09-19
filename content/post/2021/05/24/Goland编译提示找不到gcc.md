@@ -15,6 +15,11 @@ categories: ["错误处理","golang"]
 
 ### window: **安装MinGW-W64**
 
+1. 打开网址：https://sourceforge.net/projects/mingw-w64/files/
+2. 下载 **MinGW-W64-install.exe** 安装**（2、3选一个）**
+3. 如果 **MinGW-W64-install.exe** 无法安装，就下载下面对应的系统包解压**（2、3选一个）**
+4. 环境变量的Path新增一行 **%安装目录%\mingw64\bin**
+
 #### linux
 
 ```shell

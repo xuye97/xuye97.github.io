@@ -94,27 +94,27 @@
         
         <div class="post-content">
             <h3 id="安装acmesh">安装acme.sh</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl  https://get.acme.sh | sh
-<span style="color:#75715e">#查看acme版本</span>
-acme.sh -v
-</code></pre></div><h3 id="将acmesh-server更改为zerossl">将acme.sh server更改为ZeroSSL</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">acme.sh --set-default-ca  --server zerossl
-</code></pre></div><h3 id="配置dns-api">配置DNS API</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>curl  https://get.acme.sh | sh
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#查看acme版本</span>
+</span></span><span style="display:flex;"><span>acme.sh -v
+</span></span></code></pre></div><h3 id="将acmesh-server更改为zerossl">将acme.sh server更改为ZeroSSL</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>acme.sh --set-default-ca  --server zerossl
+</span></span></code></pre></div><h3 id="配置dns-api">配置DNS API</h3>
 <p><strong>使用Cloudflare命令：</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">export CF_Key<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sdfsdfsdfljlbjkljlkjsdfoiwje&#34;</span>
-export CF_Email<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;xxxx@sss.com&#34;</span>
-</code></pre></div><p><strong>其他更多命令：<a href="https://github.com/acmesh-official/acme.sh/wiki/dnsapi">https://github.com/acmesh-official/acme.sh/wiki/dnsapi</a></strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>export CF_Key<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sdfsdfsdfljlbjkljlkjsdfoiwje&#34;</span>
+</span></span><span style="display:flex;"><span>export CF_Email<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;xxxx@sss.com&#34;</span>
+</span></span></code></pre></div><p><strong>其他更多命令：<a href="https://github.com/acmesh-official/acme.sh/wiki/dnsapi">https://github.com/acmesh-official/acme.sh/wiki/dnsapi</a></strong></p>
 <h3 id="acmesh申请zerossl泛域名ssl证书">acme.sh申请ZeroSSL泛域名SSL证书</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#example@example.com 需要修改为自己邮箱，已经注册会自动关联</span>
-acme.sh  --register-account  -m example@example.com --server zerossl
-<span style="color:#75715e">#申请ZeroSSL泛域名SSL证书 --dns 参数的值可以在上面的链接里面找到</span>
-<span style="color:#75715e">#domain.com需要替换为自己的域名</span>
-acme.sh --dns dns_cf --issue -d domain.com -d *.domain.com
-</code></pre></div><h3 id="安装证书">安装证书</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">acme.sh  --installcert  -d  domain.com   <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>        --key-file   /app-data/cert/domain.com.key <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>        --fullchain-file /app-data/cert/domain.com.crt
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#example@example.com 需要修改为自己邮箱，已经注册会自动关联</span>
+</span></span><span style="display:flex;"><span>acme.sh  --register-account  -m example@example.com --server zerossl
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#申请ZeroSSL泛域名SSL证书 --dns 参数的值可以在上面的链接里面找到</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#domain.com需要替换为自己的域名</span>
+</span></span><span style="display:flex;"><span>acme.sh --dns dns_cf --issue -d domain.com -d *.domain.com
+</span></span></code></pre></div><h3 id="安装证书">安装证书</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>acme.sh  --installcert  -d  domain.com   <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>        --key-file   /app-data/cert/domain.com.key <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>        --fullchain-file /app-data/cert/domain.com.crt
+</span></span></code></pre></div>
         </div>
 
         

@@ -98,23 +98,23 @@
             <ol>
 <li>
 <p>编辑 <strong>/etc/ssh/sshd_config</strong> 文件</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e">#修改 PermitRootLogin 为true</span>
-$ sudo vim /etc/ssh/sshd_config
-<span style="color:#75715e">#LoginGraceTime 2m</span>
-<span style="color:#75715e">#PermitRootLogin prohibit-password</span>
-PermitRootLogin yes
-<span style="color:#75715e">#StrictModes yes</span>
-<span style="color:#75715e">#MaxAuthTries 6</span>
-<span style="color:#75715e">#MaxSessions 10</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#修改 PermitRootLogin 为true</span>
+</span></span><span style="display:flex;"><span>$ sudo vim /etc/ssh/sshd_config
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#LoginGraceTime 2m</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#PermitRootLogin prohibit-password</span>
+</span></span><span style="display:flex;"><span>PermitRootLogin yes
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#StrictModes yes</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#MaxAuthTries 6</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#MaxSessions 10</span>
+</span></span></code></pre></div></li>
 <li>
 <p>重置root密码</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo passwd root
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo passwd root
+</span></span></code></pre></div></li>
 <li>
 <p>重启ssh服务</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo  systemctl  restart  sshd
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo  systemctl  restart  sshd
+</span></span></code></pre></div></li>
 </ol>
 
         </div>

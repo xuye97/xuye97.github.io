@@ -96,13 +96,13 @@
             <blockquote>
 <p>Portainer 是一个轻量级的管理 UI ，可让你轻松管理不同的 Docker 环境（Docker 主机或 Swarm 群集）。它由可在任何 Docker 引擎上运行的单个容器组成，旨在使部署更简单</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker rm -f prtainer
-docker run -d <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span> -p 9000:9000 <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span> -v /var/run/docker.sock:/var/run/docker.sock <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span> --restart<span style="color:#f92672">=</span>always <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span> --name prtainer portainer/portainer
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker rm -f prtainer
+</span></span><span style="display:flex;"><span>docker run -d <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span> -p 9000:9000 <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span> -v /var/run/docker.sock:/var/run/docker.sock <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span> --restart<span style="color:#f92672">=</span>always <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span> --name prtainer portainer/portainer
+</span></span></code></pre></div><ul>
 <li>-d 后台运行</li>
 <li>-p 端口映射 冒号前面是宿主机端口 后面是容器内端口</li>
 <li>-v 需要管理本地docker 才需要，不需要管理本地可以删除</li>

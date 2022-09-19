@@ -102,11 +102,11 @@
 <ol>
 <li>
 <p>管理员身份打开<strong>powershell</strong>运行一下命令：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#75715e">#打开Hyper-V</span>
-dism.exe /Online /Enable-Feature<span style="color:#960050;background-color:#1e0010">:</span>Microsoft-Hyper-V /All
-<span style="color:#75715e">#启用 Hypervisor</span>
-bcdedit /set hypervisorlaunchtype auto
-</code></pre></div><p><strong>重启</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#75715e">#打开Hyper-V</span>
+</span></span><span style="display:flex;"><span>dism.exe /Online /Enable-Feature<span style="color:#960050;background-color:#1e0010">:</span>Microsoft-Hyper-V /All
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#启用 Hypervisor</span>
+</span></span><span style="display:flex;"><span>bcdedit /set hypervisorlaunchtype auto
+</span></span></code></pre></div><p><strong>重启</strong></p>
 </li>
 <li>
 <p>如果方法一不生效：</p>
