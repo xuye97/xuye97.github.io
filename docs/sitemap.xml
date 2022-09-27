@@ -2,17 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.xyemy.com/tags/beego.html</loc>
+    <lastmod>2022-09-27T10:01:34+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/beego.html</loc>
+    <lastmod>2022-09-27T10:01:34+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post/2022/09/27/beego%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86.html</loc>
+    <lastmod>2022-09-27T10:01:34+08:00</lastmod>
+  </url><url>
     <loc>https://blog.xyemy.com/categories.html</loc>
-    <lastmod>2022-09-26T10:40:01+08:00</lastmod>
+    <lastmod>2022-09-27T10:01:34+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/</loc>
-    <lastmod>2022-09-26T10:40:01+08:00</lastmod>
+    <lastmod>2022-09-27T10:01:34+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/golang.html</loc>
+    <lastmod>2022-09-27T10:01:34+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/golang.html</loc>
+    <lastmod>2022-09-27T10:01:34+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post.html</loc>
-    <lastmod>2022-09-26T10:40:01+08:00</lastmod>
+    <lastmod>2022-09-27T10:01:34+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags.html</loc>
-    <lastmod>2022-09-26T10:40:01+08:00</lastmod>
+    <lastmod>2022-09-27T10:01:34+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6.html</loc>
+    <lastmod>2022-09-27T10:01:34+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/webdav.html</loc>
     <lastmod>2022-09-26T10:40:01+08:00</lastmod>
@@ -43,12 +61,6 @@
   </url><url>
     <loc>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</loc>
     <lastmod>2022-09-15T10:05:44+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags/golang.html</loc>
-    <lastmod>2022-09-06T13:44:47+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/categories/golang.html</loc>
-    <lastmod>2022-09-06T13:44:47+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/09/06/golang%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA.html</loc>
     <lastmod>2022-09-06T13:44:47+08:00</lastmod>
@@ -370,9 +382,6 @@
   </url><url>
     <loc>https://blog.xyemy.com/tags/%E4%BB%A3%E7%90%86.html</loc>
     <lastmod>2021-10-26T13:33:17+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags/beego.html</loc>
-    <lastmod>2021-10-22T17:44:09+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2021/10/22/beego%E6%A1%86%E6%9E%B6requestbody%E6%98%AF%E7%A9%BA%E7%9A%84.html</loc>
     <lastmod>2021-10-22T17:44:09+08:00</lastmod>

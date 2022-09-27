@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>beego on en&#39;s blog</title>
+    <link>https://blog.xyemy.com/categories/beego.html</link>
+    <description>Recent content in beego on en&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 27 Sep 2022 10:01:34 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/beego/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beego 静态文件处理</title>
+      <link>https://blog.xyemy.com/post/2022/09/27/beego%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86.html</link>
+      <pubDate>Tue, 27 Sep 2022 10:01:34 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2022/09/27/beego%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86.html</guid>
+      <description>静态文件注册: beego.SetStaticPath(&amp;#34;/attachment&amp;#34;,&amp;#34;static/attachment&amp;#34;) beego.SetStaticPath(&amp;#34;/public&amp;#34;,&amp;#34;static/public&amp;#34;) 第一个参数是路径，ur</description>
+    </item>
+    
+  </channel>
+</rss>
