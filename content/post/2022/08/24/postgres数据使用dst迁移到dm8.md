@@ -2,9 +2,9 @@
 title: "Postgres数据使用dst迁移到dm8"
 date: 2022-08-24T13:45:28+08:00
 draft: false
-tags: ["postgres","dst","dm8"]
+tags: ["postgresql","dst","dm8"]
 isCJKLanguage: true
-categories: ["postgres","dm8"]
+categories: ["postgresql","dm8"]
 ---
 
 1. 打开DM数据迁移工具

@@ -6,7 +6,25 @@
     <description>Recent content in Categories on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Sep 2022 10:01:34 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 10:25:07 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>openwrt</title>
+      <link>https://blog.xyemy.com/categories/openwrt.html</link>
+      <pubDate>Wed, 12 Oct 2022 10:25:07 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/categories/openwrt.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tailscale</title>
+      <link>https://blog.xyemy.com/categories/tailscale.html</link>
+      <pubDate>Wed, 12 Oct 2022 10:25:07 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/categories/tailscale.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>beego</title>
       <link>https://blog.xyemy.com/categories/beego.html</link>
@@ -71,11 +89,11 @@
     </item>
     
     <item>
-      <title>postgres</title>
-      <link>https://blog.xyemy.com/categories/postgres.html</link>
+      <title>postgresql</title>
+      <link>https://blog.xyemy.com/categories/postgresql.html</link>
       <pubDate>Wed, 24 Aug 2022 13:45:28 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/categories/postgres.html</guid>
+      <guid>https://blog.xyemy.com/categories/postgresql.html</guid>
       <description></description>
     </item>
     
@@ -94,15 +112,6 @@
       <pubDate>Wed, 27 Jul 2022 10:12:16 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/categories/linux.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>postgresql</title>
-      <link>https://blog.xyemy.com/categories/postgresql.html</link>
-      <pubDate>Thu, 14 Jul 2022 16:39:17 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/categories/postgresql.html</guid>
       <description></description>
     </item>
     
