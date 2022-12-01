@@ -1,8 +1,8 @@
 ---
-title: "Ctop安装"
+title: "Linux安装ctop"
 date: 2022-12-01T14:38:22+08:00
 draft: false
-tags: ["ctop","docker"]
+tags: ["ctop","docker","linux"]
 isCJKLanguage: true
 categories: ["docker"]
 ---
