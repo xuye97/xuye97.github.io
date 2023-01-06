@@ -17,9 +17,16 @@ $("#rocket").click(function() {
 // oScript.charset="utf-8";
 // oHead.appendChild(oScript);
 
+//每日一言
+var hitokoto="https://v1.hitokoto.cn";
+var hitText=document.getElementById("meiriyiyan");
+var xhr=new XMLHttpRequest();
+xhr.open("get","https://v1.hitokoto.cn");
+xhr.onreadystatechange=function()
+{var data=JSON.parse(xhr.responseText);hitText.innerHTML="「&nbsp;&nbsp;"+data.hitokoto+"」"+"   ——  "+data.from};
+xhr.send();;
 
-
-
+// 站点运行时间
 function runtime(){
     // 初始时间，日/月/年 时:分:秒
     X = new Date("01/04/2021 8:32:00");
