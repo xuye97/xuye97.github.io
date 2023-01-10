@@ -6,7 +6,16 @@
     <description>Recent content on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 01 Dec 2022 14:38:22 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Jan 2023 10:55:56 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git查看commit提交记录详情</title>
+      <link>https://blog.xyemy.com/post/2023/01/10/git%E6%9F%A5%E7%9C%8Bcommit%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95%E8%AF%A6%E6%83%85.html</link>
+      <pubDate>Tue, 10 Jan 2023 10:55:56 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2023/01/10/git%E6%9F%A5%E7%9C%8Bcommit%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95%E8%AF%A6%E6%83%85.html</guid>
+      <description>git show 查看提交的详情 1.查看最新的comm</description>
+    </item>
+    
     <item>
       <title>Linux安装ctop</title>
       <link>https://blog.xyemy.com/post/2022/12/01/ctop%E5%AE%89%E8%A3%85.html</link>
