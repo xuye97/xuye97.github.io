@@ -6,7 +6,16 @@
     <description>Recent content in ubuntu on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 15 Apr 2022 10:05:25 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Jan 2023 09:09:20 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu snap提示has “install-snap” change in progress 错误</title>
+      <link>https://blog.xyemy.com/post/2023/01/16/ubuntusnap%E6%8F%90%E7%A4%BAhasinstallsnapchangeinprogress%E9%94%99%E8%AF%AF.html</link>
+      <pubDate>Mon, 16 Jan 2023 09:09:20 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2023/01/16/ubuntusnap%E6%8F%90%E7%A4%BAhasinstallsnapchangeinprogress%E9%94%99%E8%AF%AF.html</guid>
+      <description>在Ubuntu 22.04使用snap安装</description>
+    </item>
+    
     <item>
       <title>Ubuntu系统启用root用户远程登陆</title>
       <link>https://blog.xyemy.com/post/2022/04/15/ubuntu%E7%B3%BB%E7%BB%9F%E5%90%AF%E7%94%A8root%E7%94%A8%E6%88%B7%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86.html</link>

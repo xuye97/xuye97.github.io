@@ -6,7 +6,16 @@
     <description>Recent content in Posts on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 10 Jan 2023 10:55:56 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Jan 2023 09:09:20 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu snap提示has “install-snap” change in progress 错误</title>
+      <link>https://blog.xyemy.com/post/2023/01/16/ubuntusnap%E6%8F%90%E7%A4%BAhasinstallsnapchangeinprogress%E9%94%99%E8%AF%AF.html</link>
+      <pubDate>Mon, 16 Jan 2023 09:09:20 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2023/01/16/ubuntusnap%E6%8F%90%E7%A4%BAhasinstallsnapchangeinprogress%E9%94%99%E8%AF%AF.html</guid>
+      <description>在Ubuntu 22.04使用snap安装</description>
+    </item>
+    
     <item>
       <title>Git查看commit提交记录详情</title>
       <link>https://blog.xyemy.com/post/2023/01/10/git%E6%9F%A5%E7%9C%8Bcommit%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95%E8%AF%A6%E6%83%85.html</link>

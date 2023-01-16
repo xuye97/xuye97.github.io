@@ -3,10 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.xyemy.com/categories.html</loc>
-    <lastmod>2023-01-10T10:55:56+08:00</lastmod>
+    <lastmod>2023-01-16T09:09:20+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/</loc>
-    <lastmod>2023-01-10T10:55:56+08:00</lastmod>
+    <lastmod>2023-01-16T09:09:20+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/linux.html</loc>
+    <lastmod>2023-01-16T09:09:20+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/linux.html</loc>
+    <lastmod>2023-01-16T09:09:20+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post.html</loc>
+    <lastmod>2023-01-16T09:09:20+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/snap.html</loc>
+    <lastmod>2023-01-16T09:09:20+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags.html</loc>
+    <lastmod>2023-01-16T09:09:20+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/ubuntu.html</loc>
+    <lastmod>2023-01-16T09:09:20+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/ubuntu.html</loc>
+    <lastmod>2023-01-16T09:09:20+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post/2023/01/16/ubuntusnap%E6%8F%90%E7%A4%BAhasinstallsnapchangeinprogress%E9%94%99%E8%AF%AF.html</loc>
+    <lastmod>2023-01-16T09:09:20+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</loc>
+    <lastmod>2023-01-16T09:09:20+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/git.html</loc>
     <lastmod>2023-01-10T10:55:56+08:00</lastmod>
@@ -17,12 +44,6 @@
     <loc>https://blog.xyemy.com/post/2023/01/10/git%E6%9F%A5%E7%9C%8Bcommit%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95%E8%AF%A6%E6%83%85.html</loc>
     <lastmod>2023-01-10T10:55:56+08:00</lastmod>
   </url><url>
-    <loc>https://blog.xyemy.com/post.html</loc>
-    <lastmod>2023-01-10T10:55:56+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags.html</loc>
-    <lastmod>2023-01-10T10:55:56+08:00</lastmod>
-  </url><url>
     <loc>https://blog.xyemy.com/tags/ctop.html</loc>
     <lastmod>2022-12-01T14:38:22+08:00</lastmod>
   </url><url>
@@ -30,9 +51,6 @@
     <lastmod>2022-12-01T14:38:22+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/categories/docker.html</loc>
-    <lastmod>2022-12-01T14:38:22+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags/linux.html</loc>
     <lastmod>2022-12-01T14:38:22+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/12/01/ctop%E5%AE%89%E8%A3%85.html</loc>
@@ -90,9 +108,6 @@
     <lastmod>2022-09-26T10:40:01+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/09/15/window%E8%BF%90%E8%A1%8Cdocker%E6%8A%A5%E9%94%99hardwareassistedvirtualizationanddataexecutionprotectionmustbeenabledinthebios.html</loc>
-    <lastmod>2022-09-15T10:05:44+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</loc>
     <lastmod>2022-09-15T10:05:44+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/09/06/golang%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA.html</loc>
@@ -156,9 +171,6 @@
     <lastmod>2022-07-27T10:12:16+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/07/27/debian1011%E5%BC%80%E5%90%AFbbr.html</loc>
-    <lastmod>2022-07-27T10:12:16+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/categories/linux.html</loc>
     <lastmod>2022-07-27T10:12:16+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/07/14/postgresql%E5%A2%9E%E9%87%8F%E5%A4%87%E4%BB%BD%E7%AD%96%E7%95%A5.html</loc>
@@ -247,12 +259,6 @@
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/04/25/sql%E6%8B%BC%E6%8E%A5%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%97%B6%E5%8D%95%E5%BC%95%E5%8F%B7%E8%BD%AC%E4%B9%89%E9%97%AE%E9%A2%98.html</loc>
     <lastmod>2022-04-25T09:50:22+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags/ubuntu.html</loc>
-    <lastmod>2022-04-15T10:05:25+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/categories/ubuntu.html</loc>
-    <lastmod>2022-04-15T10:05:25+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2022/04/15/ubuntu%E7%B3%BB%E7%BB%9F%E5%90%AF%E7%94%A8root%E7%94%A8%E6%88%B7%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86.html</loc>
     <lastmod>2022-04-15T10:05:25+08:00</lastmod>

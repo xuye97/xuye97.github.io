@@ -6,7 +6,16 @@
     <description>Recent content in linux on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 27 Jul 2022 10:12:16 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Jan 2023 09:09:20 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu snap提示has “install-snap” change in progress 错误</title>
+      <link>https://blog.xyemy.com/post/2023/01/16/ubuntusnap%E6%8F%90%E7%A4%BAhasinstallsnapchangeinprogress%E9%94%99%E8%AF%AF.html</link>
+      <pubDate>Mon, 16 Jan 2023 09:09:20 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2023/01/16/ubuntusnap%E6%8F%90%E7%A4%BAhasinstallsnapchangeinprogress%E9%94%99%E8%AF%AF.html</guid>
+      <description>在Ubuntu 22.04使用snap安装</description>
+    </item>
+    
     <item>
       <title>Debian 10/11 开启bbr</title>
       <link>https://blog.xyemy.com/post/2022/07/27/debian1011%E5%BC%80%E5%90%AFbbr.html</link>

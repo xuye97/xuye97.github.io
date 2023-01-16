@@ -6,7 +6,16 @@
     <description>Recent content in linux on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 01 Dec 2022 14:38:22 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Jan 2023 09:09:20 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu snap提示has “install-snap” change in progress 错误</title>
+      <link>https://blog.xyemy.com/post/2023/01/16/ubuntusnap%E6%8F%90%E7%A4%BAhasinstallsnapchangeinprogress%E9%94%99%E8%AF%AF.html</link>
+      <pubDate>Mon, 16 Jan 2023 09:09:20 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2023/01/16/ubuntusnap%E6%8F%90%E7%A4%BAhasinstallsnapchangeinprogress%E9%94%99%E8%AF%AF.html</guid>
+      <description>在Ubuntu 22.04使用snap安装</description>
+    </item>
+    
     <item>
       <title>Linux安装ctop</title>
       <link>https://blog.xyemy.com/post/2022/12/01/ctop%E5%AE%89%E8%A3%85.html</link>
