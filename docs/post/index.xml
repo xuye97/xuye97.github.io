@@ -6,7 +6,16 @@
     <description>Recent content in Posts on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 16 Jan 2023 09:09:20 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jan 2023 09:24:07 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Etcd报错 etcdserver: mvcc: database space exceeded </title>
+      <link>https://blog.xyemy.com/post/2023/01/28/etcd%E6%8A%A5%E9%94%99etcdservermvccdatabasespaceexceeded.html</link>
+      <pubDate>Sat, 28 Jan 2023 09:24:07 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2023/01/28/etcd%E6%8A%A5%E9%94%99etcdservermvccdatabasespaceexceeded.html</guid>
+      <description>ETCD报错： message: etcdserver: mvcc: database space exceeded 检查主机是否安</description>
+    </item>
+    
     <item>
       <title>Ubuntu snap提示has “install-snap” change in progress 错误</title>
       <link>https://blog.xyemy.com/post/2023/01/16/ubuntusnap%E6%8F%90%E7%A4%BAhasinstallsnapchangeinprogress%E9%94%99%E8%AF%AF.html</link>
