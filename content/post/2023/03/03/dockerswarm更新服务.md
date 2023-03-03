@@ -18,7 +18,7 @@ docker service update --publish-rm 8443:8443 my_nginx
 
 ## 修改环境变量
 
-```she
+```shell
 #增加环境变量
 docker service update --env-add ETCD_AUTO_COMPACTION_RETENTION=1 my_etcd
 #删除环境变量

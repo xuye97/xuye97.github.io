@@ -99,11 +99,11 @@
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#删除端口映射</span>
 </span></span><span style="display:flex;"><span>docker service update --publish-rm 8443:8443 my_nginx
 </span></span></code></pre></div><h2 id="修改环境变量">修改环境变量</h2>
-<pre tabindex="0"><code class="language-she" data-lang="she">#增加环境变量
-docker service update --env-add ETCD_AUTO_COMPACTION_RETENTION=1 my_etcd
-#删除环境变量
-docker service update --env-RM ETCD_AUTO_COMPACTION_RETENTION=1 my_etcd
-</code></pre><h2 id="其他更新命令">其他更新命令</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#增加环境变量</span>
+</span></span><span style="display:flex;"><span>docker service update --env-add ETCD_AUTO_COMPACTION_RETENTION<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> my_etcd
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#删除环境变量</span>
+</span></span><span style="display:flex;"><span>docker service update --env-RM ETCD_AUTO_COMPACTION_RETENTION<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> my_etcd
+</span></span></code></pre></div><h2 id="其他更新命令">其他更新命令</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker service update <span style="color:#f92672">[</span>OPTIONS<span style="color:#f92672">]</span> SERVICE
 </span></span></code></pre></div><table>
 <thead>
