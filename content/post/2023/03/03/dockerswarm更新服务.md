@@ -96,8 +96,8 @@ docker service update [OPTIONS] SERVICE
 | --rollback-monitor           | 0     | 每个任务回滚后监视失败的持续时间（ns \| us \| ms \| s \| m \| h） |
 | --rollback-order             |       | 回滚顺序（“start-first”\|“stop-first”）                      |
 | --rollback-parallelism       | 0     | 同时回滚的任务的最大数量（0一次全部回滚）                    |
-| --secret-add                 |       | 添加或更新服务的秘密                                         |
-| --secret-rm                  |       | 去掉一个秘密                                                 |
+| --secret-add                 |       | 添加或更新服务的密钥                                         |
+| --secret-rm                  |       | 去掉一个密钥                                                 |
 | --stop-grace-period          |       | 强制杀死一个容器之前的等待时间（ns \| us \| ms \| s \| m \| h） |
 | --stop-signal                |       | 停止容器的信号                                               |
 | --tty, -t                    | false | 分配一个伪TTY                                                |
