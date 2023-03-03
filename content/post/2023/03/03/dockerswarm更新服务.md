@@ -63,9 +63,9 @@ docker service update [OPTIONS] SERVICE
 | --host-add                   |       | 添加或更新自定义主机到IP映射（主机：IP）                     |
 | --host-rm                    |       | 删除自定义的主机到IP映射（主机：IP）                         |
 | --hostname                   |       | 容器主机名                                                   |
-| --image                      |       | 服务图片标签                                                 |
+| --image                      |       | 服务镜像标签                                                 |
 | --label-add                  |       | 添加或更新服务标签                                           |
-| --label-rm                   |       | 用钥匙去除标签                                               |
+| --label-rm                   |       | 去除标签                                               |
 | --limit-cpu                  |       | 限制CPU                                                      |
 | --limit-memory               | 0     | 限制记忆                                                     |
 | --log-driver                 |       | 记录驱动程序的服务                                           |
