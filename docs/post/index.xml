@@ -6,7 +6,16 @@
     <description>Recent content in Posts on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 28 Jan 2023 09:24:07 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Mar 2023 08:56:49 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Swarm 更新服务</title>
+      <link>https://blog.xyemy.com/post/2023/03/03/dockerswarm%E6%9B%B4%E6%96%B0%E6%9C%8D%E5%8A%A1.html</link>
+      <pubDate>Fri, 03 Mar 2023 08:56:49 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2023/03/03/dockerswarm%E6%9B%B4%E6%96%B0%E6%9C%8D%E5%8A%A1.html</guid>
+      <description>修改端口映射 #增加端口映射 docker service update --publish-add 8443:8443 my_nginx #</description>
+    </item>
+    
     <item>
       <title>Etcd报错 etcdserver: mvcc: database space exceeded </title>
       <link>https://blog.xyemy.com/post/2023/01/28/etcd%E6%8A%A5%E9%94%99etcdservermvccdatabasespaceexceeded.html</link>

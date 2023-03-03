@@ -1,0 +1,947 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+
+    <title>Docker Swarm 更新服务 | en&#39;s blog</title>
+    <meta property="og:title" content="Docker Swarm 更新服务 - en&#39;s blog">
+    <meta property="og:type" content="article">
+        
+    <meta property="article:published_time" content='2023-03-03T08:56:49&#43;08:00'>
+        
+        
+    <meta property="article:modified_time" content='2023-03-03T08:56:49&#43;08:00'>
+        
+    <meta name="Keywords" content="">
+    <meta name="description" content="Docker Swarm 更新服务">
+        
+    <meta name="author" content="xuye">
+    <meta property="og:url" content="https://blog.xyemy.com/post/2023/03/03/dockerswarm%E6%9B%B4%E6%96%B0%E6%9C%8D%E5%8A%A1.html">
+    <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
+
+    <link rel="stylesheet" href='/css/normalize.css'>
+    <link rel="stylesheet" href='/css/style.css'>
+    <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    
+    
+    
+        <link href="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
+    
+    
+    
+    
+</head>
+
+
+<body>
+    <header id="header" class="clearfix">
+    <div class="container">
+        <div class="col-group">
+            <div class="site-name ">
+                
+                    <a id="logo" href="https://blog.xyemy.com/">
+                        en&#39;s blog
+                    </a>
+                
+                <p class="description">只有魔法才能打败魔法</p>
+            </div>
+            <div>
+                <nav id="nav-menu" class="clearfix">
+                    <a class="current" href="https://blog.xyemy.com/">首页</a>
+                    
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
+
+                <div class="col-8" id="main">
+                    
+<div class="res-cons">
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">Docker Swarm 更新服务</h1>
+        </header>
+        <date class="post-meta meta-date">
+            2023年3月3日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/docker'>docker</a></span>
+            
+        </div>
+        
+        
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
+                    阅读</span></span>
+        </div>
+        
+        
+        <div class="post-content">
+            <h2 id="修改端口映射">修改端口映射</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#增加端口映射</span>
+</span></span><span style="display:flex;"><span>docker service update --publish-add 8443:8443 my_nginx
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#删除端口映射</span>
+</span></span><span style="display:flex;"><span>docker service update --publish-rm 8443:8443 my_nginx
+</span></span></code></pre></div><h2 id="修改环境变量">修改环境变量</h2>
+<pre tabindex="0"><code class="language-she" data-lang="she">#增加环境变量
+docker service update --env-add ETCD_AUTO_COMPACTION_RETENTION=1 my_etcd
+#删除环境变量
+docker service update --env-RM ETCD_AUTO_COMPACTION_RETENTION=1 my_etcd
+</code></pre><h2 id="其他更新命令">其他更新命令</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker service update <span style="color:#f92672">[</span>OPTIONS<span style="color:#f92672">]</span> SERVICE
+</span></span></code></pre></div><table>
+<thead>
+<tr>
+<th style="text-align:left">名字，简写</th>
+<th style="text-align:left">默认</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">&ndash;args</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">服务命令参数</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;config-add</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">添加或更新服务上的配置文件</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;config-rm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">删除配置文件</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;constraint-add</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">添加或更新展示位置约束</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;constraint-rm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">删除约束</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;container-label-add</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">添加或更新容器标签</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;container-label-rm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">用钥匙取出容器标签</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;credential-spec</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">托管服务帐户的凭证规范（仅限Windows）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;detach，-d</td>
+<td style="text-align:left">true</td>
+<td style="text-align:left">立即退出，而不是等待服务收敛</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;dns-add</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">添加或更新自定义DNS服务器</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;dns-option-add</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">添加或更新DNS选项</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;dns-option-rm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">删除一个DNS选项</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;dns-rm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">删除自定义的DNS服务器</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;dns-search-add</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">添加或更新自定义DNS搜索域</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;dns-search-rm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">删除一个DNS搜索域</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;endpoint-mode</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">端点模式（vip或dnsrr）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;entrypoint</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">覆盖图像的默认入口点</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;env-add</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">添加或更新环境变量</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;env-rm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">删除一个环境变量</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;force</td>
+<td style="text-align:left">false</td>
+<td style="text-align:left">即使没有更改需要，也强制更新</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;group-add</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">向容器添加一个附加的补充用户组</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;group-rm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">从容器中删除先前添加的补充用户组</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;health-cmd</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">运行以检查运行状况的命令</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;health-interval</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">运行检查之间的时间（ms | s | m | h）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;health-retries</td>
+<td style="text-align:left">0</td>
+<td style="text-align:left">需要报告不健康的连续失败</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;health-retries</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">在重新计数到不稳定（ms | s | m | h）之前，容器初始化的开始时间段</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;health-timeout</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">允许一次检查运行的最长时间（ms | s | m | h）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;host-add</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">添加或更新自定义主机到IP映射（主机：IP）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;host-rm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">删除自定义的主机到IP映射（主机：IP）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;hostname</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">容器主机名</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;image</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">服务图片标签</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;label-add</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">添加或更新服务标签</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;label-rm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">用钥匙去除标签</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;limit-cpu</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">限制CPU</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;limit-memory</td>
+<td style="text-align:left">0</td>
+<td style="text-align:left">限制记忆</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;log-driver</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">记录驱动程序的服务</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;log-opt</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">记录驱动程序选项</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;mount-add</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">添加或更新服务上的装载</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;mount-rm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">通过目标路径移除一个安装</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;network-add</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">添加一个网络</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;network-rm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">删除网络</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;no-healthcheck</td>
+<td style="text-align:left">false</td>
+<td style="text-align:left">禁用任何容器指定的HEALTHCHECK</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;no-resolve-image</td>
+<td style="text-align:left">false</td>
+<td style="text-align:left">不要查询注册表来解析图像摘要和支持的平台</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;placement-pref-add</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">添加展示位置首选项</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;placement-pref-rm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">删除展示位置偏好设置</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;publish-add</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">添加或更新已发布的端口</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;publish-rm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">通过目标端口删除发布的端口</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;quiet，-q</td>
+<td style="text-align:left">false</td>
+<td style="text-align:left">抑制进度输出</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;read-only</td>
+<td style="text-align:left">false</td>
+<td style="text-align:left">将容器的根文件系统挂载为只读</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;replicas</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">任务数量</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;reserve-cpu</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">预留CPU</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;reserve-memory</td>
+<td style="text-align:left">0</td>
+<td style="text-align:left">保留内存</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;restart-condition</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">条件满足时重新启动（“none”|“on-failure”|“any”）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;restart-delay</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">重启尝试之间的延迟（ns | us | ms | s | m | h）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;restart-max-attempts</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">放弃前的最大重启次数</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;restart-window</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">用于评估重新启动策略的窗口（ns | us | ms | s | m | h）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;rollback</td>
+<td style="text-align:left">false</td>
+<td style="text-align:left">回退到先前的规范</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;rollback-delay</td>
+<td style="text-align:left">0</td>
+<td style="text-align:left">任务回滚之间的延迟（ns | us | ms | s | m | h）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;rollback-failure-action</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">回滚失败的操作（“暂停”|“继续”）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;rollback-max-failure-ratio</td>
+<td style="text-align:left">0</td>
+<td style="text-align:left">在回滚期间容忍的失败率</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;rollback-monitor</td>
+<td style="text-align:left">0</td>
+<td style="text-align:left">每个任务回滚后监视失败的持续时间（ns | us | ms | s | m | h）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;rollback-order</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">回滚顺序（“start-first”|“stop-first”）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;rollback-parallelism</td>
+<td style="text-align:left">0</td>
+<td style="text-align:left">同时回滚的任务的最大数量（0一次全部回滚）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;secret-add</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">添加或更新服务的秘密</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;secret-rm</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">去掉一个秘密</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;stop-grace-period</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">强制杀死一个容器之前的等待时间（ns | us | ms | s | m | h）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;stop-signal</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">停止容器的信号</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;tty, -t</td>
+<td style="text-align:left">false</td>
+<td style="text-align:left">分配一个伪TTY</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;update-delay</td>
+<td style="text-align:left">0</td>
+<td style="text-align:left">更新之间的延迟（ns | us | ms | s | m | h）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;update-failure-action</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">更新失败的操作（“暂停”|“继续”|“回滚”）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;update-max-failure-ratio</td>
+<td style="text-align:left">0</td>
+<td style="text-align:left">更新期间容错的失败率</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;update-monitor</td>
+<td style="text-align:left">0</td>
+<td style="text-align:left">（ns | us | ms | s | m | h）每个任务更新后的持续时间</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;update-order</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">更新顺序（“start-first”|“stop-first”）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;update-parallelism</td>
+<td style="text-align:left">0</td>
+<td style="text-align:left">同时更新的最大任务数（0个一次全部更新）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;user，-u</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">用户名或UID（格式：&lt;名称| uid&gt;：&lt;组| gid&gt;）</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;with-registry-auth</td>
+<td style="text-align:left">false</td>
+<td style="text-align:left">向注册代理发送注册表认证详细信息</td>
+</tr>
+<tr>
+<td style="text-align:left">&ndash;workdir，-w</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">容器内的工作目录</td>
+</tr>
+</tbody>
+</table>
+
+        </div>
+
+        
+
+
+        
+
+<div class="post-archive">
+    <h2>See Also</h2>
+    <ul class="listing">
+        
+        <li><a href="/post/2022/12/01/ctop%E5%AE%89%E8%A3%85.html">Linux安装ctop</a></li>
+        
+        <li><a href="/post/2022/09/15/window%E8%BF%90%E8%A1%8Cdocker%E6%8A%A5%E9%94%99hardwareassistedvirtualizationanddataexecutionprotectionmustbeenabledinthebios.html">Windows运行docker报错 Hardware assisted virtualization and data execution protection must be enabled in the BIOS</a></li>
+        
+        <li><a href="/post/2022/07/14/postgresql%E5%A2%9E%E9%87%8F%E5%A4%87%E4%BB%BD%E7%AD%96%E7%95%A5.html">Docker&#43;PostgreSQL增量备份策略</a></li>
+        
+        <li><a href="/post/2022/07/09/win10%E5%AE%89%E8%A3%85docker%E9%94%99%E8%AF%AFwsl2installationisincomplete.html">Win10安装Docker错误 WSL 2 installation is incomplete</a></li>
+        
+        <li><a href="/post/2022/07/01/docker%E5%8F%AF%E8%A7%86%E5%8C%96portainer%E5%AE%89%E8%A3%85.html">Docker可视化---Portainer安装</a></li>
+        
+    </ul>
+</div>
+
+
+        <div class="post-meta meta-tags">
+            
+            <ul class="clearfix">
+                
+                <li><a href='/tags/docker'>docker</a></li>
+                
+                <li><a href='/tags/swarm'>swarm</a></li>
+                
+            </ul>
+            
+        </div>
+    </article>
+    
+    
+
+    
+    
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xuye97/xuye97.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+    
+</div>
+
+                    <footer id="footer">
+    <div>
+        <span id="benzhanmianqiangyunxing">本站勉强运行: </span></br></br>
+        <span id="meiriyiyan">每日一言</span></br></br>
+        &copy; 2023 <a href="https://blog.xyemy.com/">en&#39;s blog By xuye</a>
+        
+    </div>
+    <br />
+    <div>
+        <div class="github-badge">
+            <a href="https://gohugo.io/" target="_black" rel="nofollow"><span class="badge-subject">Powered by</span><span class="badge-value bg-blue">Hugo</span></a>
+        </div>
+        <div class="github-badge">
+           
+        </div>
+        <div class="github-badge">
+            <a href="https://github.com/flysnow-org/maupassant-hugo" target="_black"><span class="badge-subject">Theme</span><span class="badge-value bg-yellowgreen">Maupassant</span></a>
+        </div>
+    </div>
+</footer>
+
+
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script><script src="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<a id="rocket" href="#top"></a>
+<script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
+
+
+
+    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+
+
+
+
+                </div>
+
+                <div id="secondary">
+    <section class="widget">
+        <form id="search" action='https://blog.xyemy.com/search' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+      
+      <input type="text" name="q" maxlength="20" placeholder="Search">
+      <input type="hidden" name="sitesearch" value="https://blog.xyemy.com/">
+      <button type="submit" class="submit icon-search"></button>
+</form>
+    </section>
+    
+    <section class="widget">
+        <h3 class="widget-title">最近文章</h3>
+<ul class="widget-list">
+    
+    <li>
+        <a href="https://blog.xyemy.com/post/2023/03/03/dockerswarm%E6%9B%B4%E6%96%B0%E6%9C%8D%E5%8A%A1.html" title="Docker Swarm 更新服务">Docker Swarm 更新服务</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.xyemy.com/post/2023/01/28/etcd%E6%8A%A5%E9%94%99etcdservermvccdatabasespaceexceeded.html" title="Etcd报错 etcdserver: mvcc: database space exceeded ">Etcd报错 etcdserver: mvcc: database space exceeded </a>
+    </li>
+    
+    <li>
+        <a href="https://blog.xyemy.com/post/2023/01/16/ubuntusnap%E6%8F%90%E7%A4%BAhasinstallsnapchangeinprogress%E9%94%99%E8%AF%AF.html" title="Ubuntu snap提示has “install-snap” change in progress 错误">Ubuntu snap提示has “install-snap” change in progress 错误</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.xyemy.com/post/2023/01/10/git%E6%9F%A5%E7%9C%8Bcommit%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95%E8%AF%A6%E6%83%85.html" title="Git查看commit提交记录详情">Git查看commit提交记录详情</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.xyemy.com/post/2022/12/01/ctop%E5%AE%89%E8%A3%85.html" title="Linux安装ctop">Linux安装ctop</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.xyemy.com/post/2022/10/12/openwrt%E5%AE%89%E8%A3%85tailscale.html" title="Openwrt安装tailscale">Openwrt安装tailscale</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.xyemy.com/post/2022/09/27/beego%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86.html" title="Beego 静态文件处理">Beego 静态文件处理</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.xyemy.com/post/2022/09/26/win1011%E6%98%A0%E5%B0%84webdav%E8%BF%9C%E7%A8%8B%E6%8C%82%E8%BD%BDwebdav.html" title="Win10/11 映射WebDAV 远程挂载webdav">Win10/11 映射WebDAV 远程挂载webdav</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.xyemy.com/post/2022/09/15/window%E8%BF%90%E8%A1%8Cdocker%E6%8A%A5%E9%94%99hardwareassistedvirtualizationanddataexecutionprotectionmustbeenabledinthebios.html" title="Windows运行docker报错 Hardware assisted virtualization and data execution protection must be enabled in the BIOS">Windows运行docker报错 Hardware assisted virtualization and data execution protection must be enabled in the BIOS</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.xyemy.com/post/2022/09/06/golang%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA.html" title="Golang 设置时区">Golang 设置时区</a>
+    </li>
+    
+</ul>
+    </section>
+
+    
+
+    <section class="widget">
+        <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
+<ul class="widget-list">
+    
+    <li><a href="https://blog.xyemy.com/categories/apisix.html">apisix (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/beego.html">beego (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/centos.html">centos (6)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/debian.html">debian (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/dm8.html">dm8 (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/docker.html">docker (15)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/etcd.html">etcd (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/frp.html">frp (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/git.html">git (6)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/golang.html">golang (12)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/linux.html">linux (23)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/manjaro.html">manjaro (3)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/mysql.html">mysql (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/n1.html">n1 (3)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/openwrt.html">openwrt (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/pip.html">pip (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/postgresql.html">postgresql (6)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/python.html">python (2)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/sql.html">sql (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/ssh.html">ssh (3)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/tailscale.html">tailscale (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/ubuntu.html">ubuntu (15)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/virtualbox.html">virtualbox (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/windows.html">windows (1)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html">实用工具 (9)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/%E7%BE%A4%E6%99%96.html">群晖 (2)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html">错误处理 (13)</a></li>
+    
+    <li><a href="https://blog.xyemy.com/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB.html">默认分类 (2)</a></li>
+    
+</ul>
+    </section>
+
+    <section class="widget">
+        <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
+<div class="tagcloud">
+    
+    <a href="https://blog.xyemy.com/tags/acme.html">acme</a>
+    
+    <a href="https://blog.xyemy.com/tags/apisix.html">apisix</a>
+    
+    <a href="https://blog.xyemy.com/tags/apt.html">apt</a>
+    
+    <a href="https://blog.xyemy.com/tags/arm.html">arm</a>
+    
+    <a href="https://blog.xyemy.com/tags/armbian.html">armbian</a>
+    
+    <a href="https://blog.xyemy.com/tags/bbr.html">bbr</a>
+    
+    <a href="https://blog.xyemy.com/tags/beego.html">beego</a>
+    
+    <a href="https://blog.xyemy.com/tags/centos.html">centos</a>
+    
+    <a href="https://blog.xyemy.com/tags/centos8.html">centos8</a>
+    
+    <a href="https://blog.xyemy.com/tags/chrome.html">chrome</a>
+    
+    <a href="https://blog.xyemy.com/tags/ctop.html">ctop</a>
+    
+    <a href="https://blog.xyemy.com/tags/curl.html">curl</a>
+    
+    <a href="https://blog.xyemy.com/tags/debian.html">debian</a>
+    
+    <a href="https://blog.xyemy.com/tags/dm8.html">dm8</a>
+    
+    <a href="https://blog.xyemy.com/tags/dnf.html">dnf</a>
+    
+    <a href="https://blog.xyemy.com/tags/docker.html">docker</a>
+    
+    <a href="https://blog.xyemy.com/tags/docker-compost.html">docker-compost</a>
+    
+    <a href="https://blog.xyemy.com/tags/dpi.html">dpi</a>
+    
+    <a href="https://blog.xyemy.com/tags/dsm.html">dsm</a>
+    
+    <a href="https://blog.xyemy.com/tags/dst.html">dst</a>
+    
+    <a href="https://blog.xyemy.com/tags/etcd.html">etcd</a>
+    
+    <a href="https://blog.xyemy.com/tags/firewalld.html">firewalld</a>
+    
+    <a href="https://blog.xyemy.com/tags/frpc.html">frpc</a>
+    
+    <a href="https://blog.xyemy.com/tags/gcc.html">gcc</a>
+    
+    <a href="https://blog.xyemy.com/tags/gin.html">gin</a>
+    
+    <a href="https://blog.xyemy.com/tags/git.html">git</a>
+    
+    <a href="https://blog.xyemy.com/tags/goimports.html">goimports</a>
+    
+    <a href="https://blog.xyemy.com/tags/goland.html">goland</a>
+    
+    <a href="https://blog.xyemy.com/tags/golang.html">golang</a>
+    
+    <a href="https://blog.xyemy.com/tags/httpcanary.html">httpcanary</a>
+    
+    <a href="https://blog.xyemy.com/tags/https.html">https</a>
+    
+    <a href="https://blog.xyemy.com/tags/jwt.html">jwt</a>
+    
+    <a href="https://blog.xyemy.com/tags/linux.html">linux</a>
+    
+    <a href="https://blog.xyemy.com/tags/manifest.html">manifest</a>
+    
+    <a href="https://blog.xyemy.com/tags/manjaro.html">manjaro</a>
+    
+    <a href="https://blog.xyemy.com/tags/mx-master-3.html">mx master 3</a>
+    
+    <a href="https://blog.xyemy.com/tags/mysql.html">mysql</a>
+    
+    <a href="https://blog.xyemy.com/tags/n1.html">n1</a>
+    
+    <a href="https://blog.xyemy.com/tags/nginx.html">nginx</a>
+    
+    <a href="https://blog.xyemy.com/tags/openssl.html">openssl</a>
+    
+    <a href="https://blog.xyemy.com/tags/openwrt.html">openwrt</a>
+    
+    <a href="https://blog.xyemy.com/tags/oracle.html">oracle</a>
+    
+    <a href="https://blog.xyemy.com/tags/pem.html">pem</a>
+    
+    <a href="https://blog.xyemy.com/tags/pip.html">pip</a>
+    
+    <a href="https://blog.xyemy.com/tags/portainer.html">portainer</a>
+    
+    <a href="https://blog.xyemy.com/tags/postgresql.html">postgresql</a>
+    
+    <a href="https://blog.xyemy.com/tags/python.html">python</a>
+    
+    <a href="https://blog.xyemy.com/tags/qp.html">qp</a>
+    
+    <a href="https://blog.xyemy.com/tags/quoted-printable.html">quoted-printable</a>
+    
+    <a href="https://blog.xyemy.com/tags/sm2.html">sm2</a>
+    
+    <a href="https://blog.xyemy.com/tags/snap.html">snap</a>
+    
+    <a href="https://blog.xyemy.com/tags/sql.html">sql</a>
+    
+    <a href="https://blog.xyemy.com/tags/ssh.html">ssh</a>
+    
+    <a href="https://blog.xyemy.com/tags/supervisor.html">supervisor</a>
+    
+    <a href="https://blog.xyemy.com/tags/swarm.html">swarm</a>
+    
+    <a href="https://blog.xyemy.com/tags/tailscale.html">tailscale</a>
+    
+    <a href="https://blog.xyemy.com/tags/tar.html">tar</a>
+    
+    <a href="https://blog.xyemy.com/tags/tmd.html">tmd</a>
+    
+    <a href="https://blog.xyemy.com/tags/typora.html">typora</a>
+    
+    <a href="https://blog.xyemy.com/tags/ubuntu.html">ubuntu</a>
+    
+    <a href="https://blog.xyemy.com/tags/virtualbox.html">virtualbox</a>
+    
+    <a href="https://blog.xyemy.com/tags/vmos.html">vmos</a>
+    
+    <a href="https://blog.xyemy.com/tags/vmware.html">vmware</a>
+    
+    <a href="https://blog.xyemy.com/tags/webdav.html">webdav</a>
+    
+    <a href="https://blog.xyemy.com/tags/win10.html">win10</a>
+    
+    <a href="https://blog.xyemy.com/tags/win11.html">win11</a>
+    
+    <a href="https://blog.xyemy.com/tags/windows.html">windows</a>
+    
+    <a href="https://blog.xyemy.com/tags/zerossl.html">ZeroSSL</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E4%BB%A3%E7%90%86.html">代理</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E5%85%AC%E7%BD%91ip.html">公网IP</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E5%88%AE%E5%89%8A%E5%99%A8.html">刮削器</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E5%8F%8C%E7%B3%BB%E7%BB%9F.html">双系统</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E5%8F%91%E7%A5%A8.html">发票</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E5%9B%BE%E6%A0%87.html">图标</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E5%9B%BE%E7%89%87.html">图片</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E5%9B%BE%E7%89%87%E6%97%8B%E8%BD%AC.html">图片旋转</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E5%9B%BE%E7%89%87%E8%A3%81%E5%88%87.html">图片裁切</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E5%AE%89%E5%8D%93.html">安卓</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E5%B0%8F%E9%BB%84%E9%B8%9F.html">小黄鸟</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E6%85%A2%E6%97%A5%E5%BF%97.html">慢日志</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E6%88%AA%E5%9B%BE.html">截图</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E6%89%93%E5%8C%85.html">打包</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E6%8A%93%E5%8C%85.html">抓包</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E6%8F%90%E4%BA%A4%E8%AE%B0%E5%BD%95.html">提交记录</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95.html">搜狗输入法</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E6%95%91%E7%A0%96.html">救砖</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E6%97%A5%E5%BF%97.html">日志</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E6%97%B6%E5%8C%BA.html">时区</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E6%97%B6%E9%97%B4.html">时间</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E7%83%AD%E9%94%AE%E7%BB%91%E5%AE%9A.html">热键绑定</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E7%94%B2%E9%AA%A8%E6%96%87.html">甲骨文</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E9%94%AE%E7%9B%98.html">笔记本键盘</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html">网络错误</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E7%BE%A4%E6%99%96.html">群晖</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E8%AF%81%E4%B9%A6.html">证书</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E8%B4%A6%E6%88%B7.html">账户</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E8%B7%A8%E5%9F%9F.html">跨域</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E9%98%B2%E7%81%AB%E5%A2%99.html">防火墙</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E9%9D%99%E6%80%81%E5%9C%B0%E5%9D%80.html">静态地址</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6.html">静态文件</a>
+    
+</div>
+    </section>
+
+    
+
+    <section class="widget">
+        <h3 class="widget-title">其它</h3>
+        <ul class="widget-list">
+            <li><a href="https://blog.xyemy.com/index.xml">文章 RSS</a></li>
+        </ul>
+    </section>
+</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
