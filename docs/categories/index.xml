@@ -6,13 +6,22 @@
     <description>Recent content in Categories on en&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 03 Mar 2023 08:56:49 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 14:37:51 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>docker</title>
       <link>https://blog.xyemy.com/categories/docker.html</link>
-      <pubDate>Fri, 03 Mar 2023 08:56:49 +0800</pubDate>
+      <pubDate>Mon, 06 Mar 2023 14:37:51 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/categories/docker.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgres</title>
+      <link>https://blog.xyemy.com/categories/postgres.html</link>
+      <pubDate>Mon, 06 Mar 2023 14:37:51 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/categories/postgres.html</guid>
       <description></description>
     </item>
     
