@@ -35,7 +35,6 @@ docker run -it \
 ```shell
 location /pgadmin-web/ {
         proxy_pass http://pgadmin/;
-        proxy_set_header Host $host:$server_port; ##nginx使用非80端口访问时，会出现反向代理时丢失端口的问题，注意该配置
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_redirect  off;
