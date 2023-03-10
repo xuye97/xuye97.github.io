@@ -33,7 +33,7 @@ docker run -it \
 ## 使用nginx反代
 
 ```shell
-location /pgadmin-web/ {
+location /pgadmin/ {
         proxy_pass http://pgadmin/;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;

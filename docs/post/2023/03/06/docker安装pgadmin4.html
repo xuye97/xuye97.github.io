@@ -139,7 +139,7 @@
 </tbody>
 </table>
 <h2 id="使用nginx反代">使用nginx反代</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>location /pgadmin-web/ <span style="color:#f92672">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>location /pgadmin/ <span style="color:#f92672">{</span>
 </span></span><span style="display:flex;"><span>        proxy_pass http://pgadmin/;
 </span></span><span style="display:flex;"><span>        proxy_set_header X-Real-IP $remote_addr;
 </span></span><span style="display:flex;"><span>        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
