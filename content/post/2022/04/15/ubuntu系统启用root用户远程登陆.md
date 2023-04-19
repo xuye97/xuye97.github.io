@@ -14,11 +14,13 @@ categories: ["ubuntu","linux"]
    $ sudo vim /etc/ssh/sshd_config
    #LoginGraceTime 2m
    #PermitRootLogin prohibit-password
+   #允许root用户登录
    PermitRootLogin yes
    #StrictModes yes
    #MaxAuthTries 6
    #MaxSessions 10
 
+   #允许使用密码登录
    #PasswordAuthentication no
    PasswordAuthentication yes
    ```
