@@ -18,6 +18,9 @@ categories: ["ubuntu","linux"]
    #StrictModes yes
    #MaxAuthTries 6
    #MaxSessions 10
+
+   #PasswordAuthentication no
+   PasswordAuthentication yes
    ```
 
 2. 重置root密码
