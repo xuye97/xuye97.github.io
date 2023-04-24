@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>docker-compost on en&#39;s blog</title>
+    <title>docker-compost on egg blog</title>
     <link>https://blog.xyemy.com/tags/docker-compost.html</link>
-    <description>Recent content in docker-compost on en&#39;s blog</description>
+    <description>Recent content in docker-compost on egg blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 07 Jun 2022 15:42:34 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/docker-compost/index.xml" rel="self" type="application/rss+xml" />

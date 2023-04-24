@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>pip on en&#39;s blog</title>
+    <title>pip on egg blog</title>
     <link>https://blog.xyemy.com/categories/pip.html</link>
-    <description>Recent content in pip on en&#39;s blog</description>
+    <description>Recent content in pip on egg blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 07 Aug 2021 09:12:08 +0900</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/pip/index.xml" rel="self" type="application/rss+xml" />

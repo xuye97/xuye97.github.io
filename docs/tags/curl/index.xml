@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>curl on en&#39;s blog</title>
+    <title>curl on egg blog</title>
     <link>https://blog.xyemy.com/tags/curl.html</link>
-    <description>Recent content in curl on en&#39;s blog</description>
+    <description>Recent content in curl on egg blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 20 May 2021 16:11:14 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/curl/index.xml" rel="self" type="application/rss+xml" />

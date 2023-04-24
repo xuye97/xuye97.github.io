@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gcc on en&#39;s blog</title>
+    <title>gcc on egg blog</title>
     <link>https://blog.xyemy.com/tags/gcc.html</link>
-    <description>Recent content in gcc on en&#39;s blog</description>
+    <description>Recent content in gcc on egg blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 24 May 2021 17:12:28 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/gcc/index.xml" rel="self" type="application/rss+xml" />

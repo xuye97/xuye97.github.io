@@ -1,6 +1,6 @@
 baseURL = "https://blog.xyemy.com/"
 languageCode = "zh-CN" # 语言
-title = "en's blog" # 标题
+title = "egg blog" # 标题
 
 theme = "maupassant" #主题名字
 
