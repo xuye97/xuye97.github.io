@@ -1,6 +1,6 @@
 ---
 title: "Golang import的三种特殊形式：点、下划线、别名"
-date: 2022-04-24T16:41:25+08:00
+date: 2023-04-24T16:41:25+08:00
 draft: false
 tags: ["golang","import","别名"]
 isCJKLanguage: true
