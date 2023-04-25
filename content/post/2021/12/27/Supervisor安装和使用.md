@@ -50,7 +50,7 @@ categories: ["实用工具","python"]
    [Unit]
    Description=Process Monitoring and Control Daemon(Supervisor daemon)
    After=rc-local.service nss-user-lookup.target
-    
+
    [Service]
    Type=forking
    ExecStart=/usr/bin/supervisord -c /etc/supervisor/supervisord.conf
@@ -59,7 +59,7 @@ categories: ["实用工具","python"]
    killMode=process
    Restart=on-failure
    RestartSec=42s
-    
+
    [Install]
    WantedBy=multi-user.target
    ```
@@ -78,16 +78,23 @@ categories: ["实用工具","python"]
 
 ## 四、WEB管理页面
 
-   ```shell
-   vi /etc/supervisor/supervisord.conf
-   #修改下面的配置，去掉前面的分号，如果没有可以自己添加
-   [inet_http_server]             # inet (TCP) server disabled by default
-   port=0.0.0.0:9001              # ip_address:port specifier, *:port for all iface
-   username=user                  # default is no username (open server)
-   password=123                   # default is no password (open server)
+1. 修改配置开启web管理页面
 
-   #重新载入配置文件
-   supervisorctl reload
+   ```shell
+      $ vi /etc/supervisor/supervisord.conf
+
+      #修改下面的配置，去掉前面的分号，如果没有可以自己添加
+      [inet_http_server]             # inet (TCP) server disabled by default
+      port=0.0.0.0:9001              # ip_address:port specifier, *:port for all iface
+      username=user                  # default is no username (open server)
+      password=123                   # default is no password (open server)
+   ```
+
+2. 重启
+
+   ```shell
+      #重新载入配置文件
+      supervisorctl reload
    ```
 
 ## 五、添加任务
@@ -136,11 +143,38 @@ categories: ["实用工具","python"]
 
 ## 六、命令
 
+1. 当前运行状态
+
    ```shell
-   supervisorctl status  #当前运行状态
-   supervisorctl stop 项目名   #停止任务
-   supervisorctl start 项目名   #开始任务
-   supervisorctl restart 项目名 #重启任务
-   supervisorctl reload  #重新加载
-   supervisorctl update   #更新配置
+   supervisorctl status
+   ```
+
+2. 停止任务
+
+   ```shell
+   supervisorctl stop 项目名
+   ```
+
+3. 开始任务
+
+   ```shell
+   supervisorctl start 项目名
+   ```
+
+4. 重启任务
+
+   ```shell
+   supervisorctl restart 项目名
+   ```
+
+5. 重新加载
+
+   ```shell
+   supervisorctl reload
+   ```
+
+6. 更新配置
+
+   ```shell
+   supervisorctl update
    ```

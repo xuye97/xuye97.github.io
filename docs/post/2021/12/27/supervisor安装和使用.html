@@ -152,16 +152,24 @@
 </span></span></code></pre></div></li>
 </ol>
 <h2 id="四web管理页面">四、WEB管理页面</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>vi /etc/supervisor/supervisord.conf
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#修改下面的配置，去掉前面的分号，如果没有可以自己添加</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>inet_http_server<span style="color:#f92672">]</span>             <span style="color:#75715e"># inet (TCP) server disabled by default</span>
-</span></span><span style="display:flex;"><span>port<span style="color:#f92672">=</span>0.0.0.0:9001              <span style="color:#75715e"># ip_address:port specifier, *:port for all iface</span>
-</span></span><span style="display:flex;"><span>username<span style="color:#f92672">=</span>user                  <span style="color:#75715e"># default is no username (open server)</span>
-</span></span><span style="display:flex;"><span>password<span style="color:#f92672">=</span><span style="color:#ae81ff">123</span>                   <span style="color:#75715e"># default is no password (open server)</span>
+<ol>
+<li>
+<p>修改配置开启web管理页面</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>   $ vi /etc/supervisor/supervisord.conf
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#重新载入配置文件</span>
-</span></span><span style="display:flex;"><span>supervisorctl reload
-</span></span></code></pre></div><h2 id="五添加任务">五、添加任务</h2>
+</span></span><span style="display:flex;"><span>   <span style="color:#75715e">#修改下面的配置，去掉前面的分号，如果没有可以自己添加</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#f92672">[</span>inet_http_server<span style="color:#f92672">]</span>             <span style="color:#75715e"># inet (TCP) server disabled by default</span>
+</span></span><span style="display:flex;"><span>   port<span style="color:#f92672">=</span>0.0.0.0:9001              <span style="color:#75715e"># ip_address:port specifier, *:port for all iface</span>
+</span></span><span style="display:flex;"><span>   username<span style="color:#f92672">=</span>user                  <span style="color:#75715e"># default is no username (open server)</span>
+</span></span><span style="display:flex;"><span>   password<span style="color:#f92672">=</span><span style="color:#ae81ff">123</span>                   <span style="color:#75715e"># default is no password (open server)</span>
+</span></span></code></pre></div></li>
+<li>
+<p>重启</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>   <span style="color:#75715e">#重新载入配置文件</span>
+</span></span><span style="display:flex;"><span>   supervisorctl reload
+</span></span></code></pre></div></li>
+</ol>
+<h2 id="五添加任务">五、添加任务</h2>
 <ol>
 <li>
 <p>创建文件夹</p>
@@ -199,13 +207,33 @@
 </span></span></code></pre></div></li>
 </ol>
 <h2 id="六命令">六、命令</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>supervisorctl status  <span style="color:#75715e">#当前运行状态</span>
-</span></span><span style="display:flex;"><span>supervisorctl stop 项目名   <span style="color:#75715e">#停止任务</span>
-</span></span><span style="display:flex;"><span>supervisorctl start 项目名   <span style="color:#75715e">#开始任务</span>
-</span></span><span style="display:flex;"><span>supervisorctl restart 项目名 <span style="color:#75715e">#重启任务</span>
-</span></span><span style="display:flex;"><span>supervisorctl reload  <span style="color:#75715e">#重新加载</span>
-</span></span><span style="display:flex;"><span>supervisorctl update   <span style="color:#75715e">#更新配置</span>
-</span></span></code></pre></div>
+<ol>
+<li>
+<p>当前运行状态</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>supervisorctl status
+</span></span></code></pre></div></li>
+<li>
+<p>停止任务</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>supervisorctl stop 项目名
+</span></span></code></pre></div></li>
+<li>
+<p>开始任务</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>supervisorctl start 项目名
+</span></span></code></pre></div></li>
+<li>
+<p>重启任务</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>supervisorctl restart 项目名
+</span></span></code></pre></div></li>
+<li>
+<p>重新加载</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>supervisorctl reload
+</span></span></code></pre></div></li>
+<li>
+<p>更新配置</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>supervisorctl update
+</span></span></code></pre></div></li>
+</ol>
+
         </div>
 
         
