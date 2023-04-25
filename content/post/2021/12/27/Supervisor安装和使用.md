@@ -90,10 +90,9 @@ categories: ["实用工具","python"]
       password=123                   # default is no password (open server)
    ```
 
-2. 重启
+2. 重新载入配置文件
 
    ```shell
-      #重新载入配置文件
       supervisorctl reload
    ```
 
