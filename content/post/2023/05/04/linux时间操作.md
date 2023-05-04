@@ -54,7 +54,7 @@ Linux的时间分为System Clock（系统时间）和Real Time Clock （硬件�
    timedatectl set-local-rtc 0		#将RTC设置为UTC
    timedatectl set-time 15:58:30					#只设置时间
    timedatectl set-time 20151120					#只设置日期
-   timedatectl set-time '16:10:40 2015-11-20'		#设置时间和日期
+   timedatectl set-time '11:37:40 2023-05-04'		#设置时间和日期
    ```
 
 ### 硬件时间
