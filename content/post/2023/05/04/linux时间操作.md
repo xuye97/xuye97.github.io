@@ -13,7 +13,7 @@ Linux的时间分为System Clock（系统时间）和Real Time Clock （硬件�
 
 硬件时间：主板上有电池供电的时间。
 
-### 系统时间：
+### 系统时间
 
 1. **data**
 
@@ -48,13 +48,13 @@ Linux的时间分为System Clock（系统时间）和Real Time Clock （硬件�
 
    # 常用命令：
    timedatectl set-timezone "Asia/Shanghai"  #设置时区为上海
-   timedatectl set-ntp true		#开启ntp同步
-   timedatectl set-ntp false		#禁止ntp同步
-   timedatectl set-local-rtc 1		#将RTC设置为本地时间
-   timedatectl set-local-rtc 0		#将RTC设置为UTC
-   timedatectl set-time 11:37:30					#只设置时间
-   timedatectl set-time 20230504					#只设置日期
-   timedatectl set-time '11:37:40 2023-05-04'		#设置时间和日期
+   timedatectl set-ntp true  #开启ntp同步
+   timedatectl set-ntp false  #禁止ntp同步
+   timedatectl set-local-rtc 1  #将RTC设置为本地时间
+   timedatectl set-local-rtc 0  #将RTC设置为UTC
+   timedatectl set-time 11:37:30     #只设置时间
+   timedatectl set-time 20230504     #只设置日期
+   timedatectl set-time '11:37:40 2023-05-04'  #设置时间和日期
    ```
 
 ### 硬件时间
