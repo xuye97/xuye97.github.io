@@ -9,21 +9,24 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
     
 
-    <title>@click | egg blog</title>
-    <meta property="og:title" content="@click - egg blog">
+    <title>Linux时间操作 | egg blog</title>
+    <meta property="og:title" content="Linux时间操作 - egg blog">
     <meta property="og:type" content="article">
         
+    <meta property="article:published_time" content='2023-05-04T11:57:00&#43;08:00'>
+        
+        
+    <meta property="article:modified_time" content='2023-05-04T11:57:00&#43;08:00'>
         
     <meta name="Keywords" content="">
-    <meta name="description" content="@click">
+    <meta name="description" content="Linux时间操作">
         
     <meta name="author" content="xuye">
-    <meta property="og:url" content="https://blog.xyemy.com/tags/click.html">
+    <meta property="og:url" content="https://blog.xyemy.com/post/2023/05/04/linux%E6%97%B6%E9%97%B4%E6%93%8D%E4%BD%9C.html">
     <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
     <link rel="stylesheet" href='/css/style.css'>
-    <link rel="alternate" type="application/rss+xml" href="https://blog.xyemy.com/tags/click/index.xml" title="egg blog" />
     <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
@@ -51,7 +54,7 @@
             </div>
             <div>
                 <nav id="nav-menu" class="clearfix">
-                    <a class="" href="https://blog.xyemy.com/">首页</a>
+                    <a class="current" href="https://blog.xyemy.com/">首页</a>
                     
                 </nav>
             </div>
@@ -67,44 +70,169 @@
                     
 <div class="res-cons">
     
-    <h3 class="archive-title">
-        包含标签
-        <span class="keyword">@click</span>
-        的文章
-    </h3>
-    
-
-    
     <article class="post">
         <header>
-            <h1 class="post-title">
-                <a href="https://blog.xyemy.com/post/2023/04/27/element-ui%E4%B8%8B%E6%8B%89%E7%BB%84%E4%BB%B6el-dropdown-item%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6click%E6%97%A0%E6%95%88.html">Element Ui下拉组件el-dropdown-item添加点击事件@click无效</a>
-            </h1>
+            <h1 class="post-title">Linux时间操作</h1>
         </header>
         <date class="post-meta meta-date">
-            2023年4月27日
+            2023年5月4日
         </date>
         
-        <div class="post-meta meta-category">
-            |
+        <div class="post-meta">
+            <span>|</span>
             
-            <a href='/categories/vue'>vue</a>
+            <span class="meta-category"><a href='/categories/linux'>linux</a></span>
             
         </div>
         
+        
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
+                    阅读</span></span>
+        </div>
+        
+        
         <div class="post-content">
-            &lt;el-dropdown-item v-if=&#34;userPermissions&#34; icon=&#34;el-icon-tickets&#34; class=&#34;text-blue&#34; @click.native=&#……
-            <p class="readmore"><a href="https://blog.xyemy.com/post/2023/04/27/element-ui%E4%B8%8B%E6%8B%89%E7%BB%84%E4%BB%B6el-dropdown-item%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6click%E6%97%A0%E6%95%88.html">阅读全文</a></p>
+            <p>Linux的时间分为System Clock（系统时间）和Real Time Clock （硬件时间，简称RTC）。</p>
+<p>系统时间：指当前Linux Kernel中的时间。</p>
+<p>硬件时间：主板上有电池供电的时间。</p>
+<h3 id="系统时间">系统时间：</h3>
+<ol>
+<li>
+<p><strong>data</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># 查看系统当前时间</span>
+</span></span><span style="display:flex;"><span>$ date
+</span></span><span style="display:flex;"><span>Thu May  <span style="color:#ae81ff">4</span> 11:35:48 CST <span style="color:#ae81ff">2023</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 查看当前时区</span>
+</span></span><span style="display:flex;"><span>$ date -R
+</span></span><span style="display:flex;"><span>Thu, <span style="color:#ae81ff">04</span> May <span style="color:#ae81ff">2023</span> 11:36:13 +0800
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 设置时间：date –set（月/日/年 时：分：秒）</span>
+</span></span><span style="display:flex;"><span>$ date –set <span style="color:#e6db74">&#34;05/04/23 11:37&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>timedatectl</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ timedatectl
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 本地时间，初始值来自于RTC，由内核维护，系统启动之后和RTC就没有关系，通常等于RTC+时区值（如下的本地时间=RTC+8）</span>
+</span></span><span style="display:flex;"><span>               Local time: Thu 2023-05-04 11:39:14 CST
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 系统时间永远是UTC，在应用程序使用的时候转换为本地时间</span>
+</span></span><span style="display:flex;"><span>           Universal time: Thu 2023-05-04 03:39:14 UTC
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 指硬件时间，一般是主板上的特殊电路，专用于记录时间，有电池供电，不受服务器和操作系统的开启关闭影响。也称作BIOS时间。</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 当/etc/sysconfig/clock 文件中 UTC=true时， BIOS 使用UTC时间； UTC=false时， BIOS 使用本地时间。</span>
+</span></span><span style="display:flex;"><span>                 RTC time: Thu 2023-05-04 03:39:14
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 本地时区，即服务器所在的时区，在中国通常使用Asia/Shanghai</span>
+</span></span><span style="display:flex;"><span>                Time zone: Asia/Shanghai <span style="color:#f92672">(</span>CST, +0800<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>System clock synchronized: yes
+</span></span><span style="display:flex;"><span>              NTP service: active
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 设置RTC时间，为&#34;no&#34;表示未设置</span>
+</span></span><span style="display:flex;"><span>          RTC in local TZ: no
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 常用命令：</span>
+</span></span><span style="display:flex;"><span>timedatectl set-timezone <span style="color:#e6db74">&#34;Asia/Shanghai&#34;</span>  <span style="color:#75715e">#设置时区为上海</span>
+</span></span><span style="display:flex;"><span>timedatectl set-ntp true		<span style="color:#75715e">#开启ntp同步</span>
+</span></span><span style="display:flex;"><span>timedatectl set-ntp false		<span style="color:#75715e">#禁止ntp同步</span>
+</span></span><span style="display:flex;"><span>timedatectl set-local-rtc 1		<span style="color:#75715e">#将RTC设置为本地时间</span>
+</span></span><span style="display:flex;"><span>timedatectl set-local-rtc 0		<span style="color:#75715e">#将RTC设置为UTC</span>
+</span></span><span style="display:flex;"><span>timedatectl set-time 15:58:30					<span style="color:#75715e">#只设置时间</span>
+</span></span><span style="display:flex;"><span>timedatectl set-time 20151120					<span style="color:#75715e">#只设置日期</span>
+</span></span><span style="display:flex;"><span>timedatectl set-time <span style="color:#e6db74">&#39;16:10:40 2015-11-20&#39;</span>		<span style="color:#75715e">#设置时间和日期</span>
+</span></span></code></pre></div></li>
+</ol>
+<h3 id="硬件时间">硬件时间</h3>
+<ol>
+<li>
+<p>硬件时间</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># 查看硬件时间</span>
+</span></span><span style="display:flex;"><span>$ hwclock
+</span></span><span style="display:flex;"><span>2023-05-04 11:47:15.998057+08:00
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 设置硬件时间</span>
+</span></span><span style="display:flex;"><span>$ hwclock –set –date <span style="color:#f92672">=</span> （月/日/年 时：分：秒）
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 将系统时间写入硬件时间</span>
+</span></span><span style="display:flex;"><span>$ hwclock --systohc
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 强制系统时间写入CMOS中防止重启失效</span>
+</span></span><span style="display:flex;"><span>$ hwclock -w
+</span></span></code></pre></div></li>
+</ol>
+<h3 id="时间同步">时间同步</h3>
+<ol>
+<li>
+<p>时间同步</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># 安装ntpdate工具</span>
+</span></span><span style="display:flex;"><span>$ sudo yum -y install ntp ntpdate
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 系统时间与网络时间同步</span>
+</span></span><span style="display:flex;"><span>$ sudo ntpdate time.windows.com
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#设置硬件时间为本地时间：</span>
+</span></span><span style="display:flex;"><span>$ sudo hwclock --localtime --systohc
+</span></span></code></pre></div></li>
+</ol>
+
+        </div>
+
+        
+
+
+        
+
+<div class="post-archive">
+    <h2>See Also</h2>
+    <ul class="listing">
+        
+        <li><a href="/post/2023/01/16/ubuntusnap%E6%8F%90%E7%A4%BAhasinstallsnapchangeinprogress%E9%94%99%E8%AF%AF.html">Ubuntu snap提示has “install-snap” change in progress 错误</a></li>
+        
+        <li><a href="/post/2022/12/01/ctop%E5%AE%89%E8%A3%85.html">Linux安装ctop</a></li>
+        
+        <li><a href="/post/2022/07/27/debian1011%E5%BC%80%E5%90%AFbbr.html">Debian 10/11 开启bbr</a></li>
+        
+        <li><a href="/post/2022/06/20/linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%87%BA%E7%8E%B0bash42.html">Linux登录进去命令行出现 -bash-4.2</a></li>
+        
+        <li><a href="/post/2022/04/15/ubuntu%E7%B3%BB%E7%BB%9F%E5%90%AF%E7%94%A8root%E7%94%A8%E6%88%B7%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86.html">Ubuntu系统启用root用户远程登陆</a></li>
+        
+    </ul>
+</div>
+
+
+        <div class="post-meta meta-tags">
+            
+            <ul class="clearfix">
+                
+                <li><a href='/tags/linux'>linux</a></li>
+                
+                <li><a href='/tags/%E6%97%B6%E9%97%B4'>时间</a></li>
+                
+                <li><a href='/tags/%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4'>系统时间</a></li>
+                
+                <li><a href='/tags/%E7%A1%AC%E4%BB%B6%E6%97%B6%E9%97%B4'>硬件时间</a></li>
+                
+                <li><a href='/tags/%E6%97%B6%E9%97%B4%E5%90%8C%E6%AD%A5'>时间同步</a></li>
+                
+                <li><a href='/tags/date'>date</a></li>
+                
+                <li><a href='/tags/timedatectl'>timedatectl</a></li>
+                
+                <li><a href='/tags/hwclock'>hwclock</a></li>
+                
+                <li><a href='/tags/ntp'>ntp</a></li>
+                
+                <li><a href='/tags/ntpdate'>ntpdate</a></li>
+                
+            </ul>
+            
         </div>
     </article>
     
-
     
 
-
-
-
-
+    
+    
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "xuye97/xuye97.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+    
 </div>
 
                     <footer id="footer">
@@ -129,6 +257,16 @@
 </footer>
 
 
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script><script src="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
 <a id="rocket" href="#top"></a>
 <script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
@@ -157,7 +295,11 @@
 <ul class="widget-list">
     
     <li>
-        <a href="https://blog.xyemy.com/post/2023/04/27/element-ui%E4%B8%8B%E6%8B%89%E7%BB%84%E4%BB%B6el-dropdown-item%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6click%E6%97%A0%E6%95%88.html" title="Element Ui下拉组件el-dropdown-item添加点击事件@click无效">Element Ui下拉组件el-dropdown-item添加点击事件@click无效</a>
+        <a href="https://blog.xyemy.com/post/2023/05/04/linux%E6%97%B6%E9%97%B4%E6%93%8D%E4%BD%9C.html" title="Linux时间操作">Linux时间操作</a>
+    </li>
+    
+    <li>
+        <a href="https://blog.xyemy.com/post/2023/04/27/element-ui%E4%B8%8B%E6%8B%89%E7%BB%84%E4%BB%B6el-dropdown-item%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6@click%E6%97%A0%E6%95%88.html" title="Element Ui下拉组件el-dropdown-item添加点击事件@click无效">Element Ui下拉组件el-dropdown-item添加点击事件@click无效</a>
     </li>
     
     <li>
@@ -192,10 +334,6 @@
         <a href="https://blog.xyemy.com/post/2022/10/12/openwrt%E5%AE%89%E8%A3%85tailscale.html" title="Openwrt安装tailscale">Openwrt安装tailscale</a>
     </li>
     
-    <li>
-        <a href="https://blog.xyemy.com/post/2022/09/27/beego%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86.html" title="Beego 静态文件处理">Beego 静态文件处理</a>
-    </li>
-    
 </ul>
     </section>
 
@@ -225,7 +363,7 @@
     
     <li><a href="https://blog.xyemy.com/categories/golang.html">golang (13)</a></li>
     
-    <li><a href="https://blog.xyemy.com/categories/linux.html">linux (23)</a></li>
+    <li><a href="https://blog.xyemy.com/categories/linux.html">linux (24)</a></li>
     
     <li><a href="https://blog.xyemy.com/categories/manjaro.html">manjaro (3)</a></li>
     
@@ -272,6 +410,8 @@
         <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
 <div class="tagcloud">
     
+    <a href="https://blog.xyemy.com/tags/@click.html">@click</a>
+    
     <a href="https://blog.xyemy.com/tags/acme.html">acme</a>
     
     <a href="https://blog.xyemy.com/tags/apisix.html">apisix</a>
@@ -292,11 +432,11 @@
     
     <a href="https://blog.xyemy.com/tags/chrome.html">chrome</a>
     
-    <a href="https://blog.xyemy.com/tags/click.html">@click</a>
-    
     <a href="https://blog.xyemy.com/tags/ctop.html">ctop</a>
     
     <a href="https://blog.xyemy.com/tags/curl.html">curl</a>
+    
+    <a href="https://blog.xyemy.com/tags/date.html">date</a>
     
     <a href="https://blog.xyemy.com/tags/debian.html">debian</a>
     
@@ -340,6 +480,8 @@
     
     <a href="https://blog.xyemy.com/tags/https.html">https</a>
     
+    <a href="https://blog.xyemy.com/tags/hwclock.html">hwclock</a>
+    
     <a href="https://blog.xyemy.com/tags/import.html">import</a>
     
     <a href="https://blog.xyemy.com/tags/jwt.html">jwt</a>
@@ -357,6 +499,10 @@
     <a href="https://blog.xyemy.com/tags/n1.html">n1</a>
     
     <a href="https://blog.xyemy.com/tags/nginx.html">nginx</a>
+    
+    <a href="https://blog.xyemy.com/tags/ntp.html">ntp</a>
+    
+    <a href="https://blog.xyemy.com/tags/ntpdate.html">ntpdate</a>
     
     <a href="https://blog.xyemy.com/tags/openssl.html">openssl</a>
     
@@ -397,6 +543,8 @@
     <a href="https://blog.xyemy.com/tags/tailscale.html">tailscale</a>
     
     <a href="https://blog.xyemy.com/tags/tar.html">tar</a>
+    
+    <a href="https://blog.xyemy.com/tags/timedatectl.html">timedatectl</a>
     
     <a href="https://blog.xyemy.com/tags/tmd.html">tmd</a>
     
@@ -466,11 +614,17 @@
     
     <a href="https://blog.xyemy.com/tags/%E6%97%B6%E9%97%B4.html">时间</a>
     
+    <a href="https://blog.xyemy.com/tags/%E6%97%B6%E9%97%B4%E5%90%8C%E6%AD%A5.html">时间同步</a>
+    
     <a href="https://blog.xyemy.com/tags/%E7%83%AD%E9%94%AE%E7%BB%91%E5%AE%9A.html">热键绑定</a>
     
     <a href="https://blog.xyemy.com/tags/%E7%94%B2%E9%AA%A8%E6%96%87.html">甲骨文</a>
     
+    <a href="https://blog.xyemy.com/tags/%E7%A1%AC%E4%BB%B6%E6%97%B6%E9%97%B4.html">硬件时间</a>
+    
     <a href="https://blog.xyemy.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E9%94%AE%E7%9B%98.html">笔记本键盘</a>
+    
+    <a href="https://blog.xyemy.com/tags/%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4.html">系统时间</a>
     
     <a href="https://blog.xyemy.com/tags/%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html">网络错误</a>
     
