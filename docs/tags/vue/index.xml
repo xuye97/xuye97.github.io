@@ -6,7 +6,16 @@
     <description>Recent content in vue on egg blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 09 May 2023 17:31:15 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 May 2023 10:15:46 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vue style 深度作用选择器 &#39;&gt;&gt;&gt;&#39; &#39;/deep/&#39; &#39;::v-deep&#39;</title>
+      <link>https://blog.xyemy.com/post/2023/05/18/vuestyle%E6%B7%B1%E5%BA%A6%E4%BD%9C%E7%94%A8%E9%80%89%E6%8B%A9%E5%99%A8.html</link>
+      <pubDate>Thu, 18 May 2023 10:15:46 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2023/05/18/vuestyle%E6%B7%B1%E5%BA%A6%E4%BD%9C%E7%94%A8%E9%80%89%E6%8B%A9%E5%99%A8.html</guid>
+      <description>Vue style 深度作用选择器 作用：修改UI库中的默</description>
+    </item>
+    
     <item>
       <title>Vue鼠标悬停显示title</title>
       <link>https://blog.xyemy.com/post/2023/05/09/vue%E9%BC%A0%E6%A0%87%E6%82%AC%E5%81%9C%E6%98%BE%E7%A4%BAtitle.html</link>
