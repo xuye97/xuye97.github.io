@@ -6,7 +6,16 @@
     <description>Recent content on egg blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 18 May 2023 10:15:46 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 May 2023 14:11:25 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mysql中group_concat字符长度限制</title>
+      <link>https://blog.xyemy.com/post/2023/05/18/mysql%E4%B8%ADgroup_concat%E5%AD%97%E7%AC%A6%E9%95%BF%E5%BA%A6%E9%99%90%E5%88%B6.html</link>
+      <pubDate>Thu, 18 May 2023 14:11:25 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2023/05/18/mysql%E4%B8%ADgroup_concat%E5%AD%97%E7%AC%A6%E9%95%BF%E5%BA%A6%E9%99%90%E5%88%B6.html</guid>
+      <description>group_concat长度默认限制10</description>
+    </item>
+    
     <item>
       <title>vue style 深度作用选择器 &#39;&gt;&gt;&gt;&#39; &#39;/deep/&#39; &#39;::v-deep&#39;</title>
       <link>https://blog.xyemy.com/post/2023/05/18/vuestyle%E6%B7%B1%E5%BA%A6%E4%BD%9C%E7%94%A8%E9%80%89%E6%8B%A9%E5%99%A8.html</link>
