@@ -7,7 +7,7 @@ isCJKLanguage: true
 categories: ["mysql"]
 ---
 
-**group_concat长度默认限制1024字符，超出1024部分将会背舍弃**
+**group_concat长度默认限制1024字符，超出1024部分将会被舍弃**
 
 ### 解决方法：
 
