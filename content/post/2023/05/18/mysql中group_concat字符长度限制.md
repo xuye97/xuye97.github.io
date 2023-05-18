@@ -14,7 +14,7 @@ categories: ["mysql"]
 1. 永久修改（修改配置文件）**重启数据库生效**
 
    ```ini
-   # 修改my.ini 或者 my.cnf 添加或者修改以下配置
+   # 修改my.ini(Windows) 或者 my.cnf(Linux) 添加或者修改以下配置
    group_concat_max_len = 102400
    # 102400 是你要设置的长度
    # 重启生效
