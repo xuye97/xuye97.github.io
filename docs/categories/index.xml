@@ -6,7 +6,25 @@
     <description>Recent content in Categories on egg blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 18 May 2023 14:11:25 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Jun 2023 13:03:56 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>windows</title>
+      <link>https://blog.xyemy.com/categories/windows.html</link>
+      <pubDate>Tue, 06 Jun 2023 13:03:56 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/categories/windows.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>错误处理</title>
+      <link>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</link>
+      <pubDate>Tue, 06 Jun 2023 13:03:56 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>mysql</title>
       <link>https://blog.xyemy.com/categories/mysql.html</link>
@@ -71,15 +89,6 @@
     </item>
     
     <item>
-      <title>错误处理</title>
-      <link>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</link>
-      <pubDate>Sat, 28 Jan 2023 09:24:07 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ubuntu</title>
       <link>https://blog.xyemy.com/categories/ubuntu.html</link>
       <pubDate>Mon, 16 Jan 2023 09:09:20 +0800</pubDate>
@@ -121,15 +130,6 @@
       <pubDate>Tue, 27 Sep 2022 10:01:34 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/categories/beego.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>windows</title>
-      <link>https://blog.xyemy.com/categories/windows.html</link>
-      <pubDate>Mon, 26 Sep 2022 10:40:01 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/categories/windows.html</guid>
       <description></description>
     </item>
     
