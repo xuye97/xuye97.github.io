@@ -9,7 +9,7 @@ categories: ["windows","错误处理"]
 
 > windows系统桌面什么都不显示，任务栏也是什么都不显示，重启资源管理器可以解决
 
-1. `ctrl+shift+esc`打开任务管理器
-2. 点击`运行新任务`
-3. 在弹出框输入`explorer`
+1.  `ctrl+shift+esc` 打开任务管理器
+2. 点击 `运行新任务`
+3. 在弹出框输入 `explorer`
 4. 点击确定
