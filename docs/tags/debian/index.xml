@@ -16,5 +16,14 @@
       <description>/etc/sysctl.conf 文件修改 #修改文件： net.core.default_qdisc=fq net.ipv4.tcp_congestion_control=bbr #或者直接运行</description>
     </item>
     
+    <item>
+      <title>Centos、Ubuntu、Debian安装Docker</title>
+      <link>https://blog.xyemy.com/post/2021/05/26/centos%E5%AE%89%E8%A3%85docker.html</link>
+      <pubDate>Wed, 26 May 2021 14:53:36 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2021/05/26/centos%E5%AE%89%E8%A3%85docker.html</guid>
+      <description>使用docker官方脚本 curl -fsSL https://get.docker.com -o install.sh &amp;amp;&amp;amp; chmod u+x</description>
+    </item>
+    
   </channel>
 </rss>

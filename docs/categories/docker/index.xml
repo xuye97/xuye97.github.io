@@ -107,24 +107,6 @@
     </item>
     
     <item>
-      <title>Arm Ubuntu2004安装docker</title>
-      <link>https://blog.xyemy.com/post/2022/01/08/arm-ubuntu2004%E5%AE%89%E8%A3%85docker.html</link>
-      <pubDate>Sat, 08 Jan 2022 09:23:14 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/post/2022/01/08/arm-ubuntu2004%E5%AE%89%E8%A3%85docker.html</guid>
-      <description>删除旧版本 sudo apt-get remove docker docker-engine docker.io containerd runc 安装需要的包 sudo</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu 20.04安装docker</title>
-      <link>https://blog.xyemy.com/post/2021/10/18/ubuntu2004%E5%AE%89%E8%A3%85docker.html</link>
-      <pubDate>Mon, 18 Oct 2021 17:42:56 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/post/2021/10/18/ubuntu2004%E5%AE%89%E8%A3%85docker.html</guid>
-      <description>1. 安装Docker和docker-com</description>
-    </item>
-    
-    <item>
       <title>Docker免sudo运行</title>
       <link>https://blog.xyemy.com/post/2021/10/18/docker%E5%85%8Dsudo%E8%BF%90%E8%A1%8C.html</link>
       <pubDate>Mon, 18 Oct 2021 17:37:52 +0800</pubDate>
@@ -143,12 +125,12 @@
     </item>
     
     <item>
-      <title>Centos安装Docker</title>
+      <title>Centos、Ubuntu、Debian安装Docker</title>
       <link>https://blog.xyemy.com/post/2021/05/26/centos%E5%AE%89%E8%A3%85docker.html</link>
       <pubDate>Wed, 26 May 2021 14:53:36 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2021/05/26/centos%E5%AE%89%E8%A3%85docker.html</guid>
-      <description>Centos7，Centos8都适用 1、</description>
+      <description>使用docker官方脚本 curl -fsSL https://get.docker.com -o install.sh &amp;amp;&amp;amp; chmod u+x</description>
     </item>
     
   </channel>

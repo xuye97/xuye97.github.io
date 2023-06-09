@@ -404,15 +404,6 @@
     </item>
     
     <item>
-      <title>Arm Ubuntu2004安装docker</title>
-      <link>https://blog.xyemy.com/post/2022/01/08/arm-ubuntu2004%E5%AE%89%E8%A3%85docker.html</link>
-      <pubDate>Sat, 08 Jan 2022 09:23:14 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/post/2022/01/08/arm-ubuntu2004%E5%AE%89%E8%A3%85docker.html</guid>
-      <description>删除旧版本 sudo apt-get remove docker docker-engine docker.io containerd runc 安装需要的包 sudo</description>
-    </item>
-    
-    <item>
       <title>Oracle Cloud甲骨文免费VPS 梯子防火墙设置</title>
       <link>https://blog.xyemy.com/post/2021/12/31/oraclecloud%E7%94%B2%E9%AA%A8%E6%96%87%E5%85%8D%E8%B4%B9vps%E6%A2%AF%E5%AD%90%E9%98%B2%E7%81%AB%E5%A2%99%E8%AE%BE%E7%BD%AE.html</link>
       <pubDate>Fri, 31 Dec 2021 11:30:31 +0800</pubDate>
@@ -518,15 +509,6 @@
       
       <guid>https://blog.xyemy.com/post/2021/10/22/beego%E6%A1%86%E6%9E%B6requestbody%E6%98%AF%E7%A9%BA%E7%9A%84.html</guid>
       <description>beego使用的时候需要接收POST请求</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu 20.04安装docker</title>
-      <link>https://blog.xyemy.com/post/2021/10/18/ubuntu2004%E5%AE%89%E8%A3%85docker.html</link>
-      <pubDate>Mon, 18 Oct 2021 17:42:56 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/post/2021/10/18/ubuntu2004%E5%AE%89%E8%A3%85docker.html</guid>
-      <description>1. 安装Docker和docker-com</description>
     </item>
     
     <item>
@@ -710,12 +692,12 @@
     </item>
     
     <item>
-      <title>Centos安装Docker</title>
+      <title>Centos、Ubuntu、Debian安装Docker</title>
       <link>https://blog.xyemy.com/post/2021/05/26/centos%E5%AE%89%E8%A3%85docker.html</link>
       <pubDate>Wed, 26 May 2021 14:53:36 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/post/2021/05/26/centos%E5%AE%89%E8%A3%85docker.html</guid>
-      <description>Centos7，Centos8都适用 1、</description>
+      <description>使用docker官方脚本 curl -fsSL https://get.docker.com -o install.sh &amp;amp;&amp;amp; chmod u+x</description>
     </item>
     
     <item>

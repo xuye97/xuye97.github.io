@@ -16,14 +16,5 @@
       <description>docker run -d \ --name mysql \ -v $PWD/conf:/etc/mysql/conf.d \ -v $PWD/logs:/logs \ -v $PWD/data:/var/lib/mysql \ -e MYS</description>
     </item>
     
-    <item>
-      <title>Arm Ubuntu2004安装docker</title>
-      <link>https://blog.xyemy.com/post/2022/01/08/arm-ubuntu2004%E5%AE%89%E8%A3%85docker.html</link>
-      <pubDate>Sat, 08 Jan 2022 09:23:14 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/post/2022/01/08/arm-ubuntu2004%E5%AE%89%E8%A3%85docker.html</guid>
-      <description>删除旧版本 sudo apt-get remove docker docker-engine docker.io containerd runc 安装需要的包 sudo</description>
-    </item>
-    
   </channel>
 </rss>
