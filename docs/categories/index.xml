@@ -6,22 +6,31 @@
     <description>Recent content in Categories on egg blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 06 Jun 2023 13:03:56 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jun 2023 10:14:44 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>windows</title>
-      <link>https://blog.xyemy.com/categories/windows.html</link>
-      <pubDate>Tue, 06 Jun 2023 13:03:56 +0800</pubDate>
+      <title>hugo</title>
+      <link>https://blog.xyemy.com/categories/hugo.html</link>
+      <pubDate>Tue, 27 Jun 2023 10:14:44 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/categories/windows.html</guid>
+      <guid>https://blog.xyemy.com/categories/hugo.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>错误处理</title>
       <link>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</link>
-      <pubDate>Tue, 06 Jun 2023 13:03:56 +0800</pubDate>
+      <pubDate>Tue, 27 Jun 2023 10:14:44 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>https://blog.xyemy.com/categories/windows.html</link>
+      <pubDate>Tue, 06 Jun 2023 13:03:56 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/categories/windows.html</guid>
       <description></description>
     </item>
     
