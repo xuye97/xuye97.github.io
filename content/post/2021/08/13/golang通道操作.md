@@ -7,21 +7,75 @@ isCJKLanguage: true
 categories: ["golang"]
 ---
 
-| 操作  | 通道状态   | 结果                                                         |
-| ----- | ---------- | ------------------------------------------------------------ |
-| Read  | nil        | 阻塞                                                         |
-|       | 打开，非空 | 正常                                                         |
-|       | 打开，空   | 阻塞                                                         |
-|       | 关闭       | 正常返回值 有值返回 值,true    没有值  返回  通道类型默认值,false |
-|       | 只写       | 编译错误                                                     |
-| Write | nil        | 阻塞                                                         |
-|       | 打开，已满 | 阻塞                                                         |
-|       | 打开，未满 | 正常                                                         |
-|       | 关闭       | panic                                                        |
-|       | 只读       | 编译错误                                                     |
-| Close | nil        | panic                                                        |
-|       | 打开，非空 | 正常                                                         |
-|       | 打开，空   | 正常                                                         |
-|       | 关闭       | panic                                                        |
-|       | 只读       | 编译错误                                                     |
-
+<table>
+<tr>
+<th>操作</th>
+<th>通道状态</th>
+<th>结果</th>
+</tr>
+<tbody>
+<tr>
+<td rowspan="5">Read</td>
+<td>nil</td>
+<td>阻塞</td>
+</tr>
+<tr>
+<td>打开，非空</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>打开，空</td>
+<td>阻塞</td>
+</tr>
+<tr>
+<td>关闭</td>
+<td>正常返回值 有值返回 值,true    没有值  返回  通道类型默认值,false</td>
+</tr>
+<tr>
+<td>只写</td>
+<td>编译错误</td>
+</tr>
+<tr>
+<td  rowspan="5">Write</td>
+<td>nil</td>
+<td>阻塞</td>
+</tr>
+<tr>
+<td>打开，已满</td>
+<td>阻塞</td>
+</tr>
+<tr>
+<td>打开，未满</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>关闭</td>
+<td>panic</td>
+</tr>
+<tr>
+<td>只读</td>
+<td>编译错误</td>
+</tr>
+<tr>
+<td  rowspan="5">Close</td>
+<td>nil</td>
+<td>panic</td>
+</tr>
+<tr>
+<td>打开，非空</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>打开，空</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>关闭</td>
+<td>panic</td>
+</tr>
+<tr>
+<td>只读</td>
+<td>编译错误</td>
+</tr>
+</tbody>
+</table>
