@@ -6,7 +6,34 @@
     <description>Recent content in Tags on egg blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Jun 2023 10:14:44 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jul 2023 13:55:44 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>destroy-on-close</title>
+      <link>https://blog.xyemy.com/tags/destroy-on-close.html</link>
+      <pubDate>Fri, 28 Jul 2023 13:55:44 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/tags/destroy-on-close.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elementui</title>
+      <link>https://blog.xyemy.com/tags/elementui.html</link>
+      <pubDate>Fri, 28 Jul 2023 13:55:44 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/tags/elementui.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vue</title>
+      <link>https://blog.xyemy.com/tags/vue.html</link>
+      <pubDate>Fri, 28 Jul 2023 13:55:44 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/tags/vue.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>html</title>
       <link>https://blog.xyemy.com/tags/html.html</link>
@@ -121,15 +148,6 @@
       <pubDate>Thu, 18 May 2023 10:15:46 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/tags/style.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vue</title>
-      <link>https://blog.xyemy.com/tags/vue.html</link>
-      <pubDate>Thu, 18 May 2023 10:15:46 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/tags/vue.html</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,25 @@
     <description>Recent content in Categories on egg blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Jun 2023 10:14:44 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jul 2023 13:55:44 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>elementui</title>
+      <link>https://blog.xyemy.com/categories/elementui.html</link>
+      <pubDate>Fri, 28 Jul 2023 13:55:44 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/categories/elementui.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vue</title>
+      <link>https://blog.xyemy.com/categories/vue.html</link>
+      <pubDate>Fri, 28 Jul 2023 13:55:44 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/categories/vue.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hugo</title>
       <link>https://blog.xyemy.com/categories/hugo.html</link>
@@ -40,15 +58,6 @@
       <pubDate>Thu, 18 May 2023 14:11:25 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/categories/mysql.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vue</title>
-      <link>https://blog.xyemy.com/categories/vue.html</link>
-      <pubDate>Thu, 18 May 2023 10:15:46 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/categories/vue.html</guid>
       <description></description>
     </item>
     

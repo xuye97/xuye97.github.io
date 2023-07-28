@@ -6,7 +6,16 @@
     <description>Recent content in vue on egg blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 18 May 2023 10:15:46 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jul 2023 13:55:44 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>el-dialog 的坑(关闭弹窗时触发了子组件的created/mounted)</title>
+      <link>https://blog.xyemy.com/post/2023/07/28/eldialog%E7%9A%84%E5%9D%91%E5%85%B3%E9%97%AD%E5%BC%B9%E7%AA%97%E6%97%B6%E8%A7%A6%E5%8F%91%E4%BA%86%E5%AD%90%E7%BB%84%E4%BB%B6%E7%9A%84createmount.html</link>
+      <pubDate>Fri, 28 Jul 2023 13:55:44 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2023/07/28/eldialog%E7%9A%84%E5%9D%91%E5%85%B3%E9%97%AD%E5%BC%B9%E7%AA%97%E6%97%B6%E8%A7%A6%E5%8F%91%E4%BA%86%E5%AD%90%E7%BB%84%E4%BB%B6%E7%9A%84createmount.html</guid>
+      <description>设置了destroy-on-close为</description>
+    </item>
+    
     <item>
       <title>vue style 深度作用选择器 &#39;&gt;&gt;&gt;&#39; &#39;/deep/&#39; &#39;::v-deep&#39;</title>
       <link>https://blog.xyemy.com/post/2023/05/18/vuestyle%E6%B7%B1%E5%BA%A6%E4%BD%9C%E7%94%A8%E9%80%89%E6%8B%A9%E5%99%A8.html</link>

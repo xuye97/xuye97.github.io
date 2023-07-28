@@ -3,10 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.xyemy.com/categories.html</loc>
-    <lastmod>2023-06-27T10:14:44+08:00</lastmod>
+    <lastmod>2023-07-28T13:55:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/destroy-on-close.html</loc>
+    <lastmod>2023-07-28T13:55:44+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/</loc>
-    <lastmod>2023-06-27T10:14:44+08:00</lastmod>
+    <lastmod>2023-07-28T13:55:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post/2023/07/28/eldialog%E7%9A%84%E5%9D%91%E5%85%B3%E9%97%AD%E5%BC%B9%E7%AA%97%E6%97%B6%E8%A7%A6%E5%8F%91%E4%BA%86%E5%AD%90%E7%BB%84%E4%BB%B6%E7%9A%84createmount.html</loc>
+    <lastmod>2023-07-28T13:55:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/elementui.html</loc>
+    <lastmod>2023-07-28T13:55:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/elementui.html</loc>
+    <lastmod>2023-07-28T13:55:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/post.html</loc>
+    <lastmod>2023-07-28T13:55:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags.html</loc>
+    <lastmod>2023-07-28T13:55:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/tags/vue.html</loc>
+    <lastmod>2023-07-28T13:55:44+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.xyemy.com/categories/vue.html</loc>
+    <lastmod>2023-07-28T13:55:44+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/html.html</loc>
     <lastmod>2023-06-27T10:14:44+08:00</lastmod>
@@ -24,12 +48,6 @@
     <lastmod>2023-06-27T10:14:44+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/md.html</loc>
-    <lastmod>2023-06-27T10:14:44+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/post.html</loc>
-    <lastmod>2023-06-27T10:14:44+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags.html</loc>
     <lastmod>2023-06-27T10:14:44+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</loc>
@@ -72,12 +90,6 @@
     <lastmod>2023-05-18T10:15:46+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/tags/style.html</loc>
-    <lastmod>2023-05-18T10:15:46+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/tags/vue.html</loc>
-    <lastmod>2023-05-18T10:15:46+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.xyemy.com/categories/vue.html</loc>
     <lastmod>2023-05-18T10:15:46+08:00</lastmod>
   </url><url>
     <loc>https://blog.xyemy.com/post/2023/05/18/vuestyle%E6%B7%B1%E5%BA%A6%E4%BD%9C%E7%94%A8%E9%80%89%E6%8B%A9%E5%99%A8.html</loc>
