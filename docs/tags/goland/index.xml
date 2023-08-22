@@ -6,7 +6,16 @@
     <description>Recent content in goland on egg blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 09 Mar 2021 09:26:49 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/goland/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Aug 2023 11:26:51 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/goland/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Goland安装后打开Terminal报错Failed to start [powershell.exe, -NoExit, -ExecutionPolicy, Bypass xxxx</title>
+      <link>https://blog.xyemy.com/post/2023/08/22/goland%E5%AE%89%E8%A3%85%E5%90%8E%E6%89%93%E5%BC%80terminal%E6%8A%A5%E9%94%99failedtostartpowershellexenoexitexecutionpolicybypassxxx.html</link>
+      <pubDate>Tue, 22 Aug 2023 11:26:51 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2023/08/22/goland%E5%AE%89%E8%A3%85%E5%90%8E%E6%89%93%E5%BC%80terminal%E6%8A%A5%E9%94%99failedtostartpowershellexenoexitexecutionpolicybypassxxx.html</guid>
+      <description>问题 安装Goland以后打开Termin</description>
+    </item>
+    
     <item>
       <title>打开Goland提示网络错误</title>
       <link>https://blog.xyemy.com/post/2021/03/09/%E6%89%93%E5%BC%80goland%E6%8F%90%E7%A4%BA%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF.html</link>

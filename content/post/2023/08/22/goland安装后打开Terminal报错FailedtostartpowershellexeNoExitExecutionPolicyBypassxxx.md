@@ -1,7 +1,7 @@
 ---
 title: "Goland安装后打开Terminal报错Failed to start [powershell.exe, -NoExit, -ExecutionPolicy, Bypass xxxx"
 date: 2023-08-22T11:26:51+08:00
-draft: true
+draft: false
 tags: ["idea","goland","terminal"]
 isCJKLanguage: true
 categories: ["错误处理"]

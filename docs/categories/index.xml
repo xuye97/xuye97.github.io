@@ -6,7 +6,16 @@
     <description>Recent content in Categories on egg blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 28 Jul 2023 13:55:44 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Aug 2023 11:26:51 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>错误处理</title>
+      <link>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</link>
+      <pubDate>Tue, 22 Aug 2023 11:26:51 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>elementui</title>
       <link>https://blog.xyemy.com/categories/elementui.html</link>
@@ -31,15 +40,6 @@
       <pubDate>Tue, 27 Jun 2023 10:14:44 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/categories/hugo.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>错误处理</title>
-      <link>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</link>
-      <pubDate>Tue, 27 Jun 2023 10:14:44 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/categories/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html</guid>
       <description></description>
     </item>
     
