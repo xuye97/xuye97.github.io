@@ -6,7 +6,43 @@
     <description>Recent content in Tags on egg blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 22 Aug 2023 11:26:51 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Dec 2023 09:56:03 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>USB3.0B</title>
+      <link>https://blog.xyemy.com/tags/usb3.0b.html</link>
+      <pubDate>Tue, 19 Dec 2023 09:56:03 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/tags/usb3.0b.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>https://blog.xyemy.com/tags/windows.html</link>
+      <pubDate>Tue, 19 Dec 2023 09:56:03 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/tags/windows.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>刷机</title>
+      <link>https://blog.xyemy.com/tags/%E5%88%B7%E6%9C%BA.html</link>
+      <pubDate>Tue, 19 Dec 2023 09:56:03 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/tags/%E5%88%B7%E6%9C%BA.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>补丁</title>
+      <link>https://blog.xyemy.com/tags/%E8%A1%A5%E4%B8%81.html</link>
+      <pubDate>Tue, 19 Dec 2023 09:56:03 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/tags/%E8%A1%A5%E4%B8%81.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>goland</title>
       <link>https://blog.xyemy.com/tags/goland.html</link>
@@ -279,10 +315,10 @@
     
     <item>
       <title>@click</title>
-      <link>https://blog.xyemy.com/tags/click.html</link>
+      <link>https://blog.xyemy.com/tags/@click.html</link>
       <pubDate>Thu, 27 Apr 2023 17:12:10 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/tags/click.html</guid>
+      <guid>https://blog.xyemy.com/tags/@click.html</guid>
       <description></description>
     </item>
     
@@ -454,15 +490,6 @@
       <pubDate>Mon, 26 Sep 2022 10:40:01 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/tags/webdav.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>windows</title>
-      <link>https://blog.xyemy.com/tags/windows.html</link>
-      <pubDate>Mon, 26 Sep 2022 10:40:01 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/tags/windows.html</guid>
       <description></description>
     </item>
     
