@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>随机数 on egg blog</title>
+    <link>https://blog.xyemy.com/tags/%E9%9A%8F%E6%9C%BA%E6%95%B0.html</link>
+    <description>Recent content in 随机数 on egg blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 11 Jan 2024 17:20:51 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/%E9%9A%8F%E6%9C%BA%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用linux生成随机数</title>
+      <link>https://blog.xyemy.com/post/2024/01/11/%E4%BD%BF%E7%94%A8linux%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E6%95%B0.html</link>
+      <pubDate>Thu, 11 Jan 2024 17:20:51 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2024/01/11/%E4%BD%BF%E7%94%A8linux%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E6%95%B0.html</guid>
+      <description>&amp;lt;/dev/urandom tr -dc &amp;#39;12345!@#$%qwertyuioplkjhgfdsazxcvbnm!@#$%^&amp;amp;*()_+{}|&amp;#34;:?&amp;gt;&amp;lt;XCVBZXCVBNML67890KJHGFDSAQWERTYUIOP&amp;#39; | head -c16; echo -c16 16代表生成多少位</description>
+    </item>
+    
+  </channel>
+</rss>
