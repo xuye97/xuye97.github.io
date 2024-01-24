@@ -6,7 +6,16 @@
     <description>Recent content on egg blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 11 Jan 2024 17:20:51 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Jan 2024 13:09:44 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>群晖DS3615或者3617增加SHR硬盘模式</title>
+      <link>https://blog.xyemy.com/post/2024/01/22/%E7%BE%A4%E6%99%96ds3615%E6%88%96%E8%80%853617%E5%A2%9E%E5%8A%A0shr%E7%A1%AC%E7%9B%98%E6%A8%A1%E5%BC%8F.html</link>
+      <pubDate>Mon, 22 Jan 2024 13:09:44 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2024/01/22/%E7%BE%A4%E6%99%96ds3615%E6%88%96%E8%80%853617%E5%A2%9E%E5%8A%A0shr%E7%A1%AC%E7%9B%98%E6%A8%A1%E5%BC%8F.html</guid>
+      <description>群晖默认在DS3615/3617里面是没</description>
+    </item>
+    
     <item>
       <title>使用linux生成随机数</title>
       <link>https://blog.xyemy.com/post/2024/01/11/%E4%BD%BF%E7%94%A8linux%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E6%95%B0.html</link>
@@ -99,10 +108,10 @@
     
     <item>
       <title>Element Ui下拉组件el-dropdown-item添加点击事件@click无效</title>
-      <link>https://blog.xyemy.com/post/2023/04/27/element-ui%E4%B8%8B%E6%8B%89%E7%BB%84%E4%BB%B6el-dropdown-item%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6@click%E6%97%A0%E6%95%88.html</link>
+      <link>https://blog.xyemy.com/post/2023/04/27/element-ui%E4%B8%8B%E6%8B%89%E7%BB%84%E4%BB%B6el-dropdown-item%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6click%E6%97%A0%E6%95%88.html</link>
       <pubDate>Thu, 27 Apr 2023 17:12:10 +0800</pubDate>
       
-      <guid>https://blog.xyemy.com/post/2023/04/27/element-ui%E4%B8%8B%E6%8B%89%E7%BB%84%E4%BB%B6el-dropdown-item%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6@click%E6%97%A0%E6%95%88.html</guid>
+      <guid>https://blog.xyemy.com/post/2023/04/27/element-ui%E4%B8%8B%E6%8B%89%E7%BB%84%E4%BB%B6el-dropdown-item%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6click%E6%97%A0%E6%95%88.html</guid>
       <description>&amp;lt;el-dropdown-item v-if=&amp;#34;userPermissions&amp;#34; icon=&amp;#34;el-icon-tickets&amp;#34; class=&amp;#34;text-blue&amp;#34; @click.native=&amp;#</description>
     </item>
     
