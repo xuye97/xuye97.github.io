@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ipv6 on egg blog</title>
+    <link>https://blog.xyemy.com/tags/ipv6.html</link>
+    <description>Recent content in ipv6 on egg blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 19 Feb 2024 13:42:13 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/ipv6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker容器使用ipv6网络</title>
+      <link>https://blog.xyemy.com/post/2024/02/19/docker%E5%AE%B9%E5%99%A8%E4%BD%BF%E7%94%A8ipv6%E7%BD%91%E7%BB%9C.html</link>
+      <pubDate>Mon, 19 Feb 2024 13:42:13 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2024/02/19/docker%E5%AE%B9%E5%99%A8%E4%BD%BF%E7%94%A8ipv6%E7%BD%91%E7%BB%9C.html</guid>
+      <description>编辑文件daemon.json vi /etc/docker/daemon.json { &amp;#34;ipv6&amp;#34;: true,</description>
+    </item>
+    
+  </channel>
+</rss>
