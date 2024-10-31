@@ -1,5 +1,5 @@
 ---
-title: "使用JetBrain全家桶搜狗输入法不跟随光标问题"
+title: "Linux中使用JetBrain全家桶搜狗输入法不跟随光标问题"
 date: 2021-07-15T11:20:08+09:00
 draft: false
 tags: ["ubuntu","搜狗输入法"]
@@ -20,7 +20,7 @@ categories: ["linux","ubuntu"]
 1. 下载已经修改好的 JRE 环境:
 
    ```shell
-   https://cloud.189.cn/web/share?code=aUf2ErMJFvAr（访问码：m9xu）
+   https://cloud.189.cn/t/QnqIje6beiI3（访问码：5swi）
    ```
 
 2. 下载完成后解压到任意目录
