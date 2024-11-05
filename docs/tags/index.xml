@@ -6,7 +6,25 @@
     <description>Recent content in Tags on egg blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 31 Oct 2024 14:11:12 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Nov 2024 13:46:52 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>oracle</title>
+      <link>https://blog.xyemy.com/tags/oracle.html</link>
+      <pubDate>Tue, 05 Nov 2024 13:46:52 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/tags/oracle.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>甲骨文</title>
+      <link>https://blog.xyemy.com/tags/%E7%94%B2%E9%AA%A8%E6%96%87.html</link>
+      <pubDate>Tue, 05 Nov 2024 13:46:52 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/tags/%E7%94%B2%E9%AA%A8%E6%96%87.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>go</title>
       <link>https://blog.xyemy.com/tags/go.html</link>
@@ -850,24 +868,6 @@
       <pubDate>Mon, 10 Jan 2022 08:41:02 +0800</pubDate>
       
       <guid>https://blog.xyemy.com/tags/arm.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>oracle</title>
-      <link>https://blog.xyemy.com/tags/oracle.html</link>
-      <pubDate>Fri, 31 Dec 2021 11:30:31 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/tags/oracle.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>甲骨文</title>
-      <link>https://blog.xyemy.com/tags/%E7%94%B2%E9%AA%A8%E6%96%87.html</link>
-      <pubDate>Fri, 31 Dec 2021 11:30:31 +0800</pubDate>
-      
-      <guid>https://blog.xyemy.com/tags/%E7%94%B2%E9%AA%A8%E6%96%87.html</guid>
       <description></description>
     </item>
     
