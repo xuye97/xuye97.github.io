@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>下载 on egg blog</title>
+    <link>https://blog.xyemy.com/tags/%E4%B8%8B%E8%BD%BD.html</link>
+    <description>Recent content in 下载 on egg blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 30 Dec 2024 10:45:36 +0800</lastBuildDate><atom:link href="https://blog.xyemy.com/tags/%E4%B8%8B%E8%BD%BD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xiaomi ROM下载加速</title>
+      <link>https://blog.xyemy.com/post/2024/12/30/xiaomirom%E4%B8%8B%E8%BD%BD%E5%8A%A0%E9%80%9F.html</link>
+      <pubDate>Mon, 30 Dec 2024 10:45:36 +0800</pubDate>
+      
+      <guid>https://blog.xyemy.com/post/2024/12/30/xiaomirom%E4%B8%8B%E8%BD%BD%E5%8A%A0%E9%80%9F.html</guid>
+      <description>电脑下载小米刷机包 太慢，修改下载域名
+原始下载地址：
+https://bigota.d.miui.com/OS1.0.9.0.UNSMIXM/dizi_global_images_OS1.0.9.0.UNSMIXM_20241119.0000.00_14.0_global_758a59cdad.tgz 将域名
+https://bigota.d.miui.com
+修改为
+http://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com
+修改后地址：
+http://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.9.0.UNSMIXM/dizi_global_images_OS1.0.9.0.UNSMIXM_20241119.0000.00_14.0_global_758a59cdad.tgz </description>
+    </item>
+    
+  </channel>
+</rss>

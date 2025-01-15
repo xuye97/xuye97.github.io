@@ -1,7 +1,7 @@
 ---
 title: "Xiaomi ROM下载加速"
 date: 2024-12-30T10:45:36+08:00
-draft: true
+draft: false
 tags: ["下载"]
 isCJKLanguage: false
 categories: ["实用工具"]
