@@ -112,16 +112,16 @@
 </span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">ipNet</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">net</span>.<span style="color:#a6e22e">ParseCIDR</span>(<span style="color:#e6db74">&#34;192.168.0.0/31&#34;</span>)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">ipNet</span>.<span style="color:#a6e22e">Contains</span>(<span style="color:#a6e22e">ip</span>) {
-</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;IP is in subnet&#34;</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;包含&#34;</span>)
 </span></span><span style="display:flex;"><span>	} <span style="color:#66d9ef">else</span> {
-</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;IP is not in subnet&#34;</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;不包含&#34;</span>)
 </span></span><span style="display:flex;"><span>	}
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">ip2</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">net</span>.<span style="color:#a6e22e">ParseIP</span>(<span style="color:#e6db74">&#34;192.168.0.254&#34;</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">ip2</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">net</span>.<span style="color:#a6e22e">ParseIP</span>(<span style="color:#e6db74">&#34;192.168.0.254&#34;</span>)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">ipNet</span>.<span style="color:#a6e22e">Contains</span>(<span style="color:#a6e22e">ip2</span>) {
-</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;IP is in subnet&#34;</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;包含&#34;</span>)
 </span></span><span style="display:flex;"><span>	} <span style="color:#66d9ef">else</span> {
-</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;IP is not in subnet&#34;</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;不包含&#34;</span>)
 </span></span><span style="display:flex;"><span>	}
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>运行结果：</p>

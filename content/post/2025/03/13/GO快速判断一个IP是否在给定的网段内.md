@@ -28,16 +28,16 @@ func main() {
 	_, ipNet, _ := net.ParseCIDR("192.168.0.0/31")
 
 	if ipNet.Contains(ip) {
-		fmt.Println("IP is in subnet")
+		fmt.Println("包含")
 	} else {
-		fmt.Println("IP is not in subnet")
+		fmt.Println("不包含")
 	}
-    ip2 := net.ParseIP("192.168.0.254")
+	ip2 := net.ParseIP("192.168.0.254")
 
 	if ipNet.Contains(ip2) {
-		fmt.Println("IP is in subnet")
+		fmt.Println("包含")
 	} else {
-		fmt.Println("IP is not in subnet")
+		fmt.Println("不包含")
 	}
 }
 ```
