@@ -1,7 +1,7 @@
 ---
 title: "Navidrome mp3 音乐中文标签乱码问题"
 date: 2025-09-26T09:26:51+08:00
-draft: true
+draft: false
 tags: ["Navidrome","mp3","乱码"]
 isCJKLanguage: true
 categories: ["nas"]
